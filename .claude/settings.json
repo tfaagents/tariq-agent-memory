@@ -1,0 +1,113 @@
+{
+  "model": "opus",
+  "defaultPermissionMode": "auto",
+  "autoMemoryEnabled": true,
+  "autoMemoryDirectory": "/Users/tfaagents/tariq-agent/memory",
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "Write(/Users/tfaagents/tariq-agent/**)",
+      "Edit(/Users/tfaagents/tariq-agent/**)",
+      "Bash(node tools/mail.mjs inbox*)",
+      "Bash(node tools/mail.mjs search*)",
+      "Bash(node tools/mail.mjs from*)",
+      "Bash(node tools/mail.mjs sent*)",
+      "Bash(node tools/mail.mjs read*)",
+      "Bash(node tools/mail.mjs diary*)",
+      "Bash(node tools/tfa.mjs status*)",
+      "Bash(node tools/tfa.mjs waiting*)",
+      "Bash(node tools/tfa.mjs runs*)",
+      "Bash(node tools/tfa.mjs promises*)",
+      "Bash(node tools/tfa.mjs brief*)",
+      "Bash(ls *)",
+      "Bash(cat /Users/tfaagents/tariq-agent/*)",
+      "Bash(git status *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(python3 .claude/hooks/patterns.py*)"
+    ],
+    "ask": [
+      "Bash(node tools/mail.mjs draft*)",
+      "Bash(node tools/tfa.mjs done*)",
+      "Bash(node tools/tfa.mjs run*)",
+      "Bash(node tools/tfa.mjs approve*)",
+      "Bash(node tools/tfa.mjs send-back*)",
+      "Bash(.claude/hooks/schedule.sh*)"
+    ],
+    "deny": [
+      "Write(/Users/tfaagents/tfa-agents/**)",
+      "Edit(/Users/tfaagents/tfa-agents/**)",
+      "Write(/Users/tfaagents/tariq-agent/tools/**)",
+      "Edit(/Users/tfaagents/tariq-agent/tools/**)",
+      "Write(/Users/tfaagents/tariq-agent/.claude/settings.json)",
+      "Edit(/Users/tfaagents/tariq-agent/.claude/settings.json)",
+      "Write(/Users/tfaagents/tariq-agent/.claude/hooks/**)",
+      "Edit(/Users/tfaagents/tariq-agent/.claude/hooks/**)",
+      "Write(/Users/tfaagents/tariq-agent/raw/**)",
+      "Edit(/Users/tfaagents/tariq-agent/raw/**)",
+      "Read(/Users/tfaagents/.tfa-graph/**)",
+      "Read(/Users/tfaagents/.tfa-whatsapp/**)",
+      "Read(/Users/tfaagents/.tfa-jotform/**)",
+      "Read(/Users/tfaagents/.tfa-myob/**)",
+      "Read(/Users/tfaagents/.tfa-telegram/**)",
+      "Read(/Users/tfaagents/.claude-oauth-token)",
+      "Read(/Users/tfaagents/.claude.json)",
+      "Read(/Users/tfaagents/.claude/channels/**/.env)",
+      "Read(/Users/tfaagents/.ssh/**)",
+      "Read(/Users/tfaagents/tfa-agents/config/passcodes.json)",
+      "Read(/Users/tfaagents/tfa-agents/config/session-secret)",
+      "Read(/Users/tfaagents/tfa-agents/data/voice/**)",
+      "Read(/Users/tfaagents/Library/Keychains/**)",
+      "Write(/Users/tfaagents/Library/**)",
+      "Write(/Users/tfaagents/.claude/**)",
+      "Write(/Users/tfaagents/.ssh/**)",
+      "Bash(sudo *)",
+      "Bash(rm -rf *)",
+      "Bash(launchctl *)",
+      "Bash(ssh *)",
+      "Bash(scp *)",
+      "Bash(rsync *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(git push *)",
+      "Bash(cat /Users/tfaagents/.tfa-*)",
+      "Bash(cat /Users/tfaagents/.claude-oauth-token*)",
+      "Bash(cat /Users/tfaagents/tfa-agents/config/passcodes.json*)",
+      "Bash(cat /Users/tfaagents/tfa-agents/config/session-secret*)",
+      "Bash(node /Users/tfaagents/tfa-agents/runner/*)",
+      "Bash(node runner/*)",
+      "Bash(*whatsapp-linked*)",
+      "Bash(*wa-qr*)",
+      "Bash(*myob-connect*)",
+      "Bash(*deploy.sh*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/tfaagents/tariq-agent/.claude/hooks/session-start.sh",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/tfaagents/tariq-agent/.claude/hooks/save.sh",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}
