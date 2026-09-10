@@ -7,6 +7,13 @@ SLUG="$1"; [[ -n "$SLUG" ]] || exit 1
 cd "$HOME/tariq-agent" || exit 1
 mkdir -p sessions/scheduled
 OUT="sessions/scheduled/$(date '+%Y-%m-%d-%H%M')-$SLUG.md"
+# The Telegram plugin registers its bridge as an MCP server, so a headless run would start a
+# second poller on the same bot token; the plugin kills the previous holder (the live
+# session's bridge) to take the slot, then shuts its own down on exit, and the live session
+# never restarts an MCP server. Seen 10 Sep 2026 at 17:23 and 21:00: the bot went silent
+# after every scheduled run. The plugin is switched off for this run; tools/notify.mjs
+# talks to the Bot API directly and still works.
+NOPLUGIN='{"enabledPlugins":{"telegram@claude-plugins-official":false}}'
 # Tools that need Tariq's yes (drafts, approvals, runs) are switched off for unattended
 # runs: the "ask" list from settings.json, one rule per argument. zsh does not word-split
 # variables, so build an array rather than a string.
@@ -17,10 +24,10 @@ GATED=(${GATED:#})
   echo "started: $(date '+%Y-%m-%dT%H:%M')"; echo "---"; echo
   if (( ${#GATED} )); then
     claude -p "/$SLUG Scheduled run, Tariq is not present. Do only what needs no approval. Finish with a three-line summary." \
-      --permission-mode auto --disallowedTools "${GATED[@]}" 2>&1 < /dev/null
+      --permission-mode auto --settings "$NOPLUGIN" --disallowedTools "${GATED[@]}" 2>&1 < /dev/null
   else
     claude -p "/$SLUG Scheduled run, Tariq is not present. Do only what needs no approval. Finish with a three-line summary." \
-      --permission-mode auto 2>&1 < /dev/null
+      --permission-mode auto --settings "$NOPLUGIN" 2>&1 < /dev/null
   fi
 } > "$OUT"
 git add sessions/scheduled memory >/dev/null 2>&1 && git commit -q -m "scheduled: $SLUG $(date '+%Y-%m-%d %H:%M')" >/dev/null 2>&1 || true

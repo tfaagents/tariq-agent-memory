@@ -10,8 +10,10 @@
 export PATH="$HOME/.local/bin:$HOME/.bun/bin:/usr/local/bin:/opt/homebrew/bin:$PATH"
 cd "$HOME/tariq-agent" 2>/dev/null || exit 0
 # Never roll over mid-job: wait up to 10 minutes for the session log to go quiet.
-LOG=$(ls -t "$HOME/.claude/projects/-$(echo "$HOME" | tr '/' '-')-tariq-agent"/*.jsonl 2>/dev/null | head -1)
+# Claude Code keys the log folder by the project path with / turned into - (leading - kept).
+LOGDIR="$HOME/.claude/projects/${${HOME}//\//-}-tariq-agent"
 for i in {1..20}; do
+  LOG=$(ls -t "$LOGDIR"/*.jsonl(N) 2>/dev/null | head -1)
   [[ -n "$LOG" ]] || break
   age=$(( $(date +%s) - $(stat -f %m "$LOG") ))
   (( age > 120 )) && break
