@@ -19,7 +19,7 @@ Lives at `/Users/tfaagents/tariq-agent` on the mini (`ssh tfa-mini`). Jaiah's co
 | `tools/mail.mjs` | his mail and diary through `~/tfa-agents/runner/lib/graph.mjs`; `draft` is the one write |
 | `tools/tfa.mjs` | the dashboard as Tariq: status, waiting, runs, promises, done, run, approve, send-back |
 | `.claude/settings.json` | allow, ask, deny lists. `ask` = permission relayed to his Telegram |
-| `.claude/hooks/start.sh` | starts the session in `screen -S tariq` if a bot token exists |
+| `.claude/hooks/start.sh` | starts the session in `screen -S tariq` if a bot token exists; restarts it if the bridge has died; one scheduler only |
 | `launchd/com.tfa.tariq-agent.plist` | runs start.sh at login and every 5 minutes |
 
 ## The Telegram account (decided 10 Sep 2026)
@@ -61,9 +61,83 @@ to Telegram user id **8775846624** (`dmPolicy: allowlist`). First `brief` answer
    re-reads it on every message.
 5. Send "brief" from his phone and watch `screen -r tariq`.
 
+## Second user (decided 10 Sep 2026): the agent runs as its own macOS user
+
+Why: everything that runs as one macOS user can read that user's files, so a certificate
+the workflow runner can read is one a personal session could reach with Bash. The fix is
+the operating system, not a permission file: Tariq's agent runs as the standard user
+`tariq`, the eleven workflow agents stay under `tfaagents`, and neither can read the
+other's home (homes are mode 750). What that buys, permanently:
+
+- Tariq's agent can be given whatever Tariq is allowed (calendar write, OneDrive, later
+  send) on its OWN Entra app registration and certificate in `~/.tariq-graph`, and no
+  workflow agent can ever use that key. The workflow app keeps read-only.
+- The workflow lane's store, run log, receipts, staff forms and secrets are unreadable
+  to the personal lane. The only door is the dashboard over HTTP on 127.0.0.1, as Tariq's
+  own owner login, which is exactly what he sees in the browser and is audited as him.
+- Separate Claude login, so a long brainstorm never eats the workflow agents' plan limits.
+- Separate Telegram bot state, Bun and Claude Code installs, so an update or a broken
+  plugin in one lane cannot take the other down.
+
+Known limits, stated once:
+
+- `tfaagents` is an admin account and could `sudo` into anything. No model has that
+  password; only Jaiah types it. If that ever matters, make a third admin-only account
+  for Jaiah and drop `tfaagents` to standard.
+- LaunchAgents only run for a user who is logged in at the screen, so the session is
+  started by a system LaunchDaemon (`launchd/com.tfa.tariq-agent.daemon.plist`, installed
+  once with sudo). Unattended skill runs use the agent's own scheduler
+  (`tools/scheduler.mjs`, `config/schedule.json`), which needs no admin at all.
+- Screen sharing shows the console user (tfaagents). Watch Tariq's agent with
+  `ssh tariq@tfa-mini` then `screen -r tariq` (ctrl-a n for the scheduler window).
+- Exchange application access policies scope mail and calendar only. OneDrive access is
+  tenant-wide by nature unless it uses Sites.Selected; decide that when Files.Read is
+  requested.
+- Until the "Tariq Assistant" app registration exists, the tariq user carries a copy of
+  the READ-ONLY TFA Agents certificate as a bridge. It cannot send. Swap the two lines in
+  `config/connections.json` (clientId, cert paths) when the new app is consented.
+
+The steps, in order:
+
+1. Jaiah, on the mini as tfaagents (Terminal or screen share), once:
+   `zsh /Users/tfaagents/tariq-agent/scripts/admin-create-user.sh`
+   It creates the standard user, installs Jaiah's ssh key, copies the bridge certificate,
+   the dashboard passcode, the Telegram token and allowlist and the Claude token into the
+   new home (owned by tariq, mode 600), unloads and stops the tfaagents copy.
+2. Jaiah, from the Mac: add `Host tfa-tariq` (same address, `User tariq`) to `~/.ssh/config`,
+   then `rsync -a --exclude 'work/*' --exclude .git ./ tfa-tariq:tariq-agent/` and
+   `ssh tfa-tariq 'zsh tariq-agent/scripts/setup-user.sh'` (Bun, Claude Code, plugin,
+   trust, smoke tests).
+3. Jaiah, on the mini as tfaagents: install the daemon (the three sudo lines the admin
+   script prints). The session and the scheduler are up within a minute.
+4. Later, when Tariq wants his own subscription: `ssh -t tfa-tariq 'claude setup-token'`,
+   write the token to `~/.claude-oauth-token`, restart with
+   `sudo launchctl kickstart -k system/com.tfa.tariq-agent`.
+5. Later, Kendal (M365 admin): register "Tariq Assistant" in Entra with the application
+   permissions listed in `config/connections.json`, upload the cert Jaiah generates in
+   `~/.tariq-graph`, grant consent, then the Exchange access policy scoping it to tariq@.
+
+## Scheduled runs
+
+`config/schedule.json` holds them (morning-send 06:30 weekdays, nightly-learn 21:00,
+retro Friday 16:00). The agent adds one with `.claude/hooks/schedule.sh <slug> <HH:MM>
+<days>` when Tariq says yes; the scheduler picks it up within 30 seconds. Each run is
+`claude -p /<skill>` with the ask-list tools disabled, output in `sessions/scheduled/`,
+log in `work/scheduler.log`. Remove a line to stop one.
+
 ## Day to day
 
 - Restart the session: `screen -S tariq -X quit` then wait for launchd, or run start.sh.
+- Bot silent but the screen is up: the Telegram bridge (`bun server.ts`, pid in
+  `~/.claude/channels/telegram/bot.pid`) has died. start.sh checks this every five minutes
+  and restarts the session after two misses in a row (`work/bridge-missing`, logged in
+  `work/start.log`). To see why it died, read the newest file in
+  `~/Library/Caches/claude-cli-nodejs/-<home with slashes as dashes>-tariq-agent/mcp-logs-plugin-telegram-telegram/`.
+  "replacing stale poller" there means a second Claude session in this folder took the
+  bot token's poll slot: never run a plain `claude` or `claude -p` in this folder while
+  the session is up. `run-skill.sh` disables the plugin for unattended runs
+  (`--settings '{"enabledPlugins":{"telegram@claude-plugins-official":false}}'`); do the
+  same for any other headless run here.
 - Logs: `work/start.log`, `work/launchd.log`, and the session itself in screen.
 - The session auto-updates Claude Code; if the `--channels` flag changes in a release,
   edit `start.sh`.
