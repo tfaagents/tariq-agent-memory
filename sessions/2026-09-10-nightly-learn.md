@@ -65,3 +65,58 @@ Mail read: MSP Law deposit schedule; Stamford Capital information request; RWC h
 escalation; Jimboomba RFI #10; Narangba cost plan request; Bokarina packages to Abi and
 Alee; Indara escalation; FWC C2026/3733 and the Daniel Tu court application; Rajput loan;
 QBCC annual reporting; BTP deposits and the NAB $25k query.
+
+---
+
+# Second run, 21:00
+
+started: 2026-09-10T21:00
+ended: 2026-09-10T21:12
+outcome: done
+
+## Asked
+Scheduled run, Tariq not present. Read only, memory writes only, nothing sent.
+
+## Did
+- `node tools/mail.mjs sent 1`: the same day's sent mail. The 17:23 run of this skill had
+  already read everything to 4:54pm, so only three emails were new: the "Logan Village CC
+  Final" acceptance (5:26pm), the AFIC draft to Mustafa and Imran (8:12pm) and its forward
+  to ziana (8:15pm, no words of his own).
+- `node tools/mail.mjs read 1 2 3` on those three.
+- `node tools/mail.mjs diary 1` and `diary 14`: tomorrow is only the RACQ item for the
+  new Ford Ranger. The 14 day look ahead was to date the Logan Village CC Final meeting;
+  it is not there.
+- `ls sessions/` and read all four logs written today.
+- New memory file `memory/learoyd-algester.md`; pointer added to `memory/MEMORY.md`.
+- Updated `memory/projects.md` (Logan Village, and the Learoyd line marked superseded),
+  `memory/contacts.md` (BRC Consult, Imran Ali, Mustafa Dean named, "Ray" flagged as
+  unidentified), `memory/tariq.md` (one new rule in his own words).
+
+## Checked
+- Did not re-read the 36 emails the 17:23 run already covered, and did not restate its
+  facts. Only the delta.
+- The Learoyd matter was written to its own confidential file, not into `projects.md`,
+  because it is not TFA business: he signs the draft "Concerned Community Member", it
+  runs off his personal contacts, and the house rule keeps non-TFA work out of TFA files.
+- The $55-60m exposure figure was recorded as their own model, not as fact, because their
+  draft says so itself.
+- "Ray" was left unidentified rather than matched to Ray White Commercial, who are a real
+  and separate TFA relationship on Dan Street. Matching them would have been a guess.
+- The old Learoyd line was marked superseded with the date, not deleted.
+- "CC Final" was recorded without inventing what it stands for or when the meeting is.
+
+## Left
+Open, needing him, from tonight only:
+- The AFIC draft is sitting with **Mustafa Dean** and **Imran Ali** since 8:12pm. Three
+  questions unanswered: body or attached letter, whether to attach the aerial image
+  (attachment 7), and whether to send at all. Nothing moves until they come back.
+- **Logan Village CC Final** with Andrew at BRC Consult: accepted, but no date visible in
+  the next 14 days of diary.
+
+Everything else outstanding is in the 17:23 block above and has not changed.
+
+## Links
+memory/learoyd-algester.md
+Mail read: "Draft Email for Review - AFIC & COUNCILS MUST REJECT ACQUISITION - ASBESTOS /
+PFAS PROPERTY - 66 Learoyd Road, Algester" (8:12pm, and its 8:15pm forward);
+"Accepted: Logan Village CC Final" (5:26pm).

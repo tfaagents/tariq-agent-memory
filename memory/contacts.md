@@ -49,6 +49,9 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   Structural Group Manager, 0403 797 879, storralba@northrop.com.au.
 - HPC Planning: **Murray Murphay** (recorded earlier as "Murray W"), planning advice and
   fee proposals. Rezicad: Andrew (Eight Mile Plains).
+- **BRC Consult: Andrew** (andrew@brcconsult.com.au). On Logan Village; Tariq accepted
+  his "Logan Village CC Final" invite 10 Sep 2026. What BRC handle is not stated in
+  anything read yet. A different Andrew to the Rezicad one above.
 - **HCE Engineers: Ryley Price** (rprice@hce-engineers.com.au), engineers acting for
   Falcon Property at Jimboomba, dealing with Logan City Council.
 - Master Builders QLD: **Desari Lynam**, Senior Advisor Workplace Relations, (07) 3225
@@ -85,7 +88,9 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - Adman Collective: Chris (video content, half yearly video report). Chris Wells is the
   videographer in the diary.
 - ISA Collective (admin@): supervisors, estimators, drafters, admin available; "Plans
-  9 Vaughan Drive". Saiyad Pasha and Saheed Ali on the same threads.
+  9 Vaughan Drive". Saiyad Pasha and Saheed Ali on the same threads. **Imran Ali**
+  (imran@isacollective.com.au) is on the personal side, not TFA work: one of the two
+  Tariq is running the 66 Learoyd Rd Algester objection with, see [[learoyd-algester]].
 - **Logan City Council** via VendorPanel to tenders@: EOIs and public tenders.
 
 ## Recruiters (he takes their calls, he does not trust their shortlists)
@@ -105,5 +110,9 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 ## Personal (do not mix with TFA business)
 - ziana.ali90@gmail.com: 92 emails out, statements, aircon, flights, Accor offers he
   forwards on. Appears to be family (likely his wife); confirm before assuming.
-- mustafa_d06@outlook.com, saheedali@hotmail.com: card charges, invoices, rego, auction.
-  Family or friends. "Sibling Coffee" is a recurring diary entry.
+- **Mustafa Dean** (mustafa_d06@outlook.com), saheedali@hotmail.com: card charges,
+  invoices, rego, auction. Family or friends. "Sibling Coffee" is a recurring diary
+  entry. From 10 Sep 2026 Mustafa is one of the two on the 66 Learoyd Rd Algester
+  objection with Tariq and Imran Ali, see [[learoyd-algester]].
+- "Ray", named 10 Sep 2026 as the one who "is going to drag our name through the mud"
+  over the Learoyd objection. Unidentified. Not to be assumed to be Ray White.

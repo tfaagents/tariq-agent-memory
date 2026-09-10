@@ -85,6 +85,10 @@ Earlier: site works, NBN relocation, RFIs from Falcon Property; Clay on the day 
 Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 
 ## 1-9 Anzac Ave, Logan Village (construction contract, progress claims)
+- 10 Sep 2026, 5:26pm: accepted an invite from **Andrew at BRC Consult**
+  (andrew@brcconsult.com.au) titled **"Logan Village CC Final"**. The meeting is not in
+  the diary for the following 14 days, so the date was not confirmed and what "CC Final"
+  covers is not stated anywhere read. Check the thread before quoting a date.
 - 10 Sep 2026: hosting a **Mabel Park State High School work experience student, Teina,
   14 to 18 Sep 2026**, at the Logan Village site. Heather to print the Employer Agreement
   and Risk Assessment for Tariq to sign and return, confirm with Clay that he still wants
@@ -202,8 +206,12 @@ Fettell):
   the sign off. Kendal is running it.
 
 ## Other threads
-- 66 Learoyd Rd Algester and 1661 Old Cleveland Rd Chandler planning advice (HPC
-  Planning). "Make offer email on Algester" was a diary task.
+- 1661 Old Cleveland Rd Chandler planning advice (HPC Planning).
+- 66 Learoyd Rd Algester: superseded 10 Sep 2026. It is not a TFA job. It is a personal
+  and community objection to AFIC buying the site, run with Mustafa Dean and Imran Ali.
+  See [[learoyd-algester]]. The earlier note here (HPC Planning advice, "Make offer email
+  on Algester" as a diary task) was built from subject lines only and may be a different
+  angle on the same address.
 - 9 Vaughan Drive plans and Ormeau (Saiyad Pasha, ISA Collective): appears to be a
   family or side project, treat as personal until confirmed.
 - Vehicles: Pontiac Firebird insurance, Cadillac Eldorado GST, a 2020 Urus in the diary,

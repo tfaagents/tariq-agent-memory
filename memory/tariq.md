@@ -34,6 +34,11 @@ Rules in his own words (from his sent mail, dated)
 - On which work TFA chases: "we're becoming increasingly selective with the projects we
   pursue" (10 Sep 2026, pitching Elevation Architecture). His pitch leans on seven Master
   Builders awards and delivering "complex works on live, operating sites".
+- Before anything that could bite back he asks the people beside him whether to do it at
+  all, not just how: "Also do you really want to do this, cause either way its going to
+  come back to us" (10 Sep 2026, to Mustafa and Imran on the Learoyd objection). He puts
+  the reputational cost on the table himself. On a risky send, offer him the do-nothing
+  option too.
 - He wants TFA measured against the best he sees, not against itself: on finding another
   builder's handover document list he told Clay "I'm wanting to know where you team is at
   with this information?" and asked Kendal to make ours the same (10 Sep 2026).
