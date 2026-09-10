@@ -2,7 +2,7 @@
   "model": "opus",
   "defaultPermissionMode": "auto",
   "autoMemoryEnabled": true,
-  "autoMemoryDirectory": "/Users/tfaagents/tariq-agent/memory",
+  "autoMemoryDirectory": "~/tariq-agent/memory",
   "permissions": {
     "allow": [
       "Read",
@@ -10,7 +10,7 @@
       "Grep",
       "WebFetch",
       "WebSearch",
-      "Edit(/Users/tfaagents/tariq-agent/**)",
+      "Edit(~/tariq-agent/**)",
       "Bash(node tools/mail.mjs inbox*)",
       "Bash(node tools/mail.mjs search*)",
       "Bash(node tools/mail.mjs from*)",
@@ -23,7 +23,7 @@
       "Bash(node tools/tfa.mjs promises*)",
       "Bash(node tools/tfa.mjs brief*)",
       "Bash(ls *)",
-      "Bash(cat /Users/tfaagents/tariq-agent/*)",
+      "Bash(cat ~/tariq-agent/*)",
       "Bash(git status *)",
       "Bash(git log *)",
       "Bash(git diff *)",
@@ -32,7 +32,6 @@
     ],
     "ask": [
       "Bash(node tools/mail.mjs draft*)",
-      "Bash(node tools/tfa.mjs done*)",
       "Bash(node tools/tfa.mjs run*)",
       "Bash(node tools/tfa.mjs approve*)",
       "Bash(node tools/tfa.mjs send-back*)",
@@ -40,26 +39,25 @@
     ],
     "deny": [
       "Edit(/Users/tfaagents/tfa-agents/**)",
-      "Edit(/Users/tfaagents/tariq-agent/tools/**)",
-      "Edit(/Users/tfaagents/tariq-agent/.claude/settings.json)",
-      "Edit(/Users/tfaagents/tariq-agent/.claude/hooks/**)",
-      "Edit(/Users/tfaagents/tariq-agent/raw/**)",
-      "Read(/Users/tfaagents/.tfa-graph/**)",
-      "Read(/Users/tfaagents/.tfa-whatsapp/**)",
-      "Read(/Users/tfaagents/.tfa-jotform/**)",
-      "Read(/Users/tfaagents/.tfa-myob/**)",
-      "Read(/Users/tfaagents/.tfa-telegram/**)",
-      "Read(/Users/tfaagents/.claude-oauth-token)",
-      "Read(/Users/tfaagents/.claude.json)",
-      "Read(/Users/tfaagents/.claude/channels/**/.env)",
-      "Read(/Users/tfaagents/.ssh/**)",
-      "Read(/Users/tfaagents/tfa-agents/config/passcodes.json)",
-      "Read(/Users/tfaagents/tfa-agents/config/session-secret)",
-      "Read(/Users/tfaagents/tfa-agents/data/voice/**)",
-      "Read(/Users/tfaagents/Library/Keychains/**)",
-      "Edit(/Users/tfaagents/Library/**)",
-      "Edit(/Users/tfaagents/.claude/**)",
-      "Edit(/Users/tfaagents/.ssh/**)",
+      "Edit(~/tariq-agent/tools/**)",
+      "Edit(~/tariq-agent/.claude/settings.json)",
+      "Edit(~/tariq-agent/.claude/hooks/**)",
+      "Edit(~/tariq-agent/raw/**)",
+      "Read(~/.tfa-graph/**)",
+      "Read(~/.tfa-whatsapp/**)",
+      "Read(~/.tfa-jotform/**)",
+      "Read(~/.tfa-myob/**)",
+      "Read(~/.tfa-telegram/**)",
+      "Read(~/.claude-oauth-token)",
+      "Read(~/.claude.json)",
+      "Read(~/.claude/channels/**/.env)",
+      "Read(~/.ssh/**)",
+      "Read(~/.tariq-dashboard/**)",
+      "Read(~/.tariq-graph/**)",
+      "Read(~/Library/Keychains/**)",
+      "Edit(~/Library/**)",
+      "Edit(~/.claude/**)",
+      "Edit(~/.ssh/**)",
       "Bash(sudo *)",
       "Bash(rm -rf *)",
       "Bash(launchctl *)",
@@ -69,16 +67,15 @@
       "Bash(curl *)",
       "Bash(wget *)",
       "Bash(git push *)",
-      "Bash(cat /Users/tfaagents/.tfa-*)",
-      "Bash(cat /Users/tfaagents/.claude-oauth-token*)",
-      "Bash(cat /Users/tfaagents/tfa-agents/config/passcodes.json*)",
-      "Bash(cat /Users/tfaagents/tfa-agents/config/session-secret*)",
-      "Bash(node /Users/tfaagents/tfa-agents/runner/*)",
-      "Bash(node runner/*)",
+      "Bash(cat ~/.tariq-*)",
+      "Bash(cat ~/.claude-oauth-token*)",
+      "Bash(node runner/lib/graph.mjs*)",
       "Bash(*whatsapp-linked*)",
       "Bash(*wa-qr*)",
       "Bash(*myob-connect*)",
-      "Bash(*deploy.sh*)"
+      "Bash(*deploy.sh*)",
+      "Edit(~/tariq-agent/config/**)",
+      "Edit(~/tariq-agent/runner/**)"
     ]
   },
   "hooks": {
@@ -87,7 +84,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/Users/tfaagents/tariq-agent/.claude/hooks/session-start.sh",
+            "command": "~/tariq-agent/.claude/hooks/session-start.sh",
             "timeout": 30
           }
         ]
@@ -98,8 +95,19 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/Users/tfaagents/tariq-agent/.claude/hooks/save.sh",
+            "command": "~/tariq-agent/.claude/hooks/save.sh",
             "timeout": 60
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/tariq-agent/.claude/hooks/pre-compact.sh",
+            "timeout": 30
           }
         ]
       }

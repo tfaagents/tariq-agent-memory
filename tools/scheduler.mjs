@@ -1,10 +1,13 @@
 #!/usr/bin/env node
-// The agent's own scheduler. Runs skills unattended at the times in config/schedule.json,
-// with no launchd and no admin rights, so the agent can add a schedule itself when Tariq
-// says yes. Started by .claude/hooks/start.sh in its own screen window; one loop, checks
-// every 30 seconds, runs a slug at most once per day at its slot.
+// The agent's own scheduler. Runs skills (or a shell command) unattended at the times in
+// config/schedule.json, with no launchd and no admin rights, so the agent can add a
+// schedule itself when Tariq says yes. Started by .claude/hooks/start.sh in its own screen
+// window; one loop, checks every 30 seconds, runs a job at most once per day at its slot.
 //
-//   config/schedule.json: { "jobs": [ { "slug": "morning-send", "time": "06:30", "days": "daily" } ] }
+//   config/schedule.json: { "jobs": [
+//     { "slug": "morning-send", "time": "06:30", "days": "weekdays" },          a skill, via run-skill.sh
+//     { "slug": "rollover", "time": "05:00", "days": "daily", "command": ".claude/hooks/rollover.sh" }
+//   ] }
 //   days: daily | weekdays | mon,tue,wed,thu,fri,sat,sun (comma list)
 //   state: work/scheduler-state.json  ({ "<slug>": "YYYY-MM-DD" of the last run })
 import fs from 'node:fs';
@@ -17,7 +20,6 @@ const CFG = path.join(ROOT, 'config/schedule.json');
 const STATE = path.join(ROOT, 'work/scheduler-state.json');
 const RUN = path.join(ROOT, '.claude/hooks/run-skill.sh');
 const TZ = 'Australia/Brisbane';
-const DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 
 const readJson = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch (_) { return d; } };
 const log = (m) => console.log(`${new Date().toISOString()} ${m}`);
@@ -46,10 +48,12 @@ function tick() {
     if (diff < 0 || diff > 10) continue;
     running.add(j.slug);
     state[j.slug] = date; fs.mkdirSync(path.dirname(STATE), { recursive: true }); fs.writeFileSync(STATE, JSON.stringify(state, null, 2));
-    log(`running /${j.slug}`);
-    const child = spawn('/bin/zsh', [RUN, j.slug], { cwd: ROOT, stdio: 'ignore', env: process.env });
-    child.on('exit', (code) => { running.delete(j.slug); log(`/${j.slug} finished (${code})`); });
-    child.on('error', (e) => { running.delete(j.slug); log(`/${j.slug} failed to start: ${e.message}`); });
+    const argv = j.command ? [path.resolve(ROOT, j.command)] : [RUN, j.slug];
+    log(`running ${j.command ? j.command : `/${j.slug}`}`);
+    const child = spawn('/bin/zsh', argv, { cwd: ROOT, stdio: 'ignore', env: process.env, detached: !!j.command });
+    if (j.command) child.unref();   // a rollover restarts this very process; let the child outlive it
+    child.on('exit', (code) => { running.delete(j.slug); log(`${j.slug} finished (${code})`); });
+    child.on('error', (e) => { running.delete(j.slug); log(`${j.slug} failed to start: ${e.message}`); });
   }
 }
 log(`scheduler up, ${(readJson(CFG, {}).jobs || []).length} job(s) in config/schedule.json`);
