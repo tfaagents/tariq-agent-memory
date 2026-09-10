@@ -22,10 +22,34 @@ Lives at `/Users/tfaagents/tariq-agent` on the mini (`ssh tfa-mini`). Jaiah's co
 | `.claude/hooks/start.sh` | starts the session in `screen -S tariq` if a bot token exists |
 | `launchd/com.tfa.tariq-agent.plist` | runs start.sh at login and every 5 minutes |
 
+## The Telegram account (decided 10 Sep 2026)
+
+Tariq could not create a Telegram account on his own number, so the TFA agent handset's
+number (0423 720 036, the Optus X Plus that also runs the WhatsApp "Tfa Agent" line) gets
+the Telegram account. One account, three devices: signed up on the handset (the SMS code
+lands there), then added on Tariq's phone (Settings, Devices, Link Desktop Device does
+not cover phones; on his phone he enters the number and the code arrives in the
+handset's Telegram app) and on a Mac (Telegram Desktop, Settings, Devices, Link Desktop
+Device, scan the QR from the handset). That account creates the bot with @BotFather, so
+the bot is owned by TFA, which is the right owner at handover.
+
+What that means while it stands: whoever is logged into that account is "Tariq" to the
+agent. Jaiah logged in on the Mac sees every message Tariq sends the agent and can send
+as him. Fine for the test fortnight; say so to Tariq. When he gets his own account, the
+swap is one line: add his numeric id to `allowFrom` in `access.json`, remove the shared
+one, and the bot keeps working because the token never changes.
+
+## Live state (10 Sep 2026, 12:13)
+
+Bot **@tfa_agent_bot** (id 8453429275), created from the shared TFA account. Paired and locked
+to Telegram user id **8775846624** (`dmPolicy: allowlist`). First `brief` answered in about
+45 seconds. Token at `~/.claude/channels/telegram/.env` on the mini, mode 600.
+
 ## First run (Jaiah)
 
-1. Tariq creates the bot: Telegram, @BotFather, `/newbot`, a name, a username ending in
-   `bot`. He sends the token by WhatsApp or reads it out. Never by email.
+1. Create the bot from the shared account: Telegram, @BotFather, `/newbot`, a name (for
+   example "Tariq's Assistant"), a username ending in `bot`. Copy the token. Never send
+   it by email.
 2. On the mini: `mkdir -p ~/.claude/channels/telegram && printf 'TELEGRAM_BOT_TOKEN=%s\n' '<token>' > ~/.claude/channels/telegram/.env && chmod 600 ~/.claude/channels/telegram/.env`
 3. `launchctl kickstart -k gui/501/com.tfa.tariq-agent` (or wait five minutes). Check
    `screen -list` shows `tariq`.

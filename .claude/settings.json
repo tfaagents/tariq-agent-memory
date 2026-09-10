@@ -28,7 +28,8 @@
       "Bash(git status *)",
       "Bash(git log *)",
       "Bash(git diff *)",
-      "Bash(python3 .claude/hooks/patterns.py*)"
+      "Bash(python3 .claude/hooks/patterns.py*)",
+      "Bash(node tools/notify.mjs*)"
     ],
     "ask": [
       "Bash(node tools/mail.mjs draft*)",
