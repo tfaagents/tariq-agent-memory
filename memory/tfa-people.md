@@ -11,8 +11,14 @@ description: The TFA team and who does what, as of 10 Sep 2026
 - **Clay** (clay@): projects. Owns the Procore side and the supplier invoice flow.
   Says agents cannot work in Procore (no API); Tariq disagrees and wants it proven.
 - **Shane**: yard manager, sends receipts from site and the yard.
-- **Veena**: new estimator (started Sep 2026), on the Cubit Estimating trial, needs a
-  PDF takeoff tool (the Bluebeam question).
+- **Veena** (veena@): new estimator (started Sep 2026), on the Cubit Estimating trial,
+  needs a PDF takeoff tool (the Bluebeam question). From 10 Sep 2026 also holds the
+  consultant engagement for the 35 Hi-Tech Court (BTP) site: chasing fee proposals from
+  Northrop and HPC Planning, and keeper of the project consultant list.
+- **Malik Awan**: raises and runs RFIs in Procore for TFA (Jimboomba RFI #10 on the East
+  Street school signage, 7 Sep 2026). Added to the Scribe plan 10 Aug 2026.
+- **A new CA (contract administrator)** started the week of 7 Sep 2026 and is engaging
+  consultants on BTP. Name not yet seen in his mail. He is still recruiting a second CA.
 - **Daniel**: project side, was in the 31 Aug process mapping with Heather.
 - **Jaiah Passfield** (Autoflow AI, jaiah@autoflowai.com.au, 0457 429 788): builds and
   runs the agents. In the office Tuesdays (Thursday 11 Sep this week). Changes to any

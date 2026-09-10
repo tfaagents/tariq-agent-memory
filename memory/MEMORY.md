@@ -8,8 +8,8 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 
 ## TFA Constructions
 - [People](tfa-people.md) — Kendal, Heather, Clay, Shane, Veena, Jaiah, who does what
-- [Contacts](contacts.md) — lawyers, finance, QS, agents, clients, suppliers, who handles what (from 120 days of mail)
-- [Projects](projects.md) — Dan Street, Logan Village, Eight Mile Plains, Bardon Road, Jimboomba, Hi-Tec Court, tenders, FWC case
+- [Contacts](contacts.md) — lawyers, finance, QS, architects, engineers, agents, clients, recruiters, suppliers, who handles what
+- [Projects](projects.md) — Dan Street, Logan Village, Hi-Tec Court/BTP, Jimboomba, Bardon Road, Narangba, Bokarina, Indara, tenders, FWC and Daniel Tu, loans and compliance, hiring
 - [Routine](routine.md) — his week, recurring meetings, calendar as to-do list, mail volume
 - [Systems](tfa-systems.md) — mail, MYOB, Procore, the dashboard, the workflow agents, what is connected and what is not
 

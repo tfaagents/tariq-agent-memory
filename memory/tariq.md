@@ -21,6 +21,23 @@ How he works
   password, another person's login). The right answer is a plain "not in anything I can
   read" or "no path for that", never a guess.
 
+Rules in his own words (from his sent mail, dated)
+- To estimators, every time he sends a tender package: "Please do not contact anyone in
+  regards to the site." (10 Sep 2026, Bokarina and Narangba to Abi and Alee.) The client
+  relationship is his, not the estimator's.
+- On engaging consultants: "Please ensure the scope entails everything required so there
+  is no variations from consultants later in the process." (10 Sep 2026, to Veena and
+  Clay on the BTP consultants.) He buys the whole scope up front to kill later variations.
+- On recruiters: "It's a hot market, everyone states they can assist, but then put
+  forward poor candidates. We don't wish to waste each others time." (10 Sep 2026, to
+  Frontline.) He will take the call, but makes them prove the shortlist first.
+- On which work TFA chases: "we're becoming increasingly selective with the projects we
+  pursue" (10 Sep 2026, pitching Elevation Architecture). His pitch leans on seven Master
+  Builders awards and delivering "complex works on live, operating sites".
+- He wants TFA measured against the best he sees, not against itself: on finding another
+  builder's handover document list he told Clay "I'm wanting to know where you team is at
+  with this information?" and asked Kendal to make ours the same (10 Sep 2026).
+
 What he asked this agent for (8 Sep 2026)
 - A private chat he can talk to any time, separate from the staff agent line.
 - Brainstorming while driving (ideas, products, plans).
