@@ -1,0 +1,8 @@
+{
+  "_note": "Unattended runs, Brisbane time, run by tools/scheduler.mjs (started by start.sh). days = daily | weekdays | a comma list of mon..sun. The agent appends here through .claude/hooks/schedule.sh when Tariq says yes to a schedule; a slug must exist in .claude/skills/. Remove a line to stop it.",
+  "jobs": [
+    { "slug": "morning-send", "time": "06:30", "days": "weekdays" },
+    { "slug": "nightly-learn", "time": "21:00", "days": "daily" },
+    { "slug": "retro", "time": "16:00", "days": "fri" }
+  ]
+}
