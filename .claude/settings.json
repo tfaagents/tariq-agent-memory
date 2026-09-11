@@ -34,7 +34,19 @@
       "Bash(node tools/send.mjs preview*)",
       "Bash(node tools/calendar.mjs everyone*)",
       "Bash(node tools/files.mjs list*)",
-      "Bash(node tools/files.mjs get*)"
+      "Bash(node tools/files.mjs get*)",
+      "Bash(node tools/browser.mjs start*)",
+      "Bash(node tools/browser.mjs stop*)",
+      "Bash(node tools/browser.mjs job*)",
+      "Bash(node tools/browser.mjs goto*)",
+      "Bash(node tools/browser.mjs url*)",
+      "Bash(node tools/browser.mjs text*)",
+      "Bash(node tools/browser.mjs links*)",
+      "Bash(node tools/browser.mjs forms*)",
+      "Bash(node tools/browser.mjs type*)",
+      "Bash(node tools/browser.mjs click*)",
+      "Bash(node tools/browser.mjs shot*)",
+      "Bash(node tools/browser.mjs js*)"
     ],
     "ask": [
       "Bash(node tools/mail.mjs draft*)",
@@ -47,7 +59,9 @@
       "Bash(node tools/calendar.mjs move*)",
       "Bash(node tools/files.mjs put*)",
       "Bash(node tools/files.mjs move*)",
-      "Bash(node tools/files.mjs attach*)"
+      "Bash(node tools/files.mjs attach*)",
+      "Bash(node tools/browser.mjs submit*)",
+      "Bash(node tools/browser.mjs upload*)"
     ],
     "deny": [
       "Edit(/Users/tfaagents/tfa-agents/**)",

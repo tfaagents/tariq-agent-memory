@@ -1,0 +1,11 @@
+{
+  "_note": "The browser lane. Chrome on this machine, its own profile (nothing of Tariq's is logged in unless added on purpose), remote debugging on a port of its own. allowedHosts is the whole list of sites the worker may open; a subdomain of a listed host is allowed. Add a host when Tariq names a portal. httpbin.org and example.com are for tests only.",
+  "port": 9223,
+  "headless": true,
+  "profileDir": "work/browser/profile",
+  "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "allowedHosts": [
+    "httpbin.org",
+    "example.com"
+  ]
+}

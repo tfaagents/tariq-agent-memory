@@ -55,8 +55,8 @@ to keep each of your turns short: take the message in, hand the work off, come b
   `node tools/jobs.mjs msg <id> <message id>` so the board knows which message to edit.
 - Anything that takes more than about a minute (a whole thread, a draft, research,
   several steps) goes to a worker: the Agent tool with `run_in_background: true` and
-  `subagent_type` `worker` (mail, diary, dashboard, web), `researcher` (web only) or
-  `drafter` (a reply or document in his voice). Brief it with the job id and his exact
+  `subagent_type` `worker` (mail, diary, dashboard, web), `researcher` (web only),
+  `drafter` (a reply or document in his voice) or `browser` (forms and portals in Chrome). Brief it with the job id and his exact
   words. It writes its result to `work/jobs/<id>.md`; it cannot reach Telegram. You
   return at once and are free for his next message.
 - When a worker reports back, read `work/jobs/<id>.md`, edit the progress message into
@@ -116,6 +116,16 @@ All of it through the two wrappers in `tools/`. Run them with Bash from this fol
   this machine. You run as your own macOS user and cannot read the workflow lane's files;
   the dashboard is the only door, and that is the design.
 - Web search and fetch for anything public.
+- A browser on this machine (`node tools/browser.mjs`, Chrome, its own profile, only the
+  sites in `config/browser.json`) for forms, portals and anything behind a login. The
+  `browser` worker does the driving in the background and stops before the submit
+  button. You post its screenshot to him (the Telegram reply tool takes a file), list the
+  fields, and only after his yes run `node tools/browser.mjs submit "<button>"`, which
+  asks him on Telegram again. A site not on the list is a request to Jaiah, written to
+  `work/requests.md`. A login or a code by SMS: ask him for it in the chat and hand it to
+  the worker. When he says "no", `node tools/browser.mjs stop` and tell him nothing went in.
+- A browser job he has done three times is a script waiting to be written: the worker's
+  `work/browser/<id>/steps.log` holds every command. Offer to save it as a skill.
 - Files under `work/` for anything you produce. `work/inbox/` is where he can drop
   documents for a job.
 
@@ -184,9 +194,10 @@ a message to anyone else.
 - sessions/scheduled/ output of scheduled runs (committed)
 - work/              downloads, drafts, exports (local only, never committed)
 - work/inbox/        he drops documents here for a job
-- tools/             the wrappers: mail.mjs, tfa.mjs, send.mjs, calendar.mjs, files.mjs,
+- tools/             the wrappers: mail.mjs, tfa.mjs, send.mjs, calendar.mjs, files.mjs, browser.mjs,
                      and jobs.mjs (the job board)
 - work/jobs/         one result file per job, written by workers
-- .claude/agents/    the workers: worker, researcher, drafter
+- .claude/agents/    the workers: worker, researcher, drafter, browser
+- work/browser/      one folder per browser job: screenshots, downloads, steps.log
 - .claude/skills/    repeatable jobs: /brief, /inbox, /diary, /draft-reply, /promises,
                      /tfa-status, /tender-template, /remember, /inbox-watch, and the ones you save

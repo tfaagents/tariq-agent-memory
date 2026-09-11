@@ -21,7 +21,8 @@ Lives at `/Users/tfaagents/tariq-agent` on the mini (`ssh tfa-mini`). Jaiah's co
 | `.claude/settings.json` | allow, ask, deny lists. `ask` = permission relayed to his Telegram |
 | `tools/send.mjs`, `tools/calendar.mjs`, `tools/files.mjs` | send a draft as him, calendar writes, OneDrive: every write is on the ask list (Approve on Telegram). Until the Entra apps exist they answer "Not connected yet" (`tools/lib/connected.mjs`) |
 | `.claude/skills/inbox-watch/` | every 10 min (parked, `enabled: false` in schedule.json): suggests a reply in his voice for each new email, pushes it to Telegram; he says send it, change it, leave it |
-| `.claude/agents/` | the workers (`worker`, `researcher`, `drafter`): background subagents the main session hands long jobs to; no Telegram tools, results in `work/jobs/<id>.md` |
+| `tools/browser.mjs`, `config/browser.json` | Chrome over DevTools, headless, own profile, port 9223, allowlisted hosts only. `click` refuses submit-style buttons; `submit` and `upload` are on the ask list. Screenshots and `steps.log` per job under `work/browser/<id>/` |
+| `.claude/agents/` | the workers (`worker`, `researcher`, `drafter`, `browser`): background subagents the main session hands long jobs to; no Telegram tools, results in `work/jobs/<id>.md` |
 | `tools/jobs.mjs` | the job board (`work/jobs.json`): one id per message, progress message id, steps, status; read back by the SessionStart hook after a restart |
 | `.claude/hooks/start.sh` | starts the session in `screen -S tariq` if a bot token exists; restarts it if the bridge has died; one scheduler only |
 | `launchd/com.tfa.tariq-agent.plist` | runs start.sh at login and every 5 minutes |
@@ -160,6 +161,18 @@ in his voice → `mail.mjs draft` (Approve 1, into Outlook Drafts) → `send.mjs
 `work/sent.log`. Calendar `add|move` and files `put|move|attach` are single-Approve. To
 switch on once the apps exist: certs into `~/.tariq-graph/`, ids into connections.json,
 `enabled: true` on inbox-watch in schedule.json. Nothing else changes.
+
+## The browser lane (live 11 Sep 2026)
+He asks on Telegram; the main session opens a job and hands it to the `browser` worker;
+the worker drives Chrome (headless, its own profile, `config/browser.json` allowlist),
+screenshots each page, fills the form from the brief and `memory/`, and stops before the
+submit button with `work/jobs/<id>.md` listing every field. The main session posts the
+screenshot and the list to his phone; on his yes it runs `node tools/browser.mjs submit`,
+which relays a second Approve to Telegram, then screenshots the result. Logins and SMS
+codes go through the chat. New site = one line in `allowedHosts`. `work/browser/<id>/
+steps.log` is the raw material for turning a repeated job into a script. Runs headless so
+it survives the move to the `tariq` user, which has no desktop; `start --headed` shows the
+window on the tfaagents desktop for debugging.
 
 ## Day to day
 
