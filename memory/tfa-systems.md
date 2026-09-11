@@ -29,7 +29,10 @@ Not connected yet
   and payment questions cannot be answered from MYOB until then.
 - **Procore and Pro Scan**: no invite for agents@ yet. Clay's side.
 - **OneDrive and SharePoint**: no Files.Read consent yet, so templates and Kendal's filing
-  folders are not reachable. Ask for the path and the consent.
+  folders are not reachable. Ask for the path and the consent. Separately, his OneDrive hit
+  its 1 TB limit on 11 Sep 2026 5:29pm: changes cannot be saved and existing share links
+  stop resolving, which is why Alee Fateh, Abhinav and others could not open the drawings.
+  Space has to be freed before any drawings link will work again.
 - **Deputy, Monday.com, the six card portals**: not connected. Staff hours are in Deputy
   and cannot be read from here.
 - **Mail.Send**: not granted. Nothing on this machine can send an email.
