@@ -6,6 +6,13 @@
       "time": "05:00",
       "days": "daily",
       "command": ".claude/hooks/rollover.sh"
+    },
+    {
+      "slug": "inbox-watch",
+      "every": 10,
+      "days": "weekdays",
+      "enabled": false,
+      "_why_off": "needs the Tariq Assistant app in Entra and the tariq user; flip enabled to true then"
     }
   ],
   "_temp": "morning-send, nightly-learn and retro run from launchd LaunchAgents under tfaagents (loaded by Jaiah 10 Sep); only the rollover runs from this scheduler here so nothing runs twice. On the move to the tariq user the repo copy (all four) replaces this file and launchd is retired."

@@ -30,14 +30,24 @@
       "Bash(python3 .claude/hooks/patterns.py*)",
       "Bash(node tools/notify.mjs*)",
       "Agent",
-      "Bash(node tools/jobs.mjs*)"
+      "Bash(node tools/jobs.mjs*)",
+      "Bash(node tools/send.mjs preview*)",
+      "Bash(node tools/calendar.mjs everyone*)",
+      "Bash(node tools/files.mjs list*)",
+      "Bash(node tools/files.mjs get*)"
     ],
     "ask": [
       "Bash(node tools/mail.mjs draft*)",
       "Bash(node tools/tfa.mjs run*)",
       "Bash(node tools/tfa.mjs approve*)",
       "Bash(node tools/tfa.mjs send-back*)",
-      "Bash(.claude/hooks/schedule.sh*)"
+      "Bash(.claude/hooks/schedule.sh*)",
+      "Bash(node tools/send.mjs go*)",
+      "Bash(node tools/calendar.mjs add*)",
+      "Bash(node tools/calendar.mjs move*)",
+      "Bash(node tools/files.mjs put*)",
+      "Bash(node tools/files.mjs move*)",
+      "Bash(node tools/files.mjs attach*)"
     ],
     "deny": [
       "Edit(/Users/tfaagents/tfa-agents/**)",

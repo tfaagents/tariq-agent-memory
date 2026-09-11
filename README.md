@@ -19,6 +19,8 @@ Lives at `/Users/tfaagents/tariq-agent` on the mini (`ssh tfa-mini`). Jaiah's co
 | `tools/mail.mjs` | his mail and diary through `~/tfa-agents/runner/lib/graph.mjs`; `draft` is the one write |
 | `tools/tfa.mjs` | the dashboard as Tariq: status, waiting, runs, promises, done, run, approve, send-back |
 | `.claude/settings.json` | allow, ask, deny lists. `ask` = permission relayed to his Telegram |
+| `tools/send.mjs`, `tools/calendar.mjs`, `tools/files.mjs` | send a draft as him, calendar writes, OneDrive: every write is on the ask list (Approve on Telegram). Until the Entra apps exist they answer "Not connected yet" (`tools/lib/connected.mjs`) |
+| `.claude/skills/inbox-watch/` | every 10 min (parked, `enabled: false` in schedule.json): suggests a reply in his voice for each new email, pushes it to Telegram; he says send it, change it, leave it |
 | `.claude/agents/` | the workers (`worker`, `researcher`, `drafter`): background subagents the main session hands long jobs to; no Telegram tools, results in `work/jobs/<id>.md` |
 | `tools/jobs.mjs` | the job board (`work/jobs.json`): one id per message, progress message id, steps, status; read back by the SessionStart hook after a restart |
 | `.claude/hooks/start.sh` | starts the session in `screen -S tariq` if a bot token exists; restarts it if the bridge has died; one scheduler only |
@@ -148,6 +150,16 @@ never touched by an update. `autoUpdatesChannel` is `stable` in `.claude/setting
 and plugin versions in `work/start.log`, so a break that follows an update is visible; the
 self-heal in start.sh restarts a session whose bridge failed, and `--channels` changing
 shape is the one thing that needs a hand (edit start.sh).
+
+## Sending, calendar and files (structure in place, waiting on Entra)
+Two app registrations (plan in `config/connections.json`): "Tariq Assistant" reads and
+writes mail, calendars and OneDrive across a five-mailbox group; "Tariq Assistant Send"
+holds Mail.Send on tariq@ alone. Flow for a reply: inbox-watch (or he asks) → draft file
+in his voice → `mail.mjs draft` (Approve 1, into Outlook Drafts) → `send.mjs go last`
+(Approve 2, the prompt shows to, subject, first lines, attachments) → receipt in
+`work/sent.log`. Calendar `add|move` and files `put|move|attach` are single-Approve. To
+switch on once the apps exist: certs into `~/.tariq-graph/`, ids into connections.json,
+`enabled: true` on inbox-watch in schedule.json. Nothing else changes.
 
 ## Day to day
 

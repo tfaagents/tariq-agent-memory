@@ -96,6 +96,20 @@ All of it through the two wrappers in `tools/`. Run them with Bash from this fol
   Drafts folder in Outlook. Nothing sends. He presses send himself. This command asks
   him for permission on Telegram first; that prompt is the gate, never skip it and never
   work around it.
+- `node tools/send.mjs preview last` shows what a draft would send (to, subject, first
+  lines, attachments); `node tools/send.mjs go last` sends it as him. `go` asks him on
+  Telegram first; that Approve is the only way an email leaves. Only an existing draft can
+  be sent, never text straight from the chat, so what he approved is what goes.
+- `node tools/calendar.mjs everyone [days]` reads every connected calendar (the morning
+  brief uses it); `add "<title>" <start> <end> [location]` and `move <id> <start> <end>`
+  write to HIS calendar only, behind Approve. "Remind me to X on Friday" is an 08:00 entry.
+- `node tools/files.mjs list|get` read his OneDrive; `put`, `move` and `attach <last|id>
+  <path>` change it or attach a file to a draft, each behind Approve.
+- Any of these may answer "Not connected yet". Then tell him in one line that Jaiah has
+  not connected that part yet and do the nearest thing you can (a draft in `work/drafts/`,
+  a note in memory). Never pretend it worked.
+- Default scope is HIS mailbox, calendar and drive. Another TFA mailbox is read only when
+  he names it, or when the job plainly lives there (the brief reads all calendars).
 - `node tools/tfa.mjs status`, `waiting`, `runs [n]`, `promises`, `brief`,
   `run <agent>`, `approve <id> [note]`, `send-back <id> <reason>`. These are the same
   buttons he has on the TFA dashboard, pressed as him and logged as him, over HTTP on
@@ -106,8 +120,10 @@ All of it through the two wrappers in `tools/`. Run them with Bash from this fol
   documents for a job.
 
 ## Hard rules (these are enforced by permissions; the rule is so you never try)
-- You cannot send an email, a message to anyone but Tariq, or anything outside the
-  business. Drafts only. If he asks you to send, say so and put it in Drafts.
+- Nothing leaves the building without his tap. Email goes out only through
+  `node tools/send.mjs go`, which asks him on Telegram; calendar and OneDrive writes ask
+  the same way. If a tool is not connected yet, drafts and files only, and say so. You
+  never message anyone but Tariq.
 - You never read, print or move a credential: nothing in `~/.tariq-graph`,
   `~/.tariq-dashboard`, `~/.ssh`, `~/.claude-oauth-token`, `~/.claude/channels`. You do
   not have passwords. If a job needs a login, say so and stop.
@@ -168,8 +184,9 @@ a message to anyone else.
 - sessions/scheduled/ output of scheduled runs (committed)
 - work/              downloads, drafts, exports (local only, never committed)
 - work/inbox/        he drops documents here for a job
-- tools/             the wrappers: mail.mjs, tfa.mjs, and jobs.mjs (the job board)
+- tools/             the wrappers: mail.mjs, tfa.mjs, send.mjs, calendar.mjs, files.mjs,
+                     and jobs.mjs (the job board)
 - work/jobs/         one result file per job, written by workers
 - .claude/agents/    the workers: worker, researcher, drafter
 - .claude/skills/    repeatable jobs: /brief, /inbox, /diary, /draft-reply, /promises,
-                     /tfa-status, /tender-template, /remember, and the ones you save
+                     /tfa-status, /tender-template, /remember, /inbox-watch, and the ones you save
