@@ -1,0 +1,51 @@
+{
+  "m365-graph": {
+    "_note": "Tariq's agent talks to Microsoft 365 with its OWN app registration and certificate, never the workflow agents' one. The cert and key live in the tariq user's home and no other user on the mini can read them. Until the 'Tariq Assistant' app exists in Entra, the read-only TFA Agents app can be used as a bridge by copying its cert here (it cannot send).",
+    "tenantId": "1aa0bc0e-63f3-4c49-b9be-2869d41eab91",
+    "clientId": "[to confirm - App registrations > Tariq Assistant > Application (client) ID; until then the TFA Agents id 04bcbc25-6e24-4e7e-a313-d92ffec1648e]",
+    "senderMailbox": "tariq@tfaconstructions.com.au",
+    "keyPath": "~/.tariq-graph/tariq-assistant.key",
+    "certPath": "~/.tariq-graph/tariq-assistant.crt",
+    "mailboxes": [
+      "tariq@tfaconstructions.com.au",
+      "kendal@tfaconstructions.com.au",
+      "heather@tfaconstructions.com.au",
+      "accounts@tfaconstructions.com.au",
+      "agents@tfaconstructions.com.au"
+    ],
+    "mailboxes_note": "What the agent may search. Once the Tariq Assistant app is scoped with an Exchange application access policy, Graph itself refuses any mailbox outside that policy, whatever this list says.",
+    "permissions": {
+      "decision": "11 Sep 2026 (Jaiah): the agent may send, write and file, every one of those behind the Telegram Approve button. Two app registrations so a read never becomes a send by accident.",
+      "app_1_tariq_assistant": {
+        "scope": "Exchange application access policy on a mail-enabled security group 'Tariq Assistant mailboxes' holding tariq@, kendal@, heather@, accounts@, agents@. Nothing outside the group is reachable whatever the tool asks.",
+        "Mail.ReadWrite": "read the group's mailboxes; create and update drafts; move and file mail (moves gated by Approve)",
+        "Calendars.ReadWrite": "read every calendar in the group for the morning brief; add and move HIS events behind Approve",
+        "Files.ReadWrite.All": "OneDrive and SharePoint: list, read, update, move files and attach them to drafts (writes and moves behind Approve). Sites.Selected only if TFA wants SharePoint limited to named sites; personal OneDrives need the .All permission",
+        "User.Read.All": "resolve a name to an address, list who is who",
+        "Contacts.Read": "his Outlook contacts, so 'email Andrew' resolves without guessing",
+        "MailboxSettings.Read": "time zone and working hours for the diary"
+      },
+      "app_2_tariq_assistant_send": {
+        "scope": "Exchange application access policy restricting this app to tariq@ ALONE. The send tool uses this app only.",
+        "Mail.Send": "send as tariq@ only, and only a draft he has already seen: the tool creates the draft with app 1, shows it in the Telegram Approve prompt (to, cc, subject, first lines, attachments), and on Approve calls /send on that draft id, so what he saw is exactly what leaves"
+      },
+      "not_requested": {
+        "Chat.Read.All / Teams": "protected API, needs Microsoft approval, no use case yet",
+        "Directory or Group write": "never",
+        "Mail.Send on app 1": "never; a read app must not be able to send",
+        "anything delegated on Kendal's or Heather's behalf": "their agents are their own folders and apps"
+      },
+      "gates_in_the_tool": "settings.json ask list: mail.mjs send|draft|move, calendar add|move, files move|update|attach. Default mailbox for every query is tariq@; another mailbox only when he names it or the brief needs it (calendars).",
+      "how": "Entra admin centre > App registrations > New registration (twice: 'Tariq Assistant', 'Tariq Assistant Send') > Certificates & secrets > upload the .crt generated under the tariq user on the mini (~/.tariq-graph/) > API permissions > Microsoft Graph > Application permissions above > Grant admin consent. Then Exchange Online PowerShell: New-ApplicationAccessPolicy for each app (group for app 1, tariq@ for app 2), Test-ApplicationAccessPolicy to prove kendal@ is refused on app 2."
+    },
+    "sendClientId": "[to confirm - App registrations > Tariq Assistant Send > Application (client) ID]",
+    "sendKeyPath": "~/.tariq-graph/tariq-assistant-send.key",
+    "sendCertPath": "~/.tariq-graph/tariq-assistant-send.crt"
+  },
+  "dashboard": {
+    "_note": "The only bridge to the workflow lane: the TFA Agents dashboard on this mini, as Tariq's own owner login. The passcode lives at passcodePath (chmod 600) and is read by tools/tfa.mjs, never by the model.",
+    "baseUrl": "http://127.0.0.1:4680",
+    "email": "tariq@tfaconstructions.com.au",
+    "passcodePath": "~/.tariq-dashboard/passcode"
+  }
+}

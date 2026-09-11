@@ -4,7 +4,7 @@
 // bot's own allowlist, so it can never message anyone else.
 //
 //   node tools/notify.mjs "text"            or    echo "text" | node tools/notify.mjs
-//   node tools/notify.mjs --file <path>
+//   node tools/notify.mjs --file <path>        (--plain = no bold first line, no escaping)
 import fs from 'node:fs';
 import net from 'node:net';
 // Node tries each address the DNS returns with a 250 ms budget by default ("happy
@@ -32,15 +32,26 @@ text = String(text || '').trim();
 if (!text) { console.error('empty message'); process.exit(1); }
 if (text.includes('—')) { console.error('em dash in message; rewrite it'); process.exit(1); }
 
+// Same look as the live session's replies: the first line bold, the rest plain, sent as
+// MarkdownV2 with every special character escaped. --plain sends the text untouched. If
+// Telegram rejects the markup the message goes again as plain text rather than not at all.
+const plain = args.includes('--plain');
+const esc = (t) => t.replace(/[_*\[\]()~`>#+\-=|{}.!\\]/g, (c) => '\\' + c);
+const marked = (t) => { const [first, ...rest] = t.split('\n'); return `*${esc(first)}*` + (rest.length ? '\n' + esc(rest.join('\n')) : ''); };
+
+async function send(chat_id, body) {
+  const r = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+    method: 'POST', headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ chat_id, disable_web_page_preview: true, ...body }),
+  });
+  return r.json();
+}
 const chunks = [];
-for (let i = 0; i < text.length; i += 3800) chunks.push(text.slice(i, i + 3800));
+for (let i = 0; i < text.length; i += 3500) chunks.push(text.slice(i, i + 3500));
 for (const chat_id of chats) {
-  for (const chunk of chunks) {
-    const r = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
-      method: 'POST', headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ chat_id, text: chunk, disable_web_page_preview: true }),
-    });
-    const j = await r.json();
+  for (const [i, chunk] of chunks.entries()) {
+    let j = plain ? await send(chat_id, { text: chunk }) : await send(chat_id, { text: i === 0 ? marked(chunk) : esc(chunk), parse_mode: 'MarkdownV2' });
+    if (!j.ok && !plain) j = await send(chat_id, { text: chunk });
     if (!j.ok) { console.error(`send failed: ${j.description}`); process.exit(1); }
   }
 }
