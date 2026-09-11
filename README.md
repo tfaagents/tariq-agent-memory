@@ -19,6 +19,8 @@ Lives at `/Users/tfaagents/tariq-agent` on the mini (`ssh tfa-mini`). Jaiah's co
 | `tools/mail.mjs` | his mail and diary through `~/tfa-agents/runner/lib/graph.mjs`; `draft` is the one write |
 | `tools/tfa.mjs` | the dashboard as Tariq: status, waiting, runs, promises, done, run, approve, send-back |
 | `.claude/settings.json` | allow, ask, deny lists. `ask` = permission relayed to his Telegram |
+| `.claude/agents/` | the workers (`worker`, `researcher`, `drafter`): background subagents the main session hands long jobs to; no Telegram tools, results in `work/jobs/<id>.md` |
+| `tools/jobs.mjs` | the job board (`work/jobs.json`): one id per message, progress message id, steps, status; read back by the SessionStart hook after a restart |
 | `.claude/hooks/start.sh` | starts the session in `screen -S tariq` if a bot token exists; restarts it if the bridge has died; one scheduler only |
 | `launchd/com.tfa.tariq-agent.plist` | runs start.sh at login and every 5 minutes |
 
@@ -124,6 +126,28 @@ retro Friday 16:00). The agent adds one with `.claude/hooks/schedule.sh <slug> <
 <days>` when Tariq says yes; the scheduler picks it up within 30 seconds. Each run is
 `claude -p /<skill>` with the ask-list tools disabled, output in `sessions/scheduled/`,
 log in `work/scheduler.log`. Remove a line to stop one.
+
+## Several jobs at once (how it works)
+Telegram pushes every message into the one session, one at a time. The main session is a
+dispatcher: it opens a job on the board, sends the progress message, hands anything longer
+than a minute to a background worker (`.claude/agents/`), and returns so the next message
+gets through. Workers cannot reach Telegram (their `tools:` list has no Telegram tool) and
+write their result to `work/jobs/<id>.md`; the main session turns that into the edited
+progress message. Steps that need Tariq's tap (a draft into Outlook, a workflow run) stay in
+the main session so the Approve button reaches his phone. The board survives compaction
+and the 05:00 restart: the SessionStart hook lists open jobs and the session picks them up.
+Agent teams (separate sessions messaging each other) were considered and not used: they
+cannot be resumed, one team per session, and nothing here needs two sessions.
+
+## Updates
+Claude Code updates itself in the background and the running session keeps the old
+version until the next start (the 05:00 rollover). The official Telegram plugin does the
+same within ten minutes of a start. Files (CLAUDE.md, memory, skills, hooks, settings) are
+never touched by an update. `autoUpdatesChannel` is `stable` in `.claude/settings.json`
+(about a week behind, skips releases with known regressions). Each start logs the Claude
+and plugin versions in `work/start.log`, so a break that follows an update is visible; the
+self-heal in start.sh restarts a session whose bridge failed, and `--channels` changing
+shape is the one thing that needs a hand (edit start.sh).
 
 ## Day to day
 

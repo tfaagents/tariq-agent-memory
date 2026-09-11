@@ -6,6 +6,11 @@
 //   node tools/notify.mjs "text"            or    echo "text" | node tools/notify.mjs
 //   node tools/notify.mjs --file <path>
 import fs from 'node:fs';
+import net from 'node:net';
+// Node tries each address the DNS returns with a 250 ms budget by default ("happy
+// eyeballs"). Brisbane to Telegram's data centre takes longer than that, so fetch reported
+// ETIMEDOUT nine times on 11 Sep 2026 while curl and the bridge connected fine. Give it 5 s.
+net.setDefaultAutoSelectFamilyAttemptTimeout(5000);
 import os from 'node:os';
 import path from 'node:path';
 

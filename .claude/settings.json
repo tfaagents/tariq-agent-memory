@@ -28,7 +28,9 @@
       "Bash(git log *)",
       "Bash(git diff *)",
       "Bash(python3 .claude/hooks/patterns.py*)",
-      "Bash(node tools/notify.mjs*)"
+      "Bash(node tools/notify.mjs*)",
+      "Agent",
+      "Bash(node tools/jobs.mjs*)"
     ],
     "ask": [
       "Bash(node tools/mail.mjs draft*)",
@@ -75,7 +77,11 @@
       "Bash(*myob-connect*)",
       "Bash(*deploy.sh*)",
       "Edit(~/tariq-agent/config/**)",
-      "Edit(~/tariq-agent/runner/**)"
+      "Edit(~/tariq-agent/runner/**)",
+      "Bash(claude)",
+      "Bash(claude *)",
+      "Bash(*/claude *)",
+      "Bash(*claude -p*)"
     ]
   },
   "hooks": {
@@ -112,5 +118,9 @@
         ]
       }
     ]
+  },
+  "autoUpdatesChannel": "stable",
+  "enabledPlugins": {
+    "telegram@claude-plugins-official": true
   }
 }
