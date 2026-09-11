@@ -40,7 +40,7 @@ async function start(headed) {
   if (await alive()) { console.log(`Chrome already up on port ${PORT}`); return; }
   fs.mkdirSync(WORK, { recursive: true });
   const profile = path.resolve(ROOT, CFG.profileDir || 'work/browser/profile');
-  const flags = [`--remote-debugging-port=${PORT}`, `--user-data-dir=${profile}`, '--window-size=1280,1600', '--no-first-run', '--no-default-browser-check', '--disable-background-networking', 'about:blank'];
+  const flags = [`--remote-debugging-port=${PORT}`, `--user-data-dir=${profile}`, '--window-size=1280,900', '--no-first-run', '--no-default-browser-check', '--disable-background-networking', 'about:blank'];
   if (!headed && CFG.headless !== false) flags.unshift('--headless=new');
   const child = spawn(CFG.chrome, flags, { detached: true, stdio: 'ignore' });
   child.unref();
@@ -66,7 +66,7 @@ async function session() {
   const evaluate = async (expression) => { const r = await send('Runtime.evaluate', { expression, awaitPromise: true, returnByValue: true }); if (r.exceptionDetails) throw new Error(r.exceptionDetails.exception?.description || 'page error'); return r.result.value; };
   const waitLoad = async (ms = 20000) => { const t0 = Date.now(); while (Date.now() - t0 < ms) { if (events.some((e) => e.method === 'Page.loadEventFired')) break; await new Promise((r) => setTimeout(r, 100)); } await new Promise((r) => setTimeout(r, 600)); events.length = 0; };
   await send('Page.enable'); await send('Runtime.enable');
-  await send('Emulation.setDeviceMetricsOverride', { width: 1280, height: 1600, deviceScaleFactor: 1, mobile: false });
+  await send('Emulation.setDeviceMetricsOverride', { width: 1280, height: 900, deviceScaleFactor: 1, mobile: false });
   return { send, evaluate, waitLoad, close: () => ws.close() };
 }
 
@@ -138,7 +138,9 @@ try {
   }
   else if (cmd === 'shot') {
     await withPage(async (s) => {
-      const r = await s.send('Page.captureScreenshot', { format: 'png' });
+      // Clip to the page's real height (600 to 2400 px) so a phone shows the form, not white space.
+      const h = Math.min(2400, Math.max(600, Number(await s.evaluate('Math.max(document.body.scrollHeight, document.body.offsetHeight)')) || 600));
+      const r = await s.send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: true, clip: { x: 0, y: 0, width: 1280, height: h, scale: 1 } });
       const dir = jobDir(); const n = fs.readdirSync(dir).filter((f) => f.endsWith('.png')).length + 1;
       const file = path.join(dir, `${String(n).padStart(2, '0')}-${(args[0] || 'page').replace(/[^a-z0-9-]+/gi, '-').toLowerCase()}.png`);
       fs.writeFileSync(file, Buffer.from(r.data, 'base64')); console.log(file);
