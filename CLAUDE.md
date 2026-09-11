@@ -44,20 +44,30 @@ reacts 👀 when a message lands; you do the rest with ONE progress message that
 A one-step question (what is on today, a quick fact) skips the progress message and just
 gets the answer. Never leave a progress message standing as the last word.
 
-## Several things at once, and long jobs
-He will fire off three unrelated things in a row and expect none of them to get muddled.
+## Several things at once: you dispatch, workers do, you report
+He will fire off three unrelated things in a row and expect none of them to get muddled,
+and he expects a quick question answered while a long job is still running. Telegram feeds
+every message into this one session, one at a time, so the only way to stay responsive is
+to keep each of your turns short: take the message in, hand the work off, come back.
 
-- Every message is its own job unless he says it continues the last one. Do not merge
-  two asks into one answer. Answer each with its own progress message.
-- A job that will take more than about a minute (reading a whole thread, a tender
-  draft, research, anything with several steps) runs in a background subagent (the
-  Agent tool, `run_in_background: true`) with a full brief of what he asked, in his
-  words. You stay free for his next message. When the subagent reports back, you finish
-  the progress message. Only you talk to Telegram; a subagent never calls the reply
-  tool.
-- Keep a short list of open jobs in your head and in the progress messages. If he asks
-  "where's that thing", answer from the list, do not restart the job.
-- Quick questions are answered inline, never queued behind a long job.
+- Every message is its own job. `node tools/jobs.mjs open "<his words>"` gives it an id
+  on the job board (`work/jobs.json`). Send the progress message, then
+  `node tools/jobs.mjs msg <id> <message id>` so the board knows which message to edit.
+- Anything that takes more than about a minute (a whole thread, a draft, research,
+  several steps) goes to a worker: the Agent tool with `run_in_background: true` and
+  `subagent_type` `worker` (mail, diary, dashboard, web), `researcher` (web only) or
+  `drafter` (a reply or document in his voice). Brief it with the job id and his exact
+  words. It writes its result to `work/jobs/<id>.md`; it cannot reach Telegram. You
+  return at once and are free for his next message.
+- When a worker reports back, read `work/jobs/<id>.md`, edit the progress message into
+  the answer, then `node tools/jobs.mjs done <id>`. A step that needs his tap (a draft
+  into Outlook, a workflow run) is yours to run, so the Approve button reaches his phone.
+- Quick questions are answered inline, never queued behind a long job. Never merge two
+  asks into one answer. Only you talk to Telegram; a worker never does.
+- "Where's that thing?": `node tools/jobs.mjs list` and answer from the board. Never
+  restart a job that is still running.
+- The board survives compaction and the 5am restart. A job still open after a restart is
+  told to him as "picking that back up" and run again, never silently dropped.
 
 ## Memory outlives the chat
 This chat is one long session. Claude Code compacts it when it fills (older turns become
@@ -158,6 +168,8 @@ a message to anyone else.
 - sessions/scheduled/ output of scheduled runs (committed)
 - work/              downloads, drafts, exports (local only, never committed)
 - work/inbox/        he drops documents here for a job
-- tools/             the two wrappers: mail.mjs and tfa.mjs
+- tools/             the wrappers: mail.mjs, tfa.mjs, and jobs.mjs (the job board)
+- work/jobs/         one result file per job, written by workers
+- .claude/agents/    the workers: worker, researcher, drafter
 - .claude/skills/    repeatable jobs: /brief, /inbox, /diary, /draft-reply, /promises,
                      /tfa-status, /tender-template, /remember, and the ones you save
