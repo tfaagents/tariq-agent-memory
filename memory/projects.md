@@ -9,6 +9,22 @@ thread before quoting it to him.
 
 ## 35 Hi-Tec Court, Eight Mile Plains (the "BTP" purchase, new TFA office)
 
+11 Sep 2026, his own words to Veena (sent 8 Sep, forwarded to Clay 11 Sep 3:39pm with
+"FYI. Apologies for not cc'ing you."):
+- 35 Hi-Tech Court is "TFA's Baby, very close to the heart as its our master planned
+  office space". The brief is to **maximise every aspect of the site for tenancy** beyond
+  the two tenancies TFA and ISA will use as their own office spaces.
+- Waiting on **his brother at ISA Architects** to give him a mark up of design ideas to
+  pass to **NMDS Architecture**, who are doing the concept and the DA. **ISA may take
+  over at BA phase and the current architect is not to be told**: "don't advise this to
+  current architect please lol."
+- The site's **previous DA for a 3 storey office space will not be proceeded with**.
+- **Kendal** works with them on marketing and development funding, and on the renders and
+  the vision for the future office. Tariq then wants the **entire team** sat down so
+  everyone can give feedback on their own office.
+- His SharePoint links do not pass on authority from his account. He asked Kendal 11 Sep
+  4:12pm to send Veena a new link: "no urgency, Monday when your back is fine."
+
 10 Sep 2026, from his sent mail:
 - Buying from Graystone SPV5 Pty Ltd through MSP Law. Geoff Chen (Zhi Chen) is the
   solicitor, Mohammed Patel cc. Geoff confirmed two deposit instalments still to run:
@@ -99,6 +115,9 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 
 ## Narangba childcare extension (Spring Early Learning)
 
+- 11 Sep 2026: both folders reshared to Abi and Alee at 11:28am after they could not
+  open the first links. Same SharePoint access problem as Bokarina.
+
 10 Sep 2026:
 - Reece Goode (Spring Early Learning) asked on 9 Sep for a **cost plan based on the DA
   docs**. Existing centre is **1 Aria Boulevard, Narangba**; the extension goes on the
@@ -112,6 +131,11 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   10 Sep to price.
 
 ## Bokarina Childcare (Bokarina Early Learning Centre)
+- 11 Sep 2026: the SharePoint links keep failing for the estimators. Abi said "Received
+  thanks" at 10:05am then could not open them; Tariq: "bro then why did you say
+  received?" and "bro why don't you download docs? I'll resend later today." He reshared
+  both folders at 11:28am and told Abi to "download and save this time". Lesson for any
+  tender blast: the estimators need the files to land and stay, not a link that expires.
 - 10 Sep 2026: documents sent to **Abi and Alee** to price at 10:51am, via the TFA
   SharePoint "Bokarina Childcare New Build" folder. Architect is **Matt Tong, Elevation
   Architecture (Queensland)**, project 1442-01, Document Issue No. 14 issued 9 Sep. Reece
@@ -121,6 +145,16 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   capability brochure and project videos attached.
 
 ## 29 Millers Rd / 3000132 Eight Mile Plains (Indara tower, renewal and easement)
+11 Sep 2026, his own words to Veena (sent 8 Sep, forwarded to Clay 11 Sep):
+- 29 Millers Rd is also a **student / rooming accommodation development**, not only the
+  Indara matter. The site **already had a childcare approval** and some of those DA
+  reports may be reusable later. The current design sits in the **"Rooming Accommodation
+  Design"** folder inside that DA.
+- **Waiting on Rezi Cad to update the design**, then the DA progresses with the town
+  planners.
+- Documents are in the SharePoint **"Tariq Dump"** folder. Kendal will share the full
+  list or clean up the folder structure when she has the chance.
+
 - 10 Sep 2026: this is an **Indara** matter (digital infrastructure), not only Piper
   Alderman as the 120-day metadata pass suggested. Renewal negotiation plus an
   access/easement amendment, escalated by Tariq. **Christine Holligan** (Executive
@@ -158,6 +192,16 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 
 ## Employment and legal matters
 
+11 Sep 2026:
+- **Nelson Frost, apprentice.** TAFE Queensland SkillsTech need to run the mandatory
+  Apprentice Induction: 30 minutes with the apprentice and 15 minutes with the employer
+  or supervisor to confirm resources, licences and qualified supervisor requirements.
+  Supervisor qualifications must be available on the day. Booking is by link, at the
+  workplace (southside link, TFA is southside) or by phone. **Nobody has booked it yet**;
+  Tariq forwarded it to Clay and Heather, cc Saheed Ali, at 11:22am.
+- In the same email: "I changed his site to acaice ridge last week also no more Ipswich."
+  Nelson Frost now works out of **Acacia Ridge**, not Ipswich, from the week of 1 Sep 2026.
+
 10 Sep 2026, all through Master Builders QLD (Desari Lynam) and Piper Alderman (Mason
 Fettell):
 - **Pi-Hao Cheng v TFA, FWC C2026/3733.** The case was never closed and has not been
@@ -179,6 +223,21 @@ Fettell):
 - **Nelson wages query** raised with Desari on the same call list.
 
 ## Money and compliance
+- **SAli Cleaning Services** took over the office clean from **Arcane** (11 Sep 2026).
+  Rate **$150/week excluding bin liners**; Arcane were $133.10/week including liners but,
+  after Karen finished, were doing a lousy job and becoming unreliable. Heather: "The
+  office has been schmick since SAli took over so as far as I'm concerned it's money well
+  spent." First invoice **INV-00000112, $300.00, due 14 Sep 2026**, through MYOB. Tariq
+  confirmed the rate and asked whether he replaces the bin liners or uses TFA's stock,
+  but does not want it pushed: "I don't want to push or my sister will be on my back lol."
+  SAli is family connected; handle the money side gently.
+- **J & J Batteries** (Neil, jjbatteries@optusnet.com.au, 07 3396 4806) invoice
+  **#00972736**, 11 Sep 2026. Tariq asked Neil for a better price: "I almost fell over
+  haha, I thought we were friends mate? Could you look after me a bit better on this at
+  all, if not that's fine as I should have asked prior." Reply outstanding as at 11 Sep.
+- **Fleet & Equipment Register**: Heather sent Tariq a copy 11 Sep 2026 to use when
+  approving QLD Transport rego renewals. He forwarded it to Saheed Ali.
+- Urban Utilities water and sewerage bills come to Tariq and get forwarded to accounts@.
 - **Rajput loan, Chateau Project No 6 Pty Ltd, $500k.** Was due for repayment **9 Sep
   2026** and was not paid. The borrower called Tariq **Monday 7 Sep** asking to extend to
   **20 Sep 2026**, which was an option in the agreement. Heather asked whether a mutual

@@ -39,6 +39,27 @@ Rules in his own words (from his sent mail, dated)
   come back to us" (10 Sep 2026, to Mustafa and Imran on the Learoyd objection). He puts
   the reputational cost on the table himself. On a risky send, offer him the do-nothing
   option too.
+- On how he wants the AI built: "An AI builder could easily create 25 separate bots when
+  what you really need is probably 7-8 coordinated agents sitting on one common operating
+  system." (11 Sep 2026, to Jaiah.) He rewrote Jaiah's list himself because it mixed
+  outcomes, integrations, examples and risk levels together. When you propose something
+  to him, separate the outcome from the integration from the risk. See [[agent-roadmap]].
+- He talks himself out of the surveillance version of an idea before anyone else has to:
+  staff computer monitoring should be "a separate, transparent compliance-approved module
+  rather than hidden surveillance", and staff working-style notes should "combine
+  information they provide with legitimate management observations rather than inventing
+  psychological profiles" (11 Sep 2026, to Jaiah). Hold him to this if a staff-monitoring
+  job ever lands.
+- With suppliers he knows, he asks for the discount straight out and leaves them a way to
+  say no: "I almost fell over haha, I thought we were friends mate? Could you look after
+  me a bit better on this at all, if not that's fine as I should have asked prior."
+  (11 Sep 2026, to Neil at J & J Batteries.) Humour, then the ask, then the out.
+- Where family is involved he will not push on money: "I don't want to push or my sister
+  will be on my back lol" (11 Sep 2026, on the SAli Cleaning bin liners). Ask the
+  question, never chase it.
+- He protects a commercial position quietly rather than announcing it: on ISA possibly
+  taking over at BA phase, "don't advise this to current architect please lol"
+  (8 Sep 2026, to Veena). Internal plans stay internal until he says otherwise.
 - He wants TFA measured against the best he sees, not against itself: on finding another
   builder's handover document list he told Clay "I'm wanting to know where you team is at
   with this information?" and asked Kendal to make ours the same (10 Sep 2026).

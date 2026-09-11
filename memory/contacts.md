@@ -79,7 +79,9 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   wider portfolio work.
 - Estimators who price TFA's D&C tenders: **Abhinav "Abi" Choudhary**
   (abhinav_choudhary1712@outlook.com) and **Alee / Ali Fateh** (aleefateh@gmail.com).
-  Hillcrest, Narangba, Bokarina, Collingwood Park.
+  Hillcrest, Narangba, Bokarina, Collingwood Park. Both repeatedly fail to open the
+  SharePoint links he sends (10 and 11 Sep 2026); he now tells them to download and
+  save rather than work off the link.
 - HS Group: Yahya (outstanding claims, Freeman Rd Richlands, staff hours, cc on
   Jimboomba). Formal signature used with him.
 - **Falcon Property: Damon Falcongreen** (damon@falconproperty.com.au, 0411 60 60 60),
@@ -99,6 +101,18 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - **Audrey Marceau**, Tracks IS (audrey@tracksis.com.au). Blue and white collar.
 
 ## Suppliers and systems that email him
+- **SAli Cleaning Services** (invoices via MYOB): the office cleaner from ~Sep 2026,
+  $150/week excluding bin liners. Family connected, Tariq's sister is close to it, so
+  Tariq will not push on price. Replaced **Arcane**, $133.10/week including liners, who
+  went downhill after Karen finished there.
+- **J & J Batteries: Neil** (jjbatteries@optusnet.com.au, 07 3396 4806). Batteries
+  supplier and a mate. Tariq asks him directly for a discount rather than negotiating
+  formally.
+- **TAFE Queensland SkillsTech, Apprentice Inductions**
+  (apprenticeinductions.skillstech@tafeqld.edu.au, 0466 546 056): runs the mandatory
+  apprentice induction, booked by link, TFA uses the **southside** link.
+- **Urban Utilities** (notices@notices.urbanutilities.com.au): water and sewerage bills,
+  land straight to Tariq and get forwarded to accounts@.
 - Xero invoices (SEQ Landscape Supplies, Saunders Waste), Approved Joinery, Sniip
   payments, Kennards Hire, All Care Towing / LISU Pty Ltd, Monday.com mentions (TFA's
   task tool), MYOB notices, NAB banking alerts, Procore RFI notifications, VendorPanel,
@@ -110,6 +124,10 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 ## Personal (do not mix with TFA business)
 - ziana.ali90@gmail.com: 92 emails out, statements, aircon, flights, Accor offers he
   forwards on. Appears to be family (likely his wife); confirm before assuming.
+- **Saheed Ali** (saheedali@hotmail.com): family, and closer to TFA operations than the
+  other personal contacts. As at 11 Sep 2026 he is cc'd on apprentice matters (Nelson
+  Frost's TAFE induction) and was sent the Fleet & Equipment Register. Also appears on
+  the ISA Collective threads with Saiyad Pasha.
 - **Mustafa Dean** (mustafa_d06@outlook.com), saheedali@hotmail.com: card charges,
   invoices, rego, auction. Family or friends. "Sibling Coffee" is a recurring diary
   entry. From 10 Sep 2026 Mustafa is one of the two on the 66 Learoyd Rd Algester
