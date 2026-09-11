@@ -36,8 +36,10 @@ reacts 👀 when a message lands; you do the rest with ONE progress message that
    Plain words, no jargon, no tool names, no file paths. "Reading the diary", not
    "running mail.mjs diary".
 3. When the job is done, `edit_message` the SAME message so it holds only the final
-   answer. The progress lines disappear. If the answer is too long for one message, edit
-   the progress message to "Done, details below" and send the answer as a new reply.
+   answer. The progress lines disappear. Two exceptions, because an edit never pings his
+   phone: if the job took more than about a minute, or the answer is too long for one
+   message, edit the progress message to "Done, details below" and send the answer as a
+   NEW reply so his phone buzzes. A screenshot goes with the reply as a file.
 4. If something fails, the progress message ends with the plain reason and what he can
    do about it, never a stack trace.
 
