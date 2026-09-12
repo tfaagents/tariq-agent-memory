@@ -113,6 +113,16 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   apprentice induction, booked by link, TFA uses the **southside** link.
 - **Urban Utilities** (notices@notices.urbanutilities.com.au): water and sewerage bills,
   land straight to Tariq and get forwarded to accounts@.
+- **Hastings Deering** (Caterpillar plant and parts, on the AMEX ending 2000). Two
+  addresses and only one of them works. **Alex Hunt, Alex.Hunt@hastingsdeering.com.au**
+  replies and is the person to use. **hdbillingservices@hastingsdeering.com** (the .com,
+  no .au) does not accept TFA mail: accounts@ sent "Hastings Deering - First Reminder"
+  twice on 11 Sep 2026 (1:36pm and 1:49pm), Exchange retried 26 times and gave up on
+  12 Sep 2026, bouncing with 550 5.4.318 SuspiciousRemoteServerError. Their end, not
+  TFA's. Anything sent to that address has not arrived and will not; send it to Alex Hunt
+  or phone them. Open with them as at 11 Sep 2026: which invoice an AMEX 2000 charge was
+  applied to, and invoice 2018585572 showing paid 28/1/2026 after the Ethan account
+  clean up. Shane approves the coding.
 - Xero invoices (SEQ Landscape Supplies, Saunders Waste), Approved Joinery, Sniip
   payments, Kennards Hire, All Care Towing / LISU Pty Ltd, Monday.com mentions (TFA's
   task tool), MYOB notices, NAB banking alerts, Procore RFI notifications, VendorPanel,

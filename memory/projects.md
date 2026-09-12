@@ -115,8 +115,13 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 
 ## Narangba childcare extension (Spring Early Learning)
 
+- 12 Sep 2026: Abi confirmed at 12:05pm, "Received, thanks Tariq". The Narangba folder
+  landed this time. Nothing owed back to him until he prices it.
 - 11 Sep 2026: both folders reshared to Abi and Alee at 11:28am after they could not
-  open the first links. Same SharePoint access problem as Bokarina.
+  open the first links. Same SharePoint access problem as Bokarina. (Not a storage
+  problem: the 1 TB OneDrive alerts are Daniel's and Dan Tu's dormant accounts, see
+  tfa-systems.md. It is the sharing link or the permission on it, the same fault Veena
+  hit on 11 Sep when Tariq's link "isn't giving him authority".)
 
 10 Sep 2026:
 - Reece Goode (Spring Early Learning) asked on 9 Sep for a **cost plan based on the DA
@@ -131,6 +136,9 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   10 Sep to price.
 
 ## Bokarina Childcare (Bokarina Early Learning Centre)
+- 12 Sep 2026: Abi confirmed at 12:04pm, "Got it, thanks!". Third send of the Bokarina
+  folder is the one that worked. Both estimators now hold Bokarina and Narangba; the ball
+  is with them for pricing.
 - 11 Sep 2026: the SharePoint links keep failing for the estimators. Abi said "Received
   thanks" at 10:05am then could not open them; Tariq: "bro then why did you say
   received?" and "bro why don't you download docs? I'll resend later today." He reshared
