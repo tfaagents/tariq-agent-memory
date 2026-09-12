@@ -115,6 +115,9 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 
 ## Narangba childcare extension (Spring Early Learning)
 
+- 13 Sep 2026: **Alee has still not confirmed either folder.** Nothing from
+  aleefateh@gmail.com since 10 Sep 11:31pm. He is the one who twice could not open the
+  drawings, so of the two estimators he is the open risk. Only Abi has confirmed.
 - 12 Sep 2026: Abi confirmed at 12:05pm, "Received, thanks Tariq". The Narangba folder
   landed this time. Nothing owed back to him until he prices it.
 - 11 Sep 2026: both folders reshared to Abi and Alee at 11:28am after they could not
@@ -136,9 +139,11 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   10 Sep to price.
 
 ## Bokarina Childcare (Bokarina Early Learning Centre)
+- 13 Sep 2026: Alee still silent on Bokarina too, see the Narangba section above.
 - 12 Sep 2026: Abi confirmed at 12:04pm, "Got it, thanks!". Third send of the Bokarina
-  folder is the one that worked. Both estimators now hold Bokarina and Narangba; the ball
-  is with them for pricing.
+  folder is the one that worked. **Abi** now holds Bokarina and Narangba and the ball is
+  with him for pricing. (Corrected 13 Sep: this said "both estimators", which was wrong,
+  Alee never replied.)
 - 11 Sep 2026: the SharePoint links keep failing for the estimators. Abi said "Received
   thanks" at 10:05am then could not open them; Tariq: "bro then why did you say
   received?" and "bro why don't you download docs? I'll resend later today." He reshared

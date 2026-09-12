@@ -11,6 +11,14 @@ Connected (through tools/)
   and Send back. Tariq is the owner login and sees every sector.
 - **The store** the workflow agents keep fresh: inbox digest (daily 5:30pm), promise
   tracker (6:00am, from his sent mail), calendar refresh, morning brief, receipts queue.
+- **13 Sep 2026: the morning-brief workflow is 13 days stale.** `tfa.mjs brief` still
+  returns the brief dated Monday 31 August. The inbox digest (13h) and the promise
+  tracker (29 min) are both current, so it is that one agent, not the store. Do not quote
+  the brief's email list or diary line without checking the age it prints. Raise with
+  Jaiah if it has not caught up.
+- **The promise tracker does not notice a promise being kept.** On 13 Sep it still showed
+  the Narangba and Bokarina resends as LATE, two days after Tariq resent both folders.
+  Always check `mail.mjs sent` before telling him something is late.
 
 The workflow agents (Jaiah's lane, `~/tfa-agents`, never edited from here)
 - Accounts: receipts-intake (FLOW 05, receipts by form, Heather approves), invoice-split
