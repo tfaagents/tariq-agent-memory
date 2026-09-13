@@ -11,11 +11,18 @@ Connected (through tools/)
   and Send back. Tariq is the owner login and sees every sector.
 - **The store** the workflow agents keep fresh: inbox digest (daily 5:30pm), promise
   tracker (6:00am, from his sent mail), calendar refresh, morning brief, receipts queue.
-- **13 Sep 2026: the morning-brief workflow is 13 days stale.** `tfa.mjs brief` still
-  returns the brief dated Monday 31 August. The inbox digest (13h) and the promise
-  tracker (29 min) are both current, so it is that one agent, not the store. Do not quote
-  the brief's email list or diary line without checking the age it prints. Raise with
-  Jaiah if it has not caught up.
+- **The morning-brief workflow is stale and still climbing: 13 days on 13 Sep, 14 days on
+  14 Sep.** `tfa.mjs brief` still returns the brief dated Monday 31 August. The inbox
+  digest (13h) and the promise tracker (30 min) stay current, so it is that one agent, not
+  the store. Do not quote the brief's email list or diary line without checking the age it
+  prints. It has not self-healed in two days, so it is a request for Jaiah now, not a wait.
+- **`tfa.mjs brief` still prints a usable diary line** even while the brief body is stale.
+  On 14 Sep it gave today's 10am Dan Street entry, 5 minutes old. `mail.mjs diary <days>`
+  is the other way in. Reach for both before telling him the diary cannot be read, because
+  `calendar.mjs everyone` is still the only one that is genuinely not connected.
+- **`tools/notify.mjs` has no flags except `--file` and `--plain`.** Anything else on the
+  command line IS the message: `node tools/notify.mjs --help` sent Tariq a Telegram saying
+  "\-\-help" at 6:32am on 14 Sep. Read the header of the file for usage, never probe it.
 - **The promise tracker does not notice a promise being kept.** On 13 Sep it still showed
   the Narangba and Bokarina resends as LATE, two days after Tariq resent both folders.
   Always check `mail.mjs sent` before telling him something is late.
