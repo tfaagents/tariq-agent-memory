@@ -132,6 +132,10 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - Mabel Park State High School work experience runs through notifications@pathwaysemail.com.
 
 ## Personal (do not mix with TFA business)
+- **Qatar Airways** (donotreplypc@qatarairways.com.qa): he raised a query with them
+  himself on Sun 13 Sep 2026, **service request 47710233** (two one time codes at 2:09pm
+  and 2:24pm, the confirmation at 2:33pm). What it is about is not in the mail. Personal
+  travel, not TFA. If a Qatar reply lands, that is the thread it belongs to.
 - ziana.ali90@gmail.com: 92 emails out, statements, aircon, flights, Accor offers he
   forwards on. Appears to be family (likely his wife); confirm before assuming.
 - **Saheed Ali** (saheedali@hotmail.com): family, and closer to TFA operations than the

@@ -44,13 +44,21 @@ Not connected yet
   daniel@ and dan@tfaconstructions.com.au, and Tariq told Kendal in his own words on
   24 Aug 2026: "its for Daniel and old Dan Tu one drive accounts." They are dormant
   accounts nobody is clearing, so the same two alerts land again every few days
-  (11 Sep 5:29pm, 12 Sep 5:00pm "approaching", 12 Sep 5:24pm "out of storage"). They are
-  noise in his inbox, not an outage, and they have nothing to do with the estimators'
-  broken share links. Do not tell him his drive is full.
+  (11 Sep 5:29pm, 12 Sep 5:00pm "approaching", 12 Sep 5:24pm "out of storage",
+  13 Sep 5:22pm "out of storage"). They are noise in his inbox, not an outage, and they
+  have nothing to do with the estimators' broken share links. Do not tell him his drive
+  is full. Confirmed again 13 Sep 2026: the link in the alert points at
+  personal/dan_tfaconstructions_com_au, not Tariq's drive.
 - **Deputy, Monday.com, the six card portals**: not connected. Staff hours are in Deputy
   and cannot be read from here.
 - **Mail.Send**: not granted. Nothing on this machine can send an email.
 
-Other tools they pay for: Procore, Bluebeam (two dead perpetual licences; new seats are
-about $450 to $980 a year each), Cubit Estimating trial, Jotform, Blaze (video), Figma
-(TFA Constructions team, the flow boards).
+Other tools they pay for: V1CE ("Client Capture OS", the digital business card, sends him
+a weekly tap summary; 1 tap in the week to 13 Sep 2026), Procore, Bluebeam (two dead
+perpetual licences; new seats are about $450 to $980 a year each), Cubit Estimating trial,
+Jotform, Blaze (video), Figma (TFA Constructions team, the flow boards), Monday.com.
+
+- **Monday.com AI credits ran out.** Notice 13 Sep 2026 8:18am: the team is on 0 AI
+  credits and Monday's AI features stop in 4 days, so about **17 Sep 2026**, unless
+  someone buys more. Monday.com is where TFA's tasks live and mentions in it are how
+  urgent estimates reach him. Nobody has raised it with him yet.

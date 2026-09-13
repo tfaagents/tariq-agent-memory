@@ -53,6 +53,12 @@ with the entity question open.
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
 - The biggest thread in his mail by far.
 
+13 Sep 2026:
+- The weekly **Dan Street Sales and Marketing Update** invite was reissued today by
+  **Grant Turner** (Ray White Commercial) for **Mon 14 Sep 2026 10:00am**, now with a
+  place on it: **RWC CSR, Shop 1/2 Centre Place, Rochedale South**. It had been running
+  as a call; treat it as in person on the Monday unless he says otherwise.
+
 10 Sep 2026:
 - **Settlement was 15 June 2026.** The previous managing agent, RWC South West (Nichole),
   has still not released the final financials or transferred any of the funds held.
