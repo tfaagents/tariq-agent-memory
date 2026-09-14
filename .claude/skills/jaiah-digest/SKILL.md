@@ -28,25 +28,40 @@ sends one message to Jaiah through the dashboard. Nothing to Tariq.
    Judge "live" from `memory/capabilities.md`, never from what exists in `tools/`. Save it:
    `node tools/requests.mjs plan <id> "<plan>"`. Blocked jobs with no request get one filed
    first (`add <kind> ...` with the plan as the fourth argument).
-4. **Write the digest** to `work/digest/YYYY-MM-DD.md`, plain text, under 2,800 characters,
-   in this order, each section only if it has items, one item per line as
-   `<id> <ask, his words> | Plan: <plan>`:
+4. **Write the digest** to `work/digest/YYYY-MM-DD.md` for a phone screen: WhatsApp
+   formatting only (`*bold*`, `` `mono` ``, `_italic_`), short lines, a blank line between
+   items, under 2,800 characters. No em dashes. Shape:
    ```
-   Tariq's agent, daily digest <D Mon>
-   <one headline line: N new asks, N walls open, N built, N declined, N blocked>
+   *Tariq's agent · <D Mon>*
+   <one line: N new asks · N walls open · N built · N declined · N blocked>
 
-   BUILD ASKS (Tariq's Build List)
-   WALLS (need Jaiah)
-   BUILT BY THE AGENT (harden these)
-   DECLINED BY TARIQ
-   BLOCKED JOBS
-   HOUSEKEEPING
-   Full list: dashboard > Requests from Tariq's agent. To answer one, give its id and go,
-   no or later to your Claude session (a WhatsApp reply here is not read yet).
+   *🔨 BUILD ASKS*
+
+   *<short name, 3 to 6 words>*  `<id>`
+   <what it would do for him, one line>
+   Needs: <missing, or nothing> · Can self-build: <yes|no> · Size <S|M|L>
+   Next: <first step>
+
+   *🧱 WALLS (need you)*
+
+   *<short name>*  `<id>`
+   <what it would do, one line>
+   Needs: <the one thing missing> · Size <S|M|L>
+   Next: <first step>
+
+   *✅ BUILT BY THE AGENT*        (same four lines; "Needs" becomes "Harden: <what to check>")
+   *🚫 DECLINED BY TARIQ*         (one line each: *<offer>* · his reason)
+   *⛔ BLOCKED JOBS*              (same four lines)
+   *🧹 HOUSEKEEPING*              (one line each, only if true)
+
+   _Full list: dashboard > Requests from Tariq's agent. To answer one, give its id and go,
+   no or later to your Claude session (a WhatsApp reply here is not read yet)._
    ```
-   If nothing at all is new, the whole digest is two lines: the title and "Nothing new since
-   <last>. <N> open walls, <N> on the Build List." Send it anyway; a quiet day should still
-   be seen.
+   The short name is yours, not his words (his words stay on the dashboard). "Uses" stays
+   in the saved plan, not in the message. Sections with nothing in them are left out.
+   If nothing at all is new, the whole digest is two lines: the title and "Nothing new
+   since <last>. <N> open walls, <N> on the Build List." Send it anyway; a quiet day should
+   still be seen.
 5. **Send and file.** `node tools/tfa.mjs digest --file work/digest/YYYY-MM-DD.md`. The
    dashboard DMs Jaiah on WhatsApp and keeps the digest on the Requests page. If the
    dashboard is unreachable, keep the file; the next run resends everything since the old
