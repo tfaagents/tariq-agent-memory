@@ -97,11 +97,12 @@ The Autoflow flow boards (Figma, reviewed with Jaiah)
   Creek**. Mariners is not otherwise in anything read here.
 - Clay also wants an agreed "ideal supplier invoice email" (invoice, PO and dockets in
   one) and still owes the **Procore invite for agents@**.
-- 14 Sep 2026, 10pm and again at 11pm: `mail.mjs search "<text>" <address>` returns **403
-  ErrorAccessDenied, "Access to OData is disabled: [RAOP] : Blocked by tenant"** on every
-  TFA mailbox except **tariq@**, which still reads fine. Same block hits heather@,
-  accounts@, agents@, clay@, nick@, qa@ and randal@ on `calendar.mjs everyone` too. So the
-  org-wide mail scope `memory/capabilities.md` records as live since 14 Sep is **his
-  mailbox only in practice** until this is lifted. Filed as **r-20260914-09** for Jaiah.
-  Say so rather than reporting a search as empty: an empty result from those boxes is the
-  block, not an absence.
+- 14 Sep 2026: the agent's scope is the whole of TFA since 22:37 (Jaiah removed the five-mailbox
+  Exchange access policy on the Tariq Assistant app). Graph keeps answering **403 [RAOP]
+  Blocked by tenant** from a cache for up to two hours on any mailbox that was asked for
+  while the policy was still on (heather@, accounts@, agents@, clay@, nick@, qa@, randal@);
+  mailboxes never asked for before (mauricio@, daniel@) read straight away. It clears on
+  its own; do not probe it every run, and never call it a wall (r-20260914-09 was filed
+  at 22:56 and closed by Jaiah with this explanation). If a box still 403s after 15 Sep
+  09:00, that is new and worth one request. Until then: say "could not read X" rather
+  than reporting a search from those boxes as empty.
