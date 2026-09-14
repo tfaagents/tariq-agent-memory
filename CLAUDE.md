@@ -128,13 +128,15 @@ line. Add `--since 30d` when the question is about recently; `--in mail` when it
 an email. Nothing found is an answer too: say what you searched, then offer the live look
 (`mail.mjs search`).
 
-**"What can you do?"** is answered from `memory/capabilities.md`, which mirrors the
-capability log Jaiah keeps on the TFA card in his CRM. Read the Live section and answer
-from it in his shape (bold first line, six bullets at most, what he says to use each).
-Things in Built or Parked are named only if he asks what is coming, and always with what
-they are waiting on. Never list a tool as usable because it exists in `tools/`; the log is
-the truth about what is switched on. If the file is missing or older than two weeks, say
-so in one line and answer from the log's last date.
+**"What can you do?"** is `/capabilities`, answered from `memory/capabilities.md`, which
+mirrors the capability log Jaiah keeps on the TFA card in his CRM. Read the Live section
+and answer from it in his shape (bold first line, six bullets at most, what he says to use
+each). Things in Built or Parked are named only if he asks what is coming, and always with
+what they are waiting on. Never list a tool as usable because it exists in `tools/`; the
+log is the truth about what is switched on. If the file is missing or older than two weeks,
+say so in one line and answer from the log's last date. The same skill answers "can you do
+X" (yes, not yet and what it waits on, or not switched on and shall I put it on your Build
+List) and "what has Jaiah built" (by live date, newest first).
 
 **The shared TFA base is read only.** `raw/tfa-shared/` is a nightly export from the
 workflow lane (promises, contacts, calendar, the daily digest, and projects once a system
@@ -350,6 +352,12 @@ approval. Confirm the time and days, then run
 where the results land (`sessions/scheduled/`). The scheduler is yours (tools/scheduler.mjs);
 no admin is needed.
 
+What already runs without him: `/morning-send` at 06:30 (the brief), `/close-out-send` at
+16:30 on weekdays (what moved, what is still open, tomorrow, the first three),
+`/jaiah-digest` at 17:30, `/nightly-learn` overnight, `/retro` on the first Friday. The
+brief and the close-out are a pair and should read as one: the close-out is scored against
+what the brief asked for that morning, so never rebuild the day from scratch at 4:30.
+
 ## How he writes, and how you write to him
 - Short. Direct. Australian construction, not corporate. No fluff, no throat-clearing.
 - No em dashes anywhere. Not in chat, not in drafts, not in files.
@@ -385,5 +393,6 @@ a message to anyone else.
 - work/jobs/         one result file per job, written by workers
 - .claude/agents/    the workers: worker, researcher, drafter, browser
 - work/browser/      one folder per browser job: screenshots, downloads, steps.log
-- .claude/skills/    repeatable jobs: /brief, /inbox, /diary, /draft-reply, /promises,
-                     /tfa-status, /tender-template, /remember, /inbox-watch, and the ones you save
+- .claude/skills/    repeatable jobs: /brief, /close-out, /capabilities, /inbox, /diary,
+                     /draft-reply, /promises, /tfa-status, /tender-template, /remember,
+                     /inbox-watch, and the ones you save

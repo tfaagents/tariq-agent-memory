@@ -226,6 +226,12 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   "lets knock this out next year as we will have a plethora of information to win 😊."
   Worth raising with him around **August 2027**.
 
+- 15 Sep 2026: **Heritage Building Upgrade tender, due Friday 18 Sep 2026.** Monday.com
+  reminded tariq@ at 9:00am 15 Sep, board "Estimating & Tenders / Active - Estimating",
+  three days out, estimating to be completed. Not in the 15 Sep morning brief; picked up
+  from the inbox at the close-out. Monday.com is not connected, so the only visibility
+  TFA's agents have on this board is the reminder emails it sends him.
+
 - 10 Sep 2026: **Logan City Council EOI, Future Use of Land at Loganholme Tourism Precinct
   and Cronulla Park**, through VendorPanel to tenders@. **Closes Friday 16 Oct 2026,
   4:00pm.** Addendum 01 (online briefing session presentation) added 10 Sep. Forwarded to
