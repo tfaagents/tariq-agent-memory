@@ -22,7 +22,9 @@ Connected (through tools/)
   `calendar.mjs everyone` is still the only one that is genuinely not connected.
 - **`tools/notify.mjs` has no flags except `--file` and `--plain`.** Anything else on the
   command line IS the message: `node tools/notify.mjs --help` sent Tariq a Telegram saying
-  "\-\-help" at 6:32am on 14 Sep. Read the header of the file for usage, never probe it.
+  "\-\-help" at 6:32am on 14 Sep, and again at 6:42am on 15 Sep in the
+  same morning-send run, because this note was not read first. Twice now. Read the
+  header of the file for usage, never probe it, and read this file before a scheduled send.
 - **The promise tracker returned nothing on 14 Sep 2026 9:00pm.** `tfa.mjs promises`
   printed its "tracker ran 15 h ago" header and then "The tracker has no report yet",
   where on 13 Sep the same command listed seven open promises. The header and the body
