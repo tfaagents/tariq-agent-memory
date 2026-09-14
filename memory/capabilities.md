@@ -1,4 +1,4 @@
-# What this agent can do (29 live of 41 logged)
+# What this agent can do (33 live of 41 logged)
 
 Mirrored from the Capabilities tab on the TFA Constructions card in Jaiah's CRM on 14 Sept 2026.
 That log is the truth about what is switched on; this file is a copy. Do not edit it here,
@@ -15,7 +15,7 @@ are named only when he asks what is coming, always with what they are waiting on
 - **Draft reply** Drafts replies in Tariq's voice; Outlook Drafts requires Approve. Installed 10 Sep; listed live in the 14 Sep handover. He says: Draft a reply to this email. (live 10 Sept 2026)
 - **Inbox review** Reviews mail through the existing mail wrapper. Installed 10 Sep; listed live in the 14 Sep handover. He says: Check my inbox. (live 10 Sept 2026)
 - **Morning brief** Prepares a brief from connected mail, diary and workflow information. Installed 10 Sep; listed live in the 14 Sep handover. He says: Give me my brief. (live 10 Sept 2026)
-- **Promises** Reads promises through the TFA dashboard. Installed 10 Sep; listed live in the 14 Sep handover. He says: What have I promised? (live 10 Sept 2026)
+- **Promises** Lists what he said he would do, to whom and by when, late ones flagged, with an Outlook link each, read from the promise tracker through the dashboard API. Installed 10 Sep but it returned "no report yet" until 14 Sep 21:55: the dashboard served reports only from digest files and the tracker writes the store (fixed in tfa-agents 7a0e0ab). Seen working on the mini 14 Sep 21:58: 8 open, 2 late. He says: What have I promised? (live 10 Sept 2026)
 - **Remember** Saves durable facts into file-based memory. Installed 10 Sep; listed live in the 14 Sep handover. He says: Remember this. (live 10 Sept 2026)
 - **Workflow status** Reads workflow status through the dashboard API. Installed 10 Sep; listed live in the 14 Sep handover. He says: How are the workflows going? (live 10 Sept 2026)
 
@@ -28,7 +28,9 @@ are named only when he asks what is coming, always with what they are waiting on
 - **Progress and background jobs** One progress message per job, workers for long tasks, persistent job board. Shipped 10 Sep. He says: Where is that job up to? (live 10 Sept 2026)
 - **Read diary** Reads Outlook calendar through mail.mjs diary while the new Entra application is pending. He says: What is on today? (live 10 Sept 2026)
 - **Read mail and draft replies** Reads Tariq, Kendal, Heather and accounts mail using the v1 TFA Agents connection. Outlook drafts require Approve. Verified 10-11 Sep. He says: Check my inbox; find Heather's email; draft a reply. (live 10 Sept 2026)
+- **Recall search** Searches memory, every session log, raw/ (including the shared TFA export), the mail index, the job board and the Build List in one go and prints file:line per hit, newest first. The agent runs it before saying "I don't have that" or "you never told me". Seen working on the mini 14 Sep 21:35: found facts in contacts.md, the 21:00 nightly-learn output and the shared export. He says: Have we talked about X? What did I say to Kendal about the tender? What do you know about Jimboomba? (live 14 Sept 2026)
 - **Send email** Sends one of his existing drafts as tariq@ through the second app "Tariq Assistant Send" (Mail.Send only, scoped to his mailbox alone; proven 14 Sep that it cannot read mail and is refused on kendal@). Only after his Approve tap on Telegram, which shows to, subject, first lines and attachments. Receipt in work/sent.log. Not yet seen sending a real email. He says: Say "send it" after a draft; approve the prompt on your phone. (live 14 Sept 2026, not yet seen working)
+- **Shared read-only base** The workflow lane exports promises, contacts, everyone's calendar, the daily digest and a projects placeholder to tfa-agents/data/shared nightly at 20:30 from its dashboard server. The personal lane reads it at raw/tfa-shared, read only, and recall searches it; a fact taken from it says so and carries the export date. First export written 14 Sep 21:32 and read through the symlink. He says: Nothing to say; it feeds recall and the morning brief. Ask: what does the TFA export say about X? (live 14 Sept 2026)
 - **TFA dashboard** Status, waiting items, runs, promises and brief; workflow actions behind Approve. Browser login verified 14 Sep. He says: Show me the dashboard; what is waiting on me? (live 14 Sept 2026)
 - **Voice notes** Local Whisper transcription; echoes what was heard before acting. Verified with a real voice note 14 Sep. He says: Send a voice note. (live 14 Sept 2026)
 - **Wall list** Records missing tools or connections on the dashboard and notifies Jaiah. Rule-based refusals are never requests. Verified 14 Sep. He says: Ask for something that needs a new connection. (live 14 Sept 2026)
@@ -44,14 +46,19 @@ are named only when he asks what is coming, always with what they are waiting on
 - **Microsoft 365 connection** Two Entra app registrations made 14 Sep by Jaiah with Claude driving the browser: "Tariq Assistant" (Mail.ReadWrite, Calendars.ReadWrite, Files.ReadWrite.All, User.Read.All, Contacts.Read, MailboxSettings.Read; access policy = the five-mailbox group) and "Tariq Assistant Send" (Mail.Send only; access policy = tariq@ alone). Certificates, not secrets; both expire 10 Sep 2028. Switched on with scripts/connect-graph.sh, all proofs passed. He says: Nothing to do; it is the plumbing under mail, calendar, files and send. (live 14 Sept 2026)
 
 ### Schedules
+- **Monthly consolidation** On the first Friday of each month the retro rewrites every memory file to what is still true, moves the rest to memory/archive/YYYY-MM.md with dates, rebuilds MEMORY.md and keeps files under about 120 lines. rules.md entries are struck through, never moved; raw/ is never touched. Written 14 Sep; first run is Fri 2 Oct, not yet observed. He says: Runs inside the Friday 16:00 retro; nothing to say. (live 14 Sept 2026, not yet seen working)
 - **Morning send** Weekday 06:30 brief to Tariq. Delivery fix verified 11 Sep. He says: Runs weekdays at 06:30. (live 11 Sept 2026)
-- **Nightly learning** 21:00 memory learning from sent mail and diary. Unattended run verified 10 Sep. Telegram learning is not added yet. He says: Runs nightly at 21:00. (live 10 Sept 2026)
-- **Weekly retro** Friday 16:00 review of patterns, skills and memory. Schedule loaded 10 Sep; monthly consolidation is not added yet. He says: Runs Fridays at 16:00. (live 10 Sept 2026)
+- **Nightly learning** 21:00 memory learning from sent mail and diary, and since 14 Sep the day's session logs, job board, Build List, new rules and the shared export. Unattended run verified 10 Sep; the 14 Sep 21:00 run read 27 sent emails, added three rules and committed. He says: Runs nightly at 21:00. (live 10 Sept 2026)
+- **Telegram learning** Nightly learn step 3 reads the day's session logs, the job board, the Build List, new rules and the shared export alongside his sent mail and diary, so what he said to the agent on Telegram counts like what he emailed. Written 14 Sep; first unattended run with the new text is 21:00 Tue 15 Sep, not yet observed. He says: Runs inside the 21:00 nightly learn; nothing to say. (live 14 Sept 2026, not yet seen working)
+- **Weekly retro** Friday 16:00 review of patterns, skills and memory; reports a stale backup; on the first Friday of the month it runs the monthly consolidation (added 14 Sep, first run 2 Oct). Schedule loaded 10 Sep. He says: Runs Fridays at 16:00. (live 10 Sept 2026)
 
 ## Built, not switched on: the code is on the mini, waiting on something outside it
 
 ### Skills
 - **Tender template** Template skill installed; the source template is not yet reachable. He says: Prepare a tender from my template. Waiting on: Template OneDrive path, allowed folder and Entra connection.
+
+### Schedules
+- **Remote memory backup** At every session end save.sh commits memory, sessions, raw and skills and pushes to TFA's private GitHub repo tfaagents/tariq-agent-memory through a deploy key on the mini; best effort, never blocks a session end; work/backup.log records each push and the Friday retro reports a stale backup. Plumbing on the mini since 14 Sep 21:33 (key, ssh alias, remote); every push fails until the repo exists. He says: Nothing to say; the Friday retro reports if the backup is stale. Waiting on: Jaiah creates the private repo tfaagents/tariq-agent-memory signed in as agents@ and adds the deploy key with write access
 
 ## Parked: deliberately switched off
 
@@ -60,20 +67,11 @@ are named only when he asks what is coming, always with what they are waiting on
 
 ## Planned: agreed, not started
 
-### Tools
-- **Recall search** Search memory, sessions, raw files, mail index and Build List with source lines. Waiting on: Memory improvement queued after the CRM capability log.
-- **Shared read-only base** Nightly workflow export of projects, contacts and promises for personal-agent recall. Waiting on: Memory improvement queued after the CRM capability log.
-
 ### Connections
 - **Deputy** Not connected as of the 14 Sep handover. Waiting on: Connection not configured.
 - **Instagram** Not connected as of the 14 Sep handover. Waiting on: Connection not configured.
 - **Monday.com** Not connected as of the 14 Sep handover. Waiting on: Monday.com token awaited.
 - **MYOB** Not connected as of the 14 Sep handover. Waiting on: Developer ticket 52306 acknowledged; access not granted.
 - **Procore** Not connected as of the 14 Sep handover. Waiting on: Connection and access not confirmed.
-
-### Schedules
-- **Monthly consolidation** First-Friday consolidation with a dated archive and rebuilt memory index. Waiting on: Memory improvement queued after the CRM capability log.
-- **Remote memory backup** TFA-owned remote backup; current memory git has no remote. Waiting on: Memory improvement queued after the CRM capability log.
-- **Telegram learning** Include session logs, completed jobs and rules in nightly learning. Waiting on: Memory improvement queued after the CRM capability log.
 
 Generated by scripts/pull-capabilities.mjs on 2026-09-14.
