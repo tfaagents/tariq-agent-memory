@@ -1,11 +1,13 @@
 {
-  "_note": "The browser lane. Chrome on this machine, its own profile (nothing of Tariq's is logged in unless added on purpose), remote debugging on a port of its own. allowedHosts is the whole list of sites the worker may open; a subdomain of a listed host is allowed. Add a host when Tariq names a portal. httpbin.org and example.com are for tests only.",
+  "_note": "The browser lane. Chrome on this machine, its own profile (nothing of Tariq's is logged in unless added on purpose), remote debugging on a port of its own. allowedHosts is the whole list of sites the worker may open; a subdomain of a listed host is allowed. Add a host when Tariq names a portal. httpbin.org and example.com are for tests only. dashboardUrl is the TFA Agents dashboard as this machine reaches it; `node tools/tfa.mjs browser-login` puts Tariq's session into the profile so the worker can screenshot it (127.0.0.1 is on the list for that alone).",
+  "dashboardUrl": "http://127.0.0.1:4680",
   "port": 9223,
   "headless": true,
   "profileDir": "work/browser/profile",
   "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
   "allowedHosts": [
     "httpbin.org",
-    "example.com"
+    "example.com",
+    "127.0.0.1"
   ]
 }

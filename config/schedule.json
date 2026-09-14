@@ -1,6 +1,21 @@
 {
-  "_note": "Unattended runs, Brisbane time, run by tools/scheduler.mjs (started by start.sh). days = daily | weekdays | a comma list of mon..sun. The agent appends here through .claude/hooks/schedule.sh when Tariq says yes to a schedule; a slug must exist in .claude/skills/. Remove a line to stop it.",
+  "_note": "Unattended runs, Brisbane time, run by tools/scheduler.mjs (started by start.sh). days = daily | weekdays | a comma list of mon..sun. A job with a command runs that script instead of a skill. The agent appends here through .claude/hooks/schedule.sh when Tariq says yes to a schedule; a slug must exist in .claude/skills/. Remove a line to stop it.",
   "jobs": [
+    {
+      "slug": "morning-send",
+      "time": "06:30",
+      "days": "weekdays"
+    },
+    {
+      "slug": "nightly-learn",
+      "time": "21:00",
+      "days": "daily"
+    },
+    {
+      "slug": "retro",
+      "time": "16:00",
+      "days": "fri"
+    },
     {
       "slug": "rollover",
       "time": "05:00",
@@ -12,8 +27,7 @@
       "every": 10,
       "days": "weekdays",
       "enabled": false,
-      "_why_off": "needs the Tariq Assistant app in Entra and the tariq user; flip enabled to true then"
+      "_why_off": "needs the Tariq Assistant app in Entra; flip enabled to true once tools/mail.mjs inbox works under the tariq user"
     }
-  ],
-  "_temp": "morning-send, nightly-learn and retro run from launchd LaunchAgents under tfaagents (loaded by Jaiah 10 Sep); only the rollover runs from this scheduler here so nothing runs twice. On the move to the tariq user the repo copy (all four) replaces this file and launchd is retired."
+  ]
 }

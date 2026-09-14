@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <!-- System LaunchDaemon: runs Tariq's agent as the 'tariq' macOS user WITHOUT that user
+       being logged in at the screen. Install once, as an admin:
+         sudo cp launchd/com.tfa.tariq-agent.daemon.plist /Library/LaunchDaemons/com.tfa.tariq-agent.plist
+         sudo chown root:wheel /Library/LaunchDaemons/com.tfa.tariq-agent.plist
+         sudo launchctl bootstrap system /Library/LaunchDaemons/com.tfa.tariq-agent.plist
+       Restart the session: sudo launchctl kickstart -k system/com.tfa.tariq-agent -->
+  <key>Label</key><string>com.tfa.tariq-agent</string>
+  <key>UserName</key><string>tariq</string>
+  <key>GroupName</key><string>staff</string>
+  <key>ProgramArguments</key>
+  <array><string>/bin/zsh</string><string>-lc</string><string>/Users/tariq/tariq-agent/.claude/hooks/start.sh</string></array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>HOME</key><string>/Users/tariq</string>
+    <key>PATH</key><string>/Users/tariq/.local/bin:/Users/tariq/.bun/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+  <key>WorkingDirectory</key><string>/Users/tariq/tariq-agent</string>
+  <key>RunAtLoad</key><true/>
+  <key>StartInterval</key><integer>300</integer>
+  <key>StandardOutPath</key><string>/Users/tariq/tariq-agent/work/launchd.log</string>
+  <key>StandardErrorPath</key><string>/Users/tariq/tariq-agent/work/launchd.log</string>
+</dict></plist>

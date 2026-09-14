@@ -17,3 +17,5 @@ work/inbox/*
 .claude-config/
 .DS_Store
 __pycache__/
+node_modules/
+models/

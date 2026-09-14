@@ -1,0 +1,10 @@
+{
+  "name": "tariq-agent",
+  "private": true,
+  "type": "module",
+  "description": "Tariq's personal agent on the TFA mini. The tools are plain Node; the two packages here are for voice notes only.",
+  "dependencies": {
+    "@huggingface/transformers": "4.2.0",
+    "ogg-opus-decoder": "1.7.5"
+  }
+}

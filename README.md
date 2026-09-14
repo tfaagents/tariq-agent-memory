@@ -174,6 +174,26 @@ steps.log` is the raw material for turning a repeated job into a script. Runs he
 it survives the move to the `tariq` user, which has no desktop; `start --headed` shows the
 window on the tfaagents desktop for debugging.
 
+## Voice notes (live 14 Sep 2026)
+Telegram voice notes arrive as `.oga` in the channel inbox. `tools/voice.mjs` decodes the
+Opus audio in Node (`ogg-opus-decoder`) and runs Whisper small (int8, ONNX, via
+`@huggingface/transformers`) on the mini: nothing leaves the machine. First use fetches
+the model (about 250 MB) into `models/`; `node tools/voice.mjs --warm` does that ahead of
+time. Ten seconds of speech is about ten seconds of work on the M4. Setup on a fresh
+machine: `npm install` in this folder (the only two packages the agent has). The rule in
+CLAUDE.md makes the agent echo what it heard before it acts.
+
+## The wall list (live 14 Sep 2026)
+Every "I cannot do that yet" is triaged by the agent (CLAUDE.md, "When you hit a wall"):
+another way in, build it itself, or ask Jaiah. Asking Jaiah = `tools/requests.mjs add`,
+which writes `work/requests.json` + `work/requests.md` and calls `tools/tfa.mjs request`,
+which POSTs to the dashboard's `/api/requests` as Tariq. The workflow lane stores it in
+`data/requests.json`, shows it as the Report of `agents/autoflow/tariq-requests`, and DMs
+Jaiah on WhatsApp through the normal alerts path (15 minute cooldown, "and N more").
+Self-built things go under `local/` (scripts, first run asks Tariq) or `.claude/skills/`
+and are logged with kind `built` so they show up too. Close one with `requests.mjs done
+<id>`. Rule-based refusals (pay, passwords, money) are never requests.
+
 ## Day to day
 
 - Restart the session: `screen -S tariq -X quit` then wait for launchd, or run start.sh.

@@ -46,7 +46,11 @@
       "Bash(node tools/browser.mjs type*)",
       "Bash(node tools/browser.mjs click*)",
       "Bash(node tools/browser.mjs shot*)",
-      "Bash(node tools/browser.mjs js*)"
+      "Bash(node tools/browser.mjs js*)",
+      "Bash(node tools/voice.mjs*)",
+      "Bash(node tools/requests.mjs*)",
+      "Bash(node tools/tfa.mjs request*)",
+      "Bash(node tools/tfa.mjs browser-login*)"
     ],
     "ask": [
       "Bash(node tools/mail.mjs draft*)",
@@ -61,7 +65,8 @@
       "Bash(node tools/files.mjs move*)",
       "Bash(node tools/files.mjs attach*)",
       "Bash(node tools/browser.mjs submit*)",
-      "Bash(node tools/browser.mjs upload*)"
+      "Bash(node tools/browser.mjs upload*)",
+      "Bash(node local/*)"
     ],
     "deny": [
       "Edit(/Users/tfaagents/tfa-agents/**)",
