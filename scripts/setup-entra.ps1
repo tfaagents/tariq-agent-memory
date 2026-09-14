@@ -87,13 +87,26 @@
   user only. Certificates are generated with openssl on the agent's machine into
   ~/.tariq-graph/; only the .crt halves ever leave that machine.
 
-  KNOWN PITFALL (14 Sep 2026, TFA Constructions): after New-ApplicationAccessPolicy
+  KNOWN PITFALL 1 (14 Sep 2026, TFA Constructions): after New-ApplicationAccessPolicy
   Graph app-only calls to some group members returned
     403 "[RAOP] : Blocked by tenant configured AppOnly AccessPolicy settings"
-  for over an hour, while Test-ApplicationAccessPolicy already said Granted.
-  That is propagation, not a broken policy. Wait it out. Do NOT remove the policy
-  to "fix" it: an app with Mail.ReadWrite and no policy can read every mailbox
-  in the tenant.
+  for over an hour, while Test-ApplicationAccessPolicy already said Granted and the
+  group held every member. Microsoft documents exactly this: "Changes to application
+  access policies can take longer than 1 hour to take effect in Microsoft Graph REST
+  API calls, even when Test-ApplicationAccessPolicy shows positive results"
+  (learn.microsoft.com/exchange/permissions-exo/application-access-policies).
+  The test cmdlet reads the directory. Graph goes through an Exchange cache that is
+  kept per app and, in Microsoft's description of the RBAC successor, resets only
+  after the app has made no calls for 30 minutes and can live 2 hours while the app
+  keeps calling. The mailboxes an app touched BEFORE the policy landed keep working,
+  the ones it first touches after are the blocked ones. So: do not poll Graph every
+  few minutes to "check", leave the app alone for half an hour and try once. Do NOT
+  remove the policy to "fix" it: an app with Mail.ReadWrite and no policy can read
+  every mailbox in the tenant, and the removal itself takes up to 30 minutes to land.
+
+  KNOWN PITFALL 2: Get-ApplicationAccessPolicy throws ("... couldn't be found on ...")
+  in a tenant that has no policies at all, which is the normal state of a fresh
+  client. Get-ExistingAccessPolicies below treats that as an empty list.
 #>
 [CmdletBinding()]
 param(
@@ -156,7 +169,7 @@ $script:Summary = [ordered]@{
   policies      = @()
   tests         = @()
   connectCommand = $null
-  propagationNote = 'Graph may return 403 [RAOP] for some mailboxes for an hour or more after the policy is created. Wait. Never remove the policy.'
+  propagationNote = 'Graph may return 403 [RAOP] for some mailboxes for an hour or more after the policy is created, even when Test-ApplicationAccessPolicy says Granted. Leave the app quiet for 30 minutes, then try once. Never remove the policy.'
 }
 
 # ---------------------------------------------------------------------------
@@ -221,13 +234,16 @@ function Read-CertificateFile {
   if (-not $Path) { throw "A certificate path is required." }
   $full = Resolve-Path -Path $Path -ErrorAction SilentlyContinue
   if (-not $full) { throw "Certificate not found: $Path" }
+  # A .crt from openssl is PEM. Strip the armour and load the DER bytes; the
+  # one-argument CreateFromPemFile wants a private key in the same file, which
+  # a public-only .crt rightly does not have.
   $text = Get-Content -Path $full -Raw
-  if ($text -match '-----BEGIN CERTIFICATE-----') {
-    $cert = [System.Security.Cryptography.X509Certificates.X509Certificate2]::CreateFromPemFile($full.Path)
+  if ($text -match '(?s)-----BEGIN CERTIFICATE-----\s*(.*?)\s*-----END CERTIFICATE-----') {
+    $bytes = [Convert]::FromBase64String(($Matches[1] -replace '\s', ''))
   } else {
     $bytes = [System.IO.File]::ReadAllBytes($full.Path)
-    $cert = [System.Security.Cryptography.X509Certificates.X509Certificate2]::new($bytes)
   }
+  $cert = [System.Security.Cryptography.X509Certificates.X509Certificate2]::new($bytes)
   if ($cert.HasPrivateKey) {
     throw "$Path carries a private key. Only the .crt half may leave the agent's machine."
   }
@@ -245,7 +261,8 @@ function Install-RequiredModule {
   if (Get-Module -ListAvailable -Name $Name) {
     Write-Ok "module $Name present"
   } else {
-    Write-Change "install module $Name (CurrentUser)"
+    # Installed even under -DryRun: signing in needs it. User scope only.
+    Write-Info "installing module $Name for the current user (needed to sign in, dry run included)"
     Install-Module -Name $Name -Scope CurrentUser -Force -AllowClobber
   }
   Import-Module -Name $Name -ErrorAction Stop
@@ -256,13 +273,13 @@ function Install-RequiredModule {
 # ---------------------------------------------------------------------------
 function Connect-GraphSession {
   param([string] $Tenant, [bool] $DeviceCode)
-  $args = @{
+  $connectParams = @{
     TenantId  = $Tenant
     Scopes    = $script:GraphScopes
     NoWelcome = $true
   }
-  if ($DeviceCode) { $args['UseDeviceCode'] = $true }
-  Connect-MgGraph @args | Out-Null
+  if ($DeviceCode) { $connectParams['UseDeviceCode'] = $true }
+  Connect-MgGraph @connectParams | Out-Null
   $ctx = Get-MgContext
   if (-not $ctx) { throw "Graph sign-in failed." }
   Write-Ok "Graph signed in as $($ctx.Account) on tenant $($ctx.TenantId)"
@@ -271,9 +288,9 @@ function Connect-GraphSession {
 
 function Connect-ExchangeSession {
   param([bool] $DeviceCode)
-  $args = @{ ShowBanner = $false }
-  if ($DeviceCode) { $args['Device'] = $true }
-  Connect-ExchangeOnline @args
+  $connectParams = @{ ShowBanner = $false }
+  if ($DeviceCode) { $connectParams['Device'] = $true }
+  Connect-ExchangeOnline @connectParams
   Write-Ok "Exchange Online connected"
 }
 
@@ -342,7 +359,7 @@ function Set-ApplicationPermissions {
     $extra = @($App.RequiredResourceAccess | Where-Object { $_.ResourceAppId -ne $script:GraphResourceAppId })
     if ($extra.Count -gt 0) { Write-Warn "'$DisplayName' also lists non-Graph resources; they will be removed" }
   }
-  $same = ($current.Count -eq $wanted.Count) -and (@(Compare-Object $current $wanted).Count -eq 0)
+  $same = ($current.Count -gt 0) -and ($current.Count -eq $wanted.Count) -and (@(Compare-Object $current $wanted).Count -eq 0)
   if ($same -and $App) {
     Write-Ok "'$DisplayName' already asks for exactly: $($RoleMap.Keys -join ', ')"
     return
@@ -500,6 +517,18 @@ function Initialize-MailboxGroup {
   return $group
 }
 
+function Get-ExistingAccessPolicies {
+  # Get-ApplicationAccessPolicy throws in a tenant that has no policies yet (the
+  # container object "couldn't be found"), which is where every new client starts.
+  # That is an empty list, not an error. Anything else is rethrown.
+  try {
+    return @(Get-ApplicationAccessPolicy -ErrorAction Stop)
+  } catch {
+    if ($_.Exception.Message -match "couldn.t be found") { return @() }
+    throw
+  }
+}
+
 function Initialize-AccessPolicy {
   # One RestrictAccess policy per app. Retries because Exchange can take a
   # minute to see a service principal Graph created moments ago.
@@ -508,7 +537,7 @@ function Initialize-AccessPolicy {
     Write-Change "create access policy for $Description scoped to $Scope"
     return $null
   }
-  $existing = @(Get-ApplicationAccessPolicy | Where-Object { $_.AppId -eq $AppId })
+  $existing = @(Get-ExistingAccessPolicies | Where-Object { $_.AppId -eq $AppId })
   if ($existing.Count -gt 0) {
     $scopes = ($existing | ForEach-Object { $_.ScopeName }) -join ', '
     Write-Ok "policy for $AppId exists (scope: $scopes)"
@@ -635,7 +664,8 @@ function Write-FinalReport {
     Write-Warn "$($failed.Count) policy test(s) did not match. Policies can take up to 30 minutes to answer correctly; run the script again later. Do not remove a policy."
   }
   Write-Host "  Propagation: Graph may keep answering 403 [RAOP] for some mailboxes for an hour" -ForegroundColor Yellow
-  Write-Host "  or more after Test-ApplicationAccessPolicy says Granted. Wait it out." -ForegroundColor Yellow
+  Write-Host "  or more after Test-ApplicationAccessPolicy says Granted. Leave the app quiet for" -ForegroundColor Yellow
+  Write-Host "  30 minutes, then try once; polling every few minutes keeps the stale cache alive." -ForegroundColor Yellow
   Write-Host "  Never remove the policy to make the 403 go away: without it the app can read" -ForegroundColor Yellow
   Write-Host "  every mailbox in the tenant." -ForegroundColor Yellow
   Write-Host ""
@@ -655,7 +685,8 @@ function Invoke-Main {
   $outPath = if ($OutputPath) { $OutputPath } else { Join-Path $PSScriptRoot "setup-entra-$slug.json" }
 
   # The owner is always in the group; app 1 must read the mailbox app 2 sends from.
-  $members = @($Mailboxes | ForEach-Object { $_.Trim().ToLowerInvariant() } | Where-Object { $_ } | Select-Object -Unique)
+  # Under `pwsh -File`, "-Mailboxes a,b" arrives as ONE string, so split on commas too.
+  $members = @($Mailboxes | ForEach-Object { $_ -split ',' } | ForEach-Object { $_.Trim().ToLowerInvariant() } | Where-Object { $_ } | Select-Object -Unique)
   $ownerLower = $OwnerMailbox.Trim().ToLowerInvariant()
   if ($members -notcontains $ownerLower) {
     Write-Warn "owner $OwnerMailbox was not in -Mailboxes; adding it"
@@ -674,14 +705,16 @@ function Invoke-Main {
   if ($DryRun) { Write-Warn "DRY RUN: nothing will be changed" }
 
   Write-Step "Certificates"
-  $cert1 = Read-CertificateFile -Path $Cert1
-  Write-Ok "app 1 cert $($cert1.Thumbprint) subject $($cert1.Subject) expires $($cert1.NotAfter.ToString('yyyy-MM-dd'))"
-  $cert2 = $null
+  # Local names differ from the parameters on purpose: PowerShell variable names are
+  # case-insensitive, so "$cert2 = $null" would wipe the -Cert2 argument.
+  $app1Cert = Read-CertificateFile -Path $Cert1
+  Write-Ok "app 1 cert $($app1Cert.Thumbprint) subject $($app1Cert.Subject) expires $($app1Cert.NotAfter.ToString('yyyy-MM-dd'))"
+  $app2Cert = $null
   if (-not $SkipSend) {
     if (-not $Cert2) { throw "-Cert2 is required unless -SkipSend is given." }
-    $cert2 = Read-CertificateFile -Path $Cert2
-    Write-Ok "app 2 cert $($cert2.Thumbprint) subject $($cert2.Subject) expires $($cert2.NotAfter.ToString('yyyy-MM-dd'))"
-    if ($cert1.Thumbprint -eq $cert2.Thumbprint) {
+    $app2Cert = Read-CertificateFile -Path $Cert2
+    Write-Ok "app 2 cert $($app2Cert.Thumbprint) subject $($app2Cert.Subject) expires $($app2Cert.NotAfter.ToString('yyyy-MM-dd'))"
+    if ($app1Cert.Thumbprint -eq $app2Cert.Thumbprint) {
       throw "Cert1 and Cert2 are the same certificate. Each app needs its own key pair."
     }
   }
@@ -694,9 +727,9 @@ function Invoke-Main {
   $graphSp = Get-GraphServicePrincipal
   Write-Ok "Microsoft Graph service principal $($graphSp.Id)"
 
-  $script:Summary.app1 = Invoke-AppSetup -DisplayName $app1Name -Cert $cert1 -GraphSp $graphSp -RoleValues $script:App1Roles
+  $script:Summary.app1 = Invoke-AppSetup -DisplayName $app1Name -Cert $app1Cert -GraphSp $graphSp -RoleValues $script:App1Roles
   if (-not $SkipSend) {
-    $script:Summary.app2 = Invoke-AppSetup -DisplayName $app2Name -Cert $cert2 -GraphSp $graphSp -RoleValues $script:App2Roles
+    $script:Summary.app2 = Invoke-AppSetup -DisplayName $app2Name -Cert $app2Cert -GraphSp $graphSp -RoleValues $script:App2Roles
   }
   Disconnect-MgGraph -ErrorAction SilentlyContinue | Out-Null
 
@@ -716,15 +749,15 @@ function Invoke-Main {
   }
 
   Write-Step "Exchange Online: application access policies"
-  if (-not $DryRun -and $group -and -not (Get-ApplicationAccessPolicy | Where-Object { $_.AppId -eq $app1Id })) {
+  if (-not $DryRun -and $group -and -not (Get-ExistingAccessPolicies | Where-Object { $_.AppId -eq $app1Id })) {
     # A group created seconds ago is not always resolvable as a policy scope yet.
     Write-Info "giving the directory 20 seconds to see the group"
     Start-Sleep -Seconds 20
   }
-  $p1 = Initialize-AccessPolicy -AppId $app1Id -Scope $groupAddr -Description "$app1Name: $($members.Count) mailboxes"
+  $p1 = Initialize-AccessPolicy -AppId $app1Id -Scope $groupAddr -Description "${app1Name}: $($members.Count) mailboxes"
   $script:Summary.policies += [ordered]@{ app = 'app1'; appId = $app1Id; scope = $groupAddr; identity = if ($p1) { [string] $p1.Identity } else { $null } }
   if ($app2Id) {
-    $p2 = Initialize-AccessPolicy -AppId $app2Id -Scope $ownerLower -Description "$app2Name: $ownerLower only"
+    $p2 = Initialize-AccessPolicy -AppId $app2Id -Scope $ownerLower -Description "${app2Name}: $ownerLower only"
     $script:Summary.policies += [ordered]@{ app = 'app2'; appId = $app2Id; scope = $ownerLower; identity = if ($p2) { [string] $p2.Identity } else { $null } }
   }
 
