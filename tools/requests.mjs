@@ -6,12 +6,15 @@
 // forbid (staff pay, passwords, money): those are answered, not requested.
 //
 //   node tools/requests.mjs add <kind> "<what Tariq asked>" "<what is missing>"
-//        kind = connection | site | credential | tool | install | other | built
+//        kind = connection | site | credential | tool | install | other | built | build
 //        (built = "I got past it myself", and <what is missing> = what you built)
-//   node tools/requests.mjs list [--open]
+//        (build = Tariq's Build List: something he wants built; <what is missing> = what it
+//         would do, one line. No ping to Jaiah, he pulls the list whenever.)
+//   node tools/requests.mjs list [--open] [--build]
 //   node tools/requests.mjs done <id> ["<note>"]
 //
-// State: work/requests.json (survives restarts) and a readable copy in work/requests.md.
+// State: work/requests.json (survives restarts), readable copies in work/requests.md (walls)
+// and work/build-list.md (Tariq's Build List).
 import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
@@ -20,7 +23,8 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const FILE = path.join(ROOT, 'work/requests.json');
 const MD = path.join(ROOT, 'work/requests.md');
-const KINDS = ['connection', 'site', 'credential', 'tool', 'install', 'other', 'built'];
+const BUILD_MD = path.join(ROOT, 'work/build-list.md');
+const KINDS = ['connection', 'site', 'credential', 'tool', 'install', 'other', 'built', 'build'];
 const TZ = 'Australia/Brisbane';
 const stamp = () => new Date().toLocaleString('sv-SE', { timeZone: TZ }).replace(' ', 'T').slice(0, 16);
 const load = () => { try { return JSON.parse(fs.readFileSync(FILE, 'utf8')); } catch (_) { return { requests: [] }; } };
@@ -42,7 +46,19 @@ switch (cmd) {
     if (!KINDS.includes(kind) || !ask || !missing) { console.error(`usage: add <${KINDS.join('|')}> "<what he asked>" "<what is missing, or what you built>"`); process.exit(1); }
     const day = stamp().slice(0, 10).replace(/-/g, '');
     const n = d.requests.filter((r) => r.id.startsWith(`r-${day}-`)).length + 1;
-    const r = { id: `r-${day}-${String(n).padStart(2, '0')}`, kind, ask: one(ask), missing: one(missing), status: kind === 'built' ? 'built' : 'open', opened: stamp(), closed: null, note: null, pinged: false };
+    const r = { id: `r-${day}-${String(n).padStart(2, '0')}`, kind, ask: one(ask), missing: one(missing), status: kind === 'built' ? 'built' : kind === 'build' ? 'build' : 'open', opened: stamp(), closed: null, note: null, pinged: false };
+    if (kind === 'build') {
+      // Tariq's Build List: his own words, kept in order, never deduped away silently.
+      const same = d.requests.find((x) => x.kind === 'build' && x.status === 'build' && x.ask.toLowerCase() === r.ask.toLowerCase());
+      if (same) { console.log(`${same.id} is already on his build list (${same.opened})`); break; }
+      const p = ping(r);
+      r.pinged = p.ok;
+      d.requests.unshift(r); d.requests = d.requests.slice(0, 200); save(d);
+      if (!fs.existsSync(BUILD_MD)) fs.writeFileSync(BUILD_MD, "# Tariq's Build List\n\nWhat he has asked for, in his words, as he says it to his agent. Jaiah pulls this whenever.\n");
+      fs.appendFileSync(BUILD_MD, `\n- ${r.opened.replace('T', ' ')} ${r.id}: ${r.ask}\n  What it would do: ${r.missing}\n`);
+      console.log(`${r.id} on his build list${p.ok ? ', and on the dashboard' : ' (dashboard not reached, the file has it)'}.`);
+      break;
+    }
     const dup = d.requests.find((x) => x.status === 'open' && x.kind === r.kind && x.missing.toLowerCase() === r.missing.toLowerCase());
     if (dup) { console.log(`${dup.id} is already open for the same thing (${dup.opened}); nothing new sent, tell him it is on Jaiah's list`); break; }
     const p = ping(r);
@@ -55,8 +71,9 @@ switch (cmd) {
   }
   case 'list': {
     const open = rest.includes('--open');
-    const rows = d.requests.filter((r) => !open || r.status === 'open');
-    if (!rows.length) { console.log(open ? 'nothing open' : 'no requests'); break; }
+    const build = rest.includes('--build');
+    const rows = d.requests.filter((r) => build ? r.kind === 'build' : (!open || r.status === 'open') && r.kind !== 'build');
+    if (!rows.length) { console.log(build ? 'his build list is empty' : open ? 'nothing open' : 'no requests'); break; }
     for (const r of rows) console.log(`${r.id} ${r.status.padEnd(5)} ${r.kind.padEnd(10)} ${r.opened}  ${r.ask}  |  ${r.missing}${r.note ? `  |  ${r.note}` : ''}`);
     break;
   }
@@ -70,6 +87,6 @@ switch (cmd) {
     break;
   }
   default:
-    console.log('usage: add <kind> "<ask>" "<missing>" | list [--open] | done <id> [note]');
+    console.log('usage: add <kind> "<ask>" "<missing>" | list [--open|--build] | done <id> [note]');
     process.exit(cmd ? 1 : 0);
 }
