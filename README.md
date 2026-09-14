@@ -217,7 +217,46 @@ and are logged with kind `built` so they show up too. Close one with `requests.m
 - Logs: `work/start.log`, `work/launchd.log`, and the session itself in screen.
 - The session auto-updates Claude Code; if the `--channels` flag changes in a release,
   edit `start.sh`.
-- Memory and sessions are committed to the local repo by the SessionEnd hook. No remote
-  yet; add one under TFA's GitHub when there is a nightly backup target.
+- Memory and sessions are committed to the local repo by the SessionEnd hook, then pushed
+  to the `backup` remote (TFA's GitHub, deploy key; see "Memory" below). `work/backup.log`
+  says when the last push worked; the Friday retro reports a stale backup.
 - Second bot on the same mini (another person): a second folder, a second token,
   `TELEGRAM_STATE_DIR` set per instance. Never a second id on Tariq's allowlist.
+
+## Memory (how it learns, remembers, and survives; 14 Sep 2026)
+
+Files and git, not a vector store: `memory/` is what it knows, `raw/` is what is true,
+`sessions/` is what it did. That keeps the agent transferable to any model, which Tariq
+asked for. Five parts hold it together:
+
+- **Recall.** `node tools/recall.mjs "<words>" [--since 30d] [--in memory|sessions|raw|mail|shared]`
+  searches memory, session logs, raw/, the shared TFA export, the mail index, the job board
+  and the Build List, printing `file:line` per hit, newest first. CLAUDE.md makes it run
+  before "I don't have that" and before "what did I say to X about Y".
+- **Backup.** `.claude/hooks/save.sh` commits memory, sessions, raw and skills at session
+  end, then `git push backup HEAD:main` best effort. One-time setup on the mini:
+  `zsh scripts/backup-setup.sh` makes a deploy key at `~/.ssh/tariq-agent-backup`, an ssh
+  alias `tariq-backup`, and the remote; it prints the public key. Jaiah, signed in to GitHub
+  as TFA's account (agents@), creates the private repo `tfaagents/tariq-agent-memory` and
+  adds the key under Settings, Deploy keys, with write access. `work/backup.log` records
+  every push; the Friday retro reports a stale backup. TFA owns the repo because it holds
+  Tariq's data (workspace rule 4).
+- **Telegram in the learn loop.** `/nightly-learn` (21:00) reads today's session logs, the
+  job board, the Build List and new rules alongside his sent mail and diary, so what he
+  said to the agent counts like what he emailed.
+- **Monthly consolidation.** `/retro` on the first Friday of the month rewrites each memory
+  file to what is still true, moves the rest to `memory/archive/YYYY-MM.md` with dates,
+  rebuilds `MEMORY.md`, keeps files under about 120 lines. `rules.md` entries are never
+  moved (struck through only); `raw/` is never touched.
+- **Shared base, read only.** The workflow lane writes `tfa-agents/data/shared/` nightly at
+  20:30 (promises, contacts, calendar, digest, projects placeholder) from its dashboard
+  server. The personal lane reads it at `raw/tfa-shared/` (a symlink while both lanes run
+  under `tfaagents`; a group-readable copy after the user split). Never written to from
+  here; a fact from it says so and carries the export date.
+
+**Capabilities.** `memory/capabilities.md` mirrors the Capabilities tab on the TFA card in
+Jaiah's CRM and is the answer to "what can you do". Refresh it from the Mac after anything
+goes live: `node scripts/pull-capabilities.mjs --ship` (needs `CRM_CAPABILITIES_TOKEN` in
+this folder's gitignored `.env`; the token is a `form_links` row of kind `capabilities`,
+delete the row in the CRM to revoke it). The rule for every session that ships something
+to this agent is in `clients/tfa-constructions/CLAUDE.md`: update the CRM row, then pull.

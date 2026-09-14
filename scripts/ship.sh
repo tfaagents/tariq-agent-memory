@@ -22,5 +22,6 @@ rsync -a \
   --exclude node_modules \
   --exclude config/schedule.json \
   --exclude tools/mail.mjs \
+  --exclude .env \
   ./ "${HOST}:tariq-agent/"
 echo "shipped to ${HOST}:tariq-agent/ (memory, sessions, raw, work, schedule.json, mail.mjs left alone)"

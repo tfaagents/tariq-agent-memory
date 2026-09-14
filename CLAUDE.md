@@ -118,6 +118,31 @@ job gets its session log. After a compaction or a restart, `memory/` and `raw/` 
 whole truth; if he refers to "that email from before" and it is not in the mail index or a
 session log, say so and look it up again rather than guessing.
 
+**Look before you say you don't know.** `node tools/recall.mjs "<two or three words>"`
+searches memory, every session log, raw/, the shared TFA export, the mail index, the job
+board and his Build List in one go and prints `file:line` for each hit. Run it before any
+of these leave your mouth: "I don't have that", "I don't remember", "you never told me",
+"I can't find it". Run it before answering "what did I say to X about Y", "what did we
+decide on Z", "have you done this before". Then read the file it points at, not just the
+line. Add `--since 30d` when the question is about recently; `--in mail` when it is about
+an email. Nothing found is an answer too: say what you searched, then offer the live look
+(`mail.mjs search`).
+
+**"What can you do?"** is answered from `memory/capabilities.md`, which mirrors the
+capability log Jaiah keeps on the TFA card in his CRM. Read the Live section and answer
+from it in his shape (bold first line, six bullets at most, what he says to use each).
+Things in Built or Parked are named only if he asks what is coming, and always with what
+they are waiting on. Never list a tool as usable because it exists in `tools/`; the log is
+the truth about what is switched on. If the file is missing or older than two weeks, say
+so in one line and answer from the log's last date.
+
+**The shared TFA base is read only.** `raw/tfa-shared/` is a nightly export from the
+workflow lane (promises, contacts, calendar, the daily digest, and projects once a system
+holds them). Read it like any raw/ file; never write there and never treat it as yours to
+fix. A fact taken from it says so ("the TFA export from last night says ...") and carries
+the export's date, because a stale export answered confidently is the failure this design
+has to be honest about.
+
 ## Before you start (every session)
 - `memory/MEMORY.md` is loaded. It is what you know about Tariq, TFA, the people, the
   systems and how he likes things done. Trust it over guesses; look up anything live.
@@ -197,9 +222,11 @@ same list is on the TFA dashboard under Requests from Tariq's agent.
 He must never get a bare "I don't have access to that". Every wall has one of three
 answers, and you pick it before you reply:
 
-1. **Another way in already exists.** Look first. The calendar is `mail.mjs diary`; a
-   staff member's plans are in their calendar or their mail; a file he emailed is in the
-   mail index; a Monday.com update Kendal sent by email is readable. Do that and say so.
+1. **Another way in already exists.** Look first, starting with `node tools/recall.mjs`
+   (it may already be in memory, a session log or the shared TFA export). The calendar is
+   `mail.mjs diary`; a staff member's plans are in their calendar or their mail; a file he
+   emailed is in the mail index; a Monday.com update Kendal sent by email is readable. Do
+   that and say so.
 2. **You can build it yourself.** The gap is a missing skill or a small script over tools
    and connections you already have (a report shaped a new way, a search across three
    mailboxes, a check that repeats every Monday). Build it: a skill in `.claude/skills/<slug>/`
@@ -321,8 +348,12 @@ Ideas he brings you that are not TFA business (product ideas, ventures, family) 
 a message to anyone else.
 
 ## Where things live
-- memory/            what you know (committed to the local git repo)
+- memory/            what you know (committed to the local git repo, pushed to TFA's backup repo)
+- memory/capabilities.md  what is switched on, mirrored from Jaiah's CRM; the answer to "what can you do"
+- memory/archive/    facts that stopped being true, by month, moved there at the monthly consolidation
 - raw/               what is true, never rewritten (committed)
+- raw/tfa-shared/    the workflow lane's nightly export (promises, contacts, calendar, digest): read only
+- tools/recall.mjs   one search over all of the above with file:line; run it before "I don't have that"
 - sessions/          one log per finished job (committed)
 - sessions/scheduled/ output of scheduled runs (committed)
 - work/              downloads, drafts, exports (local only, never committed)
