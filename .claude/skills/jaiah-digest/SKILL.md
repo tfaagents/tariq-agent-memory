@@ -41,8 +41,8 @@ sends one message to Jaiah through the dashboard. Nothing to Tariq.
    DECLINED BY TARIQ
    BLOCKED JOBS
    HOUSEKEEPING
-   Full list: dashboard > Requests from Tariq's agent. Reply here with an id and "go", "no"
-   or "later" and I will file it.
+   Full list: dashboard > Requests from Tariq's agent. To answer one, give its id and go,
+   no or later to your Claude session (a WhatsApp reply here is not read yet).
    ```
    If nothing at all is new, the whole digest is two lines: the title and "Nothing new since
    <last>. <N> open walls, <N> on the Build List." Send it anyway; a quiet day should still
