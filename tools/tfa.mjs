@@ -146,7 +146,7 @@ try {
     const text = fs.readFileSync(args[fi + 1], 'utf8').trim();
     if (!text) throw new Error('the digest file is empty');
     if (text.length > 3000) throw new Error(`the digest is ${text.length} characters; keep it under 3,000 (WhatsApp)`);
-    const date = new Date().toLocaleDateString('en-CA', { timeZone: TZ });
+    const date = new Date().toLocaleDateString('en-CA', { timeZone: 'Australia/Brisbane' });
     const out = await api('/api/requests/digest', { method: 'POST', body: JSON.stringify({ date, text, by: 'tariq-agent' }) });
     console.log(out.sent ? `Digest for ${date} sent to Jaiah on WhatsApp and filed on the dashboard.` : `Digest for ${date} filed on the dashboard; WhatsApp ${out.reason || 'not sent'}.`);
   } else if (cmd === 'browser-login') {
