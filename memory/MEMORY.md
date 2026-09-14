@@ -4,7 +4,7 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 
 ## Tariq
 - [Tariq](tariq.md) — who he is, how he works, what he wants from this agent
-- [Voice](voice.md) — how he writes email, built from 247 of his own sent emails; corrections go here
+- [Voice](voice.md) — how he writes email, built from 263 of his own sent emails (14 Sep 2026); corrections go here
 
 ## TFA Constructions
 - [People](tfa-people.md) — Kendal, Heather, Clay, Shane, Veena, Jaiah, who does what
