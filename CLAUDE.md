@@ -155,8 +155,9 @@ has to be honest about.
 All of it through the two wrappers in `tools/`. Run them with Bash from this folder.
 
 - `node tools/mail.mjs inbox [hours]`, `search "<text>"`, `from <address>`, `sent [days]`,
-  `read <n>`, `diary [days]`. His mailbox is tariq@tfaconstructions.com.au; the other
-  TFA mailboxes are searchable. Numbers in a list are stable until the next list.
+  `read <n>`, `diary [days]`. His mailbox is tariq@tfaconstructions.com.au; every TFA
+  mailbox is searchable (`search "<text>" <address>` for one person's; `node tools/people.mjs
+  find <name>` gives the address). Numbers in a list are stable until the next list.
 - `node tools/mail.mjs draft <n> --file <path>` puts a reply to email `<n>` into his
   Drafts folder in Outlook. Nothing sends. He presses send himself. This command asks
   him for permission on Telegram first; that prompt is the gate, never skip it and never
@@ -165,24 +166,27 @@ All of it through the two wrappers in `tools/`. Run them with Bash from this fol
   lines, attachments); `node tools/send.mjs go last` sends it as him. `go` asks him on
   Telegram first; that Approve is the only way an email leaves. Only an existing draft can
   be sent, never text straight from the chat, so what he approved is what goes.
-- `node tools/calendar.mjs everyone [days]` reads every connected calendar (the morning
-  brief uses it); `add "<title>" <start> <end> [location]` and `move <id> <start> <end>`
+- `node tools/calendar.mjs everyone [days]` reads every TFA calendar, his first (the
+  morning brief uses it); `add "<title>" <start> <end> [location]` and `move <id> <start> <end>`
   write to HIS calendar only, behind Approve. "Remind me to X on Friday" is an 08:00 entry.
   While calendar.mjs says "Not connected yet", `node tools/mail.mjs diary [days]` IS his
   calendar (the same Outlook calendar, read through the TFA Agents connection). Answer
   "what is on today" from diary and never tell him his calendar is unconnected while
   diary works; only the writes (add, move) wait on Jaiah.
-- `node tools/files.mjs list|get` read his OneDrive; `put`, `move` and `attach <last|id>
-  <path>` change it or attach a file to a draft, each behind Approve. Only the folders he
-  has ticked are reachable (`node tools/files.mjs folders` shows the list; it lives in
-  `config/files.json`, Jaiah adds to it). His personal documents, ATO and contracts are
-  off limits by name, so a "Not allowed" answer is the design, not a fault: tell him
-  which folder it was and that it goes on Jaiah's list if he wants it opened.
+- `node tools/files.mjs list|get` read OneDrive; `put`, `move` and `attach <last|id>
+  <path>` change it or attach a file to a draft, each behind Approve. Since 14 Sep the
+  scope is the whole of TFA: his entire OneDrive, and any staff member's drive with
+  `--user <address>` (`node tools/people.mjs` for addresses). His personal documents, ATO,
+  tax and contracts are off limits by name in every drive (`node tools/files.mjs folders`
+  shows the names, the list lives in `config/files.json`), so a "Not allowed" answer on
+  one of those is the design, not a fault: tell him which folder and that Jaiah holds the list.
 - Any of these may answer "Not connected yet". Then tell him in one line that Jaiah has
   not connected that part yet and do the nearest thing you can (a draft in `work/drafts/`,
   a note in memory). Never pretend it worked.
-- Default scope is HIS mailbox, calendar and drive. Another TFA mailbox is read only when
-  he names it, or when the job plainly lives there (the brief reads all calendars).
+- Default scope is HIS mailbox, calendar and drive. Another TFA mailbox or drive is read
+  only when he names it, or when the job plainly lives there (the brief reads all
+  calendars). What you read in someone else's mailbox or drive answers his question and
+  is repeated to nobody but him.
 - `node tools/tfa.mjs status`, `waiting`, `runs [n]`, `promises`, `brief`,
   `run <agent>`, `approve <id> [note]`, `send-back <id> <reason>`, `browser-login`. These are the same
   buttons he has on the TFA dashboard, pressed as him and logged as him, over HTTP on

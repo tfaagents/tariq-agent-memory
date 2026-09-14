@@ -1,12 +1,14 @@
 #!/usr/bin/env node
-// Tariq's OneDrive, only the folders he has ticked. config/files.json holds the list:
-// deny by default, so a path outside allowedFolders is refused here before Graph is
-// asked, whatever the app's permission says. Reading is free; put, move and attach are on
-// the ask list (Approve on Telegram). Paths are OneDrive paths from the root, like
-// "TFA/Tenders/Template.docx".
+// OneDrive. Since 14 Sep 2026 (Jaiah) the scope is the whole of TFA: his entire OneDrive,
+// and any staff member's with --user <address>. config/files.json still rules: allowedFolders
+// ["*"] means the whole drive, a list of paths means only those; deniedNames are refused
+// anywhere, in any drive, whatever the app's permission says. Reading is free; put, move and
+// attach are on the ask list (Approve on Telegram). Paths are OneDrive paths from the root,
+// like "TFA/Tenders/Template.docx". Add --user kendal@tfaconstructions.com.au to any command
+// to work in her drive instead of his.
 //
-//   node tools/files.mjs folders                    the folders he has allowed (the whole list)
-//   node tools/files.mjs list [folder]              what is in a folder (no folder = the allowed roots)
+//   node tools/files.mjs folders                    the scope and the off-limits names
+//   node tools/files.mjs list [folder]              what is in a folder (no folder = the drive root)
 //   node tools/files.mjs get <path> [--to <local>]  download to work/inbox/ (or --to)
 //   node tools/files.mjs put <local> <path>         upload or replace (files up to 4 MB here)
 //   node tools/files.mjs move <path> <folder>       move into another allowed folder
@@ -15,8 +17,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ROOT, OWNER, requireConnection, graph } from './lib/connected.mjs';
 
-const [, , cmd, ...args] = process.argv;
-const drive = (p) => `/users/${encodeURIComponent(OWNER)}/drive/root${p ? `:/${p.split('/').map(encodeURIComponent).join('/')}:` : ''}`;
+const argv = process.argv.slice(2);
+const ui = argv.findIndex((a) => a === '--user' || a === '--of');
+const WHO = ui >= 0 ? String(argv.splice(ui, 2)[1] || '').toLowerCase() : OWNER;
+if (!/^[^@\s]+@tfaconstructions\.com\.au$/i.test(WHO)) { console.log(`--user needs a TFA address, not "${WHO}"`); process.exit(3); }
+const [cmd, ...args] = argv;
+const whose = WHO === OWNER ? 'his' : `${WHO}'s`;
+const drive = (p) => `/users/${encodeURIComponent(WHO)}/drive/root${p ? `:/${p.split('/').map(encodeURIComponent).join('/')}:` : ''}`;
 const kb = (n) => `${Math.round((n || 0) / 1024)} KB`;
 const MAX = 4 * 1024 * 1024;
 
@@ -26,6 +33,7 @@ try { CFG = { ...CFG, ...JSON.parse(fs.readFileSync(path.join(ROOT, 'config/file
 const norm = (p) => String(p || '').replace(/\\/g, '/').replace(/^\/+|\/+$/g, '').replace(/\/{2,}/g, '/');
 const segs = (p) => norm(p).split('/').filter(Boolean);
 const ALLOWED = (CFG.allowedFolders || []).map(norm).filter(Boolean);
+const ALL = ALLOWED.includes('*');
 const DENIED = new Set((CFG.deniedNames || []).map((s) => String(s).toLowerCase()));
 const NOT_YET = 'No OneDrive folders are on the list yet. Tariq names the TFA folders he wants me in and Jaiah adds each one to config/files.json; until then nothing in his OneDrive is reachable.';
 
@@ -33,6 +41,7 @@ const NOT_YET = 'No OneDrive folders are on the list yet. Tariq names the TFA fo
 function permitted(p) {
   const s = segs(p);
   if (s.some((x) => DENIED.has(x.toLowerCase()))) return { ok: false, why: `"${p}" is inside a folder he keeps off limits` };
+  if (ALL) return { ok: true };
   if (!ALLOWED.length) return { ok: false, why: NOT_YET };
   const lower = s.map((x) => x.toLowerCase());
   const under = ALLOWED.some((a) => { const as = segs(a).map((x) => x.toLowerCase()); return as.length <= lower.length && as.every((x, i) => x === lower[i]); });
@@ -42,18 +51,20 @@ function mustPermit(p) { const r = permitted(p); if (!r.ok) { console.log(`Not a
 
 try {
   if (cmd === 'folders') {
-    if (!ALLOWED.length) console.log(NOT_YET);
+    if (ALL) console.log('Scope: the whole of TFA. His entire OneDrive, and any staff member\'s drive with --user <address> (node tools/people.mjs gives the address).');
+    else if (!ALLOWED.length) console.log(NOT_YET);
     else { console.log('OneDrive folders on his list:'); ALLOWED.forEach((a) => console.log(`- ${a}`)); }
     if (DENIED.size) console.log(`Never, anywhere: ${[...DENIED].join(', ')}`);
   } else if (cmd === 'list') {
-    if (!args[0]) {
+    if (!args[0] && !ALL) {
       if (!ALLOWED.length) { console.log(NOT_YET); process.exit(3); }
       console.log('Folders on his list (list <folder> to look inside):'); ALLOWED.forEach((a) => console.log(`[folder] ${a}`));
       process.exit(0);
     }
-    mustPermit(args[0]);
+    if (args[0]) mustPermit(args[0]);
     requireConnection('read', 'listing OneDrive'); const g = await graph();
     const d = await g.api(`${drive(args[0])}/children?$select=name,size,folder,lastModifiedDateTime&$top=100`);
+    console.log(`${whose} OneDrive${args[0] ? `, ${norm(args[0])}` : ' root'}:`);
     const rows = (d.value || []).filter((r) => !DENIED.has(String(r.name).toLowerCase()));
     if (!rows.length) console.log('Empty folder.');
     rows.forEach((r) => console.log(`${r.folder ? '[folder] ' : ''}${r.name}${r.folder ? ` (${r.folder.childCount} items)` : ` ${kb(r.size)}`}  ${(r.lastModifiedDateTime || '').slice(0, 10)}`));

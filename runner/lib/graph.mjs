@@ -243,6 +243,46 @@ export function configuredMailboxes() {
   return list;
 }
 
+/**
+ * Tenant-wide scope (Jaiah, 14 Sep 2026, Tariq's agent only): when config/connections.json
+ * has "scope": "tenant", the mailboxes are every enabled member account in the directory
+ * that has a mailbox, read through User.Read.All and cached in work/people.json for
+ * twelve hours. The named list above stays as the fallback when the directory cannot be
+ * read. The workflow lane's copy of this file keeps the named list.
+ */
+const PEOPLE_CACHE = path.join(here, '../../work/people.json');
+export async function directoryPeople({ maxAgeHours = 12 } = {}) {
+  try {
+    const c = JSON.parse(fs.readFileSync(PEOPLE_CACHE, 'utf8'));
+    if (Date.now() - Date.parse(c.at) < maxAgeHours * 3600e3 && Array.isArray(c.people) && c.people.length) return c.people;
+  } catch (_) {}
+  const people = [];
+  let next = '/users?$select=id,displayName,mail,userPrincipalName,jobTitle,accountEnabled,userType&$top=999';
+  while (next) {
+    const data = await api(next.replace(/^https:\/\/graph\.microsoft\.com\/v1\.0/, ''));
+    for (const u of data.value || []) {
+      if (u.accountEnabled === false || (u.userType && u.userType !== 'Member') || !u.mail) continue;
+      people.push({ name: String(u.displayName || u.mail).replace(/\s*\|\s*TFA\b.*$/i, '').trim() || u.mail, mail: String(u.mail).toLowerCase(), upn: u.userPrincipalName, title: u.jobTitle || null });
+    }
+    next = data['@odata.nextLink'] || null;
+  }
+  people.sort((a, b) => a.name.localeCompare(b.name));
+  fs.mkdirSync(path.dirname(PEOPLE_CACHE), { recursive: true });
+  fs.writeFileSync(PEOPLE_CACHE, JSON.stringify({ at: new Date().toISOString(), people }, null, 2));
+  return people;
+}
+
+/** The mailboxes a tool may read: the directory when scope is "tenant", else the named list. */
+export async function mailboxScope() {
+  const named = (cfg.mailboxes || []).map((m) => String(m).toLowerCase());
+  if (cfg.scope === 'tenant') {
+    // Union with the named list: a shared mailbox (accounts@) can be a disabled account in
+    // the directory and would otherwise drop out of "everyone".
+    try { const p = await directoryPeople(); if (p.length) return [...new Set([...named, ...p.map((x) => x.mail)])]; } catch (_) { /* named list below */ }
+  }
+  return configuredMailboxes();
+}
+
 /** Turn a Graph permission failure into the exact thing a person has to go and do. */
 function consentError(e, permission, what) {
   if (e.status === 403 || e.status === 401) {
@@ -257,7 +297,7 @@ function consentError(e, permission, what) {
 
 /** Free-text search across the configured mailboxes. Read-only. Mail.Read. */
 export async function searchMail(query, { mailbox = null, top = 15 } = {}) {
-  const boxes = mailbox ? [mailbox] : configuredMailboxes();
+  const boxes = mailbox ? [mailbox] : await mailboxScope();
   const out = [];
   for (const box of boxes) {
     try {

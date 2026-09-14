@@ -1,8 +1,9 @@
 #!/usr/bin/env node
-// Calendars. Reads across every connected mailbox for the morning brief; writes ONLY to
+// Calendars. Reads every TFA calendar (the directory, tenant-wide since 14 Sep) for the
+// morning brief; writes ONLY to
 // Tariq's own calendar, and `add` and `move` are on the ask list (Approve on Telegram).
 //
-//   node tools/calendar.mjs everyone [days]                       every connected calendar, next N days (default 1)
+//   node tools/calendar.mjs everyone [days]                       every TFA calendar, next N days (default 1)
 //   node tools/calendar.mjs add "<title>" <start> <end> [location]  his calendar; times like 2026-09-12T08:00
 //   node tools/calendar.mjs move <event-id> <start> <end>          his calendar
 // Times are Brisbane local, no timezone suffix. "Remind me to X on Friday" = an 08:00 entry.
@@ -18,14 +19,28 @@ try {
     const days = Number(args[0] || 1);
     const c = requireConnection('read', 'reading the calendars');
     const g = await graph();
-    const boxes = c.cfg.mailboxes || [OWNER];
+    const scope = await g.mailboxScope().catch(() => c.cfg.mailboxes || [OWNER]);
+    const boxes = [OWNER, ...scope.filter((b) => b.toLowerCase() !== OWNER.toLowerCase())];
     const to = new Date(Date.now() + days * 864e5).toISOString();
+    const short = (mb) => mb.split('@')[0];
+    const quiet = [], blocked = [], none = [];
     for (const mb of boxes) {
       let rows = [];
-      try { rows = await g.calendarView(mb, { toISO: to }); } catch (e) { console.log(`${mb}: could not read (${String(e.message).slice(0, 80)})`); continue; }
+      try { rows = await g.calendarView(mb, { toISO: to }); }
+      catch (e) {
+        const msg = String(e.message || '');
+        if (mb === OWNER) console.log(`${mb} (his): could not read (${msg.slice(0, 80)})`);
+        else if (/MailboxNotEnabledForRESTAPI|ResourceNotFound|404/.test(msg)) none.push(mb);
+        else blocked.push(mb);
+        continue;
+      }
+      if (!rows.length && mb !== OWNER) { quiet.push(mb); continue; }
       console.log(`${mb}${mb === OWNER ? ' (his)' : ''}: ${rows.length ? '' : 'nothing in the window'}`);
       rows.forEach((r) => console.log(`  ${r.allDay ? 'all day' : when(r.start)}  ${r.subject}${r.location ? ` @ ${r.location}` : ''}${r.organizer ? ` (${r.organizer})` : ''}`));
     }
+    if (quiet.length) console.log(`Nothing in the window for ${quiet.length} other${quiet.length === 1 ? '' : 's'}: ${quiet.map(short).join(', ')}`);
+    if (blocked.length) console.log(`Could not read ${blocked.length} (Graph says not permitted): ${blocked.map(short).join(', ')}`);
+    if (none.length) console.log(`No mailbox: ${none.map(short).join(', ')}`);
   } else if (cmd === 'add') {
     const [title, start, end, location] = args;
     if (!title || !isLocal(start) || !isLocal(end)) throw new Error('usage: add "<title>" <YYYY-MM-DDTHH:MM> <YYYY-MM-DDTHH:MM> [location]');

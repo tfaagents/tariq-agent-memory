@@ -4,6 +4,8 @@
     "tenantId": "1aa0bc0e-63f3-4c49-b9be-2869d41eab91",
     "clientId": "ebb63dd1-040a-4ab4-90fe-070b1f105290",
     "senderMailbox": "tariq@tfaconstructions.com.au",
+    "scope": "tenant",
+    "scope_note": "14 Sep 2026 (Jaiah): org-wide. The Exchange application access policy on app 1 was removed, so Graph lets it read every mailbox, calendar and OneDrive in the tenant; tools take the mailbox list from the directory (User.Read.All, cached in work/people.json). Set scope to \"group\" to go back to the named list below, and put the access policy back in Exchange (docs/tariq-assistant-entra-setup.md, step D).",
     "keyPath": "~/.tariq-graph/tariq-assistant.key",
     "certPath": "~/.tariq-graph/tariq-assistant.crt",
     "mailboxes": [
@@ -13,14 +15,14 @@
       "accounts@tfaconstructions.com.au",
       "agents@tfaconstructions.com.au"
     ],
-    "mailboxes_note": "What the agent may search. Once the Tariq Assistant app is scoped with an Exchange application access policy, Graph itself refuses any mailbox outside that policy, whatever this list says.",
+    "mailboxes_note": "The fallback list when scope is not \"tenant\" or the directory cannot be read. With scope \"tenant\" the directory wins.",
     "permissions": {
       "decision": "11 Sep 2026 (Jaiah): the agent may send, write and file, every one of those behind the Telegram Approve button. Two app registrations so a read never becomes a send by accident.",
       "app_1_tariq_assistant": {
-        "scope": "Exchange application access policy on a mail-enabled security group 'Tariq Assistant mailboxes' holding tariq@, kendal@, heather@, accounts@, agents@. Nothing outside the group is reachable whatever the tool asks.",
-        "Mail.ReadWrite": "read the group's mailboxes; create and update drafts; move and file mail (moves gated by Approve)",
-        "Calendars.ReadWrite": "read every calendar in the group for the morning brief; add and move HIS events behind Approve",
-        "Files.ReadWrite.All": "OneDrive and SharePoint: list, read, update, move files and attach them to drafts (writes and moves behind Approve). Sites.Selected only if TFA wants SharePoint limited to named sites; personal OneDrives need the .All permission",
+        "scope": "Tenant-wide since 14 Sep 2026 (Jaiah's decision, org-wide access for Tariq's agent). Until then an Exchange application access policy limited it to the group 'Tariq Assistant mailboxes' (tariq@, kendal@, heather@, accounts@, agents@); that policy was removed. App 2 (send) is still restricted to tariq@ alone.",
+        "Mail.ReadWrite": "read every TFA mailbox (default scope is his; another person's only when he names it or the job lives there); create and update drafts; move and file mail (moves gated by Approve)",
+        "Calendars.ReadWrite": "read every TFA calendar for the morning brief and \"when is X free\"; add and move HIS events behind Approve",
+        "Files.ReadWrite.All": "OneDrive and SharePoint across TFA: list, read, update, move files and attach them to drafts (writes and moves behind Approve); his whole drive and any staff drive with --user; deniedNames in config/files.json refused anywhere",
         "User.Read.All": "resolve a name to an address, list who is who",
         "Contacts.Read": "his Outlook contacts, so 'email Andrew' resolves without guessing",
         "MailboxSettings.Read": "time zone and working hours for the diary"
