@@ -4,9 +4,11 @@
 #   scripts/ship.sh              to tfa-mini:tariq-agent/ (the tfaagents copy, live today)
 #   scripts/ship.sh tfa-tariq    to the tariq user's copy once the user split is installed
 #
-# The mini is the truth for the agent's memory, session logs, raw/, work/, the schedule it
-# actually runs (launchd holds three of the four jobs there) and the v1 mail tool on the TFA
-# Agents cert. Overwriting those from here broke mail and lost memory on 14 Sep 2026.
+# The mini is the truth for the agent's memory, session logs, raw/, work/ and the schedule it
+# actually runs (launchd holds three of the four jobs there). Overwriting those from here
+# broke mail and lost memory on 14 Sep 2026. Until 14 Sep 21:40 the mini also kept a v1
+# mail tool on the TFA Agents cert; since scripts/connect-graph.sh ran that evening the
+# mini's tools/mail.mjs is this repo's (the agent's own Entra app), so mail.mjs ships again.
 # After shipping: `ssh <host> 'cd tariq-agent && npm install'` if package.json changed, then
 # restart the session (screen -S tariq -X quit; zsh .claude/hooks/start.sh).
 set -euo pipefail
@@ -21,7 +23,6 @@ rsync -a \
   --exclude models \
   --exclude node_modules \
   --exclude config/schedule.json \
-  --exclude tools/mail.mjs \
   --exclude .env \
   ./ "${HOST}:tariq-agent/"
-echo "shipped to ${HOST}:tariq-agent/ (memory, sessions, raw, work, schedule.json, mail.mjs left alone)"
+echo "shipped to ${HOST}:tariq-agent/ (memory, sessions, raw, work, schedule.json left alone)"

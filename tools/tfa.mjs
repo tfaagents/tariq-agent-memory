@@ -138,6 +138,17 @@ try {
     if (!args[0]) throw new Error('usage: request-done <id>');
     await api('/api/requests/done', { method: 'POST', body: JSON.stringify({ id: args[0] }) });
     console.log(`${args[0]} closed on the dashboard`);
+  } else if (cmd === 'digest') {
+    // The daily digest for Jaiah (/jaiah-digest): the dashboard DMs him on WhatsApp and files
+    // it on the "Requests from Tariq's agent" page. Text only, under 3,000 characters.
+    const fi = args.indexOf('--file');
+    if (fi < 0 || !args[fi + 1]) throw new Error('usage: digest --file <path to the digest text>');
+    const text = fs.readFileSync(args[fi + 1], 'utf8').trim();
+    if (!text) throw new Error('the digest file is empty');
+    if (text.length > 3000) throw new Error(`the digest is ${text.length} characters; keep it under 3,000 (WhatsApp)`);
+    const date = new Date().toLocaleDateString('en-CA', { timeZone: TZ });
+    const out = await api('/api/requests/digest', { method: 'POST', body: JSON.stringify({ date, text, by: 'tariq-agent' }) });
+    console.log(out.sent ? `Digest for ${date} sent to Jaiah on WhatsApp and filed on the dashboard.` : `Digest for ${date} filed on the dashboard; WhatsApp ${out.reason || 'not sent'}.`);
   } else if (cmd === 'browser-login') {
     // The browser lane's Chrome profile has nothing logged in. This logs in as Tariq here
     // (passcode never printed) and hands the session cookie to that Chrome over DevTools,
@@ -155,7 +166,7 @@ try {
     if (!reply.result?.success) throw new Error('the browser refused the cookie');
     console.log(`Logged in as ${EMAIL} in the browser lane. Open ${dash}/ there.`);
   } else {
-    console.log('usage: status | waiting | runs [n] | promises | brief | run <agent> | approve <id> [note] | send-back <id> <reason> | request <json> | request-done <id> | browser-login');
+    console.log('usage: status | waiting | runs [n] | promises | brief | run <agent> | approve <id> [note] | send-back <id> <reason> | request <json> | request-done <id> | digest --file <path> | browser-login');
     process.exit(1);
   }
 } catch (e) {

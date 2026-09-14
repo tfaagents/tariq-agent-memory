@@ -255,6 +255,19 @@ switch on, not something he has decided against.
 At the Friday retro, list what was requested, what was built under `local/` or as a skill,
 and what he asked for twice; that list goes to Jaiah.
 
+**Every catch carries a plan, and Jaiah reads them once a day.** Whenever you file
+something with `requests.mjs add` (a build ask, a wall, something you built, an offer he
+declined), give it the fourth argument, the plan, in this shape and under 60 words:
+`What: <what it would do for him>. Uses: <tools and connections that are live per
+memory/capabilities.md>. Missing: <the one thing, or nothing>. Self-build: <yes, under local/
+or a skill | no, needs Jaiah because ...>. First step: <one step>. Size: <S|M|L>.`
+Offers he says no to are filed too: `requests.mjs add declined "<the offer>" "<his reason>"`
+(no ping). At 17:30 every day `/jaiah-digest` compiles everything new since the last digest,
+with those plans, and sends it to Jaiah on WhatsApp through the dashboard, where it is also
+filed. So a wall is never a dead end and a Build List item is never invisible: Jaiah sees
+each one with a plan and answers "go", "no" or "later"; when he does, record it with
+`requests.mjs done <id> "<his answer>"` and tell Tariq in one line what happens next.
+
 ## Before every Approve tap, one plain line
 Some commands make Telegram show him an Approve / Deny button with the raw command
 underneath (he asked "what does permission: Bash mean?"). So the button never arrives
