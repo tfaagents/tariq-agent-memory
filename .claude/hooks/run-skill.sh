@@ -24,6 +24,7 @@ GATED=(${GATED:#})
 # into it at the shell's offset, over the top of what the agent had written, so the message
 # body of every scheduled log was lost ("ended: 2Nightly learn done"). Now claude's output
 # goes to a temp file and is appended once claude has exited.
+START="$(date '+%Y-%m-%dT%H:%M')"
 SUMMARY="$(mktemp -t tariq-run)"
 if (( ${#GATED} )); then
   claude -p "/$SLUG Scheduled run, Tariq is not present. Do only what needs no approval. Finish with a three-line summary." \
@@ -34,7 +35,7 @@ else
 fi
 if [[ ! -s "$OUT" ]]; then
   { echo "---"; echo "job: scheduled /$SLUG"; echo "slug: $SLUG"; echo "type: scheduled"
-    echo "started: $(date '+%Y-%m-%dT%H:%M')"; echo "---"; } > "$OUT"
+    echo "started: $START"; echo "---"; } > "$OUT"
 fi
 { echo; echo "## Run summary ($(date '+%H:%M'))"; cat "$SUMMARY"; } >> "$OUT"
 rm -f "$SUMMARY"
