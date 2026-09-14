@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Tariq's mail and diary, read through the TFA agents' Graph helper. Read-only except
+// Tariq's mail and diary, read through this repo's own Graph helper. Read-only except
 // `draft`, which writes a reply DRAFT into his own Drafts folder and nothing else.
 //
 //   node tools/mail.mjs inbox [hours]            his inbox, newest first (default 24h)
@@ -18,11 +18,12 @@ import { fileURLToPath } from 'node:url';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, '..');
-const TFA = process.env.TFA_AGENTS || '/Users/tfaagents/tfa-agents';
 const OWNER = process.env.TARIQ_MAILBOX || 'tariq@tfaconstructions.com.au';
 const INDEX = path.join(ROOT, 'work', 'mail-index.json');
 
-const graph = await import(path.join(TFA, 'runner/lib/graph.mjs'));
+// The Graph helper is vendored in this repo and reads config/connections.json here, with
+// the cert in this user's own home. Nothing is read from the workflow lane.
+const graph = await import(path.join(ROOT, 'runner/lib/graph.mjs'));
 
 const [, , cmd, ...args] = process.argv;
 const TZ = 'Australia/Brisbane';
@@ -107,7 +108,8 @@ try {
     if (!body || !body.trim()) throw new Error('empty draft body');
     if (/—/.test(body)) throw new Error('the draft contains an em dash; rewrite it without one');
     const res = await graph.createReplyDraft(OWNER, ref.id, body.trim());
-    console.log(`Draft saved in Tariq's Drafts folder${res.link ? `: ${res.link}` : ''}. Nothing sent; he presses send in Outlook.`);
+    fs.writeFileSync(path.join(ROOT, 'work', 'last-draft.json'), JSON.stringify({ id: res.id, replyTo: ref.id, subject: ref.subject || null, at: new Date().toISOString() }, null, 2));
+    console.log(`Draft saved in Tariq's Drafts folder${res.link ? `: ${res.link}` : ''}. Nothing sent. To send it he taps Approve on: node tools/send.mjs go last`);
   } else {
     console.log('usage: inbox [hours] | search "<text>" [mailbox] | from <address> [mailbox] | sent [days] | read <n|id> | diary [days] | draft <n|id> --file <path>');
     process.exit(1);

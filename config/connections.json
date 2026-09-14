@@ -2,7 +2,7 @@
   "m365-graph": {
     "_note": "Tariq's agent talks to Microsoft 365 with its OWN app registration and certificate, never the workflow agents' one. The cert and key live in the tariq user's home and no other user on the mini can read them. Until the 'Tariq Assistant' app exists in Entra, the read-only TFA Agents app can be used as a bridge by copying its cert here (it cannot send).",
     "tenantId": "1aa0bc0e-63f3-4c49-b9be-2869d41eab91",
-    "clientId": "[to confirm - App registrations > Tariq Assistant > Application (client) ID; until then the TFA Agents id 04bcbc25-6e24-4e7e-a313-d92ffec1648e]",
+    "clientId": "ebb63dd1-040a-4ab4-90fe-070b1f105290",
     "senderMailbox": "tariq@tfaconstructions.com.au",
     "keyPath": "~/.tariq-graph/tariq-assistant.key",
     "certPath": "~/.tariq-graph/tariq-assistant.crt",
@@ -38,7 +38,7 @@
       "gates_in_the_tool": "settings.json ask list: mail.mjs send|draft|move, calendar add|move, files move|update|attach. Default mailbox for every query is tariq@; another mailbox only when he names it or the brief needs it (calendars).",
       "how": "Entra admin centre > App registrations > New registration (twice: 'Tariq Assistant', 'Tariq Assistant Send') > Certificates & secrets > upload the .crt generated under the tariq user on the mini (~/.tariq-graph/) > API permissions > Microsoft Graph > Application permissions above > Grant admin consent. Then Exchange Online PowerShell: New-ApplicationAccessPolicy for each app (group for app 1, tariq@ for app 2), Test-ApplicationAccessPolicy to prove kendal@ is refused on app 2."
     },
-    "sendClientId": "[to confirm - App registrations > Tariq Assistant Send > Application (client) ID]",
+    "sendClientId": "1ed6490b-4f8b-4b14-bb2d-b65ae62f6462",
     "sendKeyPath": "~/.tariq-graph/tariq-assistant-send.key",
     "sendCertPath": "~/.tariq-graph/tariq-assistant-send.crt"
   },
