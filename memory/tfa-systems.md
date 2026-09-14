@@ -97,3 +97,11 @@ The Autoflow flow boards (Figma, reviewed with Jaiah)
   Creek**. Mariners is not otherwise in anything read here.
 - Clay also wants an agreed "ideal supplier invoice email" (invoice, PO and dockets in
   one) and still owes the **Procore invite for agents@**.
+- 14 Sep 2026, 10pm and again at 11pm: `mail.mjs search "<text>" <address>` returns **403
+  ErrorAccessDenied, "Access to OData is disabled: [RAOP] : Blocked by tenant"** on every
+  TFA mailbox except **tariq@**, which still reads fine. Same block hits heather@,
+  accounts@, agents@, clay@, nick@, qa@ and randal@ on `calendar.mjs everyone` too. So the
+  org-wide mail scope `memory/capabilities.md` records as live since 14 Sep is **his
+  mailbox only in practice** until this is lifted. Filed as **r-20260914-09** for Jaiah.
+  Say so rather than reporting a search as empty: an empty result from those boxes is the
+  block, not an absence.
