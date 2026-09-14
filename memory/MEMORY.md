@@ -22,3 +22,4 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 
 ## Declined offers (skills or schedules he said no to)
 - [Declined](declined.md)
+- [Rules](rules.md) — the Decision Book: every correction he makes, dated, in his words; read before drafting or filing

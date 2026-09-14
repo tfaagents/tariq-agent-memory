@@ -1,11 +1,15 @@
 #!/usr/bin/env node
-// Tariq's OneDrive. Reading is free; put, move and attach are on the ask list (Approve on
-// Telegram). Paths are OneDrive paths from the root, like "Tenders/Template.docx".
+// Tariq's OneDrive, only the folders he has ticked. config/files.json holds the list:
+// deny by default, so a path outside allowedFolders is refused here before Graph is
+// asked, whatever the app's permission says. Reading is free; put, move and attach are on
+// the ask list (Approve on Telegram). Paths are OneDrive paths from the root, like
+// "TFA/Tenders/Template.docx".
 //
-//   node tools/files.mjs list [folder]              what is in a folder (root by default)
+//   node tools/files.mjs folders                    the folders he has allowed (the whole list)
+//   node tools/files.mjs list [folder]              what is in a folder (no folder = the allowed roots)
 //   node tools/files.mjs get <path> [--to <local>]  download to work/inbox/ (or --to)
 //   node tools/files.mjs put <local> <path>         upload or replace (files up to 4 MB here)
-//   node tools/files.mjs move <path> <folder>       move into another folder
+//   node tools/files.mjs move <path> <folder>       move into another allowed folder
 //   node tools/files.mjs attach <last|draft-id> <path>   attach a OneDrive file to one of his drafts
 import fs from 'node:fs';
 import path from 'node:path';
@@ -16,15 +20,46 @@ const drive = (p) => `/users/${encodeURIComponent(OWNER)}/drive/root${p ? `:/${p
 const kb = (n) => `${Math.round((n || 0) / 1024)} KB`;
 const MAX = 4 * 1024 * 1024;
 
+// ---- the folder list ----
+let CFG = { allowedFolders: [], deniedNames: [] };
+try { CFG = { ...CFG, ...JSON.parse(fs.readFileSync(path.join(ROOT, 'config/files.json'), 'utf8')) }; } catch (_) {}
+const norm = (p) => String(p || '').replace(/\\/g, '/').replace(/^\/+|\/+$/g, '').replace(/\/{2,}/g, '/');
+const segs = (p) => norm(p).split('/').filter(Boolean);
+const ALLOWED = (CFG.allowedFolders || []).map(norm).filter(Boolean);
+const DENIED = new Set((CFG.deniedNames || []).map((s) => String(s).toLowerCase()));
+const NOT_YET = 'No OneDrive folders are on the list yet. Tariq names the TFA folders he wants me in and Jaiah adds each one to config/files.json; until then nothing in his OneDrive is reachable.';
+
+/** Is this OneDrive path inside a folder he has allowed, and free of denied names? */
+function permitted(p) {
+  const s = segs(p);
+  if (s.some((x) => DENIED.has(x.toLowerCase()))) return { ok: false, why: `"${p}" is inside a folder he keeps off limits` };
+  if (!ALLOWED.length) return { ok: false, why: NOT_YET };
+  const lower = s.map((x) => x.toLowerCase());
+  const under = ALLOWED.some((a) => { const as = segs(a).map((x) => x.toLowerCase()); return as.length <= lower.length && as.every((x, i) => x === lower[i]); });
+  return under ? { ok: true } : { ok: false, why: `"${p}" is not in a folder on his list (${ALLOWED.join(', ')}). If he wants it, it goes on Jaiah's list: node tools/requests.mjs add other "<his words>" "OneDrive folder <name> on the files list"` };
+}
+function mustPermit(p) { const r = permitted(p); if (!r.ok) { console.log(`Not allowed: ${r.why}`); process.exit(3); } }
+
 try {
-  if (cmd === 'list') {
+  if (cmd === 'folders') {
+    if (!ALLOWED.length) console.log(NOT_YET);
+    else { console.log('OneDrive folders on his list:'); ALLOWED.forEach((a) => console.log(`- ${a}`)); }
+    if (DENIED.size) console.log(`Never, anywhere: ${[...DENIED].join(', ')}`);
+  } else if (cmd === 'list') {
+    if (!args[0]) {
+      if (!ALLOWED.length) { console.log(NOT_YET); process.exit(3); }
+      console.log('Folders on his list (list <folder> to look inside):'); ALLOWED.forEach((a) => console.log(`[folder] ${a}`));
+      process.exit(0);
+    }
+    mustPermit(args[0]);
     requireConnection('read', 'listing OneDrive'); const g = await graph();
-    const d = await g.api(`${drive(args[0] || '')}/children?$select=name,size,folder,lastModifiedDateTime&$top=100`);
-    const rows = d.value || [];
+    const d = await g.api(`${drive(args[0])}/children?$select=name,size,folder,lastModifiedDateTime&$top=100`);
+    const rows = (d.value || []).filter((r) => !DENIED.has(String(r.name).toLowerCase()));
     if (!rows.length) console.log('Empty folder.');
     rows.forEach((r) => console.log(`${r.folder ? '[folder] ' : ''}${r.name}${r.folder ? ` (${r.folder.childCount} items)` : ` ${kb(r.size)}`}  ${(r.lastModifiedDateTime || '').slice(0, 10)}`));
   } else if (cmd === 'get') {
     const p = args[0]; if (!p) throw new Error('usage: get <path> [--to <local>]');
+    mustPermit(p);
     requireConnection('read', 'downloading a file'); const g = await graph();
     const ti = args.indexOf('--to');
     const out = ti >= 0 ? args[ti + 1] : path.join(ROOT, 'work/inbox', path.basename(p));
@@ -33,17 +68,20 @@ try {
     console.log(`Saved to ${out}`);
   } else if (cmd === 'put') {
     const [local, p] = args; if (!local || !p) throw new Error('usage: put <local> <path>');
+    mustPermit(p);
     const buf = fs.readFileSync(local); if (buf.length > MAX) throw new Error('over 4 MB; needs an upload session, ask Jaiah');
     requireConnection('read', 'writing to OneDrive'); const g = await graph();
     const r = await g.api(`${drive(p)}/content`, { method: 'PUT', body: buf, headers: { 'content-type': 'application/octet-stream' } });
     console.log(`Uploaded ${r.name} (${kb(r.size)}) to ${p}`);
   } else if (cmd === 'move') {
     const [p, folder] = args; if (!p || !folder) throw new Error('usage: move <path> <folder>');
+    mustPermit(p); mustPermit(folder);
     requireConnection('read', 'moving a file'); const g = await graph();
-    const r = await g.api(drive(p), { method: 'PATCH', body: JSON.stringify({ parentReference: { path: `/drive/root:/${folder}` } }) });
-    console.log(`Moved ${r.name} to ${folder}/`);
+    const r = await g.api(drive(p), { method: 'PATCH', body: JSON.stringify({ parentReference: { path: `/drive/root:/${norm(folder)}` } }) });
+    console.log(`Moved ${r.name} to ${norm(folder)}/`);
   } else if (cmd === 'attach') {
     const [ref, p] = args; if (!ref || !p) throw new Error('usage: attach <last|draft-id> <path>');
+    mustPermit(p);
     requireConnection('read', 'attaching a file'); const g = await graph();
     const id = ref === 'last' ? JSON.parse(fs.readFileSync(path.join(ROOT, 'work/last-draft.json'), 'utf8')).id : ref;
     const buf = await g.raw(`${drive(p)}/content`); if (buf.length > 3 * 1024 * 1024) throw new Error('over 3 MB; share a OneDrive link in the draft instead');
@@ -51,5 +89,5 @@ try {
       '@odata.type': '#microsoft.graph.fileAttachment', name: path.basename(p), contentBytes: buf.toString('base64'),
     }) });
     console.log(`Attached ${path.basename(p)} (${kb(buf.length)}) to the draft. Nothing sent.`);
-  } else { console.log('usage: list [folder] | get <path> [--to <local>] | put <local> <path> | move <path> <folder> | attach <last|draft-id> <path>'); process.exit(1); }
+  } else { console.log('usage: folders | list [folder] | get <path> [--to <local>] | put <local> <path> | move <path> <folder> | attach <last|draft-id> <path>'); process.exit(1); }
 } catch (e) { console.error(String(e.message || e)); process.exit(1); }

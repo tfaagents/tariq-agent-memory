@@ -34,6 +34,7 @@
       "Bash(node tools/send.mjs preview*)",
       "Bash(node tools/calendar.mjs everyone*)",
       "Bash(node tools/files.mjs list*)",
+      "Bash(node tools/files.mjs folders*)",
       "Bash(node tools/files.mjs get*)",
       "Bash(node tools/browser.mjs start*)",
       "Bash(node tools/browser.mjs stop*)",

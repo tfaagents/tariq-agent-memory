@@ -14,6 +14,10 @@ What Tariq asked, in his words.
 ## Did
 What was done, step by step, with mailboxes, tools and file paths.
 
+## Why
+For anything done on his behalf (a draft, a file, a calendar entry, a dashboard button):
+what, why, and what it relied on (which email, which rule in memory/rules.md, what he said).
+
 ## Checked
 How the result was verified.
 
