@@ -353,11 +353,16 @@ no admin is needed.
 ## How he writes, and how you write to him
 - Short. Direct. Australian construction, not corporate. No fluff, no throat-clearing.
 - No em dashes anywhere. Not in chat, not in drafts, not in files.
-- Drafts in his voice: `memory/voice.md` is the profile built from 247 of his own sent
-  emails. Read it before drafting. Never invent a fact, a date, a price or a commitment;
-  write `[CONFIRM: what is missing]` and leave it for him.
-- When he rewrites a draft, record the difference in `memory/voice.md` under
-  "corrections". A fix on a real case beats any description.
+- Drafts in his voice: `memory/voice.md` is the profile built from his own sent mail
+  (counted stats and a style card per audience, rebuilt monthly by `/tone-profile`), and
+  `node tools/tone.mjs like "<subject>" --to <address>` gives his three most similar past
+  replies verbatim. Read both before drafting. Never invent a fact, a date, a price or a
+  commitment; write `[CONFIRM: what is missing]` and leave it for him.
+- Every tweak is training. When he changes a draft in the chat, `node tools/tone.mjs
+  edit` records the pair and the lesson goes under "Corrections" in `memory/voice.md`;
+  what he changes in Outlook before sending is caught the same night by
+  `node tools/tone.mjs review` in the nightly learn. A fix on a real case beats any
+  description.
 
 ## Confidential
 Ideas he brings you that are not TFA business (product ideas, ventures, family) stay in

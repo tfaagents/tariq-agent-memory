@@ -24,6 +24,7 @@ const INDEX = path.join(ROOT, 'work', 'mail-index.json');
 // The Graph helper is vendored in this repo and reads config/connections.json here, with
 // the cert in this user's own home. Nothing is read from the workflow lane.
 const graph = await import(path.join(ROOT, 'runner/lib/graph.mjs'));
+const { logDraft } = await import(path.join(ROOT, 'tools/lib/tone.mjs'));
 
 const [, , cmd, ...args] = process.argv;
 const TZ = 'Australia/Brisbane';
@@ -107,8 +108,12 @@ try {
     else if (ti >= 0) body = args[ti + 1];
     if (!body || !body.trim()) throw new Error('empty draft body');
     if (/—/.test(body)) throw new Error('the draft contains an em dash; rewrite it without one');
+    const orig = await graph.getMessage(OWNER, ref.id).catch(() => null);
     const res = await graph.createReplyDraft(OWNER, ref.id, body.trim());
     fs.writeFileSync(path.join(ROOT, 'work', 'last-draft.json'), JSON.stringify({ id: res.id, replyTo: ref.id, subject: ref.subject || null, at: new Date().toISOString() }, null, 2));
+    // Every draft is logged so the nightly review can find what he actually sent and learn
+    // from the difference (tools/tone.mjs review).
+    logDraft({ draftId: res.id, replyTo: ref.id, conversationId: orig?.conversationId || null, to: orig?.from?.emailAddress?.address || null, subject: ref.subject || orig?.subject || null, file: fi >= 0 ? args[fi + 1] : null, text: body.trim() });
     console.log(`Draft saved in Tariq's Drafts folder${res.link ? `: ${res.link}` : ''}. Nothing sent. To send it he taps Approve on: node tools/send.mjs go last`);
   } else {
     console.log('usage: inbox [hours] | search "<text>" [mailbox] | from <address> [mailbox] | sent [days] | read <n|id> | diary [days] | draft <n|id> --file <path>');

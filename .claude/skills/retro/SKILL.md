@@ -15,7 +15,15 @@ argument-hint: [none]
 4. Read `memory/MEMORY.md` and spot-check three facts against this week's sessions and
    mail. Note anything contradicted, with the evidence, in the same retro folder as
    `memory-check.md`. Do not edit memory here, except in step 5.
-5. **First Friday of the month only: the consolidation pass.** Memory grows by appending,
+4b. **His voice.** Read the Corrections added to `memory/voice.md` this week and
+   `node tools/tone.mjs edits --k 10`. Two corrections that say the same thing become one
+   dated line in the profile body above the Corrections heading, in the section it
+   belongs to (opening, closing, length, a register); the corrections themselves stay.
+   Count for the summary: drafts sent as drafted, edited, dropped this week (from
+   `work/drafts/log.jsonl`).
+5. **First Friday of the month only: the consolidation pass.** Start with
+   `node tools/tone.mjs harvest` and then run `/tone-profile`, so the profile is rebuilt
+   from the last eighteen months of his sent mail with the Corrections kept verbatim. Memory grows by appending,
    so once a month it is rewritten to what is still true.
    - For each `memory/*.md` except `rules.md`, `capabilities.md` and `MEMORY.md`: rewrite
      the file to the facts that are still true today, each with the date it was last seen

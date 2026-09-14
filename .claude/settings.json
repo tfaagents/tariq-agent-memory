@@ -53,7 +53,9 @@
       "Bash(node tools/tfa.mjs request*)",
       "Bash(node tools/tfa.mjs browser-login*)",
       "Bash(node tools/recall.mjs*)",
-      "Bash(node tools/tfa.mjs digest*)"
+      "Bash(node tools/tfa.mjs digest*)",
+      "Bash(node tools/tone.mjs*)",
+      "Bash(node tools/people.mjs*)"
     ],
     "ask": [
       "Bash(node tools/mail.mjs draft*)",
