@@ -37,7 +37,10 @@ if (text.includes('—')) { console.error('em dash in message; rewrite it'); pro
 // Telegram rejects the markup the message goes again as plain text rather than not at all.
 const plain = args.includes('--plain');
 const esc = (t) => t.replace(/[_*\[\]()~`>#+\-=|{}.!\\]/g, (c) => '\\' + c);
-const marked = (t) => { const [first, ...rest] = t.split('\n'); return `*${esc(first)}*` + (rest.length ? '\n' + esc(rest.join('\n')) : ''); };
+// A line that is only capitals and spaces, 3 to 24 characters (TODAY, WAITING ON YOU), is a
+// section header of the morning brief and goes bold as well.
+const header = (l) => /^[A-Z][A-Z ]{2,23}$/.test(l);
+const marked = (t) => t.split('\n').map((l, i) => (i === 0 || header(l)) && l.trim() ? `*${esc(l)}*` : esc(l)).join('\n');
 
 async function send(chat_id, body) {
   const r = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
