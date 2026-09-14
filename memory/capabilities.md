@@ -1,4 +1,4 @@
-# What this agent can do (33 live of 41 logged)
+# What this agent can do (35 live of 43 logged)
 
 Mirrored from the Capabilities tab on the TFA Constructions card in Jaiah's CRM on 14 Sept 2026.
 That log is the truth about what is switched on; this file is a copy. Do not edit it here,
@@ -15,7 +15,7 @@ are named only when he asks what is coming, always with what they are waiting on
 - **Draft reply** Drafts replies in Tariq's voice; Outlook Drafts requires Approve. Installed 10 Sep; listed live in the 14 Sep handover. He says: Draft a reply to this email. (live 10 Sept 2026)
 - **Inbox review** Reviews mail through the existing mail wrapper. Installed 10 Sep; listed live in the 14 Sep handover. He says: Check my inbox. (live 10 Sept 2026)
 - **Morning brief** Prepares a brief from connected mail, diary and workflow information. Installed 10 Sep; listed live in the 14 Sep handover. He says: Give me my brief. (live 10 Sept 2026)
-- **Promises** Lists what he said he would do, to whom and by when, late ones flagged, with an Outlook link each, read from the promise tracker through the dashboard API. Installed 10 Sep but it returned "no report yet" until 14 Sep 21:55: the dashboard served reports only from digest files and the tracker writes the store (fixed in tfa-agents 7a0e0ab). Seen working on the mini 14 Sep 21:58: 8 open, 2 late. He says: What have I promised? (live 10 Sept 2026)
+- **Promises** Lists what he said he would do, to whom and by when, late ones flagged, with an Outlook link each, read from the promise tracker through the dashboard API. Installed 10 Sep but it returned "no report yet" until 14 Sep 21:47: the dashboard served reports only from digest files and the tracker writes the store (fixed in tfa-agents 7a0e0ab). Seen working on the mini 14 Sep 21:50: 8 open, 2 late. He says: What have I promised? (live 10 Sept 2026)
 - **Remember** Saves durable facts into file-based memory. Installed 10 Sep; listed live in the 14 Sep handover. He says: Remember this. (live 10 Sept 2026)
 - **Workflow status** Reads workflow status through the dashboard API. Installed 10 Sep; listed live in the 14 Sep handover. He says: How are the workflows going? (live 10 Sept 2026)
 
@@ -40,12 +40,14 @@ are named only when he asks what is coming, always with what they are waiting on
 ### Rules
 - **Decision Book** Records corrections in memory/rules.md; session logs explain actions and their sources. Shipped 14 Sep. He says: Remember this rule; what are my rules? (live 14 Sept 2026, not yet seen working)
 - **Plain-language Approve prompts** A plain explanation before each Approve tap. Shipped 14 Sep. He says: Use a command that needs approval. (live 14 Sept 2026, not yet seen working)
+- **Plans on every catch** Every wall, build ask, self-build and declined offer is filed with a plan in a fixed shape: What, Uses (live capabilities only), Missing, Self-build yes or no, First step, Size. The plan travels to the dashboard and into the daily digest so Jaiah reviews a proposal, not a bare ask. Declined offers are filed too (kind declined, no ping). He says: Automatic when the agent files a request; Jaiah sees the plan in the digest and on the dashboard. (live 14 Sept 2026)
 - **Self-build lane** Instructions permit small scripts under local/ and personal skills; first script run requires Approve. He says: Can you build a report using the tools you already have? (live 14 Sept 2026, not yet seen working)
 
 ### Connections
 - **Microsoft 365 connection** Two Entra app registrations made 14 Sep by Jaiah with Claude driving the browser: "Tariq Assistant" (Mail.ReadWrite, Calendars.ReadWrite, Files.ReadWrite.All, User.Read.All, Contacts.Read, MailboxSettings.Read; access policy = the five-mailbox group) and "Tariq Assistant Send" (Mail.Send only; access policy = tariq@ alone). Certificates, not secrets; both expire 10 Sep 2028. Switched on with scripts/connect-graph.sh, all proofs passed. He says: Nothing to do; it is the plumbing under mail, calendar, files and send. (live 14 Sept 2026)
 
 ### Schedules
+- **Daily digest to Jaiah** Every day at 17:30 the agent compiles everything it caught since the last digest (Build List asks, walls, things it built itself, offers Tariq declined, blocked jobs, housekeeping such as a stale backup), each with its plan, and sends one WhatsApp message to Jaiah through the dashboard, filed on the Requests page and in data/digests. First real run 14 Sep 21:52: five items, one new wall filed by the agent itself, WhatsApp sent. He says: Nothing for Tariq. Jaiah replies with an id and go, no or later. (live 14 Sept 2026)
 - **Monthly consolidation** On the first Friday of each month the retro rewrites every memory file to what is still true, moves the rest to memory/archive/YYYY-MM.md with dates, rebuilds MEMORY.md and keeps files under about 120 lines. rules.md entries are struck through, never moved; raw/ is never touched. Written 14 Sep; first run is Fri 2 Oct, not yet observed. He says: Runs inside the Friday 16:00 retro; nothing to say. (live 14 Sept 2026, not yet seen working)
 - **Morning send** Weekday 06:30 brief to Tariq. Delivery fix verified 11 Sep. He says: Runs weekdays at 06:30. (live 11 Sept 2026)
 - **Nightly learning** 21:00 memory learning from sent mail and diary, and since 14 Sep the day's session logs, job board, Build List, new rules and the shared export. Unattended run verified 10 Sep; the 14 Sep 21:00 run read 27 sent emails, added three rules and committed. He says: Runs nightly at 21:00. (live 10 Sept 2026)
