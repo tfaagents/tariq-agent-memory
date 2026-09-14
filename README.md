@@ -6,7 +6,14 @@ Design and reasoning: `clients/tfa-constructions/docs/tariq-personal-agent-plan-
 
 Lives at `/Users/tfaagents/tariq-agent` on the mini (`ssh tfa-mini`). Jaiah's copy is
 `clients/tfa-constructions/tariq-agent/` in the Autoflow workspace. Ship changes with
-`rsync -a --exclude work --exclude .git ./ tfa-mini:tariq-agent/` then restart the session.
+`scripts/ship.sh` (rsync with the right excludes) then restart the session. Never a bare
+`rsync -a ./ tfa-mini:tariq-agent/` while the agent still runs under `tfaagents`: on 14 Sep
+2026 that overwrote the agent's own `memory/` with older copies, put the repo's
+`config/schedule.json` back (double runs next to launchd) and replaced the v1 `tools/mail.mjs`
+(the mini's copy reads the TFA Agents cert; the repo's needs the Tariq Assistant app), so
+mail broke until they were restored from the mini's git. `scripts/ship.sh` excludes
+`memory/ sessions/ raw/ work/ models/ node_modules/ config/schedule.json tools/mail.mjs` and
+`.git`; those go the other way (the mini is their truth) until the user split lands.
 
 ## What is where
 
