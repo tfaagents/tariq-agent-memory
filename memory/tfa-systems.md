@@ -23,6 +23,11 @@ Connected (through tools/)
 - **`tools/notify.mjs` has no flags except `--file` and `--plain`.** Anything else on the
   command line IS the message: `node tools/notify.mjs --help` sent Tariq a Telegram saying
   "\-\-help" at 6:32am on 14 Sep. Read the header of the file for usage, never probe it.
+- **The promise tracker returned nothing on 14 Sep 2026 9:00pm.** `tfa.mjs promises`
+  printed its "tracker ran 15 h ago" header and then "The tracker has no report yet",
+  where on 13 Sep the same command listed seven open promises. The header and the body
+  disagree, so treat an empty promise list as a tool fault, not as "he owes nobody
+  anything", and fall back to reading `mail.mjs sent`.
 - **The promise tracker does not notice a promise being kept.** On 13 Sep it still showed
   the Narangba and Bokarina resends as LATE, two days after Tariq resent both folders.
   Always check `mail.mjs sent` before telling him something is late.
@@ -68,4 +73,27 @@ Jotform, Blaze (video), Figma (TFA Constructions team, the flow boards), Monday.
 - **Monday.com AI credits ran out.** Notice 13 Sep 2026 8:18am: the team is on 0 AI
   credits and Monday's AI features stop in 4 days, so about **17 Sep 2026**, unless
   someone buys more. Monday.com is where TFA's tasks live and mentions in it are how
-  urgent estimates reach him. Nobody has raised it with him yet.
+  urgent estimates reach him. Kendal forwarded the notice to Tariq on 14 Sep 8:38am with
+  "Grrrr" and he replied at 9:48am "**what is this exactly?**", so as at 14 Sep he still
+  does not know what the credits are or what stops without them. Nobody has costed the
+  top-up for him.
+
+The Autoflow flow boards (Figma, reviewed with Jaiah)
+- 10 Sep 2026 Jaiah sent **FLOW 01, 09 and 10** to the team to review, questions as
+  numbered stickies on each board. **FLOW 01 Employee onboarding** (Kendal and Heather):
+  reads the onboarding form, checks MYOB for an existing card, holds the card for Kendal
+  to approve; open questions include whether MYOB's Deputy connection is on. **FLOW 09
+  Supplier invoices** (Clay): checks each invoice as it lands, lists what is missing,
+  drafts the chase, puts a check sheet beside it; the CA still approves in Pro Scan; open
+  questions include where invoices land and how an approved cost gets from Procore into
+  MYOB. **FLOW 10 Bulk emails** (Kendal): she uploads the list, writes once, checks every
+  copy, it sends. **FLOW 10 needs Tariq's own OK for the agent to send externally, with
+  Kendal approving every send.** That is his decision to make and it is still open.
+- 14 Sep 2026: Tariq chased Jaiah at 3:54pm, "Has the team completed the below ready for
+  **tomorrows site visit**?", so Autoflow are on site **Tuesday 15 Sep 2026**. Kendal
+  replied at 4:04pm "I havent even got to this yet 😕" and Tariq answered "tsk tsk tsk
+  tsk". The three boards are not reviewed going into that visit.
+- The four job sites named in FLOW 09 are **Logan Village, Jimboomba, Mariners and Slacks
+  Creek**. Mariners is not otherwise in anything read here.
+- Clay also wants an agreed "ideal supplier invoice email" (invoice, PO and dockets in
+  one) and still owes the **Procore invite for agents@**.

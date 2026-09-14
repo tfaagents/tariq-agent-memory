@@ -8,7 +8,6 @@ that was read in the body of his own sent mail. Confirm a number or a date from 
 thread before quoting it to him.
 
 ## 35 Hi-Tec Court, Eight Mile Plains (the "BTP" purchase, new TFA office)
-
 11 Sep 2026, his own words to Veena (sent 8 Sep, forwarded to Clay 11 Sep 3:39pm with
 "FYI. Apologies for not cc'ing you."):
 - 35 Hi-Tech Court is "TFA's Baby, very close to the heart as its our master planned
@@ -53,6 +52,23 @@ with the entity question open.
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
 - The biggest thread in his mail by far.
 
+14 Sep 2026:
+- **Council rates query answered and approved for payment.** Logan City Council (Sonia
+  Davey, 3 Sep, Request No 3940521) explained why 7 and 9 Dan Street differ. Wastewater
+  is charged per pedestal or equivalent: first one is 20 units, each extra 15.
+  **7 Dan St: 2 pedestals, 35 units, $384.30 a quarter; 9 Dan St: 7 pedestals, 110 units,
+  $1,207.80 a quarter.** Water is charged on meter size: 7 Dan St has a **20mm** meter at
+  $85.50 a quarter, 9 Dan St a **40mm** at $342.00. Held under **Slacks Creek Industrial
+  Pty Ltd**. Tariq to Heather 3:58pm: "No problems, please proceed with payment if not
+  already completed." Council will send an inspector to recount pedestals if TFA thinks
+  the count is wrong, so that door is open if the 9 Dan St figure ever looks off.
+- Accepted a **"Dan Street - Final Marketing Review"** invite from rwc.csr.qld@raywhite.com
+  at 1:42pm. Date not confirmed in anything read; check the thread before quoting it.
+- Forwarded the **7-9 Dan St D&C tender** and the **Chermside apartments and childcare**
+  threads (both originally to Abhinav, 4 Sep) to **Kendal** at 2:13pm and 2:15pm. Kendal
+  is being handed the estimator-facing tender packs now she is back.
+
+
 13 Sep 2026:
 - The weekly **Dan Street Sales and Marketing Update** invite was reissued today by
   **Grant Turner** (Ray White Commercial) for **Mon 14 Sep 2026 10:00am**, now with a
@@ -89,6 +105,22 @@ and Marketing Update" Mon 10am; Commercial Ready (Sally) on split payment option
 - Open promise: land owners consent to be executed in person (was due 31 Aug 2026).
 
 ## 95-103 East St, Jimboomba (SD-03 Jimboomba Sub-Division)
+14 Sep 2026, the road closure is refused and it becomes a claim:
+- **Logan City Council will not accept a full road closure** for the East Street Stage 1
+  road widening. Christian Fowler (LCC) put it in writing to David on 11 Sep 11:36am,
+  cc Mauricio, Clay and Fred Cha: "just setting clear expectations, I do not think will
+  be accepted as full road closure."
+- Clay's read (14 Sep 6:56am): doing the road work **in stages** adds significant time
+  and cost (multiple trade call outs), and TFA **will claim it as an EOT and a HCV**
+  (extension of time and head contract variation). **Mauricio ("Mo") is preparing the
+  EOT and HCV now.**
+- Tariq's answer, 8:10am, and it is the line to hold him to: "Thanks Clay. However, we
+  need to move faster we always knew it wouldn't be accepted, it shouldn't change our
+  expectation of **finishing program this year**." The claim goes in; the program does
+  not move.
+- This is a separate matter from RFI #10 (the school zone flashing sign) below, though
+  both are East Street and both run through Council.
+
 
 10 Sep 2026:
 - **RFI #10, existing school signage on East Street.** The sign clashes with TFA's
@@ -120,7 +152,6 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   at Inspire EYM. Kendal's Claude project also tracks this one.
 
 ## Narangba childcare extension (Spring Early Learning)
-
 - 13 Sep 2026: **Alee has still not confirmed either folder.** Nothing from
   aleefateh@gmail.com since 10 Sep 11:31pm. He is the one who twice could not open the
   drawings, so of the two estimators he is the open risk. Only Abi has confirmed.
@@ -189,6 +220,12 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   comparison for Bardon Rd is on his agent wish list.
 
 ## Tenders and prospects (design and construct)
+- **Urban Leaders Awards: deferred to 2027, deliberately.** Nominations closed 11 Sep 2026.
+  The award is for an individual 40 or under who owns or runs a property development
+  company, judged on Leadership, Growth and Innovation at 20% each. Tariq, 14 Sep 3:56pm:
+  "lets knock this out next year as we will have a plethora of information to win 😊."
+  Worth raising with him around **August 2027**.
+
 - 10 Sep 2026: **Logan City Council EOI, Future Use of Land at Loganholme Tourism Precinct
   and Cronulla Park**, through VendorPanel to tenders@. **Closes Friday 16 Oct 2026,
   4:00pm.** Addendum 01 (online briefing session presentation) added 10 Sep. Forwarded to
@@ -210,6 +247,33 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   standards job, not a one-off email.
 
 ## Employment and legal matters
+14 Sep 2026, apprentices and Daniel's agreement:
+- **Daniel is NOT being made a CA yet.** Clay asked for what he had so he could scope
+  Daniel's new agreement. Tariq, 3:52pm: "I don't want to change his title to CA yet
+  maybe keep it for the next year as **Project Coordinator in training for CA** or **CA
+  Cadet**? So he is aware he has to work towards it?" He sent Clay an old Cadet Contract,
+  Daniel's old accounts contract, and the new CA contract with no position description.
+  **The CA version is the most recent vetted one**, the same shape as Veena's.
+- **TFA has four apprentices: Nelson, Jordan, Alex and Seth.** Clay's concern (7:04am):
+  each needs a qualified tradesperson to teach them, Nelson is under Shane (mechanic) but
+  the three carpentry apprentices have nobody assigned; **Jordan, the 4th year, is
+  currently teaching the first years, which is not ideal**; Sean "wants no bar of it";
+  and with TFA subcontracting more trade packages as it scales, Clay thinks they may have
+  **one apprentice too many**. He wants them split under their own carpenter supervisor.
+- Tariq's position, 8:05am: "the plan was to **rotate them between all supervisors or
+  carpenters** to get exposure for what our business needs from them in the 4 year
+  apprenticeship. i.e learning **mechanical, civil and carpentry**." To be settled at
+  their next catch up, when Clay is back.
+- **Alex Peter was marked absent from TAFE** on 14 Sep (Acacia Ridge campus, flagged by
+  Megan Cahill, TAFE QLD, CRM:0632000002335). Tariq to Clay and Heather, 1:42pm: "please
+  notify tafe if he is not attending. Please cc me in all correspondence."
+- **Probation end dates now tracked by Heather**, with reminders Tariq asked to be copied
+  on: **Kendal Jackson** started 11/05/2026, 6 months, ends **11/11/2026**, reminder
+  26/10/2026; **Mauricio Andrades** ends **29/12/2026**; **Veena Choudhary** ends
+  **7/03/2027**. Tariq: "thanks please send me the reminder also."
+- Nelson Frost's TAFE induction (open since 11 Sep) is still unbooked as far as anything
+  read says; the thread moved on to the supervisor question instead.
+
 
 11 Sep 2026:
 - **Nelson Frost, apprentice.** TAFE Queensland SkillsTech need to run the mandatory
@@ -242,6 +306,40 @@ Fettell):
 - **Nelson wages query** raised with Desari on the same call list.
 
 ## Money and compliance
+14 Sep 2026:
+- **Payments now have a 3:30pm cut off.** Heather sent an ABA file at 4:12pm for Utility
+  Mapping, due that day, because their card payment system failed and Josh had not sent
+  the payment link she chased twice. Tariq paid it but set the rule at 4:21pm: "If we can
+  do a **cut off of say 3.30pm for any payments** as it hinders my departure." See
+  [[rules]].
+- **Credit cards are being wound back in favour of supplier accounts.** Heather opened a
+  **$5,000 credit account with 1800 HOSE VAN** (a division of HS Company, reached through
+  Glen at A Hydraulics). Shane pushed back that he uses different companies all the time
+  and a card is "like 30 day account". Tariq, 3:33pm: "We are going to use accounts now
+  because **the credit cards are too much of a headache** now. Alternatively we will need
+  to take all cards back and **allocate only 1 card** to you to track purchases as
+  **receipts are always missing** or we are chasing up invoices constantly." A standing
+  friction: receipts and invoices not coming back off the cards.
+- **ATO PAYG instalments for TFA Constructions**: income tax pre-payments required because
+  of FY25 income. **$28,730 a year, $7,182.50 a quarter**, pre-filled when the quarterly
+  BAS is lodged on the ATO portal. Tariq, 1:39pm: "okay, please **track if tfa attains a
+  loss that its credited in the next financial year**."
+- **Ali Family Trust, account ending 6175, interest rate notice.** The notice lands with
+  Heather by mistake. Tariq's structure, in his words: "**The loan is technically ours as
+  TFA and we pay the repayments. But the entity is in the trust** and yes bas etc managed
+  by **shafia**." Heather wants Shafia copied as well, since Shafia reconciles the
+  interest charge; Tariq, 3:36pm: "I'll ask shane, don't think its needed their end as
+  its our expense. Also I believe if its been running for almost 3 years lol." Open: he
+  has not given Heather Shafia's address yet.
+- **2022 Ford WildTrak insurance**, through Osman Insurance Brokers. Ritu quoted
+  **Agreed Value $45k**, with **Market Value at $1,932.73**. Tariq, 1:57pm: "Could you
+  please review the price with **Uncle Mahood said discount $750**. Please apply cover.
+  From my understanding there is only $50 dollars difference between market and agreed?"
+  Forwarded to Kendal at 3:31pm to "complete and return to them for cover". Cover is
+  instructed but the price is still being argued.
+- **Kennards Hire invoice 1078832** forwarded to Daniel 8:14am: "is this hire completed
+  now?" He checks the hire is off site before the invoice is approved.
+
 - **SAli Cleaning Services** took over the office clean from **Arcane** (11 Sep 2026).
   Rate **$150/week excluding bin liners**; Arcane were $133.10/week including liners but,
   after Karen finished, were doing a lousy job and becoming unreliable. Heather: "The
@@ -284,6 +382,14 @@ Fettell):
   the sign off. Kendal is running it.
 
 ## Other threads
+- **"Ecco", cross over change** (14 Sep 2026). Clay found the document in "Pasen's email"
+  and wants clarification from Tariq at their next catch up. Tariq, 8:12am: "No problems,
+  I'll leave it to you to come see me and discuss follow up queries." Which project Ecco
+  belongs to is not stated in anything read; ask before assuming.
+- **"Mariners"** appears as one of TFA's four live jobs in Jaiah's FLOW 09 questions
+  (Logan Village, Jimboomba, **Mariners**, Slacks Creek), 10 Sep 2026. Nothing else read
+  names it. It is a job site, not yet matched to an address here.
+
 - 1661 Old Cleveland Rd Chandler planning advice (HPC Planning).
 - 66 Learoyd Rd Algester: superseded 10 Sep 2026. It is not a TFA job. It is a personal
   and community objection to AFIC buying the site, run with Mustafa Dean and Imran Ali.

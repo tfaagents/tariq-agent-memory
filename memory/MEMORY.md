@@ -19,7 +19,7 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 - [66 Learoyd Rd Algester](learoyd-algester.md) — the AFIC objection with Mustafa Dean and Imran Ali, asbestos and PFAS site, personal not TFA, confidential
 
 ## How he wants things done
+- [Rules](rules.md) — the Decision Book: every correction he makes, dated, in his words; read before drafting or filing
 
 ## Declined offers (skills or schedules he said no to)
 - [Declined](declined.md)
-- [Rules](rules.md) — the Decision Book: every correction he makes, dated, in his words; read before drafting or filing

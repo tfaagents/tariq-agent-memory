@@ -63,6 +63,27 @@ Rules in his own words (from his sent mail, dated)
 - He wants TFA measured against the best he sees, not against itself: on finding another
   builder's handover document list he told Clay "I'm wanting to know where you team is at
   with this information?" and asked Kendal to make ours the same (10 Sep 2026).
+- A knock-back is a claim, not a delay. When Council refused the Jimboomba full road
+  closure he did not renegotiate the program: "However, we need to move faster we always
+  knew it wouldn't be accepted, **it shouldn't change our expectation of finishing program
+  this year**" (14 Sep 2026, to Clay, with Mauricio preparing the EOT and HCV). Expect
+  him to take the commercial claim AND hold the original date.
+- One task, one owner. "I don't want to be cc'ing everyone ... **Cc'ing everyone would
+  just leave it unattended as no one would know who's task it is?**" (14 Sep 2026, to
+  Heather.) When you report or route something, name the single person who holds it. See
+  [[rules]].
+- He would rather wait a year and win than enter and lose. On the Urban Leaders Awards
+  closing that week: "lets knock this out next year as **we will have a plethora of
+  information to win** 😊" (14 Sep 2026, to Kendal). A deadline he cannot win by is not a
+  deadline he chases.
+- Titles are earned in front of the person, not handed over. On Daniel: "I don't want to
+  change his title to CA yet maybe keep it for the next year as Project Coordinator in
+  training for CA or CA Cadet? **So he is aware he has to work towards it?**" (14 Sep
+  2026, to Clay.)
+- Anything ambiguous he wants face to face, not written: "I'll leave it to you to come see
+  me and discuss follow up queries" (14 Sep 2026, to Clay on the Ecco cross over), and
+  "we can chat more when your back" on the apprentice supervision question the same
+  morning. He answers email fast, but parks the real decision for the catch up.
 
 What he asked this agent for (8 Sep 2026)
 - A private chat he can talk to any time, separate from the staff agent line.

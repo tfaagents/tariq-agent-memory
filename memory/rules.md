@@ -17,10 +17,25 @@ one wins. Never delete a rule; strike it through and add the replacement under i
 - 2026-09-11 (his roadmap email): payments, contracts, legal submissions, employee
   decisions, major purchases, business registrations and external commitments always need
   his explicit approval. Nothing autonomous there.
+- 2026-09-14 (email to Heather, 4:21pm): **payments have a 3:30pm cut off.** "If we can do
+  a cut off of say 3.30pm for any payments as it hinders my departure." An ABA file or a
+  payment landing after 3:30pm waits for the next day unless he says otherwise.
+- 2026-09-14 (email to Shane and Heather, 3:33pm): **supplier accounts, not credit cards.**
+  "We are going to use accounts now because the credit cards are too much of a headache
+  now." The fallback he named is taking all cards back and issuing one card to track
+  purchases, because "receipts are always missing or we are chasing up invoices
+  constantly".
 
 ## Email
 - 2026-09-08 (in person): replies are single touch. Draft it, he reads, he says yes or
   changes it. He does not want to write the polish himself.
+
+## Who owns what, and who gets cc'd
+- 2026-09-14 (email to Heather, 3:35pm): **do not cc everyone.** "I don't want to be cc'ing
+  everyone ... Cc'ing everyone would just leave it unattended as no one would know who's
+  task it is?" One named owner per task. On apprentice TAFE times and approvals that is
+  **Heather and Clay**, and Clay then tells Daniel so he can schedule the shifts. Tariq
+  himself is cc'd on all TAFE correspondence.
 
 ## People and staff
 - 2026-09-04 (via Kendal): staff information stays inside the job. Pay, hours, passwords

@@ -14,17 +14,36 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   notices, Jimboomba, head contract reviews, handover documentation, work experience
   students on site.
 - Daniel (daniel@, 0455 832 832): projects side, decision notices, hire invoices
-  (Kennards), Ripley. Recruiting an operator for Jimboomba.
-- Mauricio, spelled "Maurico" by Tariq (mauricio@): Dan Street DA, title searches, land
-  owners consent, landscape design invoices, consultant lists.
+  (Kennards), Ripley. Recruiting an operator for Jimboomba. **Schedules the apprentices'
+  shifts**, so he needs TAFE attendance dates, but Clay passes them to him, not Tariq
+  (14 Sep 2026). Clay is scoping his new agreement: staying **Project Coordinator in
+  training for CA / CA Cadet**, not CA yet.
+- Mauricio, spelled "Maurico" by Tariq, called **"Mo"** by Clay (mauricio@): Dan Street
+  DA, title searches, land owners consent, landscape design invoices, consultant lists.
+  From 14 Sep 2026 he is preparing the **EOT and HCV claim** for the Jimboomba East
+  Street road closure refusal. Probation ends 29/12/2026.
 - Veena (veena@): estimator, started Sep 2026. From 10 Sep 2026 also chasing consultant
   fee proposals for the BTP site (Northrop, HPC Planning).
 - Malik Awan: raises RFIs in Procore under TFA Constructions (Jimboomba RFI #10). Added
   to the Scribe plan 10 Aug 2026.
-- David (david@): occasional. Randal: Wednesday 11am catch-up with Clay and Tariq.
+- David (david@): occasional. He is TFA's correspondent to Logan City Council on the
+  Jimboomba East Street road closure (11 Sep 2026). Randal: Wednesday 11am catch-up with
+  Clay and Tariq. Neither Randal, David nor Tariq is in a carpentry role, so none of them
+  can supervise the carpentry apprentices (Clay, 14 Sep 2026).
+- **Shafia**: does the accounting and BAS for the **Ali Family Trust** (Tariq: "the entity
+  is in the trust and yes bas etc managed by shafia", 14 Sep 2026). She reconciles the
+  interest charge on account 6175. Heather does not have her email address yet and asked
+  Tariq for it; still outstanding. Likely family, treat as personal-side.
 - "Muzzy": confirms whether supplier invoices are already paid before Heather pays them.
 
 ## Lawyers, finance, consultants
+- **Osman Insurance Brokers** (admin@osmaninsurance.com.au, PO Box 17 Sunnybank,
+  07 3344 7477): TFA's insurance brokers, and connected to Tariq personally. **Ritu**,
+  Broker's Assistant, does the quotes and the cover notes. **Mahmood Osman**
+  (mahmood@osmaninsurance.com.au) is "**Uncle Mahood**" to Tariq, so the discount gets
+  agreed with Mahmood and Ritu is asked to apply it (14 Sep 2026, the 2022 Ford WildTrak).
+  Kendal handles the paperwork back to them.
+
 - MSP Law: **Geoff Chen** (listed in Outlook as Zhi Chen, geoff@msplaw.com.au, 0468 987
   263), solicitor on the 35 Hi-Tech Court purchase and the deposit instalment schedule.
   **Mohammed Patel** (Mohammed@msplaw.com.au): title searches, Hi-Tech Court, and from
@@ -60,6 +79,12 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - Xact Accounting and Westnet: accountants and advisors on the MYOB file.
 
 ## Agents, clients, prospects
+- **Logan City Council**, the officers TFA actually deals with: **Christian Fowler**
+  (ChristianFowler@logan.qld.gov.au) and **Fred Cha** on the Jimboomba East Street road
+  widening and traffic approvals, who refused the full road closure 11 Sep 2026; **Sonia
+  Davey** (SoniaDavey@logan.qld.gov.au) on rates and water charges for 7 and 9 Dan Street.
+  Also the EOI and tender side through VendorPanel.
+
 - Ray White Commercial: **Annabelle Weir**, Head of Commercial Property Management, RWC
   CSR, 0420 674 809, Shop 1/2 Centre Place Rochedale South. Current property manager for
   7-9 Dan Street. Also Grant Turner, Mukhtaar H, pm.csr@raywhite.com (Dan St sales and
@@ -101,6 +126,19 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - **Audrey Marceau**, Tracks IS (audrey@tracksis.com.au). Blue and white collar.
 
 ## Suppliers and systems that email him
+- **TAFE Queensland, Client Account Management: Megan Cahill**, Client Liaison Officer,
+  megan.cahill@tafeqld.edu.au, 07 3259 3063, Bracken Ridge campus. She emails Tariq
+  directly when an apprentice is marked absent (Alex Peter, 14 Sep 2026). Separate from
+  the SkillsTech Apprentice Inductions address below. TFA apprentices attend the **Acacia
+  Ridge** campus.
+- **1800 HOSE VAN**, a division of **HS Company**, reached through **Glen at A Hydraulics**.
+  Heather opened a **$5,000 credit account** here on 11 Sep 2026; it is the first of the
+  supplier accounts replacing credit cards. HS Company trades a number of businesses under
+  one umbrella, so nominate the right one when applying.
+- **Utility Mapping** (Josh): invoices TFA and their online card payment system does not
+  work; Josh has twice failed to send a payment link Heather asked for, so it gets paid by
+  ABA file instead (14 Sep 2026).
+
 - **SAli Cleaning Services** (invoices via MYOB): the office cleaner from ~Sep 2026,
   $150/week excluding bin liners. Family connected, Tariq's sister is close to it, so
   Tariq will not push on price. Replaced **Arcane**, $133.10/week including liners, who
@@ -138,10 +176,16 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   travel, not TFA. If a Qatar reply lands, that is the thread it belongs to.
 - ziana.ali90@gmail.com: 92 emails out, statements, aircon, flights, Accor offers he
   forwards on. Appears to be family (likely his wife); confirm before assuming.
-- **Saheed Ali** (saheedali@hotmail.com): family, and closer to TFA operations than the
-  other personal contacts. As at 11 Sep 2026 he is cc'd on apprentice matters (Nelson
-  Frost's TAFE induction) and was sent the Fleet & Equipment Register. Also appears on
-  the ISA Collective threads with Saiyad Pasha.
+- **Saheed Ali** (saheedali@hotmail.com) is **Tariq's father, and he is the "Shane" the
+  rest of TFA talks about** (14 Sep 2026: Heather opens an email to saheedali@hotmail.com
+  with "Hey Shane," and Tariq replies on the same thread "Salams Dad"). That ties together
+  several older notes: the Shane who approves the Hastings Deering coding, the Shane Tariq
+  says he will ask about the Ali Family Trust loan, the yard manager who sends receipts
+  from site, and the qualified **mechanic** supervising apprentice Nelson Frost are all
+  the same person. He buys from whichever supplier suits him and prefers a credit card
+  ("I use different company all the time, no need for account"), which is exactly the
+  habit Tariq is reining in with supplier accounts. Cc'd on apprentice matters and holds
+  the Fleet & Equipment Register. Also on the ISA Collective threads with Saiyad Pasha.
 - **Mustafa Dean** (mustafa_d06@outlook.com), saheedali@hotmail.com: card charges,
   invoices, rego, auction. Family or friends. "Sibling Coffee" is a recurring diary
   entry. From 10 Sep 2026 Mustafa is one of the two on the 66 Learoyd Rd Algester
