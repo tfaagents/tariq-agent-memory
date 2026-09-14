@@ -35,7 +35,8 @@ const SIG_MARKERS = [
 
 /** Everything he actually typed: the quoted thread and the signature cut off. */
 export function stripQuoted(raw) {
-  const text = String(raw || '').replace(/\r\n/g, '\n');
+  // Outlook leaves "[cid:image001.png@...]" where an inline image (his signature logo) was.
+  const text = String(raw || '').replace(/\r\n/g, '\n').replace(/^\s*\[cid:[^\]]+\]\s*$/gm, '').replace(/\[cid:[^\]]+\]/g, '');
   let cut = text.length;
   for (const re of QUOTE_MARKERS) { const m = re.exec(text); if (m && m.index < cut) cut = m.index; }
   return text.slice(0, cut).trim();
