@@ -81,7 +81,7 @@ are named only when he asks what is coming, always with what they are waiting on
 ### Connections
 - **Deputy** Not connected as of the 14 Sep handover. Waiting on: Connection not configured.
 - **Instagram** Not connected as of the 14 Sep handover. Waiting on: Connection not configured.
-- **Monday.com** Not connected as of the 14 Sep handover. Waiting on: Monday.com token awaited.
+- **Monday.com** Token received 15 Sep 2026: Kendal emailed it to jaiah@autoflowai.com.au 15:37 Brisbane (subject "Monday API Key"). Verified live against api.monday.com/v2 the same afternoon: it authenticates as Kendal Jackson (user 103444369, admin) on account 28943165 "TFA Constructions", region apse2. Boards it can see include the per-job Priority Planning workspace (Slacks Creek 130 items, Jimboomba 19, Logan Village 2, Mariners Reach, Eight Mile Plains) and TFA: OPERATIONS. Stored as monday.token in the write-only credential store on the mini (/Users/tfaagents/.tariq-agent/secrets.json, 0600) and on Jaiah's Mac. NOT yet connected: no tool in the agent reads or writes Monday. Waiting on: A Monday tool on the agent. ⚠️ Scope is me:write, not the read-only token that was asked for: it can create, change and delete on every board Kendal can reach, as her. Anything built on it writes under her name; swap for a scoped token or a service account before any write goes live.
 - **MYOB** Not connected as of the 14 Sep handover. Waiting on: Developer ticket 52306 acknowledged; access not granted.
 - **Procore** Not connected as of the 14 Sep handover. Waiting on: Connection and access not confirmed.
 
