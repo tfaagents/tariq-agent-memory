@@ -8,10 +8,16 @@ Build one short message for his phone. Read, in this order, and say how old each
 
 1. `node tools/calendar.mjs everyone 1` (his diary first, then who at TFA is where today;
    if his line says "could not read", `node tools/mail.mjs diary 1` is the same calendar)
-2. `node tools/tfa.mjs brief` (the workflow lane's overnight brief when it exists, and the
-   inbox digest)
-3. `node tools/settled.mjs --promises` (NOT `tfa.mjs promises`: the tracker cannot see
-   fulfilment, so its LATE is a claim). Go by the verdicts. `DONE` never appears. `YOU DID
+2. `node tools/mail.mjs inbox 14` (what came in overnight, read with his own app). The
+   workflow lane's overnight brief, `node tools/tfa.mjs brief`, is a second look only, and
+   it goes when that lane stops reading his mail.
+3. **The promises, and refresh them first if they are stale.** `node tools/promises.mjs
+   list` prints when it last scanned; if that is more than eighteen hours ago, run
+   /promises-scan before anything else, because a brief built on a two day old scan misses
+   what he promised yesterday. The schedule normally does this at 06:15, and this is the
+   check that catches a morning it did not.
+   Then `node tools/settled.mjs --promises` (never the raw scan or `tfa.mjs promises`:
+   neither can see fulfilment, so their LATE is a claim). Go by the verdicts. `DONE` never appears. `YOU DID
    IT` is a chase on them, written as "you sent X on <date>, nothing back", never as his
    late promise. `NOT DUE` is left out. Only `STILL OPEN` that is also past its due date
    gets the LATE prefix.
