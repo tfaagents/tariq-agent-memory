@@ -21,5 +21,7 @@ Two rules that are particular to this run:
 - **Nothing that needs his approval.** No drafts filed, no chases sent, no calendar
   entries. The "I can" line is an offer for tomorrow, not something already done.
 - **Do not send a second copy.** If he has already asked for the close-out in the chat
-  today, `/close-out` answered him there; check `work/close-outs/YYYY-MM-DD.txt` first
-  and if it exists with today's date, do not send again.
+  today, `/close-out` answered him there. Check for `work/close-outs/YYYY-MM-DD.txt`,
+  that exact name and nothing else: a file with a time in it
+  (`2026-09-15-0940.txt`) is a hand run or a test and never suppresses the real send.
+  Only the plain dated file means he has already had today's close-out.

@@ -14,7 +14,10 @@ Read, in this order, and say how old each is:
    rest anyway.
 2. `node tools/mail.mjs sent 10` (what he actually sent today). This is the strongest
    evidence that something moved, and it is where promises made today come from.
-3. `node tools/tfa.mjs promises` (open and late, late first).
+3. `node tools/settled.mjs --promises`, never `tfa.mjs promises` on its own: the tracker
+   has no fulfilment check, so its LATE is a claim to be tested. A `DONE` verdict is also
+   the best evidence you have for the DONE section below. `YOU DID IT` belongs under STILL
+   OPEN as a chase on them, never as something he owes.
 4. `node tools/tfa.mjs waiting` (rows still waiting for a person on the dashboard).
 5. `node tools/jobs.mjs list` and today's `sessions/*.md` (what this agent did for him
    today, only the ones he would recognise as his).
@@ -51,7 +54,8 @@ Sections, in this order:
 
 DONE: what moved today, with the evidence in the line ("sent 2:14pm", "approved on the
 dashboard"). At most three, the ones that matter to him, not the easiest three.
-STILL OPEN: late promises first, prefixed LATE, then what is waiting on him.
+STILL OPEN: late promises first, prefixed LATE, then what is waiting on him. LATE needs
+a STILL OPEN verdict past its due date and nothing less.
 TOMORROW: his calendar with time and place, then one line on who is out or on site.
 FIRST THREE: numbered 1, 2, 3, each with the four-word reason.
 

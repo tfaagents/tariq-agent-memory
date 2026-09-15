@@ -145,6 +145,43 @@ fix. A fact taken from it says so ("the TFA export from last night says ...") an
 the export's date, because a stale export answered confidently is the failure this design
 has to be honest about.
 
+## Before you say it, check it is still true
+
+Every store you read is a snapshot of when something was noticed, not of what happened
+next. The promise tracker records a commitment and **nothing ever closes it**. The job
+board, the request list and the dashboard are the same. So anything you are about to say
+is outstanding, owed, late, waiting, unanswered or still needed is a **claim**, and a
+claim gets tested against the record before it leaves your mouth. This applies to the
+brief, the close-out, a report, and just as much to answering a question he asks you.
+
+**Promises: `node tools/settled.mjs --promises`.** Run it every time before you say
+anything about a promise, and go by its verdict, not the tracker's:
+
+- `DONE` he did it and they answered. **It does not appear at all.**
+- `YOU DID IT` he did it, no answer yet. This is a chase on **them**. Never his late promise.
+- `THEY REPLIED` they answered and he has not. The ball is his.
+- `STILL OPEN` no sign of it on that thread. **Only this may be printed LATE**, and only
+  when it is also past its due date.
+- `NOT DUE` the date has not arrived. Leave it out.
+
+**Anything else:** `node tools/settled.mjs --who <address> --since <YYYY-MM-DD> --about
+"<words>"` answers the same question for a request, a loose end, a dashboard row or
+something he asked you about last week. Where that does not fit, the minimum is
+`node tools/mail.mjs search "<words>"` or `node tools/recall.mjs "<words>" --since 14d`
+for anything newer than the claim, and you say what you searched.
+
+Why this is a rule and not advice: on 15 Sep 2026 the brief told him he was LATE on two
+sets of documents for the third morning running. He had resent both on 11 Sep at 11:28am,
+six minutes after promising them, and one recipient had already replied "Got it, thanks!".
+Checked properly that morning, **none of the nine open promises could honestly be called
+late**. LATE is the most load-bearing word you have; spend it on something he already did
+and he stops reading the section.
+
+Two traps the tool handles and you must not undo by hand. The email in which he **made**
+the promise is not him keeping it. And a message to the right person on the **wrong
+thread** is not evidence: he mails accounts@ and heather@ all day, so "he has written to
+them since" clears almost everything if you let it.
+
 ## Before you start (every session)
 - `memory/MEMORY.md` is loaded. It is what you know about Tariq, TFA, the people, the
   systems and how he likes things done. Trust it over guesses; look up anything live.
@@ -384,6 +421,7 @@ a message to anyone else.
 - raw/               what is true, never rewritten (committed)
 - raw/tfa-shared/    the workflow lane's nightly export (promises, contacts, calendar, digest): read only
 - tools/recall.mjs   one search over all of the above with file:line; run it before "I don't have that"
+- tools/settled.mjs  has it already been settled? run it before you call anything late or outstanding
 - sessions/          one log per finished job (committed)
 - sessions/scheduled/ output of scheduled runs (committed)
 - work/              downloads, drafts, exports (local only, never committed)

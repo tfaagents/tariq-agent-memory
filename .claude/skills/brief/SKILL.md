@@ -10,7 +10,11 @@ Build one short message for his phone. Read, in this order, and say how old each
    if his line says "could not read", `node tools/mail.mjs diary 1` is the same calendar)
 2. `node tools/tfa.mjs brief` (the workflow lane's overnight brief when it exists, and the
    inbox digest)
-3. `node tools/tfa.mjs promises` (late ones first)
+3. `node tools/settled.mjs --promises` (NOT `tfa.mjs promises`: the tracker cannot see
+   fulfilment, so its LATE is a claim). Go by the verdicts. `DONE` never appears. `YOU DID
+   IT` is a chase on them, written as "you sent X on <date>, nothing back", never as his
+   late promise. `NOT DUE` is left out. Only `STILL OPEN` that is also past its due date
+   gets the LATE prefix.
 4. `node tools/tfa.mjs waiting` (rows waiting for a person on the dashboard)
 5. If the digest is older than 20 hours, also `node tools/mail.mjs inbox 24`.
 6. **Loose ends** (things he started with you that stalled). Read
@@ -45,7 +49,10 @@ read: <what>". Sections, in this order:
 
 TODAY: his calendar entries with time and place, then anything dated today from mail,
 then one line on who at TFA is out or on site if the calendars say so.
-PROMISES: each late one first, prefixed LATE, then the next two due.
+PROMISES: each late one first, prefixed LATE, then the next two due. A promise only
+earns LATE on a STILL OPEN verdict from settled.mjs that is also past its date; if
+nothing qualifies, the section carries what he is waiting on others for instead, or
+is left out entirely. Never carry a promise the tool called DONE.
 WAITING ON YOU: dashboard rows and people waiting on his signature, answer or approval.
 INBOX: what needs his reply, from the digest or the inbox read.
 LOOSE ENDS: as above, at most three.

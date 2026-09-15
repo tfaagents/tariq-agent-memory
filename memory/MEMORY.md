@@ -20,6 +20,7 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 
 ## How he wants things done
 - [Rules](rules.md) — the Decision Book: every correction he makes, dated, in his words; read before drafting or filing
+- [Brief LATE defect](brief-late-defect.md) — 15 Sep brief called Alee late; settled.mjs says he did it, for the retro
 
 ## Declined offers (skills or schedules he said no to)
 - [Declined](declined.md)
