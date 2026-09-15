@@ -124,6 +124,17 @@ with the entity question open.
   contract or detailed cost plan, QS report, leasing and sales strategy with agent
   appraisals, current title search, borrower entity structure and financials, and
   SOP/A&L for all directors and guarantors.
+- **The GRV is contested, and that is the live risk on the finance.** Mortar Finance
+  (Scott McGregor) thread, 1-4 Sep 2026: Tariq's sales rate is **$7,500 per m2**, backed
+  by comparable sold prices in the area he sent 31 Aug (the 28 Aug set was the wrong
+  site, Bowen St 2025, not his). Scott's contact at **HTW Valuers was unsure the GRV
+  would be supported at these levels**; the comparables are the evidence to hand the
+  valuer. Strategy Tariq agreed 4 Sep: Scott seeks firm bank appetite and pricing with
+  **no valuation yet**, Tariq progresses the DA to approval, then they pick a bank and
+  valuer. Reason for waiting: a valuation is only valid **90 days** and would expire on
+  any DA or tenant-removal delay. Tariq to Scott 4 Sep: the QS "are supportive of our
+  updated TDC which may in turn affect your LVR", but no diving into numbers until the
+  Mitchell Brandtman initial report says whether it supports the construction figure.
 
 Earlier: land acquisition through Piper Alderman (Theo Calligeros) and Mullins Lawyers;
 title searches via MSP Law; DA and ePayments with Kendal; concept fee proposal and DA
