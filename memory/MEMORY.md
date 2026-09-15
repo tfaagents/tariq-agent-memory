@@ -13,6 +13,7 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 - [Routine](routine.md) — his week, recurring meetings, calendar as to-do list, mail volume
 - [Systems](tfa-systems.md) — mail, MYOB, Procore, the dashboard, the workflow agents, what is connected and what is not
 - [OneDrive privacy](onedrive-privacy.md) — Documents checked clean 15 Sep 2026; what this agent can and cannot see about who accessed a file
+- [Security posture](security-posture.md) — the ten gaps told to him 15 Sep 2026, each checked against a file; diagram at work/diagrams/
 - [Agent roadmap](agent-roadmap.md) — his own brief for the TFA Executive Operating System, 7-8 coordinated agents, sent to Jaiah 11 Sep 2026
 - [Bot builds doc](bot-builds-doc.md) — his running Word list of agent ideas on OneDrive Desktop, 43 bullets, wider than the Jaiah email
 

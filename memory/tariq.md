@@ -85,6 +85,22 @@ Rules in his own words (from his sent mail, dated)
   "we can chat more when your back" on the apprentice supervision question the same
   morning. He answers email fast, but parks the real decision for the catch up.
 
+- Foundations before scale, and he will name names to get them. On the folder structures
+  and templates not being followed: "I'm concerned this is not aligned with our anticipated
+  outcome and **as we scale the issue is going to amplify** ... **I hold this topic with
+  importance in scale and growth having the foundations right prior to scaling**" (15 Sep
+  2026, 4:06pm, to Clay, naming Mauricio, Veena and Daniel). Note the shape: warm opener
+  ("I hope your day playing with pineapples went well mate haha"), the problem stated
+  plainly, then onto the catch up agenda rather than demanded by email. See [[rules]].
+- He takes the reason to the person who owns it rather than the person who broke it. The
+  folder structures email went to **Clay**, not to Mauricio, Veena or Daniel. Matches his
+  4:21pm 14 Sep rule about one named owner per task.
+- **He does not know where his own task list lives.** To Kendal, 3:25pm 15 Sep, on a
+  Monday.com item: "its not on my list, but **where is even my list?**" His calendar is his
+  to-do list and Monday.com is not connected to this agent, so items sitting on a board he
+  never opens are invisible to him. Treat any "did you see the reminder" question as
+  probably no. The Heritage Building Upgrade tender due 18 Sep came to light the same way.
+
 What he asked this agent for (8 Sep 2026)
 - A private chat he can talk to any time, separate from the staff agent line.
 - Brainstorming while driving (ideas, products, plans).

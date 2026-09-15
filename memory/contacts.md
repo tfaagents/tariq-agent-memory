@@ -60,14 +60,33 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - **Stamford Capital: Grant Rex** (grant.rex@stamfordcapital.com.au) with **Dhru Lodhia**.
   Development finance structuring across the whole project pipeline; Dan Street first.
 - Mitchell Brandtman (QS): H Tayob (Logan Village progress claims), P Nguyen (Dan St fee
-  proposal), Krystal (fee proposal queries, reply owed).
+  proposal). **Krystal Stokman**, Relationship Manager (kstokman@mitbrand.com, 07 3327
+  5000), fee proposals and the commercial relationship. **Melody Wong**
+  (mwong@mitbrand.com), the QS on the **Dan St / 24 Industrial Units Slacks Creek initial
+  report** (proposal X45717); from 3 Sep 2026 she is the point of contact and documents go
+  to her direct, not to Krystal.
 - NMDS: **Nick** (nick@nmds.net.au), architectural DA sets for Dan St and Hi-Tech Court;
   recommends and vouches for other consultants.
 - **Northrop** (recommended by Nick, 10 Sep 2026): Alex De Andrade, Team Manager, Civil
   Engineer, 0406 476 834, adeandrade@northrop.com.au; Sebastian Torralba, Associate,
   Structural Group Manager, 0403 797 879, storralba@northrop.com.au.
-- HPC Planning: **Murray Murphay** (recorded earlier as "Murray W"), planning advice and
-  fee proposals. Rezicad: Andrew (Eight Mile Plains).
+- HPC Planning (Southport and Brisbane): **Murray Wright** (murray.w@hpcplanning.com.au),
+  planning advice and fee proposals. ~~Recorded 10-14 Sep 2026 as "Murray Murphay" and
+  earlier as "Murray W"~~ - superseded 15 Sep 2026: his own emails sign as **Murray
+  Wright**. **Thomas Stubbs**, Senior Town Planner, 0413 909 802
+  (thomas.s@hpcplanning.com.au), works with Mauricio on 7-9 Dan Street planning conditions
+  (acid sulfate soils, 15 Sep 2026). Also 1661 Old Cleveland Rd Chandler.
+  Rezicad: Andrew (Eight Mile Plains).
+- **MB Planning** (Level 10, 167 Eagle Street Brisbane; mail@mbplanning.com.au). Town
+  planners, invoice HI1476 and the paused land deal. **Tamara Katai**, B.Planning M.Trans,
+  0404 125 012 (tamara@mbplanning.com.au), the planner Tariq deals with; she chases the
+  commercial question ("will the vendor even proceed") separately from the invoice.
+  **Archie McPhie**, Student Planner, 0467 469 091, does the accounts chasing. A **Murray**
+  is referred to in that thread as the person Tariq speaks to when Tamara is away; whether
+  that is MB Planning's own Murray or Murray Wright at HPC Planning is **not established**
+  - do not merge the two.
+- **Geotech (geotech.com.au): Ross Bennett** (ross@geotech.com.au), geotechnical works on
+  7-9 Dan Street, run by Mauricio with Clay cc (Sep 2026).
 - **BRC Consult: Andrew** (andrew@brcconsult.com.au). On Logan Village; Tariq accepted
   his "Logan Village CC Final" invite 10 Sep 2026. What BRC handle is not stated in
   anything read yet. A different Andrew to the Rezicad one above.

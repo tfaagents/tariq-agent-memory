@@ -42,7 +42,8 @@ thread before quoting it to him.
 - Consultants: use the **same consultant list as Dan Street but swap the Civil Engineer**.
   Nick recommended Northrop, Alex De Andrade (Civil, 0406 476 834) and Sebastian Torralba
   (Structural, 0403 797 879). Veena to request a quote and say Nick from NMDS recommended
-  them; also to approach HPC Planning (Murray Murphay) for a fee proposal, Tariq cc.
+  them; also to approach HPC Planning (**Murray Wright**, corrected 15 Sep 2026 from
+  "Murray Murphay") for a fee proposal, Tariq cc.
 - The new CA started the week of 7 Sep 2026 and is engaging consultants.
 - Clay or Mauricio owe Veena the Dan Street consultant list.
 
@@ -51,6 +52,37 @@ with the entity question open.
 
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
 - The biggest thread in his mail by far.
+
+15 Sep 2026:
+- **Arrears at the site are close to $65,000.** Annabelle Weir, 9:55am: RWC South West
+  released some documents Monday afternoon, some are still missing, and she has sent what
+  she has to their accountant to build the opening balances and position, which lets her
+  start issuing invoices and arrears notices on **at least two tenants**. Tariq, 1:00pm,
+  put the $65,000 figure on the record and asked **Freddie (Modus) or Mohammed (MSP Law)**
+  to confirm a polite nudge went to the owners and their solicitors. Same handover stall
+  that has run since settlement on 15 June 2026.
+- **A second route at the Unit 3 and 4 tenant: the council.** TFA staff were onsite with a
+  demolition contractor and saw **Logan City Council towing vehicles the tenant had left on
+  the road for the past 6-9 months**. Council had also rung Tariq **4-6 weeks ago** about
+  the same tenant, asking him to take action. He put it to Annabelle and Michael Mayes at
+  1:03pm as possible fresh grounds for a breach notice alongside the existing breach and
+  immediate termination strategy, and said he may be able to get something from council on
+  the nuisance to the community. "Really want to fast track the process where possible."
+  Live risk on the other side: **Marc has engaged a lawyer** (Annabelle, 4 Sep 2026).
+- **The QS initial report has a new owner: Melody Wong** (mwong@mitbrand.com), the Mitchell
+  Brandtman QS put on fee proposal **X45717, "24 Industrial Units, Slacks Creek"**. Krystal
+  Stokman introduced her on 3 Sep and asked that documents go to Melody direct. Tariq
+  replied 1:34pm, apologised for the delay, asked **what MB need from TFA to complete the
+  initial report**, and told them **the DA is lodged but not stamped**. This is the QS
+  report Stamford Capital wants by the end of September, so it sits on the finance critical
+  path. (Earlier records call this a 23 unit complex; the MB proposal says 24, so the count
+  has moved or one of the two is loose.)
+- **Acid sulfate soils: probably no ASSMP needed.** Thomas Stubbs (Senior Town Planner, HPC
+  Planning) to Mauricio 2:38pm: hold off on these matters and **take direction from the
+  geotech despite the wording in his own planning report**; council commonly conditions the
+  works if required; and if the majority of the earthworks is fill it is unlikely an ASSMP
+  will be needed. Geotechnical works are with **Ross Bennett** (ross@geotech.com.au),
+  Mauricio running it with Clay cc.
 
 14 Sep 2026:
 - **Council rates query answered and approved for payment.** Logan City Council (Sonia
@@ -236,6 +268,12 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   and Cronulla Park**, through VendorPanel to tenders@. **Closes Friday 16 Oct 2026,
   4:00pm.** Addendum 01 (online briefing session presentation) added 10 Sep. Forwarded to
   Kendal.
+- 15 Sep 2026: **Forvm @ Hillcrest, 92-94 Johnson Road (D&C tender) is warming up.** The
+  client wants a **pretender meeting**. Tariq to **Clay and Veena** 12:43pm: "This project
+  is now getting closer to realisation and they want to do a pretender meeting. If you guys
+  can review and check missed scope etc." He forwarded the same pack to **Clay's personal
+  gmail** at 12:47pm, which is how he reaches Clay outside the office.
+
 - Forvm at Hillcrest, 92-94 Johnson Road (D&C tender); Chermside apartments and childcare;
   Collingwood Park gym and childcare estimate (urgent, Monday.com mention); 180 Eagle
   Street preliminary cost plan review; Margate childcare building condition report
@@ -251,6 +289,20 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   is ready for handover, and said he would share the other builder's setup once Clay
   answers. He asked **Kendal** to make sure TFA's version matches. This is a live
   standards job, not a one-off email.
+
+## Folder structures and saving formats (a live standards fight)
+- 15 Sep 2026, Tariq to **Clay** 4:06pm, subject "Folder Structures and Saving": the agreed
+  **folder layout and templates are not being adhered to** and are not in line with what
+  was agreed moving forward. He names **Mauricio and Veena** as "just doing as they see
+  fit" and **Daniel** as "starting to save random folder names wherever he wants again".
+  His reasoning, and the thing to hold onto: "The vision was to ensure when new CA's
+  example Veena start they follow the right process", and "as we scale the issue is going
+  to amplify ... I hold this topic with importance in scale and growth having the
+  foundations right prior to scaling."
+- **On the agenda for his catch up with Clay later this week** (week of 15 Sep 2026). He
+  put it there himself, so it is a commitment to raise, not just a complaint.
+- Sits next to [[projects]] handover documentation above: both are him trying to lift TFA's
+  file and document discipline before headcount grows. See [[rules]] for the standing line.
 
 ## Employment and legal matters
 14 Sep 2026, apprentices and Daniel's agreement:
@@ -311,7 +363,27 @@ Fettell):
   would be.
 - **Nelson wages query** raised with Desari on the same call list.
 
+15 Sep 2026:
+- **Master Builders QLD is formally engaged on Daniel Tu.** Desari Lynam offered to act;
+  Tariq, 3:54pm: "Yes please, referring to Daniel Tu, I would love for you to represent us
+  please." So the Tu matter now runs through MBQ (Desari) as well as Piper Alderman (Mason
+  Fettell). Expect engagement paperwork back from her.
+
 ## Money and compliance
+15 Sep 2026:
+- **QBCC licence annual reporting is due 31 Dec 2026** (TFA CONSTRUCTIONS PTY LTD, licence
+  **1188724**). Tariq to Heather 12:27pm, recalling their chat last week and last year:
+  he wants it started early rather than run to the deadline. The detail of what he decided
+  is in that thread; the date is the fixed part.
+- **Osman Insurance property check AUSSP-900032-Q.** Tariq to Mahmood 12:50pm ("Salams
+  Uncle"): the **Energex works were completed by the client and are not part of TFA's head
+  contracts** - already completed, installed and paid direct. That is the answer to the
+  insurer's query on scope.
+- **NAB account ending 2001, August statement** sent to Heather 12:58pm as an attachment.
+  She prefers post; he told her mail delivery is a setting in her own NAB profile.
+- **ForestryTrader / MachineryTrader invoice** forwarded from info@ to accounts@ 12:58pm.
+  Routine: supplier invoices landing in info@ get pushed to accounts@.
+
 14 Sep 2026:
 - **Payments now have a 3:30pm cut off.** Heather sent an ABA file at 4:12pm for Utility
   Mapping, due that day, because their card payment system failed and Josh had not sent
@@ -388,6 +460,21 @@ Fettell):
   the sign off. Kendal is running it.
 
 ## Other threads
+- **MB Planning invoice HI1476, and the land deal behind it (15 Sep 2026).** Archie McPhie
+  (Student Planner, MB Planning) chased the invoice at 2:19pm; it was first raised 24 July
+  2026 and Tariq told accounts@ that day to "hold on this invoice for 14 days before
+  speaking to me if I proceed. Waiting to see if I can get a contract over the site before
+  I spend more money." His answer to Archie, 3:25pm: it was **raised on the pretence that
+  TFA would proceed, the vendor has not signed the contract, so it stays on pause until the
+  contract is executed.** Tamara Katai asked separately at 3:27pm whether the vendor will
+  proceed at all. Tariq's update to her, 3:56pm, is the whole negotiation in one place:
+  the vendor **agreed to a 12 month settlement** and a **DD period of 21 days with $150k
+  non-refundable**; both he and Murray were stuck on the short DD; the vendor then offered
+  **4 months DD but wanted $100k non-refundable and released to the owner**, which "again
+  sounded odd" to him. He has been trying to reach Murray for 1-2 weeks to understand the
+  **risk and whether there are hidden elements on the site** before signing and moving to
+  the next phase. **Which site this is, is not named anywhere in the thread** - ask him
+  rather than assuming.
 - **"Ecco", cross over change** (14 Sep 2026). Clay found the document in "Pasen's email"
   and wants clarification from Tariq at their next catch up. Tariq, 8:12am: "No problems,
   I'll leave it to you to come see me and discuss follow up queries." Which project Ecco

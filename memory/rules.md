@@ -59,3 +59,10 @@ one wins. Never delete a rule; strike it through and add the replacement under i
 ## Files
 - 2026-09-11 (in person, with Jaiah): the agent sees only the OneDrive folders he has
   ticked. His personal documents, ATO payments and contracts stay out.
+- 2026-09-15 (email to Clay, 4:06pm): **the agreed folder layout and naming templates are
+  the standard, and they are to be adhered to.** "It seems the entire folder layout and
+  templates are not being adhered to, nor are they inline with what was agreed to moving
+  forward ... as we scale the issue is going to amplify." So: never save into a new or
+  invented folder name, never create a folder structure of your own. Save where the
+  existing structure says, and if there is no obvious place, ask him rather than guess.
+  He is raising it with Clay at their catch up the week of 15 Sep 2026.
