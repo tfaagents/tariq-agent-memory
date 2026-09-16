@@ -24,7 +24,7 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 ## How he wants things done
 - [Rules](rules.md) — the Decision Book: every correction he makes, dated, in his words; read before drafting or filing
 - [Brief LATE defect](brief-late-defect.md) — how LATE gets called wrong: the 15 Sep Alee defect, and the settled.mjs --who trap
+- [Promise scan window](promise-scan-window.md) — the scan only reaches back ~6 days and save rewrites the list, so older open promises drop off
 
 ## Declined offers (skills or schedules he said no to)
 - [Declined](declined.md)
-- [Promise scan window](promise-scan-window.md) — the scan only reaches back ~6 days and save rewrites the list, so older open promises drop off
