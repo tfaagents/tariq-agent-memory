@@ -55,12 +55,16 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - Thynne and Macartney: Michael Mayes (Dan St land acquisition, formal tone).
 - Mullins Lawyers: G Haseler, M Osborne (Bardon Road Berrinba acquisition).
 - CG Law: receives the BTP deposit payments. Does not issue TFA a monthly bill.
-- NAB: Kyung Park (development funding, Slacks Creek). Mortar Finance: Scott McGregor.
-  Sheriff Enterprises: Tony (funding a 23 unit industrial complex).
+- NAB: Kyung Park (development funding, Slacks Creek); **Chris at NAB** is the one Scott
+  McGregor deals with on the Dan Street loan to cost (16 Sep 2026). Mortar Finance:
+  **Scott McGregor** (scott.mcgregor@mortarfinance.com.au, 0435 958 535), the broker
+  running the Dan Street bank process. Sheriff Enterprises: Tony (funding a 23 unit
+  industrial complex).
 - **Stamford Capital: Grant Rex** (grant.rex@stamfordcapital.com.au) with **Dhru Lodhia**.
   Development finance structuring across the whole project pipeline; Dan Street first.
 - Mitchell Brandtman (QS): H Tayob (Logan Village progress claims), P Nguyen (Dan St fee
-  proposal). **Krystal Stokman**, Relationship Manager (kstokman@mitbrand.com, 07 3327
+  proposal), **Cassandra Foreman** (cforeman@mitbrand.com) on invoicing (invoice 79157,
+  Dan Street, 16 Sep 2026). **Krystal Stokman**, Relationship Manager (kstokman@mitbrand.com, 07 3327
   5000), fee proposals and the commercial relationship. **Melody Wong**
   (mwong@mitbrand.com), the QS on the **Dan St / 24 Industrial Units Slacks Creek initial
   report** (proposal X45717); from 3 Sep 2026 she is the point of contact and documents go
@@ -76,7 +80,10 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   Wright**. **Thomas Stubbs**, Senior Town Planner, 0413 909 802
   (thomas.s@hpcplanning.com.au), works with Mauricio on 7-9 Dan Street planning conditions
   (acid sulfate soils, 15 Sep 2026). Also 1661 Old Cleveland Rd Chandler.
-  Rezicad: Andrew (Eight Mile Plains).
+  **Rezicad** (07 3363 8188, www.rezicad.com): **Andrew Milford** (andrew@rezicad.com)
+  and **Elley King** (elley@rezicad.com), design and planning on 29 Millers Rd Eight Mile
+  Plains. Works alongside **GSP Land**: **Adrian Webberley** (Adrian@gsp-land.com.au) and
+  **Ellen McDonogh** (ellen@gsp-land.com.au). Tariq chases this group for design progress.
 - **MB Planning** (Level 10, 167 Eagle Street Brisbane; mail@mbplanning.com.au). Town
   planners, invoice HI1476 and the paused land deal. **Tamara Katai**, B.Planning M.Trans,
   0404 125 012 (tamara@mbplanning.com.au), the planner Tariq deals with; she chases the
@@ -137,11 +144,16 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   9 Vaughan Drive". Saiyad Pasha and Saheed Ali on the same threads. **Imran Ali**
   (imran@isacollective.com.au) is on the personal side, not TFA work: one of the two
   Tariq is running the 66 Learoyd Rd Algester objection with, see [[learoyd-algester]].
+- **Andre Duvenage** (andre@cooperpg.com.au), **Cooper Property Group**, with a colleague
+  he calls **Andrew**. The agent on **66 Learoyd Rd, Algester**, where Tariq has an offer
+  in (16 Sep 2026). He calls Andre "mate" and signs off to him in Afrikaans. Confidential,
+  see [[learoyd-algester]]; not a TFA project relationship.
 - **Logan City Council** via VendorPanel to tenders@: EOIs and public tenders.
 
 ## Recruiters (he takes their calls, he does not trust their shortlists)
 - **Alicia McGregor**, Frontline Construction Recruitment, 0406 199 062. Approached him
   10 Sep 2026 about a Contract Administrator; colleague Desiree passed his details.
+  16 Sep 2026 he gave her the band for a stand out candidate: **120-160k**.
 - **Audrey Marceau**, Tracks IS (audrey@tracksis.com.au). Blue and white collar.
 
 ## Suppliers and systems that email him

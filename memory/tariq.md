@@ -100,6 +100,19 @@ Rules in his own words (from his sent mail, dated)
   to-do list and Monday.com is not connected to this agent, so items sitting on a board he
   never opens are invisible to him. Treat any "did you see the reminder" question as
   probably no. The Heritage Building Upgrade tender due 18 Sep came to light the same way.
+- **He asks where a number came from before he lets you use it.** Telegram, 16 Sep 2026
+  5:25am, after being offered a GRV against cost on Dan Street: "**Where will you get the
+  info from?**" Name the thread, the person and the date before you put a figure in front
+  of him. Never imply you hold a model you do not.
+- He times a cost to the real start date, not to the paperwork. On the Osman insurance
+  quote: "just confirm with clay potential start dates so we **insure from right date in
+  lieu of loosing time with insurance when the site sits dormant**" (16 Sep 2026, to
+  Kendal). Before accepting a dated cost, ask what the site is actually doing.
+- **In a stalled negotiation he buys with certainty, not with price.** His 66 Learoyd
+  offer (16 Sep 2026, to the agent): unconditional, no finance clause, no due diligence,
+  deposit released immediately and non-refundable, and a **7 day window for written
+  confirmation**. He also names the risk he is taking on out loud rather than hiding it.
+  Confidential, see [[learoyd-algester]].
 
 What he asked this agent for (8 Sep 2026)
 - A private chat he can talk to any time, separate from the staff agent line.

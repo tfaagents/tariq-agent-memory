@@ -19,7 +19,7 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 
 ## Projects and ideas
 - [Roller door retrofit](roller-door.md) — his own product idea, confidential, patent first
-- [66 Learoyd Rd Algester](learoyd-algester.md) — the AFIC objection with Mustafa Dean and Imran Ali, asbestos and PFAS site, personal not TFA, confidential
+- [66 Learoyd Rd Algester](learoyd-algester.md) — the AFIC objection AND his own $9.2m unconditional offer (16 Sep 2026), asbestos and PFAS site, confidential
 
 ## How he wants things done
 - [Rules](rules.md) — the Decision Book: every correction he makes, dated, in his words; read before drafting or filing

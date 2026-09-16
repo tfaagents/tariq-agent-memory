@@ -53,6 +53,19 @@ with the entity question open.
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
 - The biggest thread in his mail by far.
 
+16 Sep 2026:
+- **Bank terms are landing, and LTC is the sticking point.** Scott McGregor (Mortar
+  Finance) 11:35am: **Westpac has come back with terms but caps loan to cost at 75%**,
+  below where they want to be. He is **waiting on NAB's position**: he spoke to **Chris
+  at NAB** last week, who was pushing to get LTC to **80%**, but that may require a
+  **higher level of pre-sales**. Tariq 11:43am: "Great update, still in the right
+  direction. Thank you Scott". So pre-sales, not the GRV alone, is what buys the extra 5%.
+- **Mitchell Brandtman invoice 79157** for "24 Industrial Units, 7-9 Dan Street, Slacks
+  Creek - 0047382.00" from **Cassandra Foreman** (cforeman@mitbrand.com) 10:01am,
+  forwarded to accounts@ 11:38am "FYI". The QS work is now being billed.
+- Diary: **Dan Street - Final Marketing Review**, Thu 17 Sep 2:30pm, Google Meet, set by
+  RWC CSR.
+
 15 Sep 2026:
 - **Arrears at the site are close to $65,000.** Annabelle Weir, 9:55am: RWC South West
   released some documents Monday afternoon, some are still missing, and she has sent what
@@ -245,6 +258,12 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   Design"** folder inside that DA.
 - **Waiting on Rezi Cad to update the design**, then the DA progresses with the town
   planners.
+- 16 Sep 2026 9:37am: **he chased it.** To **Andrew Milford** and **Elley King**
+  (Rezicad), cc **Adrian Webberley** and **Ellen McDonogh** (GSP Land) and Veena:
+  "Chasing an update on the below email. Can we please have an update on progress with
+  the design and planning?" This is his second chase; the 3 Sep thread had Elley saying
+  she was **redesigning to fit the 35m2 of private open space into buildings 1 and 2**.
+  Open as at 16 Sep, no reply yet.
 - Documents are in the SharePoint **"Tariq Dump"** folder. Kendal will share the full
   list or clean up the folder structure when she has the chance.
 
@@ -284,6 +303,12 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   is now getting closer to realisation and they want to do a pretender meeting. If you guys
   can review and check missed scope etc." He forwarded the same pack to **Clay's personal
   gmail** at 12:47pm, which is how he reaches Clay outside the office.
+- 16 Sep 2026: **Alee Fateh is feeding both of these in late at night.** Forvm @ Hillcrest
+  came from Alee 15 Sep 11:16pm; Tariq pushed it to **Veena** 6:44am and **Clay's gmail**
+  6:46am. Separately Alee sent "**URGENT - Revised Civil Concept - Cost Plans Required
+  ASAP: Estimate for Collingwood Park (gym & childcare)**" 11:16am, which Tariq forwarded
+  to **Kendal** 11:49am. Collingwood Park is now a live cost plan request, not just a
+  Monday.com line.
 
 - Forvm at Hillcrest, 92-94 Johnson Road (D&C tender); Chermside apartments and childcare;
   Collingwood Park gym and childcare estimate (urgent, Monday.com mention); 180 Eagle
@@ -390,6 +415,12 @@ Fettell):
   Uncle"): the **Energex works were completed by the client and are not part of TFA's head
   contracts** - already completed, installed and paid direct. That is the answer to the
   insurer's query on scope.
+- 16 Sep 2026, same policy **AUSSP-900032-Q**: Mahmood sent the **quotation** 9:34am,
+  Kendal forwarded it for review 12:49pm, Tariq 1:42pm: "yeah its fine, just confirm with
+  clay potential start dates so we insure from right date in lieu of loosing time with
+  insurance when the site sits dormant." So the quote is accepted in principle, and the
+  **start date is the open item, with Clay**. His standing position on construction cover:
+  **date it from the real start, do not burn cover while a site sits dormant.**
 - **NAB account ending 2001, August statement** sent to Heather 12:58pm as an attachment.
   She prefers post; he told her mail delivery is a setting in her own NAB profile.
 - **ForestryTrader / MachineryTrader invoice** forwarded from info@ to accounts@ 12:58pm.
@@ -463,6 +494,8 @@ Fettell):
 ## Hiring (live as at 10 Sep 2026)
 - Looking for a **Contract Administrator**. Alicia McGregor (Frontline Construction
   Recruitment) approached him; he asked what candidates she actually has.
+  16 Sep 2026 11:37am, she asked the salary range for a stand out candidate and he
+  answered in two words: **"120-160k"**. That is the band for the CA role.
 - Looking for an **Operator for Jimboomba**. He passed Daniel's number (0455 832 832) to
   Audrey Marceau at Tracks IS, who cover blue and white collar.
 - **Kangjia Zhang** (UNSW student intern) has pushed her arrival in Brisbane to **22 Sep
