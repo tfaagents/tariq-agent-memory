@@ -27,3 +27,4 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 
 ## Declined offers (skills or schedules he said no to)
 - [Declined](declined.md)
+- [Promise scan window](promise-scan-window.md) — the scan only reaches back ~6 days and save rewrites the list, so older open promises drop off
