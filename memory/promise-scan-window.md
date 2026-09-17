@@ -24,3 +24,16 @@ The list is what /brief, /close-out and /promises work from.
 the new list and was not closed is still open: say so from the log, with its due date.
 Do not patch `tools/` or `runner/` to fix it; they are Jaiah's. Filed as r-20260917-01
 (page past the cap, and keep promises from earlier scans until done or settled).
+
+## 18 Sep: it bit the brief, and the check ran too late
+
+The 06:16 scan kept three promises, all from 13-17 Sep. Heather's work experience form
+(due 11 Sep, LATE on the 16 and 17 Sep boards, never closed) was gone. `settled.mjs
+--promises` can only check what is on the list, so it reported "0 of them may honestly be
+called LATE", and the 06:30 brief printed "Nothing can honestly be called late this
+morning". A correction had to follow at 06:44.
+
+**How to apply, sharpened:** the carry-forward comparison against the previous
+`sessions/scheduled/*-promises-scan.md` is step 3 of /brief, before the message is
+written, not a check afterwards. Anything in the old log, absent from the new list and not
+in `work/promise-closures.jsonl`, is still open and carries its original due date.
