@@ -208,6 +208,12 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   at Inspire EYM. Kendal's Claude project also tracks this one.
 
 ## Narangba childcare extension (Spring Early Learning)
+- 17 Sep 2026: **Alee broke six days of silence, to Kendal, not to Tariq.** Kendal chased
+  him at 10:56am on "Chermside Apartments and Childcare" with the Notice About Decision
+  Assessment Report attached; he replied 4:25pm, apologised for the delay, said the
+  revisions went in yesterday and he should **submit the documentation by 18 Sep**. That
+  is the first thing back from him since 10 Sep. Chasing him through Kendal worked where
+  Tariq's own resends did not.
 - 13 Sep 2026: **Alee has still not confirmed either folder.** Nothing from
   aleefateh@gmail.com since 10 Sep 11:31pm. He is the one who twice could not open the
   drawings, so of the two estimators he is the open risk. Only Abi has confirmed.
