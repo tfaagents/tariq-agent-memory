@@ -75,3 +75,25 @@ words of his own.
 
 Supersedes the one line under "Other threads" in [[projects]], which had Learoyd only as
 an HPC Planning advice job and a "make offer" diary task. Related: [[contacts]].
+
+## 17 Sep 2026: the offer is in and he is leaning on the rival's failure
+- The improved offer went to **Andre at Cooper PG** (andre@cooperpg.com.au) on 16 Sep, cc
+  Andrew: **$9,200,000, $500,000 deposit released immediately and non-refundable, fully
+  unconditional, no finance clause, no due diligence, settlement 12 months from
+  execution**, with the extra **$200,000 left on the table** even though the competing
+  proposal is no longer progressing. He asked them to **progress to drafting the contract**
+  and for **written confirmation within 7 days** so both legal teams can finalise.
+- His stated basis for the price: remediation advice ranging **$7m to $22m** depending on
+  the methodology the Environmental Auditor accepts. (Separate from, and much lower than,
+  the $55-60m modelled exposure in the objection material above. Do not mix the two.)
+- **17 Sep 5:55am, he chased it**, and the new argument is about the other buyer's
+  credibility, not price: the site has been **rejected by the national body**, and Lester
+  is now "asking for more time, then funding time after? This **speaks volumes on their
+  lack of ability to ever close this deal out** in addition to wasting another year of
+  your time." By comparison his position is "clear and executable". He counts this as the
+  **fourth** time the previous purchaser has failed to complete or secure backing.
+- Tone note: he signs off to these two in Afrikaans, "**Kom ons maak 'n plan**", and calls
+  them "my friends". He wrote "Hi Andrea" in the chaser and "Hi Andre" in the offer; the
+  address is andre@, so **Andre** is the name to use.
+- **Waiting on**: Andre and Andrew to confirm in writing and start the contract. Nothing
+  back as at 17 Sep evening. The 7 day window from 16 Sep runs to about **23 Sep 2026**.

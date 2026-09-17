@@ -8,6 +8,39 @@ that was read in the body of his own sent mail. Confirm a number or a date from 
 thread before quoting it to him.
 
 ## 35 Hi-Tec Court, Eight Mile Plains (the "BTP" purchase, new TFA office)
+17 Sep 2026, ISA's concept design lands and he marks it up hard:
+- **Imran Ali (ISA) sent a concept of the layout at 10:16am.** Materials, colours and
+  finishes can change; the point was the flow. No real survey DWG (the one sent was flat),
+  so levels and grades still need confirming. Imran's notes: the design "separates the
+  bat-cave from everyone", room to increase sellable area, a cafe addition that could be
+  leased out, TFA entrance able to take a **car lift in the entry foyer**, ISA and TFA near
+  each other. Parking numbers not yet confirmed.
+- **Tariq's nine points back at 11:02am**, and they are the brief for the next revision:
+  1. Facades can be played with, they change anyway. **Returns are the concern.**
+  2. **GFA of the mezzanine is not shown** and he needs it to work his feso.
+  3. Same GFA as the previous design despite a substantially bigger footprint, so he
+     assumes the difference is mezzanine GFA.
+  4. **The ISA entry covers TFA's entry and makes a tunnel thoroughfare**: move ISA
+     totally separate, next door, own unit. "I'm building it for the future don't want to
+     redo the build in future fitout wise etc." and "I'm confused why I would place myself
+     at the rear of my own building lol?"
+  5. Units were always narrow; he may change that if the two basement entries can be amended.
+  6. Likes the separate entry idea, but asks: **if T-01 goes to the boundary next to plot
+     27, how much GFA is gained?**
+  7. **Basement is too big for what tenants need.** He expected **60-70% of it to be TFA's**.
+  8. **Lift shaft should come straight into the TFA office.** Mezzanine is where he wants
+     most of TFA's offices (and it lifts GFA). **Ground floor is intended as a workshop or
+     warehouse**: equipment storage, machines, maintenance, hoists.
+  9. Attached Heather's office wish list for reference, not yet reviewed, "a lot may not occur".
+- The lease-not-sell point is the one to hold: "The idea is **not to sell but lease** them
+  so if I don't get maximum GFA then I lose on being able to hold them."
+- **Nick (NMDS) invoice due Friday 18 Sep 2026.** Tariq chased at 12:01pm ("just haven't
+  got the invoice for your engagement at 35 Hitech Court"); Nick replied 12:23pm: "You'll
+  have my fee / invoice first thing tomorrow morning." Tariq confirmed **TFA has engaged
+  Nick's preferred civil and structural (Northrop)** and flagged **another one in the
+  pipeline for Algester**, currently a resi subdivision they want converted to **mixed use
+  with work stores**, waiting on civil feedback for pre-lodgement.
+
 11 Sep 2026, his own words to Veena (sent 8 Sep, forwarded to Clay 11 Sep 3:39pm with
 "FYI. Apologies for not cc'ing you."):
 - 35 Hi-Tech Court is "TFA's Baby, very close to the heart as its our master planned
@@ -51,6 +84,15 @@ Earlier: purchase via MSP Law, NMDS involved, $10k/month deposit invoice raised 
 with the entity question open.
 
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
+17 Sep 2026, the arrears ledger is not to be taken on trust:
+- Annabelle Weir forwarded RWC South West's latest comms at 10:25am. Tariq, 10:39am, asked
+  her to **review the arrears against what was paid and the increases, rather than wait on
+  "their possibly incorrect ledgers"**. He does not accept the managing agent's figure as
+  the starting point.
+- He also asked **Mohammed Patel (MSP Law)** whether he had reached out to the owners.
+  Freddie Donne (Modus) had sent to the owners on 15 Sep and suggested Mohammed go to the
+  solicitors directly.
+
 - The biggest thread in his mail by far.
 
 16 Sep 2026:
@@ -161,6 +203,21 @@ and Marketing Update" Mon 10am; Commercial Ready (Sally) on split payment option
 - Open promise: land owners consent to be executed in person (was due 31 Aug 2026).
 
 ## 95-103 East St, Jimboomba (SD-03 Jimboomba Sub-Division)
+17 Sep 2026, insurance locked in but the program is not moving:
+- **Clay confirmed the insurance period is ok** (8:31am). Council rejected the full road
+  closure, so on Clay's read the works go **into next year, to at least March**, with
+  multiple stages needed to physically build. **Still waiting on Traffic Approval from
+  Council**, so no start date on the next and final stage, which is what this insurance
+  covers. Clay told **Mauricio these insurance costs form part of the delay / prolongation
+  claim**.
+- **Tariq, 8:36am, refused the March date.** "We will lock this in for now, however this
+  isn't a means for the teams target of **December Delivery** to be extended." On March:
+  "unfortunately this is not acceptable, the entire team was aware from inspection that a
+  full road closure was not going to be accepted, **using this as form of delay cannot be
+  accepted**. We always were aware of the split road strategy and program should have
+  always worked in line with this." Same line he took on 14 Sep: the claim goes in, the
+  program does not move.
+
 14 Sep 2026, the road closure is refused and it becomes a claim:
 - **Logan City Council will not accept a full road closure** for the East Street Stage 1
   road widening. Christian Fowler (LCC) put it in writing to David on 11 Sep 11:36am,
@@ -257,6 +314,13 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   capability brochure and project videos attached.
 
 ## 29 Millers Rd / 3000132 Eight Mile Plains (Indara tower, renewal and easement)
+17 Sep 2026, Rezicad is still working and he asked for a date:
+- **Elley King, 9:02am**, on why the design is taking longer, all of it about not losing
+  yield: increasing rear boundary setbacks, access to the **Telstra tower**, reconfiguring
+  carparking, **35m2 private open space per dwelling**, repositioning refuse collection.
+- Tariq, 9:10am: "do you have an approximate date you feel it will be completed?" cc
+  Adrian Webberley (GSP Land) and Andrew Milford. **No date given yet as at 17 Sep.**
+
 11 Sep 2026, his own words to Veena (sent 8 Sep, forwarded to Clay 11 Sep):
 - 29 Millers Rd is also a **student / rooming accommodation development**, not only the
   Indara matter. The site **already had a childcare approval** and some of those DA
@@ -288,6 +352,24 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   comparison for Bardon Rd is on his agent wish list.
 
 ## Tenders and prospects (design and construct)
+- **Birkdale Community Precinct, the one he wants (17 Sep 2026).** From the VendorPanel
+  Public Tender Daily Digest to tenders@, forwarded to Kendal 7:28am: "lets aim for this
+  one - **DESIGN AND CONSTRUCT - BIRKDALE COMMUNITY PRECINCT ENABLING INFRASTRUCTURE AND
+  LAGOON SUB-PRECINCT**". Posted by **Redland City Council**, opened 15 Sep 2026,
+  **closes 7 Oct 2026 5:00pm**. (Two others in the same digest, not chosen: Dhuny Yumba
+  (Powrunna) Accommodation and Office Construction, Dept of Environment, Tourism, Science
+  and Innovation, closes 16 Oct 2026.)
+
+- **Forvm @ Hillcrest, 92-94 Johnson Road (D&C), 17 Sep 2026.** Kendal asked at 10:44am
+  whether to pull it into TFA's normal format and which price. Tariq, 11:05am: "yes your
+  format when ready. **will need to see what project team finalises price at** then can
+  enter that part." So the template goes ahead now, the number waits on Clay and Veena.
+
+- **Chermside Apartments and Childcare: Abi's price sent back (17 Sep 2026).** Abhinav
+  Choudhary returned the pricing 16 Sep 10:10pm. Tariq, 7:33am: "its **not inline with
+  what was requested**. We require the **childcare to be broken away and priced
+  separately**." Re-price outstanding on Abi.
+
 - **Urban Leaders Awards: deferred to 2027, deliberately.** Nominations closed 11 Sep 2026.
   The award is for an individual 40 or under who owns or runs a property development
   company, judged on Leadership, Growth and Innovation at 20% each. Tariq, 14 Sep 3:56pm:
@@ -347,6 +429,34 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   file and document discipline before headcount grows. See [[rules]] for the standing line.
 
 ## Employment and legal matters
+17 Sep 2026, the FWC matter (Pi-Hao Cheng, C2026/3733, FWC:0449001871):
+- **Desari Lynam (MBQld) can no longer run the jurisdictional objection.** Legislative
+  changes from **7 July 2026** mean it must go through court, which requires a lawyer. She
+  needs detail on the religious grounds for not making the listed time, "especially as we
+  have already tried to get out of it, they are going to be stricter on it".
+- **Tariq's four asks back, 7:44am:** use the **date of Pi-Hao's application** (prior to
+  7 July 2026) so it is assessed under the previous rules; **have Desari represent him**,
+  is there a way; clarity on **which clause** the objection fails on (the timeframe and new
+  legislation, or the substance of the submission); and whether it helps that the
+  commission already rejected it before 7 July. He still **pushes for cancellation**.
+- **The religious ground, in his words:** "its pretty standard. Just like Sunday Church,
+  Muslims go **Friday at 1pm** to their local mosque for mass." He offered a workaround
+  rather than only an objection: another mosque praying 30 minutes earlier would free him
+  by **1-1.15pm**, or ask them to push the listing to **2pm** to be safe. He asked whether
+  the hearing is in person, phone or Zoom.
+- He asked her to **call him that morning**, and forwarded the thread onward at 12:30pm.
+
+17 Sep 2026, Nelson Frost bereavement leave:
+- Heather told Clay, Daniel and Tariq at 5:15pm that **Nelson Frost's second nan has
+  passed away** (she was in palliative care, it was expected). He needs **from Monday 21
+  Sep 2026 off, funeral 23 Sep 2026**, request coming through Deputy. Staffing around his
+  absence next week needs managing.
+- **Tariq, 5:56pm, to Heather: "Please discuss with me tomorrow."** So this is a live item
+  for Friday 18 Sep.
+- Separately, **TAFE Queensland sent a proposed booking for Nelson Frost**
+  (CRM:0417000002946, Rick Huang, 10:01am), forwarded to accounts@ at 10:16am. The TAFE
+  induction open since 11 Sep now has a proposed booking against it.
+
 14 Sep 2026, apprentices and Daniel's agreement:
 - **Daniel is NOT being made a CA yet.** Clay asked for what he had so he could scope
   Daniel's new agreement. Tariq, 3:52pm: "I don't want to change his title to CA yet
@@ -412,6 +522,18 @@ Fettell):
   Fettell). Expect engagement paperwork back from her.
 
 ## Money and compliance
+17 Sep 2026, NAB:
+- **Statement delivery request to Jerry (Kyung) Park, 10:05am.** For the main business
+  account **ID 20889113** (TFA Constructions Pty Ltd, BSB 084-468, account 127902001) he
+  asked that statements be **mailed to the registered postal address, emailed monthly when
+  issued, and available to download in Internet Banking**, and asked what forms or
+  authorisations are needed. Heather had asked him for the account ID that morning (7:36am).
+- **Interest reviews still not done, and he said so plainly.** 12:03pm: "There has been a
+  few emails over the past 2 months that have not been responded to. Could you kindly
+  review your end and advise please." Then at 12:19pm, after Jerry came back: "**don't
+  rush needs to be done well my brother in our favour please**." Speed is not the point,
+  the outcome is.
+
 15 Sep 2026:
 - **QBCC licence annual reporting is due 31 Dec 2026** (TFA CONSTRUCTIONS PTY LTD, licence
   **1188724**). Tariq to Heather 12:27pm, recalling their chat last week and last year:
@@ -510,6 +632,37 @@ Fettell):
   the sign off. Kendal is running it.
 
 ## Other threads
+- **Pickles auctions: a standing buying relationship he is trying to open (17 Sep 2026).**
+  To **Daniel Deasy** (daniel.deasy@pickles.com.au, 9:08am) after a phone call. TFA is
+  "always on the lookout for **salvage machinery as well as prestige salvage vehicles**".
+  What he wants: a named contact for **assets passed in at auction repeatedly**, so TFA can
+  **submit a genuine offer to be taken back to the insurer or owner**. He says **TFA
+  already has this arrangement with Manheim** and it works both ways, and pitched it as
+  helping Pickles clear older stock and free yard space. Assets named: Land Rover
+  Autobiography 2026 (62330773), McLaren 750S 2025 (62373767), Lamborghini Urus 2020
+  (62281382), Mack Trident Tipper 2016 (62399934). He also asked for the **crane contact**:
+  TFA buys **100-200 tonne cranes and exports them overseas**, non-salvage.
+
+- **Ellerslie Road lease, a favour for a friend (17 Sep 2026).** Marib Rafiq
+  (maribrafiq_96@hotmail.com) asked Tariq to look over the Final CTA for **15/20-22
+  Ellerslie Road**. Tariq forwarded it to Kendal 8:33am: "can you review this for any
+  exposure to the friend of mine signing the lease agreement please", and sent the team's
+  review back to Marib at 12:38pm. Terms: **1 year + 1 year option, 1 Nov 2026 to 30 Oct
+  2027**, option exercisable by 30 May 2027, rent **$35,000 pa + GST + outgoings**, upfront
+  **$9,625 incl GST** (2 months bond $5,833.33 + 1 month deposit $2,916.67, both + GST).
+  Flagged to him: the lease is in **Marib's personal name, not a company, with no
+  guarantor**, and he **pays 100% of outgoings** (rates, landlord's insurance, land tax,
+  body corporate and a long list of building expenses). Personal favour, not TFA business.
+
+- **Newsletter and TFA July video (17 Sep 2026).** He chased Kendal twice on an old
+  "Newsletter for approval" thread (11:56am "you have it?", 5:55pm "Whats he saying?") and
+  re-forwarded the TFA July video thread. Still open with Kendal as at 17 Sep evening.
+
+- **HubSpot / following up subbies (17 Sep 2026).** Luke Elliott (HubSpot) emailed at
+  12:19pm; Tariq handed it to Kendal 12:36pm ("leaving this to you") and at 2:00pm added
+  "yeah I did at first but can still run with this for other stuff?" So HubSpot stays in
+  play for something beyond subbie follow-up.
+
 - **MB Planning invoice HI1476, and the land deal behind it (15 Sep 2026).** Archie McPhie
   (Student Planner, MB Planning) chased the invoice at 2:19pm; it was first raised 24 July
   2026 and Tariq told accounts@ that day to "hold on this invoice for 14 days before

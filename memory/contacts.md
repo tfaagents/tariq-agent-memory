@@ -55,7 +55,10 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - Thynne and Macartney: Michael Mayes (Dan St land acquisition, formal tone).
 - Mullins Lawyers: G Haseler, M Osborne (Bardon Road Berrinba acquisition).
 - CG Law: receives the BTP deposit payments. Does not issue TFA a monthly bill.
-- NAB: Kyung Park (development funding, Slacks Creek); **Chris at NAB** is the one Scott
+- NAB: **Jerry (Kyung S) Park** (Kyung.S.Park@nab.com.au), development funding for Slacks
+  Creek and the day to day business banking relationship: statements, account setup and
+  the **interest reviews** Tariq chased on 17 Sep 2026 after two months of unanswered
+  emails. Tariq calls him "Jerry" and "my brother". **Chris at NAB** is the one Scott
   McGregor deals with on the Dan Street loan to cost (16 Sep 2026). Mortar Finance:
   **Scott McGregor** (scott.mcgregor@mortarfinance.com.au, 0435 958 535), the broker
   running the Dan Street bank process. Sheriff Enterprises: Tony (funding a 23 unit
@@ -157,6 +160,11 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - **Audrey Marceau**, Tracks IS (audrey@tracksis.com.au). Blue and white collar.
 
 ## Suppliers and systems that email him
+- **Pickles (auctions): Daniel Deasy**, daniel.deasy@pickles.com.au. First contacted by
+  phone and email 17 Sep 2026. Tariq wants a standing route to make offers on assets
+  **passed in at auction repeatedly** (salvage machinery, prestige salvage vehicles) and a
+  separate **crane contact** (100-200 tonne, bought non-salvage and exported overseas).
+  **Manheim is the equivalent relationship that already works.** See [[projects]].
 - **TAFE Queensland, Client Account Management: Megan Cahill**, Client Liaison Officer,
   megan.cahill@tafeqld.edu.au, 07 3259 3063, Bracken Ridge campus. She emails Tariq
   directly when an apprentice is marked absent (Alex Peter, 14 Sep 2026). Separate from
@@ -201,6 +209,10 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - Mabel Park State High School work experience runs through notifications@pathwaysemail.com.
 
 ## Personal (do not mix with TFA business)
+- **Marib Rafiq** (maribrafiq_96@hotmail.com), a friend, addressed with "Salams Bro". Not
+  TFA business: Tariq had Kendal review his **15/20-22 Ellerslie Road** lease (Final CTA)
+  for exposure, 17 Sep 2026, and sent the review back to him. Favours for him are
+  personal work done on TFA time, kept off TFA threads.
 - **Qatar Airways** (donotreplypc@qatarairways.com.qa): he raised a query with them
   himself on Sun 13 Sep 2026, **service request 47710233** (two one time codes at 2:09pm
   and 2:24pm, the confirmation at 2:33pm). What it is about is not in the mail. Personal

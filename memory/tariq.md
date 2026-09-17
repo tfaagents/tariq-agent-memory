@@ -114,6 +114,38 @@ Rules in his own words (from his sent mail, dated)
   confirmation**. He also names the risk he is taking on out loud rather than hiding it.
   Confidential, see [[learoyd-algester]].
 
+- **Returns before looks, every time.** On ISA's concept for the new office: "I'm okay for
+  you to play with design facades as that can always be changed like you said. **I'm more
+  concerned about returns**", and the reason underneath it: "the idea is **not to sell but
+  lease** them so if I don't get maximum GFA then I lose on being able to hold them"
+  (17 Sep 2026, to Imran at ISA). **GFA is the number he judges a design by.** He also
+  builds for the end state, not the first fitout: "I'm building it for the future don't
+  want to redo the build in future fitout wise etc."
+- He will not be designed into the back of his own building: "I'm confused why I would
+  place myself at the rear of my own building lol?" (17 Sep 2026). Where an option costs
+  him position or amenity, say so rather than presenting it neutrally.
+- **A foreseeable knock-back is never an excuse for the program.** Second time in four
+  days: on Jimboomba going to March because Council refused the full road closure, "this
+  isn't a means for the teams target of December Delivery to be extended ... the entire
+  team was aware from inspection that a full road closure was not going to be accepted,
+  **using this as form of delay cannot be accepted**" (17 Sep 2026, to Clay, Kendal and
+  Mauricio). The cost still goes in the claim; the date holds. See [[projects]].
+- **He does not take the other side's numbers as the starting point.** On the Dan Street
+  arrears: review it "against what was paid, increases and what should be outstanding in
+  lieu of awaiting **their possibly incorrect ledgers**" (17 Sep 2026, to Annabelle Weir).
+  Rebuild the figure from what is known before accepting one that is handed over.
+- **Done properly beats done fast when it is his money.** To NAB on the interest reviews:
+  "**don't rush needs to be done well my brother in our favour please**" (17 Sep 2026).
+  Note he chased the same thread hard an hour earlier for two months of silence, then
+  slowed it down the moment it moved. The complaint is about being ignored, not about pace.
+- **He invites people to ask big and filters afterwards.** To Heather on the new office
+  wish list: "not everything will be accepted fyi it's a wish list so make sure you **keep
+  wishing** hahah", then one flat no (no dogs in the office) with a counter-offer (an
+  office cat) (17 Sep 2026). He rarely kills an idea without leaving something in its place.
+- **An estimator's price that answers a different question gets sent straight back.** Abi's
+  Chermside pricing: "its **not inline with what was requested**. We require the childcare
+  to be broken away and priced separately" (17 Sep 2026). No negotiation, no partial use.
+
 What he asked this agent for (8 Sep 2026)
 - A private chat he can talk to any time, separate from the staff agent line.
 - Brainstorming while driving (ideas, products, plans).
