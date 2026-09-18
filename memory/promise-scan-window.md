@@ -54,3 +54,25 @@ it is printed LATE, run `settled.mjs --who <address> --since <promise date> --ab
 "<words>"` on it on its own. "It cannot be proven either way" is not a reason to call it
 late; it is a reason to run the check. Over-correcting after [[brief-late-defect]] spends
 LATE just as cheaply as the original mistake did.
+
+## 19 Sep: when the scan is stale, not saving is sometimes the right move
+
+The 06:30 brief found the last scan 24 hours old, over /brief's 18 hour line, so the skill
+said refresh. `candidates 14` came back with 100 messages reaching only to 15 Sep, and the
+14 Sep Ali Family Trust promise, open and never closed, was outside that window. `save`
+only takes indexes into the candidate list, so there is no way to carry an older promise
+through it: running the refresh would have deleted a live promise to comply with a
+freshness rule.
+
+The scan was left alone and the new mail read by hand instead. Only one promise had been
+made since (18 Sep, to Veena and Clay: "I will complete the funding feasibility submission
+and contract" for Dan St), and it went into the brief and the session log rather than into
+`work/promises.json`.
+
+**How to apply:** before running `promises.mjs save`, check that every promise currently
+open in `work/promises.json` has its source email inside the candidate window. If one does
+not, do not save. Read the new sent mail by hand, carry any new promise in the brief and
+the session log, and say in the log that the list was deliberately not rewritten. A stale
+list that is complete beats a fresh list that is missing something. Until r-20260917-01 is
+fixed this will keep happening: he sends about 100 emails in six days, so the window is
+almost always shorter than the oldest open promise.
