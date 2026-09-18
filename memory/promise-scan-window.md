@@ -37,3 +37,20 @@ morning". A correction had to follow at 06:44.
 `sessions/scheduled/*-promises-scan.md` is step 3 of /brief, before the message is
 written, not a check afterwards. Anything in the old log, absent from the new list and not
 in `work/promise-closures.jsonl`, is still open and carries its original due date.
+
+## 18 Sep, the other half: carry it forward, then still check it
+
+The 06:44 correction carried Heather's work experience form back on and called it LATE,
+due 11 Sep, "seven days on", on the grounds that a signature cannot be proven from mail.
+At the close-out `node tools/settled.mjs --who heather@tfaconstructions.com.au --since
+2026-09-11 --about "Teina Takimoana work experience form"` returned **YOU DID IT**: he
+replied on that exact thread on 11 Sep at 10:47am, twenty minutes after Heather wrote it,
+and the placement started on Monday 14 Sep (Clay forwarded it to Daniel that morning).
+It was never late. The close-out retracted it.
+
+**How to apply:** a promise restored by the carry-forward comparison has skipped the
+fulfilment check, because `settled.mjs --promises` only sees what is on the list. Before
+it is printed LATE, run `settled.mjs --who <address> --since <promise date> --about
+"<words>"` on it on its own. "It cannot be proven either way" is not a reason to call it
+late; it is a reason to run the check. Over-correcting after [[brief-late-defect]] spends
+LATE just as cheaply as the original mistake did.
