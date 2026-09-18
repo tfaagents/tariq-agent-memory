@@ -55,6 +55,10 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - Thynne and Macartney: Michael Mayes (Dan St land acquisition, formal tone).
 - Mullins Lawyers: G Haseler, M Osborne (Bardon Road Berrinba acquisition).
 - CG Law: receives the BTP deposit payments. Does not issue TFA a monthly bill.
+- **NAB Acacia Ridge Business Banking Centre** (BusinessBank.AcaciaRidge@nab.com.au):
+  **Kelley Sampson**, Relationship Associate, Business & Private Bank. She is the one who
+  actions the account admin (statement access, 18 Sep 2026); Jerry Park is cc. Use her
+  address, not Jerry's, for anything procedural on the accounts.
 - NAB: **Jerry (Kyung S) Park** (Kyung.S.Park@nab.com.au), development funding for Slacks
   Creek and the day to day business banking relationship: statements, account setup and
   the **interest reviews** Tariq chased on 17 Sep 2026 after two months of unanswered
@@ -72,11 +76,20 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   (mwong@mitbrand.com), the QS on the **Dan St / 24 Industrial Units Slacks Creek initial
   report** (proposal X45717); from 3 Sep 2026 she is the point of contact and documents go
   to her direct, not to Krystal.
+- **Kaunitz Yeung Architecture** (info@kaunitzyeung.com, +61 2 9007 2098, Sydney;
+  nominated architect **David Kaunitz**). Architects on the **Health + Wellbeing Hub
+  Dakabin** EOI. They asked for TFA's Federal Safety Accreditation certificate (31 Aug
+  2026); as at 18 Sep 2026 they are waiting on their own answer to Tariq's question of
+  whether the EOI can proceed while the accreditation is being renewed.
 - NMDS: **Nick** (nick@nmds.net.au), architectural DA sets for Dan St and Hi-Tech Court;
   recommends and vouches for other consultants.
 - **Northrop** (recommended by Nick, 10 Sep 2026): Alex De Andrade, Team Manager, Civil
   Engineer, 0406 476 834, adeandrade@northrop.com.au; Sebastian Torralba, Associate,
   Structural Group Manager, 0403 797 879, storralba@northrop.com.au.
+- **Mewing Planning Consultants**: town planners, quoted **$15,500 + GST** against HPC's
+  $10,500 on 35 Hi-Tech Court, **declined 18 Sep 2026**. Their proposal left the
+  pre-lodgement and post-lodgement stages on open hourly rates, which is what lost it.
+  Keep them on the list for a second quote next time.
 - HPC Planning (Southport and Brisbane): **Murray Wright** (murray.w@hpcplanning.com.au),
   planning advice and fee proposals. ~~Recorded 10-14 Sep 2026 as "Murray Murphay" and
   earlier as "Murray W"~~ - superseded 15 Sep 2026: his own emails sign as **Murray
@@ -108,6 +121,19 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - Xact Accounting and Westnet: accountants and advisors on the MYOB file.
 
 ## Agents, clients, prospects
+- **Accord Property** (18 Sep 2026, new): **Harrison French** (hfrench@accord.property) and
+  **Ned Murdoch** (nmurdoch@accord.property). Property group with a portfolio of assets;
+  Tariq has asked to go on their **future projects tender list**. Cold as at 18 Sep, no
+  reply yet. Warm introduction, so worth a follow up if nothing comes back in a fortnight.
+- **Priscilla Farry**, Bask Early Learning (priscilla.farry@basklearning.com). The person
+  who introduced Tariq to Accord on 16 Sep 2026, describing him as a builder she has
+  worked with "on a number of New Centre Builds". A childcare-sector referrer worth
+  keeping warm; she is the reason the Accord door opened.
+- **Andrea Cancelli** (andrea.cancelli90@gmail.com), **94 Lipscombe Road**. Comes to Tariq
+  informally for pricing on structural works, a mezzanine and disability sanitary
+  rectification. **Declined twice on 18 Sep 2026** for capacity, with the door left open
+  "in a few weeks ... when my boys are free". Not a client, a favour he is currently short
+  of time for.
 - **Logan City Council**, the officers TFA actually deals with: **Christian Fowler**
   (ChristianFowler@logan.qld.gov.au) and **Fred Cha** on the Jimboomba East Street road
   widening and traffic approvals, who refused the full road closure 11 Sep 2026; **Sonia

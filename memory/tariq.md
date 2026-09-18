@@ -22,6 +22,24 @@ How he works
   read" or "no path for that", never a guess.
 
 Rules in his own words (from his sent mail, dated)
+- On consultants he is paying for a finance submission: "**Please respond to me and I will
+  be the conduit direct to the QS.**" (18 Sep 2026, to Veena and Clay on Mitchell
+  Brandtman at Dan Street.) He splits the work but keeps one voice going out: the team
+  gathers the documents and sends them to him, he talks to the consultant. Same instinct
+  as the estimator rule above.
+- On scope versus commitment: "**We can ask for sure but don't want to commit to BA phase
+  as we may change at that point. But yes, lets request a fee proposal for now.**"
+  (18 Sep 2026, to Veena on the BTP town planner.) Sits alongside the 10 Sep "no
+  variations later" rule rather than against it: **get the whole scope priced up front,
+  sign up to only the stage you are actually in.**
+- On site access to land he does not yet own: "can we please ensure **notice is provided
+  to me to advise land owner** for any access requirements" (18 Sep 2026, to Clay and
+  Veena on 35 Hi-Tech Court). Nobody arranges a site visit around him.
+- On paying bills while the cash is there: "I do like to **get things done when we have
+  money just in case we are tight in November** lol. Will leave it with you." (18 Sep
+  2026, to Heather on the land tax payment plans.) He will defer to Heather's priorities,
+  but his instinct is to clear an obligation early rather than hold the cash. Read the
+  "will leave it with you" as real delegation, not a soft no.
 - To estimators, every time he sends a tender package: "Please do not contact anyone in
   regards to the site." (10 Sep 2026, Bokarina and Narangba to Abi and Alee.) The client
   relationship is his, not the estimator's.

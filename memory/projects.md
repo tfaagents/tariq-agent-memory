@@ -8,6 +8,24 @@ that was read in the body of his own sent mail. Confirm a number or a date from 
 thread before quoting it to him.
 
 ## 35 Hi-Tec Court, Eight Mile Plains (the "BTP" purchase, new TFA office)
+18 Sep 2026, the town planner is chosen and the architect follows Dan St:
+- **HPC Planning wins the town planning job.** Veena put up two fee proposals 17 Sep
+  4:23pm: **Mewing Planning Consultants $15,500 + GST** (pre-lodgement and post-lodgement
+  stages on open hourly rates, not fixed) and **HPC Planning $10,500 + GST** (post-lodgement
+  capped at a 24 hour allowance before hourly rates). Her reasoning: HPC were engaged
+  earlier, already hold the background, and give cost certainty. **Tariq, 8:45am: "Thank
+  you Veena, please proceed asap with HPC. Advice Murray we would like him on this project
+  as Tariq's request."** So Murray Wright is asked for by name.
+- **The DA-only fee proposal is not enough.** Veena, 8:57am: the proposal runs only to DA
+  stage, should she request a complete one including IFC drawings, RFIs and inspections so
+  it does not come back later as a variation. **Tariq, 8:58am: "We can ask for sure but
+  don't want to commit to BA phase as we may change at that point. But yes, lets request a
+  fee proposal for now."** Price the whole thing, commit to DA only.
+- **Same architect as Dan St.** Nick (NMDS) emailed 8:00am; Tariq forwarded to Clay 8:24am
+  "FYI, going to engage the same architect" and to Heather for the accounts side.
+- **Site access must come through him.** 9:26am to Clay and Veena: "can we please ensure
+  notice is provided to me to advise land owner for any access requirements of the below."
+  The land owner relationship is his; nobody walks the site without him telling them.
 17 Sep 2026, ISA's concept design lands and he marks it up hard:
 - **Imran Ali (ISA) sent a concept of the layout at 10:16am.** Materials, colours and
   finishes can change; the point was the flow. No real survey DWG (the one sent was flat),
@@ -84,6 +102,17 @@ Earlier: purchase via MSP Law, NMDS involved, $10k/month deposit invoice raised 
 with the entity question open.
 
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
+18 Sep 2026, the QS starts and he makes himself the single conduit:
+- **Mitchell Brandtman Fee Proposal X45717, "24 Industrial Units, Slacks Creek"** is live.
+  Their RFI lists the critical documents to start the Initial Report: **council approvals**
+  (DA lodged, approval pending), **geotechnical / soil report**, **development budget**
+  (construction works, consultant fees, authority fees and charges, contingency),
+  **building contract with contract docs and drawings**, and the **construction programme**
+  with commencement and practical completion dates.
+- **Tariq, 9:31am to Veena cc Clay: he takes the funding feasibility submission and the
+  contract himself, the team does the rest, and every answer routes through him.**
+  "Please respond to me and I will be the conduit direct to the QS." Nobody on the team
+  emails Mitchell Brandtman directly on this.
 17 Sep 2026, the arrears ledger is not to be taken on trust:
 - Annabelle Weir forwarded RWC South West's latest comms at 10:25am. Tariq, 10:39am, asked
   her to **review the arrears against what was paid and the increases, rather than wait on
@@ -203,6 +232,11 @@ and Marketing Update" Mon 10am; Commercial Ready (Sally) on split payment option
 - Open promise: land owners consent to be executed in person (was due 31 Aug 2026).
 
 ## 95-103 East St, Jimboomba (SD-03 Jimboomba Sub-Division)
+18 Sep 2026, insurance placed:
+- Kendal chased at 2:40pm ("As we sorted on the insurance front?"). **Tariq, 2:40pm:
+  "lock it in for 30-45 days start date from now please."** So the cover starts inside
+  30-45 days of 18 Sep, i.e. between roughly 18 Oct and 2 Nov 2026, which is consistent
+  with him refusing to let the start slide to March.
 17 Sep 2026, insurance locked in but the program is not moving:
 - **Clay confirmed the insurance period is ok** (8:31am). Council rejected the full road
   closure, so on Clay's read the works go **into next year, to at least March**, with
@@ -314,6 +348,11 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   capability brochure and project videos attached.
 
 ## 29 Millers Rd / 3000132 Eight Mile Plains (Indara tower, renewal and easement)
+18 Sep 2026, the date he chased twice finally exists:
+- **Elley King (Rezicad), 17 Sep 4:39pm: "I'm aiming for COB Monday"**, that is **COB
+  Monday 21 Sep 2026** for the design. Tariq, 18 Sep 8:40am: "Amazing, can't wait".
+  Adrian Webberley and Andrew Milford to, Ellen McDonogh and Veena cc. If nothing lands
+  Monday, that is the third chase and worth putting in front of him.
 17 Sep 2026, Rezicad is still working and he asked for a date:
 - **Elley King, 9:02am**, on why the design is taking longer, all of it about not losing
   yield: increasing rear boundary setbacks, access to the **Telstra tower**, reconfiguring
@@ -347,11 +386,58 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 - Also on this address: Rezicad (Andrew) introductions and drawings.
 
 ## 85-97 Bardon Road, Berrinba (acquisition)
+18 Sep 2026, he is chasing the lawyers:
+- **Mitchell Osborne (Partner, Mullins), 15 Sep 3:09pm:** Mullins have called the
+  Department several times and spoke to **Daniel Lake**, who confirmed the acquisitions
+  team have been liaising with the **Department of Education** but gave no indication of
+  the Department's position. He said to **expect an update by the end of the week**.
+- **Tariq, 18 Sep 3:26pm: "Hi Mitchell, Please provide an update?"** The end of that week
+  is now, no update has arrived, and this is live on Mullins. Gus Haseler cc.
 - Mullins Lawyers (G Haseler, M Osborne): acquisition, settlement strategy and road map,
   Department of Natural Resources correspondence. Diary: "Next Steps" meeting held; a
   comparison for Bardon Rd is on his agent wish list.
 
 ## Tenders and prospects (design and construct)
+- **Federal Safety Accreditation has LAPSED, and it is now blocking an EOI (18 Sep 2026).**
+  Kaunitz Yeung Architecture asked on 31 Aug for TFA's current **Federal Safety
+  Accreditation certificate** for the **Health + Wellbeing Hub Dakabin QLD** EOI. Tariq
+  replied 18 Sep 11:10am: TFA "has previously held Federal Safety Accreditation; however,
+  our accreditation has since lapsed and we are currently progressing the renewal process",
+  and asked whether the EOI can proceed on that basis **with the renewed certificate
+  provided as part of the tender process**. Awaiting their answer. Kendal was chased for
+  the draft at 9:32am the same morning ("how did we go with a draft response below for
+  this?"), his second ask since 9 Sep. FSA is federal-funded work generally, so the lapse
+  is bigger than this one EOI.
+
+- **Accord Property, a new tender-list relationship (18 Sep 2026).** **Priscilla Farry**
+  (Bask Early Learning) introduced Tariq to **Harrison French** and **Ned Murdoch** at
+  Accord on 16 Sep, describing him as a builder she has used on a number of new centre
+  builds. Tariq's intro email went 18 Sep 11:12am asking to be put on their future
+  projects tender list, with the Instagram delivery snapshot, the SharePoint capability
+  brochure and the two Vimeo showcases. Standard pitch: seven Master Builders awards,
+  complex works on live operating sites, "becoming increasingly selective".
+
+- **Chermside: how the childcare is to be carved out, answered (18 Sep 2026).** Abhinav
+  Choudhary came back 17 Sep 10:44pm: the 90-place childcare is integrated into the
+  mixed-use building (access, lift, parking, outdoor play, structure, facade, common
+  services, fire stairs all shared) so what sits in the childcare price and what stays in
+  the main building price needed a call. **Tariq, 18 Sep 9:03am, via Kendal: "advise him
+  to cost everything for the childcare levels as part of the childcare i.e structure,
+  fire, ramps, lifts for them levels etc."** So the childcare carries the full cost of its
+  own levels, not just the fit-out. Kendal had forwarded it with "Help please lol".
+
+- **Forvm @ Hillcrest: price due Monday (18 Sep 2026).** Kendal asked 17 Sep 4:12pm when
+  she should have the price by, for her tracker. **Tariq, 18 Sep 8:45am: "modnya"**, that
+  is **Monday 21 Sep 2026**.
+
+- **94 Lipscombe Road, Andrea Cancelli: declined twice in one day (18 Sep 2026).** Andrea
+  (andrea.cancelli90@gmail.com) asked TFA to price structural works and a mezzanine, then
+  added a **disability sanitary facility rectification** to AS 1428.1 / BCA D3.6 and F2.4
+  with a certifier re-measuring everything. Tariq, 9:18am: "At this stage I won't be able
+  to assist with this list. If you got absolutely stuck and had more time up your sleeve in
+  a few weeks I could review when my boys are free." Again at 2:44pm: "Yes, unfortunately
+  can't assist with both currently." Note this is a different site to the **Lipscombe Rd
+  Deception Bay** invoice, which he told Heather at 8:40am is "**still on hold**".
 - **Birkdale Community Precinct, the one he wants (17 Sep 2026).** From the VendorPanel
   Public Tender Daily Digest to tenders@, forwarded to Kendal 7:28am: "lets aim for this
   one - **DESIGN AND CONSTRUCT - BIRKDALE COMMUNITY PRECINCT ENABLING INFRASTRUCTURE AND
@@ -429,6 +515,22 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   file and document discipline before headcount grows. See [[rules]] for the standing line.
 
 ## Employment and legal matters
+18 Sep 2026, Daniel Tu's training path and a Deputy process point:
+- **Daniel's course is decided, in stages.** Clay (from his gmail, 4:18am) said the course
+  Tariq sent looks like a **day course for residential contracts**, not the month course
+  Tariq mentioned to Daniel, and put up a **12 month online Certificate IV in Building
+  Project Support (Contract Administrator)**, College for Adult Learning, **$87/week, about
+  $5k**, but thought 12 months may be too long. **Tariq, 9:27am: "yeah we can look into
+  your option next year if he survives, for now do the 1-2 resi CA and then we can build
+  off that. We then see if he can get cross credits for the tafe course and then see part
+  time if its available at night."** So: the short residential CA courses now, cross
+  credits toward the TAFE qualification next, night part-time if it exists, and the Cert IV
+  only in 2027 and only if Daniel lasts. "if he survives" is his own framing of the trial.
+- **Mauricio's early finish: the issue is the record, not the hours.** 8:59am to Heather:
+  "okay, its not about the extra hours, its placing leave or early departure on **deputy**?
+  Or did he tell clay prior, which is fine then as long as his manager was aware." Early
+  departures go in Deputy, or are cleared with the manager first. He asked to be kept
+  posted (8:46am).
 17 Sep 2026, the FWC matter (Pi-Hao Cheng, C2026/3733, FWC:0449001871):
 - **Desari Lynam (MBQld) can no longer run the jurisdictional objection.** Legislative
   changes from **7 July 2026** mean it must go through court, which requires a lawyer. She
@@ -522,6 +624,32 @@ Fettell):
   Fettell). Expect engagement paperwork back from her.
 
 ## Money and compliance
+18 Sep 2026, land tax payment plans and the NAB statement login:
+- **Land tax on 11 and 13 Inverness: payment plans not yet applied for.** A QRO "Register
+  for an Extended Payment Option (EPO)" email prompted him to ask Heather at 2:39pm "Do
+  you know about this? Have we not paid something?". **Heather, 3:24pm:** there is a note
+  on the **TZA and HSA land tax bills** to apply for payment plans for **both 11 and 13
+  Inverness**; it is on her radar but she has **until early October** to apply and has
+  bumped it for higher priorities. **Tariq, 3:27pm: "So is this direct correlation with
+  the email below? If so its fine, but I do like to get things done when we have money
+  just in case we are tight in November lol. Will leave it with you."** Worth surfacing to
+  him again in the last week of September if it is still open.
+- **NAB statement access is now live, and he checked it cannot pay.** Kelley Sampson
+  (Relationship Associate, Acacia Ridge Business Banking) confirmed 3:20pm that the
+  business account can now **download statements in internet banking**, generated
+  **monthly on the last business day** and posted to **33 Tremain Street, Tingalpa**. NAB
+  **cannot email statements** each month. Tariq, 3:32pm: "Just wanted to confirm, the log
+  in cannot make payments correct? Its only needed for statement downloads nothing more.
+  Please advise." Unanswered as at 18 Sep. This is the tail of the 17 Sep request to Jerry
+  Park above.
+- **He ticked two invoices for payment in error on 17 Sep and unwound it.** 8:44am to
+  Heather: "I think I stuffed up by ticking murray bell and hpc yesterday lol." The fix,
+  9:25am: "**yes refund for Murray bell and credit note for hpc** as it will just come off
+  next bill if need be. They were aware it was not to be paid yet." The Murray Bell one is
+  **MB Planning invoice HI1476** (1661 Old Cleveland Rd), raised while the deal was still
+  in progress; he told Heather 11:09am the earlier email had the attachment to Archie
+  saying it was not meant to be raised. He also asked at 11:08am how the other Clay
+  invoice was paid, card or otherwise, unanswered.
 17 Sep 2026, NAB:
 - **Statement delivery request to Jerry (Kyung) Park, 10:05am.** For the main business
   account **ID 20889113** (TFA Constructions Pty Ltd, BSB 084-468, account 127902001) he

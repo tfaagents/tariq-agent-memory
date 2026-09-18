@@ -15,6 +15,7 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 - [OneDrive privacy](onedrive-privacy.md) — Documents checked clean 15 Sep 2026; what this agent can and cannot see about who accessed a file
 - [Security posture](security-posture.md) — the ten gaps told to him 15 Sep 2026, each checked against a file; diagram at work/diagrams/
 - [Agent roadmap](agent-roadmap.md) — his own brief for the TFA Executive Operating System, 7-8 coordinated agents, sent to Jaiah 11 Sep 2026
+- [Federal Safety Accreditation](federal-safety-accreditation.md) — lapsed, renewal in progress (18 Sep 2026); already holding up the Dakabin EOI and any Commonwealth-funded work
 - [Bot builds doc](bot-builds-doc.md) — his running Word list of agent ideas on OneDrive Desktop, 43 bullets, wider than the Jaiah email
 
 ## Projects and ideas
