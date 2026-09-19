@@ -85,3 +85,11 @@ Two promises are being carried by hand outside it, both from the session logs, n
 list: the 14 Sep Ali Family Trust one to Shane (in the file, would be deleted by a save)
 and the 18 Sep Dan St one to Veena and Clay (never in the file at all). A brief or a
 close-out that works only from `work/promises.json` will miss the second one.
+
+**20 Sep: third morning frozen, and the brief handled it without a correction.** The scan
+was 48 hours old at 06:30, over /brief's 18 hour line, and was again left alone: the 14 Sep
+Ali Family Trust promise is still outside the candidate window. `mail.mjs sent 2` showed
+nothing sent at all on Sat 19 Sep, so no promise was missed by not refreshing. Both hand
+carried promises (Ali Family Trust to Shane, Dan St to Veena and Clay) went into the brief
+from the session logs, and `settled.mjs --who` was run on the Dan St one on its own before
+it was printed, per the sharpened rule above. No correction was needed this time.
