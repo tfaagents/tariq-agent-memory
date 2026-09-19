@@ -76,3 +76,12 @@ the session log, and say in the log that the list was deliberately not rewritten
 list that is complete beats a fresh list that is missing something. Until r-20260917-01 is
 fixed this will keep happening: he sends about 100 emails in six days, so the window is
 almost always shorter than the oldest open promise.
+
+**19 Sep, the freeze is now a standing state, and Jaiah has it for the third day.** The
+17:30 digest re-stated r-20260917-01 to Jaiah in its changed form: it has gone from "it
+put a wrong brief on his phone" (18 Sep) to "the scan cannot be refreshed at all". So
+until he pages past the cap, `work/promises.json` stays the 18 Sep scan on purpose.
+Two promises are being carried by hand outside it, both from the session logs, not the
+list: the 14 Sep Ali Family Trust one to Shane (in the file, would be deleted by a save)
+and the 18 Sep Dan St one to Veena and Clay (never in the file at all). A brief or a
+close-out that works only from `work/promises.json` will miss the second one.
