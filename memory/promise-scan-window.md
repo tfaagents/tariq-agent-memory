@@ -93,3 +93,17 @@ nothing sent at all on Sat 19 Sep, so no promise was missed by not refreshing. B
 carried promises (Ali Family Trust to Shane, Dan St to Veena and Clay) went into the brief
 from the session logs, and `settled.mjs --who` was run on the Dan St one on its own before
 it was printed, per the sharpened rule above. No correction was needed this time.
+
+**21 Sep: fourth frozen scan, and the window shrank again.** `candidates 14` reached back
+only to 15 Sep 11:55am Brisbane, so the 14 Sep Ali Family Trust promise was outside it for
+the third scan running and the list was again left alone. Of 100 sent emails only two
+carried a promise and both were already known (i:46 Heather's office wish list, already
+promise 1; i:13 the 18 Sep Dan St one to Veena and Clay, still hand carried and still not
+in the file). Nothing was sent 19, 20 or early 21 Sep, so nothing was missed by not
+refreshing. r-20260917-01's plan now reads fifth day blocking.
+
+**The shape this has settled into:** the scan's useful output is no longer the save, it is
+the window boundary and the carry-forward check. Read the oldest candidate timestamp off
+the JSON, match every open promise in `work/promises.json` to its source date, and if one
+falls outside, log it and stop. The brief then works from four promises, three in the file
+and one only in the logs.
