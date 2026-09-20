@@ -386,7 +386,16 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 - Also on this address: Rezicad (Andrew) introductions and drawings.
 
 ## 85-97 Bardon Road, Berrinba (acquisition)
-18 Sep 2026, he is chasing the lawyers:
+- **Mullins answered the same afternoon (18 Sep 2026, 4:44pm).** **Gus Haseler**
+  (Associate, Mullins, ghaseler@mullinslawyers.com.au), not Mitchell, replied to Tariq's
+  3:26pm chase: they spoke that day with **Jacob Toigo** at the Department, who said
+  Mullins should have **a response to their most recent email early next week** (week of
+  21 Sep 2026) and that the Department is **expecting advice from their experts
+  imminently** and should be able to progress the matter shortly. So the ball is with the
+  Department, not with Tariq and not with Mullins; the thing to watch is whether that
+  response actually lands in the week of 21 Sep.
+
+18 Sep 2026, he was chasing the lawyers:
 - **Mitchell Osborne (Partner, Mullins), 15 Sep 3:09pm:** Mullins have called the
   Department several times and spoke to **Daniel Lake**, who confirmed the acquisitions
   team have been liaising with the **Department of Education** but gave no indication of
@@ -398,6 +407,16 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   comparison for Bardon Rd is on his agent wish list.
 
 ## Tenders and prospects (design and construct)
+- **Collingwood Park gym and childcare: Abi's revised price is in (19 Sep 2026).**
+  Abhinav Choudhary sent the trade report Sat 19 Sep 8:12pm, to Tariq and **Kendal**:
+  "See attached trade report as requested, sorry for the delay. I am very confident with
+  this price." **Approx GFA rate $2,123.24 per m2.** His one instruction: "**While
+  submitting please excluded pad mount transformer and council fees**". This answers
+  Tariq's 9 Sep 4:06am rework request, which told Abi the previous estimate was "poorly
+  compiled due to time and drawings supplied" and to review all previous emails and
+  comparisons. As at Sun 20 Sep nobody at TFA has replied and it is not yet submitted;
+  the submission is the open action, with the two exclusions carried into it.
+
 - **Federal Safety Accreditation has LAPSED, and it is now blocking an EOI (18 Sep 2026).**
   Kaunitz Yeung Architecture asked on 31 Aug for TFA's current **Federal Safety
   Accreditation certificate** for the **Health + Wellbeing Hub Dakabin QLD** EOI. Tariq
@@ -509,8 +528,11 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   example Veena start they follow the right process", and "as we scale the issue is going
   to amplify ... I hold this topic with importance in scale and growth having the
   foundations right prior to scaling."
-- **On the agenda for his catch up with Clay later this week** (week of 15 Sep 2026). He
-  put it there himself, so it is a commitment to raise, not just a complaint.
+- **On the agenda for his catch up with Clay** (put there himself on 15 Sep 2026, so it is
+  a commitment to raise, not just a complaint). **As at 20 Sep 2026 it has not been had.**
+  Clay has not answered the 15 Sep email on that thread (settled.mjs --who clay@, 20 Sep:
+  STILL OPEN), and the next catch up in the diary is **Mon 21 Sep 9:00am, "Clay Catchup
+  Meeting", organised by Kendal**. That is the meeting to prime him for.
 - Sits next to [[projects]] handover documentation above: both are him trying to lift TFA's
   file and document discipline before headcount grows. See [[rules]] for the standing line.
 
@@ -624,6 +646,16 @@ Fettell):
   Fettell). Expect engagement paperwork back from her.
 
 ## Money and compliance
+- **RCH Holdings INV-0027, $11,000, due Mon 21 Sep 2026.** Heather asked him directly on
+  Fri 18 Sep 10:49am: "Could you please process the attached **ABA file** today for Clay
+  ($11,000). I thought I could select the other **AMEX 2000/1010** to pay this on SNIIP
+  but I was mistaken, that card isn't linked." The Sniip reminder that followed at 7:00pm
+  ("Bill from The Trustee for RCH Holdings is due soon", ref INV-0027, due 21 Sep,
+  $11,000 outstanding) is **addressed to accounts@, not to him**, so the alert itself is
+  not evidence it is his: Heather's 10:49am ask is. Still outstanding as at Sun 20 Sep,
+  since the reminder went out nine hours after her email. The payment itself is his to
+  make; this agent never pays.
+
 18 Sep 2026, land tax payment plans and the NAB statement login:
 - **Land tax on 11 and 13 Inverness: payment plans not yet applied for.** A QRO "Register
   for an Extended Payment Option (EPO)" email prompted him to ask Heather at 2:39pm "Do
@@ -698,7 +730,10 @@ Fettell):
   friction: receipts and invoices not coming back off the cards.
 - **ATO PAYG instalments for TFA Constructions**: income tax pre-payments required because
   of FY25 income. **$28,730 a year, $7,182.50 a quarter**, pre-filled when the quarterly
-  BAS is lodged on the ATO portal. Tariq, 1:39pm: "okay, please **track if tfa attains a
+  BAS is lodged on the ATO portal. **Heather has a 2:00pm Mon 21 Sep 2026 block on it**,
+  her own entry: "ATO, continue getting affiliates set up on ATO portal (so they're online
+  and ready for the next BAS lodgement due)". So the affiliate setup is the current
+  blocker on the next BAS, and it is hers, not his. Tariq, 1:39pm: "okay, please **track if tfa attains a
   loss that its credited in the next financial year**."
 - **Ali Family Trust, account ending 6175, interest rate notice.** The notice lands with
   Heather by mistake. Tariq's structure, in his words: "**The loan is technically ours as

@@ -53,7 +53,12 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   litigation, the Daniel Tu matter and the earlier ATO submission. Tariq writes to him as
   a mate ("my friend", "dude").
 - Thynne and Macartney: Michael Mayes (Dan St land acquisition, formal tone).
-- Mullins Lawyers: G Haseler, M Osborne (Bardon Road Berrinba acquisition).
+- Mullins Lawyers (Level 21, 123 Eagle St, Brisbane): **Mitchell Osborne**, Partner
+  (mosborne@mullinslawyers.com.au, 07 3224 0212) and **Gus Haseler**, Associate
+  (ghaseler@mullinslawyers.com.au, 07 3224 0254), on the Bardon Road Berrinba
+  acquisition. Gus is the one who answers when Mitchell is chased (18 Sep 2026).
+  Their contact at the Department is **Jacob Toigo**; **Daniel Lake** was the earlier
+  one (15 Sep 2026).
 - CG Law: receives the BTP deposit payments. Does not issue TFA a monthly bill.
 - **NAB Acacia Ridge Business Banking Centre** (BusinessBank.AcaciaRidge@nab.com.au):
   **Kelley Sampson**, Relationship Associate, Business & Private Bank. She is the one who
@@ -243,6 +248,10 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   himself on Sun 13 Sep 2026, **service request 47710233** (two one time codes at 2:09pm
   and 2:24pm, the confirmation at 2:33pm). What it is about is not in the mail. Personal
   travel, not TFA. If a Qatar reply lands, that is the thread it belongs to.
+- **Aliyah**: family, almost certainly his daughter (confirm before assuming). Her school
+  **formal is Mon 21 Sep 2026**, in his own calendar as "Aliyah formal cadillac at 1pm
+  sanctuary cove", entered 11:00am with the **cadillac at 1pm at Sanctuary Cove**. Family,
+  not a work meeting, and it takes out the middle of that Monday.
 - ziana.ali90@gmail.com: 92 emails out, statements, aircon, flights, Accor offers he
   forwards on. Appears to be family (likely his wife); confirm before assuming.
 - **Saheed Ali** (saheedali@hotmail.com) is **Tariq's father, and he is the "Shane" the

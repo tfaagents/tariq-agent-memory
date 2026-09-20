@@ -4,7 +4,9 @@ description: Tariq's week as his calendar shows it (60 days back, 45 forward, re
 ---
 
 ## Recurring
-- Monday 10am: Dan Street Sales and Marketing Update (Ray White).
+- Monday 10am: Dan Street Sales and Marketing Update (Ray White). Monday 9am: **Clay
+  Catchup Meeting**, organised by Kendal (seen 21 Sep 2026; treat as his standing slot
+  with Clay until a second week proves it recurring).
 - Tuesday 8:30am some weeks: Sibling Coffee. Tuesday 4pm monthly: Group Twenty Advisory
   Board (One Life Club). Tuesday 1pm: TFA / DD catch-up (once seen).
 - Wednesday 9 to 11am: Weekly Projects Update, Slacks Creek and Jimboomba. Wednesday
