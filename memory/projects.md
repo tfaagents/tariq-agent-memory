@@ -644,6 +644,13 @@ Fettell):
   Tariq, 3:54pm: "Yes please, referring to Daniel Tu, I would love for you to represent us
   please." So the Tu matter now runs through MBQ (Desari) as well as Piper Alderman (Mason
   Fettell). Expect engagement paperwork back from her.
+- **Directions hearing Tue 22 Sep 2026, BRG917/2026 Daniel Tu & DT Buildev v TFA, Federal
+  Circuit and Family Court Division 2, Judicial Registrar Pascoe.** By Webex
+  (fcfcoa.webex.com/meet/court.JRPascoe), part of a Court list. On 21 Sep 4:04pm the
+  registrar **granted Desari Lynam leave to represent TFA** at it. **No email on the
+  thread states the time**, which is the gap to close with Desari. Tariq's line to her
+  that day, 1:15pm: "Looks good, I agree just respond and keep ahead of it for now we can
+  prove our case later.
 
 ## Money and compliance
 - **RCH Holdings INV-0027, $11,000, due Mon 21 Sep 2026.** Heather asked him directly on
@@ -770,7 +777,10 @@ Fettell):
   2026** and was not paid. The borrower called Tariq **Monday 7 Sep** asking to extend to
   **20 Sep 2026**, which was an option in the agreement. Heather asked whether a mutual
   written agreement was put in place to reflect the change; **Tariq did not answer that
-  part**. Worth chasing.
+  part**. Worth chasing. **Repaid 21 Sep 2026**: accounts@ filed a record-keeping note at
+  10:27am, "Tariq advised on WhatsApp the $500k loan has been repaid to Rajput account
+  ending 6686 (not visible through bank feeds yet)." So the loan itself is closed; the
+  unanswered question is still whether the extension to 20 Sep was ever papered.
 - **QBCC annual reporting due 31 Dec 2026**, licence 1188724, under the Minimum Financial
   Requirements Regulation 2018, lodged through My QBCC. Heather is compiling her notes
   from last year's discussions before they review the management financials. Note QBCC
