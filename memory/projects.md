@@ -299,6 +299,19 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   at Inspire EYM. Kendal's Claude project also tracks this one.
 
 ## Narangba childcare extension (Spring Early Learning)
+21 Sep 2026, Abi's price landed and he wants the two estimators marked against each other:
+- **Abhinav (Abi) Choudhary sent his Narangba pricing Sunday 20 Sep 2026, 10:57pm**, "See
+  attached as requested". Tariq forwarded it to Kendal at 6:48am Monday.
+- **His standing instruction with it:** "please **cross this with alee once received** and
+  **do the usual of asking them to review each others works on why one is high and why the
+  other persons is so low**." That is his method for two estimators on one job, not a
+  one-off. See [[tariq]].
+- **Alee finally moved, but through Kendal again.** 8:55am to Kendal, cc Tariq: "As advised
+  by Boss, could you please share this project drawings when you get a chance?" **Kendal
+  reshared the Narangba Childcare folder directly via SharePoint at 10:57am** ("I'm not
+  sure why you weren't able to access it previously"). So the access fault that has run
+  since 11 Sep is addressed; **Alee's price is now the one thing outstanding**, and the
+  cross-check cannot happen until it arrives.
 - 17 Sep 2026: **Alee broke six days of silence, to Kendal, not to Tariq.** Kendal chased
   him at 10:56am on "Chermside Apartments and Childcare" with the Notice About Decision
   Assessment Report attached; he replied 4:25pm, apologised for the delay, said the
@@ -348,6 +361,14 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   capability brochure and project videos attached.
 
 ## 29 Millers Rd / 3000132 Eight Mile Plains (Indara tower, renewal and easement)
+21 Sep 2026, COB Monday came and went and Elley was not there:
+- **Tariq chased it 9:24am** to Elley King, Adrian Webberley and Andrew Milford, cc Ellen
+  McDonogh and Veena: "I trust you had a wonderful break over the weekend. **How are we
+  tracking for COB today for the updated drawings?**"
+- **admin@rezicad.com replied 10:16am: Elley is away from the office today**, they are
+  hoping to have her back **Tuesday 22 Sep**, and she will provide an update when she is
+  in. So the COB Monday commitment she gave on 17 Sep is missed with no new date. That is
+  three chases now (16, 18 and 21 Sep) and it is worth putting in front of him Tuesday.
 18 Sep 2026, the date he chased twice finally exists:
 - **Elley King (Rezicad), 17 Sep 4:39pm: "I'm aiming for COB Monday"**, that is **COB
   Monday 21 Sep 2026** for the design. Tariq, 18 Sep 8:40am: "Amazing, can't wait".
@@ -386,6 +407,17 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 - Also on this address: Rezicad (Andrew) introductions and drawings.
 
 ## 85-97 Bardon Road, Berrinba (acquisition)
+21 Sep 2026, he put the money questions to Gus before the Department comes back:
+- **Tariq, 7:42am to Gus Haseler cc Mitchell Osborne**, two questions "so I'm clear on the
+  current position": have we **actually nominated a settlement figure** at this stage, or
+  are we simply reiterating our assessed land value and waiting for them to put a number
+  forward; and are we **still intending to pursue those additional amounts above the
+  best-use land value** as originally contemplated.
+- **The numbers he is working from, in his own words:** the valuation report identified
+  approximately **$11.34m as the best-use land value**, while the **total claim was closer
+  to $12.5m** once the additional costs and losses were included. He reattached Mitchell's
+  February email and **Rodney's valuation report** for reference.
+- No answer from Mullins as at the close of 21 Sep.
 - **Mullins answered the same afternoon (18 Sep 2026, 4:44pm).** **Gus Haseler**
   (Associate, Mullins, ghaseler@mullinslawyers.com.au), not Mitchell, replied to Tariq's
   3:26pm chase: they spoke that day with **Jacob Toigo** at the Department, who said
@@ -647,10 +679,18 @@ Fettell):
 - **Directions hearing Tue 22 Sep 2026, BRG917/2026 Daniel Tu & DT Buildev v TFA, Federal
   Circuit and Family Court Division 2, Judicial Registrar Pascoe.** By Webex
   (fcfcoa.webex.com/meet/court.JRPascoe), part of a Court list. On 21 Sep 4:04pm the
-  registrar **granted Desari Lynam leave to represent TFA** at it. **No email on the
-  thread states the time**, which is the gap to close with Desari. Tariq's line to her
+  registrar **granted Desari Lynam leave to represent TFA** at it. ~~**No email on the
+  thread states the time**, which is the gap to close with Desari.~~ **Superseded 21 Sep
+  2026: the time is 10:00am Tuesday 22 Sep 2026.** Desari sent the calendar invite at
+  5:17pm on 21 Sep ("Small Claims - Directions Hearing", Coolum Room), cc **Jack Hart**
+  (jack.hart@mbqld.com.au, MBQld). Tariq's line to her
   that day, 1:15pm: "Looks good, I agree just respond and keep ahead of it for now we can
   prove our case later.
+- **The Respondent's Response was filed with the court on 21 Sep 2026** and Desari served
+  it on Daniel Tu (daniel_tu_2005@hotmail.com) at 5:18pm, cc Tariq. Her 1:08pm note set
+  the level: "Remember we do not need it to be too detailed right now, just **laying the
+  base of claim and defence**. Can you send me what you have..." He agreed at 1:15pm and
+  reattached the dates material.
 
 ## Money and compliance
 - **RCH Holdings INV-0027, $11,000, due Mon 21 Sep 2026.** Heather asked him directly on
@@ -797,6 +837,40 @@ Fettell):
   Recruitment) approached him; he asked what candidates she actually has.
   16 Sep 2026 11:37am, she asked the salary range for a stand out candidate and he
   answered in two words: **"120-160k"**. That is the band for the CA role.
+- **21 Sep 2026, 7:48am: he sent Alicia the full CA brief.** She confirmed receipt 10:52am,
+  "I will work on finding you stand out candidates." The benchmark, in his words: **5+
+  years as a Contracts Administrator**; tertiary qualification in Construction Management
+  or similar, **completed before the CA role**; solid CA experience on **ground-up
+  building work**; **Brisbane/SEQ subcontractor knowledge**; has been the **sole CA on
+  projects** (not under a senior CA, not supported by cadets) reporting **directly to a
+  Project Manager**; light commercial delivery; site exposure highly regarded.
+- **The systems are not negotiable:** **Procore proficiency is essential** (TFA's primary
+  project management platform), plus Bluebeam, MS Project, Outlook, OneDrive and advanced
+  Excel. TFA runs **ProScan (Procore to MYOB integration)** and **Monday.com** for team
+  management and internal communication. Contracts: **AS2124, AS4000, ABIC and MBA**.
+  Compliance: **BIF Act (Qld)** progress claims and payment schedules, **QBCC** licensing
+  and warranties.
+- **Who he does not want:** **no QS candidates** unless exceptional ("Do not forward QS
+  candidates"), and **avoid heavily institutional or corporate-styled candidates**. His
+  reason: "We run lean and direct, with minimal layers between decision-making and
+  delivery. Candidates coming from highly resourced **Tier 1 environments often struggle
+  with the pace and personal accountability** required here."
+- **The load the role carries:** TFA projects run **$5-15m**, and a CA is expected to run
+  **2-3 projects, no more than $15m accumulatively**.
+- **The band moved:** "Happy to **increase our pool from 120k to 160k** for the right
+  candidate and qualifications."
+- **What he demands of the recruiter before a candidate reaches him:** she has personally
+  interviewed them (video or face to face); asked **his attached CA interview questions**
+  and sent the answers **in full**; **reference checked 1-2 referees** and summarised the
+  feedback; flagged gaps (Procore fluency, BIF Act, degree, distance from the office,
+  procurement and package letting, cultural fit) and risks (tenure, Tier 1 low
+  adaptability, over-delegation, no financial ownership). He also sent the **CA Position
+  Description**, **CA Interview Questions**, the **TFA Capability Statement**, **Newsletter
+  Issue No.3**, the **TFA team video** (vimeo.com/847691927) and an Instagram reel. He
+  asked for confirmation of receipt because of the attachment size, and for the strongest
+  candidates first: "I'm happy to keep testing if they hit closer to our benchmark."
+- Note for any draft on this thread: **the TFA website (tfaconstructions.com.au) is still
+  "currently under construction"** in his own words, 21 Sep 2026.
 - Looking for an **Operator for Jimboomba**. He passed Daniel's number (0455 832 832) to
   Audrey Marceau at Tracks IS, who cover blue and white collar.
 - **Kangjia Zhang** (UNSW student intern) has pushed her arrival in Brisbane to **22 Sep

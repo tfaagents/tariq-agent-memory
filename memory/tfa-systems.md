@@ -67,6 +67,16 @@ Not connected yet
   and cannot be read from here.
 - **Mail.Send**: not granted. Nothing on this machine can send an email.
 
+- **ALIS Property Group is getting its own mail domain (21 Sep 2026).** VentraIP
+  activated email hosting on **alispg.com.au** that morning, notices to
+  web@tfaconstructions.com.au: **tariq@alispg.com.au** at 10:36am and
+  **info@alispg.com.au** shortly after. Kendal forwarded both and said "Ill do this for
+  you when we next catch up"; Tariq replied "rogy" at 1:10pm. So the ALIS mailboxes exist
+  but are **not set up on his devices yet and are not connected to this agent**: his TFA
+  mailbox is still the only one readable from here.
+- **ProScan** is named by Tariq as TFA's **Procore to MYOB integration** (CA brief to
+  Frontline, 21 Sep 2026). Not connected here.
+
 Other tools they pay for: V1CE ("Client Capture OS", the digital business card, sends him
 a weekly tap summary; 1 tap in the week to 13 Sep 2026), Procore, Bluebeam (two dead
 perpetual licences; new seats are about $450 to $980 a year each), Cubit Estimating trial,

@@ -101,9 +101,11 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   Wright**. **Thomas Stubbs**, Senior Town Planner, 0413 909 802
   (thomas.s@hpcplanning.com.au), works with Mauricio on 7-9 Dan Street planning conditions
   (acid sulfate soils, 15 Sep 2026). Also 1661 Old Cleveland Rd Chandler.
-  **Rezicad** (07 3363 8188, www.rezicad.com): **Andrew Milford** (andrew@rezicad.com)
-  and **Elley King** (elley@rezicad.com), design and planning on 29 Millers Rd Eight Mile
-  Plains. Works alongside **GSP Land**: **Adrian Webberley** (Adrian@gsp-land.com.au) and
+  **Rezicad** (2/23 Overlord Place, Acacia Ridge, 07 3363 8188, www.rezicad.com, QBCC
+  1153526): **Andrew Milford** (andrew@rezicad.com) and **Elley King**
+  (elley@rezicad.com), design and planning on 29 Millers Rd Eight Mile Plains.
+  **All requests are to go to admin@rezicad.com**, which is also who answers when Elley is
+  out (21 Sep 2026). Their hours are Mon-Thu 8am-4.30pm, Fri 8am-2.30pm. Works alongside **GSP Land**: **Adrian Webberley** (Adrian@gsp-land.com.au) and
   **Ellen McDonogh** (ellen@gsp-land.com.au). Tariq chases this group for design progress.
 - **MB Planning** (Level 10, 167 Eagle Street Brisbane; mail@mbplanning.com.au). Town
   planners, invoice HI1476 and the paused land deal. **Tamara Katai**, B.Planning M.Trans,
@@ -122,7 +124,8 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   Falcon Property at Jimboomba, dealing with Logan City Council.
 - Master Builders QLD: **Desari Lynam**, Senior Advisor Workplace Relations, (07) 3225
   6507, 0427 196 781. FWC cases, jurisdictional objections, apprenticeship contracts,
-  wages queries. Tariq is very informal with her ("best friend lol", "Roger that boss").
+  wages queries. Tariq is very informal with her ("best friend lol", "Roger that boss"). **Jack Hart** (jack.hart@mbqld.com.au) is her colleague at MBQld, cc on
+  the Daniel Tu directions hearing invite (21 Sep 2026).
 - Xact Accounting and Westnet: accountants and advisors on the MYOB file.
 
 ## Agents, clients, prospects
@@ -188,6 +191,9 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - **Alicia McGregor**, Frontline Construction Recruitment, 0406 199 062. Approached him
   10 Sep 2026 about a Contract Administrator; colleague Desiree passed his details.
   16 Sep 2026 he gave her the band for a stand out candidate: **120-160k**.
+  21 Sep 2026 he sent her **the full CA brief and screening requirements** and she
+  confirmed receipt the same morning: "I will work on finding you stand out candidates."
+  Signs as Senior Recruitment Consultant. See [[projects]], Hiring, for the benchmark.
 - **Audrey Marceau**, Tracks IS (audrey@tracksis.com.au). Blue and white collar.
 
 ## Suppliers and systems that email him

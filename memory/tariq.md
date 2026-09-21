@@ -163,6 +163,21 @@ Rules in his own words (from his sent mail, dated)
 - **An estimator's price that answers a different question gets sent straight back.** Abi's
   Chermside pricing: "its **not inline with what was requested**. We require the childcare
   to be broken away and priced separately" (17 Sep 2026). No negotiation, no partial use.
+- **He never takes one estimator's number on its own: he marks the two against each other.**
+  On Abi's Narangba price landing, to Kendal 6:48am 21 Sep 2026: "please **cross this with
+  alee once received** and **do the usual of asking them to review each others works on why
+  one is high and why the other persons is so low**." Note "the usual": this is his standing
+  method on a two-estimator job, and the estimators do the explaining, not him. See
+  [[projects]], Narangba.
+- **He sets the benchmark himself rather than letting the recruiter set it.** The CA brief
+  to Frontline (21 Sep 2026) does not ask for a shortlist, it tells her the interview
+  questions to ask, the referees to call, the gaps to flag and the risks to name, then asks
+  her to confirm receipt. Same shape as his estimator rule above: he hands over the
+  standard, not the judgement.
+- **He wants TFA's own marketing lifted to what he sees in the market.** Forwarding Ray
+  White's "Final Release - SmartStores@EagleFarm" to Kendal, 7:44am 21 Sep 2026: "FYI
+  **update styles for our sites in future**." He reads competitor and agent campaigns as a
+  template, not as noise.
 
 What he asked this agent for (8 Sep 2026)
 - A private chat he can talk to any time, separate from the staff agent line.
