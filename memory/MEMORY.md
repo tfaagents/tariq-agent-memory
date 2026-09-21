@@ -16,6 +16,7 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 - [Security posture](security-posture.md) — the ten gaps told to him 15 Sep 2026, each checked against a file; diagram at work/diagrams/
 - [Agent roadmap](agent-roadmap.md) — his own brief for the TFA Executive Operating System, 7-8 coordinated agents, sent to Jaiah 11 Sep 2026
 - [Federal Safety Accreditation](federal-safety-accreditation.md) — lapsed, renewal in progress (18 Sep 2026); already holding up the Dakabin EOI and any Commonwealth-funded work
+- [ASIC and entity filing](asic-and-entity-filing.md) — the TFA ASIC extract is in Kendal's 19 Aug email ("TFA ASIC Ecstasy"), not OneDrive; her entity filing tree and what is empty
 - [Bot builds doc](bot-builds-doc.md) — his running Word list of agent ideas on OneDrive Desktop, 43 bullets, wider than the Jaiah email
 
 ## Projects and ideas
