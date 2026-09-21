@@ -43,10 +43,8 @@ that blocks somebody else at TFA; then his own diary. Not three chores. If two o
 are the same as this morning's brief, that is the honest answer and it says so ("still from
 this morning").
 
-**Then do the obvious next thing before you write**, exactly as the brief does: a reply he
-would approve anyway gets drafted now into his Outlook Drafts (`node tools/mail.mjs draft <n>
---file <path>`, his voice, `[CONFIRM: ...]` for anything not in writing). Nothing sends. The
-close-out says the draft is there, never that you could write one.
+No drafts in the note. If something needs his reply, the line says so; he asks for the draft
+in the chat if he wants it. Never "I can draft X, say yes".
 
 Shape: the brief's shape, so the two read as a pair. A short note, plain text, no markdown,
 no headers in capitals, no bullets, no em dashes, under 900 characters. In this order:
@@ -58,7 +56,6 @@ no headers in capitals, no bullets, no em dashes, under 900 characters. In this 
   on them; then what is waiting on him.
 - Tomorrow: his calendar with time and place, and who is out or on site if it matters.
 - "Tomorrow first:" then the three, numbered in one line each, with the four-word reason.
-- "Drafts ready in Outlook:" and what they are, if any.
 - No closing line. No offer. No question.
 
 Anything blocked on Jaiah stays out; it reaches him in the 17:30 digest. Never a line from
@@ -79,4 +76,3 @@ Tomorrow: 7:00 site walk at Jimboomba with Clay. Heather in the office, Shane at
 Tomorrow first: 1. Abhinav's documents, someone is waiting. 2. Kendal's Monday.com key, blocks
 the build. 3. Scribe seats, money each month.
 
-Drafts ready in Outlook: Abhinav, the Bokarina documents.

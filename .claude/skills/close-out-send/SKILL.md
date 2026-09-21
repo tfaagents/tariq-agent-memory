@@ -8,8 +8,7 @@ Run the steps in `.claude/skills/close-out/SKILL.md` (this morning's brief, what
 promises, waiting, the job board, tomorrow's calendars, open requests) and write the
 message in exactly the shape that skill gives: one short note, what happened today on the
 first line, then what moved with its evidence, what is still open, tomorrow, "Tomorrow first"
-with the three, and the drafts already in his Outlook. No sections in capitals, no dashes, no
-offer, no closing line. Plain text: no markdown, no bold markers, no em dashes (notify.mjs
+with the three. No sections in capitals, no dashes, no drafts, no offer, no closing line. Plain text: no markdown, no bold markers, no em dashes (notify.mjs
 makes the first line bold itself). Save it to
 `work/close-outs/YYYY-MM-DD.txt`, then
 `node tools/notify.mjs --file work/close-outs/YYYY-MM-DD.txt`.
@@ -19,9 +18,9 @@ Log the session with slug `close-out-send`.
 
 Two rules that are particular to this run:
 
-- **Nothing that needs his approval.** No chases sent, no calendar entries, no dashboard
-  buttons. A draft into his Outlook Drafts is not one of those: it sends nothing, so write
-  the drafts the close-out skill calls for and say they are there.
+- **Nothing that needs his approval, and no drafts.** No chases sent, no calendar entries, no
+  dashboard buttons, nothing written into his Outlook Drafts. A draft is offered in the chat
+  when he is talking about an email, never by a scheduled run.
 - **Do not send a second copy.** If he has already asked for the close-out in the chat
   today, `/close-out` answered him there. Check for `work/close-outs/YYYY-MM-DD.txt`,
   that exact name and nothing else: a file with a time in it

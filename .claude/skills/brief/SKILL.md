@@ -1,6 +1,6 @@
 ---
 name: brief
-description: What needs Tariq today, as one short note for his phone: his diary, promises that are honestly late, what is waiting on him, and the drafts already sitting in his Outlook for the replies he would approve anyway. Never an offer.
+description: What needs Tariq today, as one short note for his phone: his diary, promises that are honestly late, what is waiting on him. No drafts, no offer.
 argument-hint: [none]
 ---
 
@@ -35,14 +35,9 @@ Weigh all the sources. A promise past its date is usually the most urgent thing 
 because someone is waiting and does not know it is late. Money with a date comes next, then
 anything that blocks somebody else at TFA, then his own diary.
 
-**Then do the obvious next thing before you write.** Any item whose next step is a reply he
-would approve anyway (a chase, a confirmation, an answer to a question sitting in his inbox)
-gets the draft written now and put in his Outlook Drafts:
-`node tools/mail.mjs draft <n> --file <path>`. Read `memory/voice.md` and
-`node tools/tone.mjs like "<subject>" --to <address>` first; never invent a price, a date or a
-commitment, write `[CONFIRM: ...]` and leave it. Nothing sends. The brief then says the draft is
-there, never that you could write one. Until 20 Sep 2026 every brief ended "I can draft X, say
-yes", he never said yes, and the same three items came back every morning for four days.
+No drafts in the note. If something needs his reply, the line says so ("Abi's price has sat 11
+days, needs a reply"); he asks for the draft in the chat if he wants it, and it is written then, in
+his voice. Never "I can draft X, say yes": that ending ran four days straight and he answered none.
 
 Shape: a short note for his phone, the way you would text a colleague, not a report. Plain
 text, no markdown, no headers in capitals, no bullets, no em dashes, under 900 characters.
@@ -55,7 +50,6 @@ In this order:
 - Waiting on him: each with the name first and the amount or date last. A promise carries
   LATE only on a STILL OPEN verdict from settled.mjs that is also past its date; YOU DID IT is
   written as "you sent X on <date>, nothing back"; DONE and NOT DUE are left out.
-- "Drafts ready in Outlook:" and what each one is, if you wrote any. If none, no line.
 - No closing line. No offer. No question. The note ends when the facts end.
 
 Never a line about a row `mail.mjs inbox` printed under "Filtered as noise", and never one
@@ -74,4 +68,3 @@ $500k Chateaux loan to Rajput, extended to yesterday.
 Waiting on you: RCH INV-0027, $11,000, due today, Heather has it. Shane's $42.50 Bunnings
 receipt, one tap on the dashboard. You sent Alee the Narangba documents 11 Sep, nothing back.
 
-Drafts ready in Outlook: Abi on the Collingwood Park price, Saheed on the Ali Family Trust notice.

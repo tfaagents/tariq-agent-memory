@@ -6,11 +6,10 @@ argument-hint: [none]
 
 Run the steps in `.claude/skills/brief/SKILL.md` (calendars, the inbox, promises, waiting)
 and write the message in exactly the shape that skill gives: one short note, the date and the
-one thing that matters on the first line, then his day, what is waiting on him, and the drafts
-already in his Outlook. No sections in capitals, no dashes, no offer, no closing line. Plain
-text: no markdown, no bold markers, no em dashes (notify.mjs makes the first line bold
-itself). Write the drafts BEFORE the note, as the brief skill says: a draft into his Outlook
-Drafts needs no approval and sends nothing. Save the note to `work/briefs/YYYY-MM-DD.txt`,
+one thing that matters on the first line, then his day, what is waiting on him. No sections in
+capitals, no dashes, no drafts, no offer, no closing line. Plain text: no markdown, no bold
+markers, no em dashes (notify.mjs makes the first line bold itself). Save the note to
+`work/briefs/YYYY-MM-DD.txt`,
 then `node tools/notify.mjs --file work/briefs/YYYY-MM-DD.txt`.
 
 If a tool fails, still send what you have and say in one line what could not be read.
