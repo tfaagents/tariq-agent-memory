@@ -18,6 +18,8 @@ sends one message to Jaiah through the dashboard. Nothing to Tariq.
    - `node tools/jobs.mjs list`: jobs with status `failed` closed since last, with the reason.
    - `memory/declined.md`: lines added since last that have no `declined` request yet
      (file them now with `node tools/requests.mjs add declined "<the offer>" "<his reason or 'no reason given'>"`).
+   - `work/pattern-notices.txt` (written at session start): repeated jobs with no skill and
+     jobs that repeat at the same hour. Each is one item for Jaiah, never an offer to Tariq.
    - Housekeeping, one line each, only if true: last line of `work/backup.log` is a failed push;
      `memory/capabilities.md` older than 14 days; `raw/tfa-shared/README.md` older than 2 days.
 3. **A plan for every item that has none.** For each build ask, wall, self-build and blocked

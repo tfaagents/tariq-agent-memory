@@ -4,13 +4,14 @@ description: Unattended weekday morning run. Build the brief exactly as /brief d
 argument-hint: [none]
 ---
 
-Run the steps in `.claude/skills/brief/SKILL.md` (calendars, tfa brief, promises, waiting,
-the inbox if the digest is stale, loose ends) and write the message in exactly the shape
-that skill gives: date and answer on the first line, sections with CAPITAL headers, one
-fact per line with a dash, one "I can" offer at the end. Plain text: no markdown, no bold
-markers, no em dashes (notify.mjs makes the first line and the headers bold itself). Save
-it to `work/briefs/YYYY-MM-DD.txt`, then
-`node tools/notify.mjs --file work/briefs/YYYY-MM-DD.txt`.
+Run the steps in `.claude/skills/brief/SKILL.md` (calendars, the inbox, promises, waiting)
+and write the message in exactly the shape that skill gives: one short note, the date and the
+one thing that matters on the first line, then his day, what is waiting on him, and the drafts
+already in his Outlook. No sections in capitals, no dashes, no offer, no closing line. Plain
+text: no markdown, no bold markers, no em dashes (notify.mjs makes the first line bold
+itself). Write the drafts BEFORE the note, as the brief skill says: a draft into his Outlook
+Drafts needs no approval and sends nothing. Save the note to `work/briefs/YYYY-MM-DD.txt`,
+then `node tools/notify.mjs --file work/briefs/YYYY-MM-DD.txt`.
 
 If a tool fails, still send what you have and say in one line what could not be read.
 Log the session with slug `morning-send`.

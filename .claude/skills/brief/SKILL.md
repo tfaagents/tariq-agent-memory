@@ -1,6 +1,6 @@
 ---
 name: brief
-description: What needs Tariq today, in one message: email needing a reply, promises he made that are open or late, what is in the diary, what is waiting on the dashboard, and any loose end he started with this agent that the data shows was never followed up, with what the agent can do next
+description: What needs Tariq today, as one short note for his phone: his diary, promises that are honestly late, what is waiting on him, and the drafts already sitting in his Outlook for the replies he would approve anyway. Never an offer.
 argument-hint: [none]
 ---
 
@@ -10,7 +10,9 @@ Build one short message for his phone. Read, in this order, and say how old each
    if his line says "could not read", `node tools/mail.mjs diary 1` is the same calendar)
 2. `node tools/mail.mjs inbox 14` (what came in overnight, read with his own app). The
    workflow lane's overnight brief, `node tools/tfa.mjs brief`, is a second look only, and
-   it goes when that lane stops reading his mail.
+   it goes when that lane stops reading his mail. Rows the tool prints under "Filtered as
+   noise" are never a brief line, whatever the subject says (`config/noise.json`, Jaiah's
+   file), and a row marked "copy, addressed to" someone else is theirs, not his.
 3. **The promises, and refresh them first if they are stale.** `node tools/promises.mjs
    list` prints when it last scanned; if that is more than eighteen hours ago, run
    /promises-scan before anything else, because a brief built on a two day old scan misses
@@ -23,67 +25,53 @@ Build one short message for his phone. Read, in this order, and say how old each
    gets the LATE prefix.
 4. `node tools/tfa.mjs waiting` (rows waiting for a person on the dashboard)
 5. If the digest is older than 20 hours, also `node tools/mail.mjs inbox 24`.
-6. **Loose ends** (things he started with you that stalled). Read
-   `node tools/requests.mjs list --open` and `node tools/requests.mjs list --build`, and
-   `sessions/*.md` from the last 14 days with `outcome: partial` or `outcome: blocked`.
-   For each, check the data before you call it a loose end: `node tools/recall.mjs "<two
-   words>" --since 14d` and, if it was about mail, `node tools/mail.mjs search "<word>"`
-   for anything newer than the session. If someone has since followed up (a reply from
-   Kendal, the seat list arrived, the wall was closed), it is not a loose end; close the
-   request (`node tools/requests.mjs done <id> "<what happened>"`) and leave it out. Keep
-   at most three, oldest first. Each is ONE bullet in this shape:
-   `Loose end: <what, 4 to 8 words>, since <D Mon>. I can: <one concrete next step you can
-   do now with what is live>.`
-   Example: `Loose end: Scribe seats 5 and 6 unnamed, since 10 Sep. I can: draft Kendal a
-   note asking for the seat list and the annual cost.`
-   Never repeat a loose end he has said no to (check `memory/declined.md` and the request's
-   note); after three mornings without an answer, drop it to the Friday retro instead.
+6. **Loose ends** stay out of his brief. Anything blocked on Jaiah (a connection, a folder,
+   a credential, a tool change) is already on the request list and reaches Jaiah in the 17:30
+   digest. The one exception: something that needs a single word from him (a folder name, a
+   yes or no) gets one line, once. Never repeat it the next morning; if it is still unanswered
+   after that, it goes to the Friday retro.
 
 Weigh all the sources. A promise past its date is usually the most urgent thing he has,
-because someone is waiting and does not know it is late. A loose end sits after promises
-and today's diary, before anything merely informative.
+because someone is waiting and does not know it is late. Money with a date comes next, then
+anything that blocks somebody else at TFA, then his own diary.
 
-Shape: sections, so he can read it on the phone in ten seconds. Plain text. The first
-line is the date and the answer in one sentence (it is sent bold). Then sections, each a
-header in CAPITALS on its own line, a blank line between sections, one fact per line with
-a leading dash, the name first and the date or amount last, no line over 80 characters.
-Leave a section out when it is empty. At most three lines in a section, except PROMISES,
-which lists every late one and then up to two more. End with one line that is the one
-offer, starting "I can". Under 1,500 characters in all. Never explain which tool could not
-be read unless it changes what he should do; if it does, one line at the end, "Could not
-read: <what>". Sections, in this order:
+**Then do the obvious next thing before you write.** Any item whose next step is a reply he
+would approve anyway (a chase, a confirmation, an answer to a question sitting in his inbox)
+gets the draft written now and put in his Outlook Drafts:
+`node tools/mail.mjs draft <n> --file <path>`. Read `memory/voice.md` and
+`node tools/tone.mjs like "<subject>" --to <address>` first; never invent a price, a date or a
+commitment, write `[CONFIRM: ...]` and leave it. Nothing sends. The brief then says the draft is
+there, never that you could write one. Until 20 Sep 2026 every brief ended "I can draft X, say
+yes", he never said yes, and the same three items came back every morning for four days.
 
-TODAY: his calendar entries with time and place, then anything dated today from mail,
-then one line on who at TFA is out or on site if the calendars say so.
-PROMISES: each late one first, prefixed LATE, then the next two due. A promise only
-earns LATE on a STILL OPEN verdict from settled.mjs that is also past its date; if
-nothing qualifies, the section carries what he is waiting on others for instead, or
-is left out entirely. Never carry a promise the tool called DONE.
-WAITING ON YOU: dashboard rows and people waiting on his signature, answer or approval.
-INBOX: what needs his reply, from the digest or the inbox read.
-LOOSE ENDS: as above, at most three.
+Shape: a short note for his phone, the way you would text a colleague, not a report. Plain
+text, no markdown, no headers in capitals, no bullets, no em dashes, under 900 characters.
+In this order:
+
+- First line: the date and the one thing that matters most today, in one sentence
+  (notify.mjs sends it bold).
+- His day: one line per entry, time first, place and who, only what is real. If a TFA
+  calendar says who is out or on site and it matters to him, one line.
+- Waiting on him: each with the name first and the amount or date last. A promise carries
+  LATE only on a STILL OPEN verdict from settled.mjs that is also past its date; YOU DID IT is
+  written as "you sent X on <date>, nothing back"; DONE and NOT DUE are left out.
+- "Drafts ready in Outlook:" and what each one is, if you wrote any. If none, no line.
+- No closing line. No offer. No question. The note ends when the facts end.
+
+Never a line about a row `mail.mjs inbox` printed under "Filtered as noise", and never one
+about an email marked "copy, addressed to" somebody else: those are not his. Never explain
+which tool could not be read unless it changes what he should do; if it does, one line at
+the end, "Could not read: <what>".
 
 Example of the whole message:
 
-Tue 15 Sep: Dan Street at 10, Autoflow in the office, two promises late.
+Mon 21 Sep: Clay at 9, Aliyah's formal at 11, and RCH's $11,000 falls due today.
 
-TODAY
-- 10:00 Dan Street sales update, RWC CSR Rochedale South, with Grant Turner
-- Autoflow on site: FLOW 01, 09 and 10 to review with Kendal, Heather and Clay
-- Clay on site at Jimboomba all day (calendar)
+9:00 Clay catch-up, booked by Kendal. 11:00 Aliyah's formal, then Sanctuary Cove at 1.
+2:00 ATO with Heather, the affiliates onto the portal. Heather has a 3pm reminder on the
+$500k Chateaux loan to Rajput, extended to yesterday.
 
-PROMISES
-- LATE Alee Fateh: resend the Narangba documents, due 11 Sep
-- LATE Abhinav Choudhary: resend the Bokarina documents, due 11 Sep
-- Grant Rex: circle back on Dan St, 30 Sep
+Waiting on you: RCH INV-0027, $11,000, due today, Heather has it. Shane's $42.50 Bunnings
+receipt, one tap on the dashboard. You sent Alee the Narangba documents 11 Sep, nothing back.
 
-WAITING ON YOU
-- Heather: sign for the work experience student, with Clay
-
-INBOX
-- Hastings Deering invoice 2018869862, the first reminder bounced
-
-LOOSE ENDS
-- Scribe seats 5 and 6 unnamed, since 10 Sep
-
-I can draft the chase to Alee now. Say yes.
+Drafts ready in Outlook: Abi on the Collingwood Park price, Saheed on the Ali Family Trust notice.

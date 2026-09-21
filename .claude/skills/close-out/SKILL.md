@@ -36,49 +36,47 @@ guessing at it.
 Say plainly when nothing moved. A close-out that reports progress every day is worthless
 to him by Friday.
 
-**FIRST THREE** is the part he will judge it on. Pick the three things most worth
-starting tomorrow morning, in order, each with the reason in four words or fewer. Weigh:
-a late promise where someone is waiting and does not know it is late; money with a date;
-anything that blocks somebody else at TFA; then his own diary. Not three chores. If two
-of the three are the same as this morning's brief, that is the honest answer and it says
-so ("still from this morning").
+**Tomorrow first** is the part he will judge it on. Pick the three things most worth starting
+tomorrow morning, in order, each with the reason in four words or fewer. Weigh: a late
+promise where someone is waiting and does not know it is late; money with a date; anything
+that blocks somebody else at TFA; then his own diary. Not three chores. If two of the three
+are the same as this morning's brief, that is the honest answer and it says so ("still from
+this morning").
 
-Shape: exactly the brief's shape, so the two read as a pair. Plain text, no markdown, no
-em dashes. First line is the date and the answer in one sentence (it is sent bold). Then
-sections, CAPITAL header on its own line, blank line between, one fact per line with a
-leading dash, name first, date or amount last, no line over 80 characters. Leave an empty
-section out. At most three lines a section, except STILL OPEN, which lists every late one
-then up to two more. End with one line starting "I can". Under 1,500 characters.
+**Then do the obvious next thing before you write**, exactly as the brief does: a reply he
+would approve anyway gets drafted now into his Outlook Drafts (`node tools/mail.mjs draft <n>
+--file <path>`, his voice, `[CONFIRM: ...]` for anything not in writing). Nothing sends. The
+close-out says the draft is there, never that you could write one.
 
-Sections, in this order:
+Shape: the brief's shape, so the two read as a pair. A short note, plain text, no markdown,
+no headers in capitals, no bullets, no em dashes, under 900 characters. In this order:
 
-DONE: what moved today, with the evidence in the line ("sent 2:14pm", "approved on the
-dashboard"). At most three, the ones that matter to him, not the easiest three.
-STILL OPEN: late promises first, prefixed LATE, then what is waiting on him. LATE needs
-a STILL OPEN verdict past its due date and nothing less.
-TOMORROW: his calendar with time and place, then one line on who is out or on site.
-FIRST THREE: numbered 1, 2, 3, each with the four-word reason.
+- First line: the date and what actually happened today in one sentence (sent bold).
+- What moved, with the evidence in the line ("sent 2:14pm", "approved on the dashboard,
+  3:02pm"). At most three, the ones that matter to him. If nothing moved, say so plainly.
+- Still open: a LATE promise only on a STILL OPEN verdict past its date; YOU DID IT as a chase
+  on them; then what is waiting on him.
+- Tomorrow: his calendar with time and place, and who is out or on site if it matters.
+- "Tomorrow first:" then the three, numbered in one line each, with the four-word reason.
+- "Drafts ready in Outlook:" and what they are, if any.
+- No closing line. No offer. No question.
+
+Anything blocked on Jaiah stays out; it reaches him in the 17:30 digest. Never a line from
+the inbox's "Filtered as noise" block or an email marked "copy, addressed to" someone else.
 
 Example of the whole message:
 
 Tue 15 Sep: Alee chased and the ABA paid, Abhinav still open, two on site tomorrow.
 
-DONE
-- Alee Fateh: Narangba documents resent, sent 2:14pm
-- Utility Mapping ABA: approved on the dashboard, 3:02pm
-- Dan Street: sales update held, 10am
+Moved: Alee got the Narangba documents again, sent 2:14pm. Utility Mapping ABA approved on
+the dashboard, 3:02pm. Dan Street sales update held at 10.
 
-STILL OPEN
-- LATE Abhinav Choudhary: Bokarina documents, due 11 Sep, confirmed Saturday
-- Scribe seats 5 and 6: still needs your answer, since 10 Sep
+Still open: LATE Abhinav, Bokarina documents, due 11 Sep. Scribe seats 5 and 6, since 10 Sep,
+one word from you on who holds them.
 
-TOMORROW
-- 07:00 Site walk, Jimboomba, with Clay
-- Heather in the office, Shane at the yard
+Tomorrow: 7:00 site walk at Jimboomba with Clay. Heather in the office, Shane at the yard.
 
-FIRST THREE
-1. Abhinav Bokarina documents, someone is waiting
-2. Kendal Monday.com key, blocks the build
-3. Scribe seats, money each month
+Tomorrow first: 1. Abhinav's documents, someone is waiting. 2. Kendal's Monday.com key, blocks
+the build. 3. Scribe seats, money each month.
 
-I can draft the Abhinav note now. Say yes.
+Drafts ready in Outlook: Abhinav, the Bokarina documents.
