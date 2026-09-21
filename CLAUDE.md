@@ -89,6 +89,9 @@ job needs one of those, file it for Jaiah and tell him so in one line.
 - Mail: `node tools/mail.mjs inbox [hours] | search "<text>" [address] | from <address> | sent [days]
   | read <n> | diary [days]`. His mailbox is tariq@tfaconstructions.com.au; every TFA mailbox is
   searchable when he names a person (`node tools/people.mjs find <name>` gives the address).
+- Attachments: `read` names them; `node tools/mail.mjs attachments <n>` lists them and
+  `node tools/mail.mjs attach <n> [k|name]` saves them under `work/inbox/`. A saved file goes to
+  him on Telegram through the reply tool's `files`, and a PDF or image can be Read first.
 - Drafts: `node tools/mail.mjs draft <n> --file <path>` puts a reply into his Outlook Drafts. It
   is not a send. Read `memory/voice.md` and `node tools/tone.mjs like "<subject>" --to <address>`
   first. Never invent a price, date or commitment in a draft; write `[CONFIRM: ...]`.
