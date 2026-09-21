@@ -107,3 +107,27 @@ the window boundary and the carry-forward check. Read the oldest candidate times
 the JSON, match every open promise in `work/promises.json` to its source date, and if one
 falls outside, log it and stop. The brief then works from four promises, three in the file
 and one only in the logs.
+
+## 22 Sep: the cap appears to be lifted
+
+At 06:35 `node tools/promises.mjs candidates 14` returned **258** sent emails, newest
+21 Sep 4:43pm Brisbane, oldest **2026-09-07T21:56:48Z**. Every scan from 17 to 21 Sep got
+exactly 100, reaching back about six days. Fourteen days now means fourteen days, so the
+14 Sep Ali Family Trust promise to Shane, the one thing that has frozen the list for four
+scans running, sits inside the window, and so does the 18 Sep Dan St one to Veena and Clay.
+A save would no longer delete a live promise.
+
+The list was still left frozen for the 06:30 brief: a first save after a four day freeze
+belongs in /promises-scan with its full discipline, not in the brief, and the second half
+of r-20260917-01 (save keeping earlier promises until done or settled, regardless of the
+window) has not been confirmed. The request's plan was rewritten to say the cap looks
+lifted and to ask Jaiah to confirm.
+
+**How to apply:** read the oldest candidate timestamp every scan, do not assume either the
+cap or the fix. When Jaiah confirms, the next /promises-scan can run `save` for the first
+time since 18 Sep, and both hand-carried promises stop being hand-carried. Until then the
+carry-forward comparison and `settled.mjs` on each hand-carried promise stay as they are.
+
+Also on 22 Sep: the 06:15 promises-scan did not fire at all (no session log, and
+`work/promises.json` still read the 18 Sep scan). The 06:30 brief caught it and did the
+work by hand. Filed as r-20260922-01. A brief should not be what catches a dead schedule.
