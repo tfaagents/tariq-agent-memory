@@ -9,6 +9,19 @@ his own name and not on TFA letterhead, which tells you how he wants it handled.
 
 Seen 10 Sep 2026, 8:12pm, from his own sent mail.
 
+## 22 Sep 2026: the Council pre-lodgement is locked in for 12 October
+From his own sent mail. **Murray Wright** (HPC Planning, cc Thomas Stubbs) confirmed
+21 Sep 1:34pm: the **66 Learoyd pre-lodgement meeting is 1-2pm, Monday 12 October 2026**,
+Brisbane City Council reference **ASR-25661-Z5P**, listed as **hybrid**. Murray attached
+the **staging plan** for discussion plus the correspondence already sent to Council.
+Tariq accepted the Council invite 7:50am on 22 Sep and replied to Murray 7:51am: "Thanks
+for the update mate, times fine and I have accepted the invite. **Will this be in person
+or online?**" Unanswered as at 22 Sep, so do not assume attendance mode.
+
+Note the timing against the offer below: he asked Andre for written confirmation **within
+7 days of 16 Sep, so by 23 Sep 2026**. That falls the day after this entry and there is
+nothing back in his sent or received mail as at 22 Sep. **Chase-worthy from 23 Sep.**
+
 ## 16 Sep 2026: he has a formal offer in to buy the site himself
 From his own sent mail, 1:39pm, to **Andre Duvenage** (andre@cooperpg.com.au, Cooper
 Property Group), subject "66 Learoyd Rd, Algester - TFA Offer - No More Dutch Auction".

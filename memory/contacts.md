@@ -152,6 +152,10 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   CSR, 0420 674 809, Shop 1/2 Centre Place Rochedale South. Current property manager for
   7-9 Dan Street. Also Grant Turner, Mukhtaar H, pm.csr@raywhite.com (Dan St sales and
   marketing, weekly Monday update).
+  **She is leaving Ray White shortly (told to Tariq by 22 Sep 2026).** He asked her on
+  22 Sep 4:33pm to keep helping with the Dan Street handover after she exits, with
+  **Grant Turner** as the fallback. She is the only responsive contact on that file, so
+  treat her departure as a live risk to Dan Street handover documentation.
 - **RWC South West: Nichole**, the previous managing agent at Dan Street. Unresponsive
   since early August 2026 on final financials and funds held. A problem, not a contact.
 - **Modus Property Group: Freddie** (freddie@moduspg.au), the line back to the previous
@@ -181,11 +185,34 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   9 Vaughan Drive". Saiyad Pasha and Saheed Ali on the same threads. **Imran Ali**
   (imran@isacollective.com.au) is on the personal side, not TFA work: one of the two
   Tariq is running the 66 Learoyd Rd Algester objection with, see [[learoyd-algester]].
+  **Imran Ali** is the founder and director and the person behind admin@ (Registered
+  Architect, B.Arch. Hons, M.Arch, **BOAQ #6428**, A+ RAIA, (07) 3096 0472, 0412 239 710,
+  isacollective.com.au). Seen 22 Sep 2026 on the **33 Commerce Circuit, Yatala** SRA
+  application with Saheed Ali. He asks plain questions when planning jargon lands
+  ("What does that mean?"), so answers to him need the practical consequence, not the term.
 - **Andre Duvenage** (andre@cooperpg.com.au), **Cooper Property Group**, with a colleague
   he calls **Andrew**. The agent on **66 Learoyd Rd, Algester**, where Tariq has an offer
   in (16 Sep 2026). He calls Andre "mate" and signs off to him in Afrikaans. Confidential,
   see [[learoyd-algester]]; not a TFA project relationship.
 - **Logan City Council** via VendorPanel to tenders@: EOIs and public tenders.
+
+- **Robertson Property: Alan Robertson** (alan@robprop.com.au) and **Kyle Robertson**
+  (kyle@robprop.com.au), the client side on **Collingwood Park (gym and childcare)**. Alan
+  is the one who asks when the cost plan will be ready; Tariq answers him directly rather
+  than through Kendal. With them on that thread: **Development Directive**, **Nick Whyte**
+  (nickw@developmentdirective.com.au) and **Scott Macgregor**
+  (scott@developmentdirective.com.au), the development managers. Seen 22 Sep 2026.
+- **Steve Blades** (steve@blades.net.au), Tariq's way into **Somerville House** and other
+  private schools and education projects. Approached cold again 22 Sep 2026 with the
+  education track record pitch. A relationship he is working, not a live job.
+- **Belle Property Rochedale** (Admin.Rochedale@belleproperty.com, cc rwc.csr.qld@raywhite.com).
+  Prepared a draft **Form 6** for Tariq and Kendal 22 Sep 2026 alongside the one previously
+  executed with Ray White. An agency appointment sitting beside the Ray White one, so check
+  which agency is appointed to which property before signing anything.
+- **Ewan Kavanagh** (ewan.kavanagh@theurbandeveloper.com), **The Urban Developer**. TFA is a
+  **TUD+ corporate member**. He offered the Member Spotlight package (feature article,
+  80,000+ subscriber eDM, 83k+ social following) 22 Sep 2026; Tariq is weighing the $5k
+  against Facebook ads. Marketing, goes through Kendal.
 
 ## Recruiters (he takes their calls, he does not trust their shortlists)
 - **Alicia McGregor**, Frontline Construction Recruitment, 0406 199 062. Approached him

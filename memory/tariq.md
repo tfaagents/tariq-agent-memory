@@ -179,6 +179,32 @@ Rules in his own words (from his sent mail, dated)
   **update styles for our sites in future**." He reads competitor and agent campaigns as a
   template, not as noise.
 
+- On systems that never ship: "**I don't want things sitting in development
+  indefinitely. I want a tangible and measurable rollout where we can clearly see what is
+  complete, what is going live, what is outstanding, what is holding it up and who is
+  responsible for getting it finished.**" (22 Sep 2026, to Clay cc Kendal, "Systems and
+  Operations - Review Before Our Catch Up", ahead of their catch up the week of 28 Sep.)
+  He wants the next **2 to 4 weeks shifted heavily to implementation and rollout**, across
+  eleven areas: Monday/task accountability, development management systems and templates,
+  weekly development reporting, CA/PM/VA workflows, VA management and checking,
+  OneDrive/SharePoint filing and document control, procedures and the Scribe and video
+  training library, the project document and template suite, cost codes and job costing,
+  project setup and closeout, and procurement. **Status per area, with a blocker and an
+  owner, is the format he wants anything reported back in.**
+- On questions that belong to someone else's lane: "**your asking me but i thought you
+  were managing the estimators respones?**" (22 Sep 2026, to Kendal on Forvm @ Hillcrest.)
+  When someone hands a question back up to him that sits in their own lane, he hands it
+  straight back. Do not bring him a decision that is already delegated.
+- On meetings he does not need to be in: "**I don't know if I'm required in the meeting if
+  its something you and Veena can review? I'm more so present to review prior to
+  submission of price and understand your teams review of inclusions, exclusions and price
+  point reasoning?**" (22 Sep 2026, to Clay on Collingwood Park.) His gate is the price and
+  the reasoning **before it goes out**, not the working meeting that produces it.
+- On staff being across their own work: "**I just need her to be across all her aspects
+  without always saying she is behind.** I appreciate you doing this, please don't stop
+  either its good." (22 Sep 2026, to Kendal about Heather and the Christmas shutdown
+  projections.) He will let someone else cover the work, but he notices who owns it.
+
 What he asked this agent for (8 Sep 2026)
 - A private chat he can talk to any time, separate from the staff agent line.
 - Brainstorming while driving (ideas, products, plans).

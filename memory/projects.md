@@ -102,6 +102,18 @@ Earlier: purchase via MSP Law, NMDS involved, $10k/month deposit invoice raised 
 with the entity question open.
 
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
+22 Sep 2026, the handover documents chase now depends on someone who is leaving:
+- **Annabelle Weir is moving on from Ray White shortly, and Tariq has asked her to keep
+  helping after she goes.** 4:33pm to Annabelle cc **Grant Turner** and Kendal: "I'm aware
+  you are moving shortly and wanted to see if you could assist post exit to get everything
+  sorted for Dan St? I believe Grant was going to ask for a favour to assist with this
+  specific site pretty please". So the Dan Street handover documentation is at risk of
+  losing its only responsive contact. Grant Turner is the fallback.
+- **Her 17 Sep question is still unanswered and it is a money one: what happened to 7 Dan
+  Street's bond.** In her words, "I only have hearsay comments but no evidence or
+  documentation of anything and **it was not adjusted for in the settlement statement**."
+  Freddie Donne (Modus Property Group) and Mohammed Patel (MSP Law) are on that thread.
+  This needs an answer before the handover file is closed.
 18 Sep 2026, the QS starts and he makes himself the single conduit:
 - **Mitchell Brandtman Fee Proposal X45717, "24 Industrial Units, Slacks Creek"** is live.
   Their RFI lists the critical documents to start the Initial Report: **council approvals**
@@ -286,6 +298,14 @@ Earlier: site works, NBN relocation, RFIs from Falcon Property; Clay on the day 
 Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 
 ## 1-9 Anzac Ave, Logan Village (construction contract, progress claims)
+- **22 Sep 2026, 5:01pm: Progress Claim 16 is away.** To **H Tayob**
+  (htayob@mitbrand.com) cc **P Nguyen** at Mitchell Brandtman, subject "1-9 Anzac Ave,
+  Logan Village - Progress Claim 16", attaching **"PC 16 - Logan Village - Trade Summary
+  Progress Claims.pdf"** (130 KB), "subject to your approval as always". He also **opened
+  the site visit: any time today onwards, they advise the timing and he notifies the site
+  team of their attendance.** He told them he is **away interstate with the kids for
+  school holidays but available by phone and email**. Awaiting their approval and a
+  proposed visit time.
 - 10 Sep 2026, 5:26pm: accepted an invite from **Andrew at BRC Consult**
   (andrew@brcconsult.com.au) titled **"Logan Village CC Final"**. The meeting is not in
   the diary for the following 14 days, so the date was not confirmed and what "CC Final"
@@ -361,6 +381,13 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   capability brochure and project videos attached.
 
 ## 29 Millers Rd / 3000132 Eight Mile Plains (Indara tower, renewal and easement)
+22 Sep 2026, a second agency's Form 6 is in for signature:
+- **Belle Property Rochedale** (Admin.Rochedale@belleproperty.com, cc RWC CSR) sent
+  12:30pm the **Form 6 previously executed with Ray White plus their own draft Form 6**
+  for review. Kendal forwarded it 1:09pm: "Pls confirm if this is ok? **I dont have ur
+  original one for Millers to compare** (soz)". Tariq replied 4:20pm with no words of his
+  own, so **nothing has actually been confirmed yet**. The Millers Rd original Form 6 is
+  the missing comparison document and is not in anything read so far.
 21 Sep 2026, COB Monday came and went and Elley was not there:
 - **Tariq chased it 9:24am** to Elley King, Adrian Webberley and Andrew Milford, cc Ellen
   McDonogh and Veena: "I trust you had a wonderful break over the weekend. **How are we
@@ -438,7 +465,65 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   Department of Natural Resources correspondence. Diary: "Next Steps" meeting held; a
   comparison for Bardon Rd is on his agent wish list.
 
+## 33 Commerce Circuit, Yatala (SRA application 2602-50502)
+- **22 Sep 2026: another state body clearance is required, and nobody has explained what
+  that means yet.** Murray Wright (HPC Planning) sent the SRA application correspondence
+  21 Sep 1:40pm; Tariq forwarded it 22 Sep 7:52am to **Imran Ali** (ISA Collective) and
+  **Saheed Ali**, "Just an FYI". Imran came back 8:24am with "**What does that mean?**"
+  and Tariq answered 1:36pm: "**Antoher state body clearance required.**" So the referral
+  agency step is confirmed but the scope and timing of it are not. Read the HPC
+  correspondence in the thread before quoting what clearance or how long.
+- Saheed Ali is on this site, so check with Tariq which entity it sits under before
+  putting it in anything TFA-facing.
+
 ## Tenders and prospects (design and construct)
+22 Sep 2026, four moves in one day (from his own sent mail):
+- **Collingwood Park gym and childcare: he has now put a date on it with the client.**
+  Alan Robertson (alan@robprop.com.au, Robertson Property) asked 21 Sep 3:43pm when the
+  updated cost plan would be ready. **Tariq, 22 Sep 7:44am, cc Kendal, Clay, Nick Whyte
+  and Scott Macgregor (Development Directive) and Kyle Robertson: "the team is aiming to
+  provide a submission be next Friday."** Said on a Tuesday, so it reads as **Fri 2 Oct
+  2026**, but he may have meant Fri 25 Sep. Confirm with him before quoting the date back.
+  Internally the same morning, 7:45am, he forwarded the estimates to Clay: "the estimates
+  are coming in and need to be reviewed against our estimates or understandings of what
+  may be missed." Clay, 8:37am, wants a meeting to go through the estimate, quotes and
+  scope gaps and asked Kendal to find a time. **Tariq, 1:34pm, declined to be the one who
+  makes it happen: "I don't know if I'm required in the meeting if its something you and
+  Veena can review? I'm more so present to review prior to submission of price and
+  understand your teams review of inclusions, exclusions and price point reasoning?"** So
+  the review meeting is Clay and Veena's, and Tariq's gate is the price before submission.
+- **Forvm @ Hillcrest: still no confirmed price, and he pushed the question back.** Kendal
+  asked 21 Sep 4:21pm "Do we have confirmed pricing now?". **Tariq, 22 Sep 7:39am:
+  "@Kendal Jackson - your asking me but i thought you were managing the estimators
+  respones?"** That is a day past the Monday 21 Sep target he set on 18 Sep. Open, and it
+  is Kendal's to chase, not his.
+- **Somerville House and private schools: a cold approach he wrote himself (22 Sep
+  1:28pm).** To **Steve Blades** (steve@blades.net.au), subject "Sommerville or other EOI
+  future Tenders TFA Constructions": putting TFA "back on your radar for any upcoming
+  works at Somerville House, as well as the other private schools and education projects
+  you're involved with." The pitch he uses for education, worth reusing: **education a core
+  sector for more than 10 years, seven-time Master Builders Award winner across Brisbane
+  and Queensland in Education and Care Services**, an Instagram reel as the proof, then
+  early feasibility and budgeting, D&C delivery, design development and optimisation,
+  constructability reviews. No reply yet as at 22 Sep.
+- **Loganholme Tourism Precinct and Cronulla Park EOI (VP521982): Logan City Council
+  published a clarification 22 Sep 10:02am.** The public question was whether Council
+  would accept an **operator-led EOI where a third-party developer or investor funds and
+  delivers the base building and the operator takes a long-term lease**, and what evidence
+  of operator commitment and financial capacity Council needs if the developer is not
+  appointed at EOI stage. Tariq forwarded it to Kendal 1:29pm, "fyi". That delivery model
+  is the one that would suit TFA, so read Council's answer in the thread before the EOI is
+  written.
+- **The education and childcare intro email was test-fired five times (9:56 to 10:08am).**
+  Five near-identical "Introduction to TFA Constructions | Education and Childcare" emails
+  went to jaiah@autoflowai.com.au, jpassfield20@gmail.com, jaiahkai20@gmail.com,
+  jaiahpriv1@gmail.com and cloverpassfield@gmaill.com (note the misspelt "gmaill"). These
+  are Jaiah's own addresses, so this is the **bulk email agent being tested**, not real
+  outreach. Do not count them as prospects or as promises. On the same thread at 4:18pm
+  Tariq asked Kendal: "should we attach a short cap as link and delete the other two old
+  boring videos and only leave the insta one? Also cause..." So the collateral is still
+  being cut down before the real send.
+
 - **Collingwood Park gym and childcare: Abi's revised price is in (19 Sep 2026).**
   Abhinav Choudhary sent the trade report Sat 19 Sep 8:12pm, to Tariq and **Kendal**:
   "See attached trade report as requested, sorry for the delay. I am very confident with
@@ -569,6 +654,31 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   file and document discipline before headcount grows. See [[rules]] for the standing line.
 
 ## Employment and legal matters
+22 Sep 2026, the small claims hearing, the shutdown and a compliance question:
+- **Small Claims directions hearing, adjournment request: Desari Lynam has the draft
+  ready.** Tariq, 8:02am: "That's fine looks great! What would I do without you mate!" On
+  timing: **his preference is Desari's office at 2pm**; if the adjournment is not approved
+  he will "go to another mosque that can possibly finish by 12.45pm" and join **by phone
+  in lieu of attending**. He also asked her what she meant by someone else stepping in
+  because **"pi-hao is not going to be reasonable"**, and whether Pi has a say in the time
+  being changed. Desari's point, 21 Sep: "we already know that Pi isn't going to be
+  reasonable therefore if you someone else who can sit in we could do that." So a stand-in
+  attendee is on the table and unresolved. He accepted the hearing invite 7:26am.
+- **Christmas shutdown and leave accrual projections: he wants Heather across her own
+  lane.** Kendal and Heather produced the projections. Tariq, 7:37am: "I agree with the
+  shut down periods its good to have a nice break. Just out of curiosity, any reason
+  Heather you are not managing..." Then privately to Kendal, 1:31pm: "**I just need her to
+  be across all her aspects without always saying she is behind.** I appreciate you doing
+  this, please don't stop either its good." Read as a standard he is setting, not a
+  complaint he wants actioned.
+- **Medical certificates for sick leave: an open compliance question (22 Sep 7:22am).**
+  Forwarding a Deputy notification to Clay and accounts: "**have we been attaining the
+  required med certs for their time off?**" Unanswered as at 22 Sep. Separately Heather
+  sent a detailed Sick Leave Procedure that he praised at 1:23pm ("Thank you for the
+  amazing detailed response Heather, Great Stuff").
+- **Alex Peter, TAFE Queensland training notice (22 Sep 1:24pm)**, CRM:0632000002377 from
+  Megan Cahill, forwarded to Clay and accounts, "FYI". Second TAFE flag on Alex Peter
+  after the 14 Sep absence.
 18 Sep 2026, Daniel Tu's training path and a Deputy process point:
 - **Daniel's course is decided, in stages.** Clay (from his gmail, 4:18am) said the course
   Tariq sent looks like a **day course for residential contracts**, not the month course
@@ -693,6 +803,28 @@ Fettell):
   reattached the dates material.
 
 ## Money and compliance
+- **Murray Bell / MB Planning refund of $8,525 (invoice HI1476) is still not back, 22 Sep
+  2026.** Heather chased Archie 18 Sep 12:49pm and had no response; she asked Tariq 5:00pm
+  on 22 Sep whether to chase again. **Tariq, 5:01pm: "Spoke to them today they said its no
+  problem, might just need a nudge. Your call its 60 days before I get something under
+  contract and decide to proceed with the site or not."** Two things in that: the refund is
+  agreed verbally and only needs chasing, and he has given himself **about 60 days from
+  22 Sep (so late Nov 2026) to get the site under contract and decide whether to proceed**.
+  The decision is left with Heather on timing.
+- **22 Sep 8:11am: PPSR motor vehicle search 119381625 paid on the new 22 Wildtrak**, VIN
+  MPBCMFF70NX453771, **on Saheed's card ending 4665**, forwarded to accounts for the file.
+- **Fuel receipts, Apr-Jun quarter (22 Sep 7:59am and 1:33pm to Heather).** He is not the
+  one with the missing receipts: "**Not me, must be Ziana. All of my ones are never
+  entered by Ziana hence why I was asking if we can ensure they are captured moving
+  forward.**" On who fuels his cars: "**No I'm always using work card, generally azeema or
+  shane from memory.**" He changes cars often, so the register cannot key off one rego.
+- **FleetCard: hold the new card (22 Sep 1:30pm to Heather).** "I guess we could order a
+  card for that rego, but I think hold for now. As if I don't sell it and give to tfa
+  fleet then will most likely attach..." So no new card until he decides whether that
+  vehicle is sold or goes into the TFA fleet.
+- **Landscape Design Shed INV-0114 (22 Sep 1:29pm to Heather).** "I recall this being
+  approved my end with Maurico a few weeks back fyi when they did the DA lodgement it was
+  required before that." Approved, pay it.
 - **RCH Holdings INV-0027, $11,000, due Mon 21 Sep 2026.** Heather asked him directly on
   Fri 18 Sep 10:49am: "Could you please process the attached **ABA file** today for Clay
   ($11,000). I thought I could select the other **AMEX 2000/1010** to pay this on SNIIP
@@ -879,6 +1011,36 @@ Fettell):
   the sign off. Kendal is running it.
 
 ## Other threads
+- **Vehicle maintenance registers: he wants this solved and he is asking build or buy
+  (22 Sep 1:35pm, to Kendal).** Triggered by David buying new wheels for **TFA 17** on the
+  TFA NAB card through his Apple Pay. In his words: "**when can we get ontop of the
+  vehicles maitnnece registers etc. Is this something we build ourselves and then get
+  jaiah to automate or do we do a asset tiger update?** Example he spent 400 buks on tyres
+  when I can buy tyres and rims from market place (**Get my new bot to buy it for me lol**)
+  and they fit themselves etc." Two wants in one line: a maintenance and asset register,
+  and a Marketplace-sourcing bot for parts. He said it to Kendal, not to this agent, so it
+  is not on the Build List yet. Worth offering to add next time it comes up.
+- **The Urban Developer, TUD+ Member Spotlight: a $5k marketing decision he is weighing
+  (22 Sep 4:19pm, to Kendal).** **Ewan Kavanagh** (ewan.kavanagh@theurbandeveloper.com)
+  offered TFA, as a TUD+ corporate member, a one-month editorial and display package: a
+  journalist-written feature up to 1,000 words with 3 images, published to a **80,000+
+  subscriber Daily Briefing eDM**, kept on the website indefinitely, and promoted across
+  TUD's LinkedIn and Instagram (**83k+ combined**). Tariq's question: "**would the 5k be
+  better on fb adds or attaining followers through UD by having their jurnos create an
+  awesome segement with all our content created to date in a small article they post?**"
+  Open, Kendal to weigh in. He is judging it on followers gained per dollar, not on brand.
+- **94 Lipscombe Road Unit 1, retrospective design approval: he wants the inspection
+  booked for 1 Oct (22 Sep 1:15pm).** Kendal forwarded Andrew Bleakley's (BRC Consult)
+  automatic out-of-office reply at 11:51am. Tariq's instruction to Kendal: "**send email
+  requesting inspection 1st of October and awaiting conformation.**" Then at 4:34pm, on
+  the same thread: "fukcn spam him lol". So: email Andrew requesting a **1 Oct 2026**
+  inspection, chase until he confirms. This is the Andrea Cancelli site.
+- **School holidays: he is out of the office and interstate from Wed 23 Sep 2026**, with
+  the kids, working remotely by phone and email. He said so to Mitchell Brandtman on the
+  Logan Village claim and to Clay on the systems review ("our catch-up next week when I'm
+  back"). Assume no site attendance and no in-person meetings until he is back.
+- **E-Sims (22 Sep 1:25pm, to Kendal): "Yes lets address in meeting today."** Urgent
+  enough that it went into that day's meeting agenda. Outcome not in anything read.
 - **Pickles auctions: a standing buying relationship he is trying to open (17 Sep 2026).**
   To **Daniel Deasy** (daniel.deasy@pickles.com.au, 9:08am) after a phone call. TFA is
   "always on the lookout for **salvage machinery as well as prestige salvage vehicles**".
