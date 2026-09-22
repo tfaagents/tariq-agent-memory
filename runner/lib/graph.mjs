@@ -121,13 +121,17 @@ export async function inboxWithAttachments(mailbox, sinceISO, { top = 100 } = {}
   return (data.value || []).filter((m) => m.hasAttachments);
 }
 
-/** Attachment metadata for one message: id, name, contentType, size, isInline. No bytes. */
+/** Attachment metadata for one message: id, name, contentType, size, isInline, and type
+ *  ("file", "item" for an attached email, "reference" for a OneDrive/SharePoint link, which
+ *  has no bytes to fetch). No bytes. */
 export async function listAttachments(mailbox, messageId) {
   const data = await api(`/users/${encodeURIComponent(mailbox)}/messages/${encodeURIComponent(messageId)}/attachments` +
     `?$select=id,name,contentType,size,isInline`);
+  const TYPES = { '#microsoft.graph.fileAttachment': 'file', '#microsoft.graph.itemAttachment': 'item', '#microsoft.graph.referenceAttachment': 'reference' };
   return (data.value || []).map((a) => ({
     id: a.id, name: a.name || null, contentType: a.contentType || null, size: Number(a.size || 0), isInline: Boolean(a.isInline),
     isFile: a['@odata.type'] === '#microsoft.graph.fileAttachment',
+    type: TYPES[a['@odata.type']] || 'file',
   }));
 }
 
@@ -146,32 +150,48 @@ export async function searchFrom(fromAddress, mailbox) {
   const results = [];
   for (const box of boxes) {
     try {
+      // $filter on from + $orderby receivedDateTime is refused by Graph ("InefficientFilter"),
+      // and an unordered $filter page comes back OLDEST first: on 15 Sep 2026 this returned
+      // June mail for a sender who had written four days earlier, so "what did X send" and
+      // every staleness check built on it silently read the wrong end of the mailbox.
+      // $search="from:<address>" is ordered newest first and costs the same one call.
       const q = `/users/${encodeURIComponent(box.mail)}/messages` +
-        `?$filter=${encodeURIComponent(`from/emailAddress/address eq '${fromAddress.replace(/'/g, "''")}'`)}` +
-        `&$select=subject,receivedDateTime,from&$top=25`;
-      const data = await api(q);
+        `?$search=${encodeURIComponent(`"from:${fromAddress.replace(/"/g, '')}"`)}` +
+        `&$select=id,subject,receivedDateTime,from,conversationId&$top=25`;
+      const data = await api(q, { headers: { ConsistencyLevel: 'eventual' } });
       for (const m of data.value) {
-        results.push({ mailbox: box.mail, received: m.receivedDateTime, subject: m.subject });
+        results.push({
+          mailbox: box.mail, id: m.id, received: m.receivedDateTime, subject: m.subject,
+          from: m.from?.emailAddress?.address?.toLowerCase() || null, conversationId: m.conversationId || null,
+        });
       }
     } catch (e) {
       // 404 = no mailbox behind this user (unlicensed); report other errors per-box
       if (e.status !== 404) results.push({ mailbox: box.mail, error: e.message });
     }
   }
-  return results;
+  return results.sort((a, b) => String(b.received || '').localeCompare(String(a.received || '')));
 }
 
 export async function recentInbox(mailbox, hours = 24) {
   const since = new Date(Date.now() - hours * 3600_000).toISOString();
   const data = await api(`/users/${encodeURIComponent(mailbox)}/mailFolders/inbox/messages` +
     `?$filter=receivedDateTime ge ${since}` +
-    `&$select=id,subject,from,receivedDateTime,isRead,bodyPreview,webLink&$orderby=receivedDateTime desc&$top=100`);
+    // toRecipients is here so the inbox list can show when a message is a copy addressed to
+    // someone else: the OneDrive storage alert for the dormant daniel@ and dan@ accounts went
+    // into Tariq's brief as his own twice (17 and 20 Sep 2026) because the list never showed
+    // the To: line. config/noise.json rules test it (tools/lib/noise.mjs).
+    `&$select=id,subject,from,toRecipients,receivedDateTime,isRead,bodyPreview,webLink,hasAttachments&$orderby=receivedDateTime desc&$top=100`);
   return data.value;
 }
 
 export async function unreadInbox() {
   const data = await api(`/users/${encodeURIComponent(cfg.senderMailbox)}/mailFolders/inbox/messages` +
-    `?$filter=isRead eq false&$select=id,subject,from,receivedDateTime,bodyPreview,body&$top=20`);
+    // Without $orderby an unordered $filter page comes back oldest first, so a mailbox with
+    // more than 20 unread handed the watcher the 20 STALEST rather than what just arrived.
+    // Graph accepts a receivedDateTime sort alongside the isRead filter (tested 15 Sep 2026).
+    `?$filter=isRead eq false&$select=id,subject,from,receivedDateTime,bodyPreview,body` +
+    `&$orderby=receivedDateTime desc&$top=20`);
   return data.value;
 }
 
@@ -303,13 +323,14 @@ export async function searchMail(query, { mailbox = null, top = 15 } = {}) {
     try {
       const q = `/users/${encodeURIComponent(box)}/messages` +
         `?$search=${encodeURIComponent(`"${String(query).replace(/"/g, '')}"`)}` +
-        `&$select=id,subject,from,toRecipients,receivedDateTime,bodyPreview,webLink&$top=${top}`;
+        `&$select=id,subject,from,toRecipients,receivedDateTime,bodyPreview,webLink,hasAttachments&$top=${top}`;
       const data = await api(q, { headers: { ConsistencyLevel: 'eventual' } });
       for (const m of data.value || []) {
         out.push({
           mailbox: box, id: m.id, subject: m.subject,
           from: m.from?.emailAddress?.address || null,
           received: m.receivedDateTime, preview: (m.bodyPreview || '').slice(0, 200), link: m.webLink,
+          hasAttachments: Boolean(m.hasAttachments),
         });
       }
     } catch (e) {
@@ -319,16 +340,27 @@ export async function searchMail(query, { mailbox = null, top = 15 } = {}) {
   return out.sort((a, b) => String(b.received).localeCompare(String(a.received)));
 }
 
-/** Messages this mailbox SENT. The promise tracker's only input. Mail.Read. */
-export async function sentMail(mailbox, { days = 14, top = 100 } = {}) {
+/** Messages this mailbox SENT. The promise tracker's only input. Mail.Read.
+ *  Paged. He sends about a hundred emails in six days, so one $top=100 page made "14 days"
+ *  reach back six and the promise scan silently lost older promises (wall r-20260917-01,
+ *  17 Sep 2026). `top` is the page size, `max` the ceiling; a caller that only wants a
+ *  screenful passes max: 100. */
+export async function sentMail(mailbox, { days = 14, top = 100, max = 1000 } = {}) {
   const since = new Date(Date.now() - days * 864e5).toISOString();
-  const data = await api(`/users/${encodeURIComponent(mailbox)}/mailFolders/sentitems/messages` +
+  let url = `/users/${encodeURIComponent(mailbox)}/mailFolders/sentitems/messages` +
     `?$filter=sentDateTime ge ${since}` +
-    `&$select=id,subject,toRecipients,sentDateTime,bodyPreview,webLink&$orderby=sentDateTime desc&$top=${top}`);
-  return (data.value || []).map((m) => ({
-    id: m.id, subject: m.subject, sent: m.sentDateTime,
+    `&$select=id,subject,toRecipients,sentDateTime,conversationId,bodyPreview,webLink,hasAttachments&$orderby=sentDateTime desc&$top=${Math.min(top, max)}`;
+  const out = [];
+  while (url && out.length < max) {
+    const data = await api(url);
+    out.push(...(data.value || []));
+    const next = data['@odata.nextLink'];
+    url = next ? next.replace('https://graph.microsoft.com/v1.0', '') : null;
+  }
+  return out.slice(0, max).map((m) => ({
+    id: m.id, subject: m.subject, sent: m.sentDateTime, conversationId: m.conversationId || null,
     to: (m.toRecipients || []).map((r) => r.emailAddress?.address).filter(Boolean),
-    preview: m.bodyPreview || '', link: m.webLink,
+    preview: m.bodyPreview || '', link: m.webLink, hasAttachments: Boolean(m.hasAttachments),
   }));
 }
 
@@ -363,7 +395,7 @@ export async function getMessage(mailbox, id) {
   // Text, not HTML — see sentMessagesFull. The drafter reads this body, and a
   // model handed a wall of Outlook markup writes worse replies than one handed prose.
   return api(`/users/${encodeURIComponent(mailbox)}/messages/${encodeURIComponent(id)}` +
-    `?$select=id,subject,from,toRecipients,ccRecipients,receivedDateTime,body,webLink,conversationId`,
+    `?$select=id,subject,from,toRecipients,ccRecipients,receivedDateTime,body,webLink,conversationId,hasAttachments`,
     { headers: { Prefer: 'outlook.body-content-type="text"' } });
 }
 
@@ -426,10 +458,19 @@ export async function calendarView(mailbox, { fromISO, toISO } = {}) {
   const start = fromISO || new Date().toISOString();
   const end = toISO || new Date(Date.now() + 7 * 864e5).toISOString();
   try {
-    const data = await api(`/users/${encodeURIComponent(mailbox)}/calendarView` +
+    // Ordered by start, so a $top that runs out drops the END of the window: a busy week
+    // would quietly lose Friday and the caller could not tell. Page instead.
+    let url = `/users/${encodeURIComponent(mailbox)}/calendarView` +
       `?startDateTime=${encodeURIComponent(start)}&endDateTime=${encodeURIComponent(end)}` +
-      `&$select=subject,start,end,location,organizer,isAllDay,webLink&$orderby=start/dateTime&$top=50`,
-      { headers: { Prefer: 'outlook.timezone="Australia/Brisbane"' } });
+      `&$select=subject,start,end,location,organizer,isAllDay,webLink&$orderby=start/dateTime&$top=100`;
+    const rows = [];
+    while (url && rows.length < 500) {
+      const page = await api(url, { headers: { Prefer: 'outlook.timezone="Australia/Brisbane"' } });
+      rows.push(...(page.value || []));
+      const next = page['@odata.nextLink'];
+      url = next ? next.replace('https://graph.microsoft.com/v1.0', '') : null;
+    }
+    const data = { value: rows };
     return (data.value || []).map((e) => ({
       subject: e.subject, start: e.start?.dateTime, end: e.end?.dateTime,
       allDay: !!e.isAllDay, location: e.location?.displayName || null,

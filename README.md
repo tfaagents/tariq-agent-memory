@@ -1,7 +1,11 @@
 # tariq-agent
 
 Tariq Ali's personal agent. A plain Claude Code session in this folder on the TFA Mac
-mini, reached from his phone through the official Claude Code Telegram channel plugin.
+mini, reached from his phone through the official Claude Code Telegram channel plugin. It
+answers every message from him first, as Claude would, and only then checks what is set up
+(a skill, a scheduled job, a TFA workflow) and asks whether he wants it run. Since 21 Sep 2026
+`CLAUDE.md` is 138 lines and says exactly that; the 479-line version with a reply template is
+history (`docs/tariq-agent-ab-2026-09-20/` has the test that retired it).
 Design and reasoning: `clients/tfa-constructions/docs/tariq-personal-agent-plan-2026-09-10.md`.
 
 Lives at `/Users/tfaagents/tariq-agent` on the mini (`ssh tfa-mini`). Jaiah's copy is
@@ -23,7 +27,7 @@ mail broke until they were restored from the mini's git. `scripts/ship.sh` exclu
 | `memory/` | what it knows (auto-memory dir), committed locally |
 | `raw/` | source material, never rewritten (Kendal's exports, templates) |
 | `sessions/` | one log per finished job; `patterns.py` reads these |
-| `tools/mail.mjs` | his mail and diary through `~/tfa-agents/runner/lib/graph.mjs`; `draft` is the one write |
+| `tools/mail.mjs` | his mail and diary through the vendored `runner/lib/graph.mjs`; `attachments` lists what is attached and `attach` downloads it into `work/inbox/` (21 Sep); `draft` is the one mailbox write |
 | `tools/tfa.mjs` | the dashboard as Tariq: status, waiting, runs, promises, done, run, approve, send-back |
 | `.claude/settings.json` | allow, ask, deny lists. `ask` = permission relayed to his Telegram |
 | `tools/send.mjs`, `tools/calendar.mjs`, `tools/files.mjs` | send a draft as him, calendar writes, OneDrive: every write is on the ask list (Approve on Telegram). Until the Entra apps exist they answer "Not connected yet" (`tools/lib/connected.mjs`) |

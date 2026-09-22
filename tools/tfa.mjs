@@ -97,26 +97,18 @@ try {
     const r = await api(`/api/runs?limit=${n}`);
     for (const x of (r.runs || []).reverse()) console.log(`${ago(x.ts)}  ${x.agent}  ${x.result}${x.cost_usd ? `  $${x.cost_usd}` : ''}  ${one(x.summary, 110)}`);
   } else if (cmd === 'promises') {
-    const { report, at } = await agentReport('promise-tracker');
-    const open = (report?.open || []).filter((x) => x.status === 'open');
-    console.log(`Promises Tariq made, still open (tracker ran ${ago(at)}):`);
-    if (!open.length) console.log(report ? 'Nothing outstanding.' : 'The tracker has no report yet. Ask for it to be run from the dashboard.');
-    open.forEach((x, i) => {
-      const late = x.due && Date.parse(x.due) < Date.now();
-      console.log(`${i + 1}. ${late ? 'LATE ' : ''}${one(x.promise, 120)}`);
-      console.log(`   to ${x.to}${x.due ? `, due ${x.due}` : ', no date'}; from "${one(x.subject, 60)}"${x.link ? `\n   ${x.link}` : ''}`);
-    });
-    if (open.length) console.log('\nClosing one ("done") is done on the dashboard for now; say which and he can tick it there.');
+    // Moved 15 Sep 2026. The workflow lane's tracker read HIS sent mail with the accounts
+    // app; his own scan reads it with his own. This stays only so the old command says
+    // where it went rather than failing with "no access".
+    console.log('The promise list is his own now: `node tools/promises.mjs list`, and');
+    console.log('`node tools/settled.mjs --promises` is the one to report from, because it');
+    console.log('tests each promise against what he has actually sent since. /promises-scan refreshes it.');
   } else if (cmd === 'brief') {
-    const b = await agentReport('morning-brief');
-    const d = await agentReport('daily-inbox-digest');
-    if (b.report) console.log(`Brief (${ago(b.at)}):\n${typeof b.report === 'string' ? b.report : (b.report.text || (b.report.lines || []).join('\n') || JSON.stringify(b.report, null, 1))}\n`);
-    if (d.report) {
-      console.log(`Inbox digest (${ago(d.at)}): ${d.report.headline || ''}`);
-      (d.report.needsReply || []).forEach((it, i) => console.log(`  ${i + 1}. ${it.who || it.from}: ${one(it.what || it.subject, 110)}`));
-      (d.report.timeSensitive || []).forEach((it) => console.log(`  dated: ${one(it.note || it.subject, 110)}`));
-    }
-    if (!b.report && !d.report) console.log('No brief or digest report yet.');
+    // Moved 15 Sep 2026 with the rest of his lane: the overnight brief and inbox digest
+    // were team-lane agents reading his mailbox. He reads it himself now.
+    console.log('The brief is built here now: `node tools/mail.mjs inbox 14` for overnight,');
+    console.log('`node tools/calendar.mjs everyone 1` for the diary, `node tools/settled.mjs --promises`');
+    console.log('for the promises, and `node tools/tfa.mjs waiting` for the dashboard rows. /brief does all four.');
   } else if (cmd === 'run') {
     if (!args[0]) throw new Error('usage: run <agent-name>');
     const r = await api('/api/run', { method: 'POST', body: JSON.stringify({ agent: args[0] }) });
@@ -166,7 +158,7 @@ try {
     if (!reply.result?.success) throw new Error('the browser refused the cookie');
     console.log(`Logged in as ${EMAIL} in the browser lane. Open ${dash}/ there.`);
   } else {
-    console.log('usage: status | waiting | runs [n] | promises | brief | run <agent> | approve <id> [note] | send-back <id> <reason> | request <json> | request-done <id> | digest --file <path> | browser-login');
+    console.log('usage: status | waiting | runs [n] | run <agent> | approve <id> [note] | send-back <id> <reason> | request <json> | request-done <id> | digest --file <path> | browser-login');
     process.exit(1);
   }
 } catch (e) {

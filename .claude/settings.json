@@ -16,7 +16,10 @@
       "Bash(node tools/mail.mjs from*)",
       "Bash(node tools/mail.mjs sent*)",
       "Bash(node tools/mail.mjs read*)",
+      "Bash(node tools/mail.mjs attachments*)",
+      "Bash(node tools/mail.mjs attach*)",
       "Bash(node tools/mail.mjs diary*)",
+      "Bash(node tools/mail.mjs draft*)",
       "Bash(node tools/tfa.mjs status*)",
       "Bash(node tools/tfa.mjs waiting*)",
       "Bash(node tools/tfa.mjs runs*)",
@@ -47,6 +50,10 @@
       "Bash(node tools/browser.mjs type*)",
       "Bash(node tools/browser.mjs click*)",
       "Bash(node tools/browser.mjs shot*)",
+      "Bash(node tools/secrets.mjs where*)",
+      "Bash(node tools/secrets.mjs list*)",
+      "Bash(node tools/browser.mjs session*)",
+      "Bash(node tools/browser.mjs secret*)",
       "Bash(node tools/browser.mjs js*)",
       "Bash(node tools/voice.mjs*)",
       "Bash(node tools/requests.mjs*)",
@@ -55,10 +62,14 @@
       "Bash(node tools/recall.mjs*)",
       "Bash(node tools/tfa.mjs digest*)",
       "Bash(node tools/tone.mjs*)",
-      "Bash(node tools/people.mjs*)"
+      "Bash(node tools/people.mjs*)",
+      "Bash(node tools/botlist.mjs items*)",
+      "Bash(node tools/botlist.mjs batches*)",
+      "Bash(node tools/botlist.mjs verify*)",
+      "Bash(node tools/botlist.mjs stage*)",
+      "Bash(node tools/botlist.mjs amend*)"
     ],
     "ask": [
-      "Bash(node tools/mail.mjs draft*)",
       "Bash(node tools/tfa.mjs run*)",
       "Bash(node tools/tfa.mjs approve*)",
       "Bash(node tools/tfa.mjs send-back*)",
@@ -88,6 +99,7 @@
       "Read(~/.claude.json)",
       "Read(~/.claude/channels/**/.env)",
       "Read(~/.ssh/**)",
+      "Read(~/.tariq-agent/**)",
       "Read(~/.tariq-dashboard/**)",
       "Read(~/.tariq-graph/**)",
       "Read(~/Library/Keychains/**)",
@@ -115,7 +127,10 @@
       "Bash(claude)",
       "Bash(claude *)",
       "Bash(*/claude *)",
-      "Bash(*claude -p*)"
+      "Bash(*claude -p*)",
+      "Bash(cat ~/.tariq-agent/*)",
+      "Bash(node tools/secrets.mjs set*)",
+      "Bash(node tools/secrets.mjs drop*)"
     ]
   },
   "hooks": {

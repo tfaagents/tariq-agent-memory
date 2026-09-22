@@ -131,3 +131,32 @@ carry-forward comparison and `settled.mjs` on each hand-carried promise stay as 
 Also on 22 Sep: the 06:15 promises-scan did not fire at all (no session log, and
 `work/promises.json` still read the 18 Sep scan). The 06:30 brief caught it and did the
 work by hand. Filed as r-20260922-01. A brief should not be what catches a dead schedule.
+
+## 23 Sep: the freeze is over, and a new, smaller version of the same bug
+
+`candidates 14` returned **290** emails, 8 Sep to 22 Sep. Both halves of r-20260917-01 are
+in the code: `graph.mjs sentMail` pages (`max: 1000`), and `tools/lib/promises-merge.mjs`
+`mergeOpen` keeps every previously open promise the new scan did not return, until `done`
+closes it or it expires (30 days past due, 45 days without one). Every open promise was
+inside the window, so **`save` ran for the first time since 18 Sep**. Six promises on the
+list, and the two that had been carried by hand for days are now in the file: the 18 Sep
+Dan St funding feasibility one to Veena and Clay, and the Stamford Capital 30 Sep one that
+fell off on 16 Sep and started this whole memory.
+
+**The scan's useful output is the save again.** The carry-forward comparison against the
+previous `sessions/scheduled/*-promises-scan.md` is now a check that should find nothing,
+not the thing holding the list together. Still read the oldest candidate timestamp every
+scan and still match each open promise to its source date before saving: the rule costs
+one command and is what stopped four bad saves.
+
+**The new bug, r-20260923-01.** `mergeOpen` keys a carried promise on
+`id|fingerprint(promise)`, the wording, not the email. Rewording a promise from the same
+email on a later scan carries the old wording across as a duplicate. It happened here: the
+Kendal Forvm tender promise appeared twice.
+
+**How to apply:** when re-saving a promise that is already on the list, copy its wording
+from `promises.mjs list` verbatim. If a duplicate does appear, **do not run
+`promises.mjs done` on it.** `isClosed` falls through to a `startsWith(<id>|)` prefix match
+whenever that email carries only one promise, so closing the duplicate closes the real one
+on the next scan, and the closure is logged `by: tariq` for something he never did.
+Edit `work/promises.json` by hand: `work/` is this lane's to write, `tools/` is Jaiah's.

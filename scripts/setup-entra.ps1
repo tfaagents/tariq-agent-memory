@@ -70,6 +70,11 @@
 .PARAMETER SkipSend
   Do not create app 2 or its policy. Reads and drafts only.
 
+.PARAMETER TenantWide
+  No group and no access policy for app 1: it may read and write every mailbox,
+  calendar and drive in the tenant (the shape TFA chose on 14 Sep 2026). App 2
+  keeps its owner-only policy. The plan and the report say so in plain words.
+
 .PARAMETER DryRun
   Print every change, change nothing.
 
@@ -107,6 +112,13 @@
   KNOWN PITFALL 2: Get-ApplicationAccessPolicy throws ("... couldn't be found on ...")
   in a tenant that has no policies at all, which is the normal state of a fresh
   client. Get-ExistingAccessPolicies below treats that as an empty list.
+
+  THE PROTOCOL THAT AVOIDS PITFALL 1: run this script, then leave TWO HOURS before
+  connect-graph.sh or any other Graph call from the new apps. Every mailbox the app
+  touches while a policy is still landing is cached with that moment's answer for an
+  hour or more, and removing the policy does not clear those cached refusals (TFA,
+  14 Sep 2026: still 403 forty minutes after the removal, while mailboxes never
+  touched before read at once). Policies first, silence, then the first call.
 #>
 [CmdletBinding()]
 param(
@@ -122,6 +134,7 @@ param(
   [string] $OutputPath,
   [int] $PropagationWaitSeconds = 60,
   [switch] $SkipSend,
+  [switch] $TenantWide,
   [switch] $DryRun,
   [switch] $UseDeviceCode
 )
@@ -164,6 +177,7 @@ $script:Summary = [ordered]@{
   dryRun        = [bool] $DryRun
   ranAt         = (Get-Date).ToString('o')
   app1          = $null
+  app1Scope     = if ($TenantWide) { 'tenant: no access policy' } else { 'group' }
   app2          = $null
   group         = $null
   policies      = @()
@@ -279,7 +293,16 @@ function Connect-GraphSession {
     NoWelcome = $true
   }
   if ($DeviceCode) { $connectParams['UseDeviceCode'] = $true }
-  Connect-MgGraph @connectParams | Out-Null
+  # Connect-MgGraph writes the device code and the devicelogin URL to the INFORMATION
+  # stream, and $InformationPreference is SilentlyContinue by default, so the code is
+  # generated and silently discarded and the script looks hung at the sign-in step.
+  # Caught on the team lane's script 16 Sep 2026; this one had the same line and had
+  # never been run through its device-code path, because Tariq's two apps were done in
+  # the browser on 14 Sep.
+  $prevInfo = $InformationPreference
+  $InformationPreference = 'Continue'
+  try { Connect-MgGraph @connectParams | Out-Null }
+  finally { $InformationPreference = $prevInfo }
   $ctx = Get-MgContext
   if (-not $ctx) { throw "Graph sign-in failed." }
   Write-Ok "Graph signed in as $($ctx.Account) on tenant $($ctx.TenantId)"
@@ -607,14 +630,16 @@ function Test-OnePolicy {
 }
 
 function Test-AllPolicies {
-  param([string] $App1Id, [string] $App2Id, [string] $Owner, [string[]] $Members, [string] $Outsider)
+  param([string] $App1Id, [string] $App2Id, [string] $Owner, [string[]] $Members, [string] $Outsider, [bool] $App1TenantWide)
   $rows = @()
   foreach ($m in $Members) {
     $rows += Test-OnePolicy -Label 'app1' -AppId $App1Id -Mailbox $m -Expect 'Granted'
   }
   if ($Outsider) {
-    $rows += Test-OnePolicy -Label 'app1' -AppId $App1Id -Mailbox $Outsider -Expect 'Denied'
-  } else {
+    # Tenant-wide app 1 is meant to reach the outsider; a scoped one must not.
+    $expectOutside = if ($App1TenantWide) { 'Granted' } else { 'Denied' }
+    $rows += Test-OnePolicy -Label 'app1' -AppId $App1Id -Mailbox $Outsider -Expect $expectOutside
+  } elseif (-not $App1TenantWide) {
     Write-Warn "no mailbox outside the group was found, so the Denied check for app1 did not run. Pass -TestMailbox."
   }
   if ($App2Id) {
@@ -663,6 +688,12 @@ function Write-FinalReport {
   if ($failed.Count -gt 0) {
     Write-Warn "$($failed.Count) policy test(s) did not match. Policies can take up to 30 minutes to answer correctly; run the script again later. Do not remove a policy."
   }
+  if ($Data.app1Scope -like 'tenant*') {
+    Write-Host "  App 1 has NO access policy: it can read every mailbox, calendar and drive in the" -ForegroundColor Yellow
+    Write-Host "  tenant. That was the ask (-TenantWide). To scope it later: create the group and" -ForegroundColor Yellow
+    Write-Host "  New-ApplicationAccessPolicy, then two hours of silence before the app's next call." -ForegroundColor Yellow
+  }
+  Write-Host "  Leave TWO HOURS before connect-graph.sh or any Graph call from these apps." -ForegroundColor Yellow
   Write-Host "  Propagation: Graph may keep answering 403 [RAOP] for some mailboxes for an hour" -ForegroundColor Yellow
   Write-Host "  or more after Test-ApplicationAccessPolicy says Granted. Leave the app quiet for" -ForegroundColor Yellow
   Write-Host "  30 minutes, then try once; polling every few minutes keeps the stale cache alive." -ForegroundColor Yellow
@@ -698,7 +729,11 @@ function Invoke-Main {
   Write-Info "tenant          $TenantId"
   Write-Info "app 1           $app1Name  ($($script:App1Roles -join ', '))"
   if ($SkipSend) { Write-Info "app 2           skipped" } else { Write-Info "app 2           $app2Name  ($($script:App2Roles -join ', '))" }
-  Write-Info "group           $groupName <$groupAddr>"
+  if ($TenantWide) {
+    Write-Warn "app 1 scope     WHOLE TENANT: no group, no access policy (-TenantWide)"
+  } else {
+    Write-Info "group           $groupName <$groupAddr>"
+  }
   foreach ($m in $members) { Write-Info "  member        $m" }
   Write-Info "owner (send)    $ownerLower"
   Write-Info "summary         $outPath"
@@ -739,23 +774,39 @@ function Invoke-Main {
   Write-Step "Exchange Online: sign in"
   Connect-ExchangeSession -DeviceCode ([bool] $UseDeviceCode)
 
-  Write-Step "Exchange Online: mailbox group"
-  $group = Initialize-MailboxGroup -Name $groupName -Address $groupAddr -Members $members
-  $script:Summary.group = [ordered]@{
-    name    = $groupName
-    address = $groupAddr
-    members = $members
-    exists  = [bool] $group
+  $group = $null
+  if ($TenantWide) {
+    Write-Step "Exchange Online: mailbox group"
+    Write-Warn "skipped: app 1 is tenant-wide, so there is no group and no policy for it"
+    $script:Summary.group = $null
+  } else {
+    Write-Step "Exchange Online: mailbox group"
+    $group = Initialize-MailboxGroup -Name $groupName -Address $groupAddr -Members $members
+    $script:Summary.group = [ordered]@{
+      name    = $groupName
+      address = $groupAddr
+      members = $members
+      exists  = [bool] $group
+    }
   }
 
   Write-Step "Exchange Online: application access policies"
-  if (-not $DryRun -and $group -and -not (Get-ExistingAccessPolicies | Where-Object { $_.AppId -eq $app1Id })) {
-    # A group created seconds ago is not always resolvable as a policy scope yet.
-    Write-Info "giving the directory 20 seconds to see the group"
-    Start-Sleep -Seconds 20
+  if ($TenantWide) {
+    $stale = @(Get-ExistingAccessPolicies | Where-Object { $_.AppId -eq $app1Id })
+    if ($stale.Count -gt 0) {
+      Write-Warn "app 1 still has an access policy ($($stale[0].ScopeName)); -TenantWide does not remove it. Remove it by hand if the tenant-wide scope is really wanted."
+    } else {
+      Write-Ok "app 1 has no access policy (tenant-wide, as asked)"
+    }
+  } else {
+    if (-not $DryRun -and $group -and -not (Get-ExistingAccessPolicies | Where-Object { $_.AppId -eq $app1Id })) {
+      # A group created seconds ago is not always resolvable as a policy scope yet.
+      Write-Info "giving the directory 20 seconds to see the group"
+      Start-Sleep -Seconds 20
+    }
+    $p1 = Initialize-AccessPolicy -AppId $app1Id -Scope $groupAddr -Description "${app1Name}: $($members.Count) mailboxes"
+    $script:Summary.policies += [ordered]@{ app = 'app1'; appId = $app1Id; scope = $groupAddr; identity = if ($p1) { [string] $p1.Identity } else { $null } }
   }
-  $p1 = Initialize-AccessPolicy -AppId $app1Id -Scope $groupAddr -Description "${app1Name}: $($members.Count) mailboxes"
-  $script:Summary.policies += [ordered]@{ app = 'app1'; appId = $app1Id; scope = $groupAddr; identity = if ($p1) { [string] $p1.Identity } else { $null } }
   if ($app2Id) {
     $p2 = Initialize-AccessPolicy -AppId $app2Id -Scope $ownerLower -Description "${app2Name}: $ownerLower only"
     $script:Summary.policies += [ordered]@{ app = 'app2'; appId = $app2Id; scope = $ownerLower; identity = if ($p2) { [string] $p2.Identity } else { $null } }
@@ -765,10 +816,10 @@ function Invoke-Main {
   Wait-ForPolicyPropagation -Seconds $PropagationWaitSeconds
   $outsider = if ($TestMailbox) { $TestMailbox.ToLowerInvariant() } else { Find-OutsideMailbox -Members $members }
   if ($outsider -and ($members -contains $outsider)) {
-    throw "-TestMailbox $outsider is inside the group; it must be a mailbox the apps should not reach."
+    throw "-TestMailbox $outsider is inside the group; it must be a mailbox app 2 should not reach."
   }
   if ($outsider) { Write-Info "outside mailbox for the Denied check: $outsider" }
-  $script:Summary.tests = @(Test-AllPolicies -App1Id $app1Id -App2Id $app2Id -Owner $ownerLower -Members $members -Outsider $outsider)
+  $script:Summary.tests = @(Test-AllPolicies -App1Id $app1Id -App2Id $app2Id -Owner $ownerLower -Members $members -Outsider $outsider -App1TenantWide ([bool] $TenantWide))
 
   Disconnect-ExchangeOnline -Confirm:$false -ErrorAction SilentlyContinue
 

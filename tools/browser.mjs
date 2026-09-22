@@ -3,6 +3,11 @@
 // by default, its own profile, only the hosts in config/browser.json. Every call is logged
 // to work/browser/<job>/steps.log so a run that worked can become a script later.
 //
+// Reading any page is open; typing, clicking, submitting and uploading need the site on
+// allowedHosts. A password is never an argument: `secret` takes the key and fetches the
+// value itself, because steps.log, argv (visible in `ps`) and the console echo of `type`
+// are three places a value passed on the command line would end up.
+//
 //   node tools/browser.mjs start [--headed]        launch Chrome (idempotent)
 //   node tools/browser.mjs stop
 //   node tools/browser.mjs job <id>                 file screenshots and steps under work/browser/<id>/
@@ -10,6 +15,8 @@
 //   node tools/browser.mjs url | text | links       where we are; visible text; visible links
 //   node tools/browser.mjs forms                    every field: label, selector, type, value, options
 //   node tools/browser.mjs type <sel> "<value>"     set a field (input, textarea, select by option text, checkbox true/false)
+//   node tools/browser.mjs secret <sel> <key>       type a stored credential by KEY, never by value
+//   node tools/browser.mjs session                  which sites this profile is currently logged into
 //   node tools/browser.mjs click <sel>              click anything that is NOT a submit-style button
 //   node tools/browser.mjs submit <sel>             click a submit-style button (on the ask list: Tariq taps Approve)
 //   node tools/browser.mjs upload <sel> <file>      put a file into a file input (ask list)
@@ -20,6 +27,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { get as secretFor, keys as secretKeys } from './lib/secrets.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CFG = JSON.parse(fs.readFileSync(path.join(ROOT, 'config/browser.json'), 'utf8'));
@@ -31,7 +39,18 @@ const [, , cmd, ...args] = process.argv;
 
 const jobDir = () => { let j = 'adhoc'; try { j = fs.readFileSync(CURRENT, 'utf8').trim() || 'adhoc'; } catch (_) {} const d = path.join(WORK, j); fs.mkdirSync(d, { recursive: true }); return d; };
 const log = (line) => { try { fs.appendFileSync(path.join(jobDir(), 'steps.log'), `${new Date().toISOString()} ${line}\n`); } catch (_) {} };
-const allowed = (u) => { let h; try { h = new URL(u).hostname.toLowerCase(); } catch (_) { return false; } if (!/^https?:$/.test(new URL(u).protocol)) return false; return (CFG.allowedHosts || []).some((a) => h === a || h.endsWith(`.${a}`)); };
+// Reading is open, acting is not. Opening a public page and screenshotting it sends nothing
+// anywhere and is how he asks most of his questions; the risk in a browser lane is ACTING on
+// a page, which is still the named list plus Approve on his phone for a submit. Until
+// 15 Sep 2026 both were the same list of three test hosts, so "show me the dashboard" was
+// refused on 11 Sep and every real site he named would have been too.
+const isWeb = (u) => { try { return /^https?:$/.test(new URL(u).protocol); } catch (_) { return false; } };
+const allowed = (u) => { let h; try { h = new URL(u).hostname.toLowerCase(); } catch (_) { return false; } if (!isWeb(u)) return false; return (CFG.allowedHosts || []).some((a) => h === a || h.endsWith(`.${a}`)); };
+// Typing, clicking, submitting and uploading all happen on wherever the page already is.
+const mustBeActable = async (s, what) => {
+  const u = await s.evaluate('location.href');
+  if (!allowed(u)) throw new Error(`reading ${u} is fine, but ${what} there is not: the site is not on allowedHosts in config/browser.json. Say the word and Jaiah adds it.`);
+};
 
 async function targets() { const r = await fetch(`http://127.0.0.1:${PORT}/json/list`); return r.json(); }
 async function alive() { try { await targets(); return true; } catch (_) { return false; } }
@@ -97,7 +116,7 @@ try {
   else if (cmd === 'job') { if (!args[0]) throw new Error('usage: job <id>'); fs.mkdirSync(WORK, { recursive: true }); fs.writeFileSync(CURRENT, args[0]); console.log(`browser work for ${args[0]} goes to work/browser/${args[0]}/`); }
   else if (cmd === 'goto') {
     const u = args[0]; if (!u) throw new Error('usage: goto <url>');
-    if (!allowed(u)) throw new Error(`${u} is not on the allowed list (config/browser.json). Ask Jaiah to add the site.`);
+    if (!isWeb(u)) throw new Error(`${u} is not an http or https address.`);
     await withPage(async (s) => { await s.send('Page.navigate', { url: u }); await s.waitLoad(); const t = await s.evaluate('document.title + " | " + location.href'); console.log(t); });
   }
   else if (cmd === 'url') await withPage(async (s) => console.log(await s.evaluate('location.href')));
@@ -112,14 +131,47 @@ try {
   });
   else if (cmd === 'type') {
     const [sel, value] = args; if (!sel || value === undefined) throw new Error('usage: type <sel> "<value>"');
-    await withPage(async (s) => { const r = await s.evaluate(`(() => { const el = __find(${q(sel)}); if (!el) throw new Error('no field ' + ${q(sel)}); return { set: __set(el, ${q(value)}), label: __label(el) }; })()`); console.log(`${r.label || sel} = ${JSON.stringify(r.set)}`); });
+    await withPage(async (s) => { await mustBeActable(s, 'filling in a field'); const r = await s.evaluate(`(() => { const el = __find(${q(sel)}); if (!el) throw new Error('no field ' + ${q(sel)}); return { set: __set(el, ${q(value)}), label: __label(el) }; })()`); console.log(`${r.label || sel} = ${JSON.stringify(r.set)}`); });
+  }
+  else if (cmd === 'secret') {
+    const [sel, key] = args;
+    if (!sel || !key) throw new Error(`usage: secret <sel> <key>. Stored keys: ${secretKeys().join(', ') || 'none yet'}`);
+    // The value is fetched HERE and goes straight into the page. It is never an argument,
+    // never printed, and never in steps.log: line 105 logs the key name, which is the point.
+    const value = secretFor(key);
+    await withPage(async (s) => {
+      await mustBeActable(s, 'entering a credential');
+      const r = await s.evaluate(`(() => { const el = __find(${q(sel)}); if (!el) throw new Error('no field ' + ${q(sel)}); __set(el, ${q(value)}); return { label: __label(el), len: el.value.length }; })()`);
+      console.log(`${r.label || sel} = ${'*'.repeat(Math.min(r.len, 12))} (${key}, ${r.len} characters)`);
+    });
+  }
+  else if (cmd === 'session') {
+    await withPage(async (s) => {
+      const { cookies } = await s.send('Network.getAllCookies');
+      const byHost = new Map();
+      for (const c of cookies || []) {
+        const h = String(c.domain || '').replace(/^\./, '');
+        const exp = c.expires > 0 ? c.expires * 1000 : 0;
+        const cur = byHost.get(h) || { n: 0, soonest: 0 };
+        cur.n++;
+        if (exp && (!cur.soonest || exp < cur.soonest)) cur.soonest = exp;
+        byHost.set(h, cur);
+      }
+      if (!byHost.size) { console.log('This profile is not logged into anything.'); return; }
+      const rows = [...byHost.entries()].sort((a, b) => b[1].n - a[1].n);
+      for (const [h, v] of rows) {
+        const when = v.soonest ? new Date(v.soonest).toLocaleString('en-AU', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Australia/Brisbane' }) : 'session only';
+        console.log(`${h}  ${v.n} cookie${v.n === 1 ? '' : 's'}, first expiry ${when}`);
+      }
+      console.log('\nA site here may still have signed you out; open a page behind the login to be sure.');
+    });
   }
   else if (cmd === 'click' || cmd === 'submit') {
     const sel = args[0]; if (!sel) throw new Error(`usage: ${cmd} <sel>`);
     await withPage(async (s) => {
       const info = await s.evaluate(`(() => { const el = __find(${q(sel)}); if (!el) throw new Error('nothing matches ' + ${q(sel)}); return { submit: __isSubmit(el), text: ((el.innerText || el.value || '') + '').trim().slice(0, 60) }; })()`);
       if (cmd === 'click' && info.submit) throw new Error(`"${info.text || sel}" looks like a submit button. That step needs Tariq's Approve: node tools/browser.mjs submit ${JSON.stringify(sel)}`);
-      if (cmd === 'submit') { const u = await s.evaluate('location.href'); if (!allowed(u)) throw new Error('current page is not on the allowed list'); }
+      await mustBeActable(s, cmd === 'submit' ? 'submitting' : 'clicking');
       await s.evaluate(`(() => { const el = __find(${q(sel)}); el.scrollIntoView({ block: 'center' }); el.click(); return true; })()`);
       await s.waitLoad(cmd === 'submit' ? 20000 : 3000);
       console.log(`${cmd === 'submit' ? 'Submitted' : 'Clicked'} "${info.text || sel}". Now at: ${await s.evaluate('document.title + " | " + location.href')}`);
@@ -129,6 +181,7 @@ try {
     const [sel, file] = args; if (!sel || !file) throw new Error('usage: upload <sel> <file>');
     const abs = path.resolve(ROOT, file); if (!fs.existsSync(abs)) throw new Error(`no file ${abs}`);
     await withPage(async (s) => {
+      await mustBeActable(s, 'uploading a file');
       const doc = await s.send('DOM.getDocument', { depth: 0 });
       const objId = (await s.send('Runtime.evaluate', { expression: `__find(${q(sel)})` })).result.objectId; if (!objId) throw new Error(`no file input ${sel}`);
       const node = await s.send('DOM.requestNode', { objectId: objId });

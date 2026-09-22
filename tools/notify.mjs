@@ -14,6 +14,21 @@ net.setDefaultAutoSelectFamilyAttemptTimeout(5000);
 import os from 'node:os';
 import path from 'node:path';
 
+const args = process.argv.slice(2);
+// Every argument used to be taken as the message body, so `--help` sent Tariq the literal
+// word "--help" (06:32 on 14 Sep, again 06:42 on 15 Sep) and `--plain` with a piped
+// message sent "--plain". Flags are read first now, and an unknown option stops the send
+// instead of becoming it. A real message that starts with a dash ("- Alee, due 11 Sep")
+// is not an option: an option is one word, a leading dash, then a letter.
+const option = (a) => /^--?[A-Za-z][A-Za-z0-9-]*$/.test(a);
+if (args.includes('--help') || args.includes('-h')) {
+  console.log('node tools/notify.mjs "text"           send one message to Tariq');
+  console.log('echo "text" | node tools/notify.mjs    the same, from stdin');
+  console.log('node tools/notify.mjs --file <path>    send the contents of a file');
+  console.log('  --plain                              no bold first line, no escaping');
+  process.exit(0);
+}
+
 const DIR = process.env.TELEGRAM_STATE_DIR || path.join(process.env.CLAUDE_CONFIG_DIR || path.join(os.homedir(), '.claude'), 'channels', 'telegram');
 const env = fs.readFileSync(path.join(DIR, '.env'), 'utf8');
 const token = /TELEGRAM_BOT_TOKEN=(\S+)/.exec(env)?.[1];
@@ -22,11 +37,13 @@ const access = JSON.parse(fs.readFileSync(path.join(DIR, 'access.json'), 'utf8')
 const chats = access.allowFrom || [];
 if (!chats.length) { console.error('nobody on the allowlist'); process.exit(1); }
 
-const args = process.argv.slice(2);
 let text;
 const fi = args.indexOf('--file');
+const body = args.filter((a, i) => a !== '--plain' && !(fi >= 0 && (i === fi || i === fi + 1)));
+const unknown = body.find(option);
+if (unknown) { console.error(`unknown option ${unknown}; nothing sent (--help for usage)`); process.exit(1); }
 if (fi >= 0) text = fs.readFileSync(args[fi + 1], 'utf8');
-else if (args.length) text = args.join(' ');
+else if (body.length) text = body.join(' ');
 else text = fs.readFileSync(0, 'utf8');
 text = String(text || '').trim();
 if (!text) { console.error('empty message'); process.exit(1); }

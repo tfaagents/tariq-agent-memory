@@ -1,0 +1,339 @@
+{
+  "_note": "The batched view of Tariq's own bot list, and where the document lives. His 43 items are NOT in this file: they are read out of the .docx every time, so there is no second copy of his words to drift. This file holds only what was added around them: which batch each id goes in, the cross-reference notes, and his ChatGPT version. Edit a batch by moving an id between lists; tools/botlist.mjs refuses to build if an id is listed twice or missing.",
+  "_onedrivePathNote": "ONE file, replaced in place (Jaiah, 16 Sep 2026, revising the same day's two-file call: the file he reads has to be the file he types in, or he types in the wrong one). It holds all three sections. He adds an item either by typing on a blank numbered line at the end of section 1, or by telling the agent.",
+  "onedrivePath": "Desktop/Tariqs list of bot builds.docx",
+  "_frozenSourceNote": "The base `build` works from on Jaiah's Mac: a frozen copy of his live list, taken 16 Sep 2026. The 11 Sep copy alongside it is the original record from his email and carries identical item text; the two differ only in Word's own save metadata from his 15 Sep save. On the mini there is no client docs folder, so `items` and `batches` fall back to work/botlist/current.docx and `rebuild` takes --source.",
+  "frozenSource": "../../docs/reference/tariq-bot-builds-live-2026-09-16.docx",
+  "idPrefix": "B",
+  "title": "Tariqs list of bot builds",
+  "subtitle": "His list, batched. Nothing reworded, nothing merged, nothing dropped.",
+  "howToRead": [
+    "Every item below has a permanent id, B01 to B43, in the order you typed them. The id never changes. If the list is re-sorted or something is added in the middle, B14 is still B14.",
+    "Section 1 is your list, word for word, in your order. Section 2 is the same 43 items sorted into batches of similar work, each one appearing once, called up by id. Section 3 is the eight agent version ChatGPT wrote for you.",
+    "Nothing in section 1 has been edited. A script checks that every paragraph you typed is still in this file, word for word, in the same order, and it will not let the file be saved if one is missing. Your typos are left exactly as you typed them.",
+    "Two ways to add to it, both fine. Type it yourself on one of the blank numbered lines at the end of section 1 and save: Word gives it the next id. Or tell the agent: add to my bot list, then what you want, and it writes it in for you and asks you to approve the save. It will not overwrite a change you made yourself.",
+    "Either way the new item is in your list straight away. It will not be sorted into a batch in section 2 until Jaiah files it, because which batch it belongs in is a decision, not a guess."
+  ],
+  "crossRefNote": "Five items point at another item. Three are clear. Two name a number that does not match what the sentence is about, so both readings are shown and neither has been corrected. They are marked below for you to settle.",
+  "crossRefs": [
+    {
+      "id": "B02",
+      "his": "extiention to above",
+      "resolved": [
+        "B01"
+      ]
+    },
+    {
+      "id": "B08",
+      "his": "point 3 above",
+      "resolved": [
+        "B03"
+      ]
+    },
+    {
+      "id": "B24",
+      "his": "above point 11",
+      "literal": "B11",
+      "likely": [
+        "B21"
+      ],
+      "confirm": true
+    },
+    {
+      "id": "B26",
+      "his": "below 2 points",
+      "resolved": [
+        "B27",
+        "B28"
+      ]
+    },
+    {
+      "id": "B28",
+      "his": "above point 15",
+      "literal": "B15",
+      "likely": [
+        "B27"
+      ],
+      "confirm": true
+    }
+  ],
+  "_catchAllNote": "His list is the source of truth and the batched document derives from it, so an item he adds is in section 1 straight away but belongs to no batch until a person decides which one. It lands here rather than being dropped or guessed at. Move the id into a real batch above when it is decided.",
+  "catchAll": {
+    "title": "Batch 14. Added since, not yet batched",
+    "what": "Items added to the list after the batches were drawn up. They are in your list and they are not lost; nobody has decided which batch they belong in yet.",
+    "needs": "One decision each, then they move up into the batch they belong to."
+  },
+  "batches": [
+    {
+      "title": "Batch 1. Files, notes and tasks",
+      "what": "The job that files a document where it belongs and turns what you said into a task.",
+      "needs": "OneDrive is connected. Monday.com needs an API token from you or Kendal.",
+      "ids": [
+        "B01",
+        "B02"
+      ]
+    },
+    {
+      "title": "Batch 2. The daily rhythm: morning brief and afternoon close out",
+      "what": "One job that runs twice a day and tells you what is coming and what did not happen.",
+      "needs": "Mail and your diary are connected. Staff calendars and a second to do calendar need the read app finished. The TV is a page on the dashboard you already have.",
+      "ids": [
+        "B05",
+        "B11",
+        "B16",
+        "B17",
+        "B20"
+      ]
+    },
+    {
+      "title": "Batch 3. Email and messages as one layer",
+      "what": "Everything that arrives, read for you, grouped, answered in your words or quarantined.",
+      "needs": "Reading and drafting work now. Sending, forwarding and deleting need Mail.Send and Mail.ReadWrite. Teams and WhatsApp come after.",
+      "ids": [
+        "B09",
+        "B12",
+        "B13",
+        "B14",
+        "B15",
+        "B19"
+      ]
+    },
+    {
+      "title": "Batch 4. Staff: performance, reviews and touch points",
+      "what": "Every person on a register with their dates, so the reminders and the chasing happen on their own.",
+      "needs": "A staff register with start dates and review dates. MYOB payroll or a sheet Kendal keeps. B04 is activity monitoring and needs its own decision before it is built.",
+      "ids": [
+        "B03",
+        "B04",
+        "B08",
+        "B35"
+      ]
+    },
+    {
+      "title": "Batch 5. Marketing: posts and video",
+      "what": "Posting and content, planned a week ahead, from footage you dump.",
+      "needs": "Posting access to the Instagram and Facebook business accounts, and one folder you drop footage into.",
+      "ids": [
+        "B06",
+        "B07"
+      ]
+    },
+    {
+      "title": "Batch 6. Winning work: estimating, tenders and blasts",
+      "what": "Finding the work, pricing it, and chasing the prices that have not come back.",
+      "needs": "Mail.Send, the OneDrive path of the TFA tender template, and one place the tender register lives.",
+      "ids": [
+        "B10",
+        "B29",
+        "B32",
+        "B43"
+      ]
+    },
+    {
+      "title": "Batch 7. The TFA book: contacts, subbies and the build method",
+      "what": "TFA's own knowledge written down once, so every other agent can read it instead of guessing.",
+      "needs": "A decision on where the register lives, and your hold points captured once. This is the shared knowledge base you asked for in section 3.",
+      "ids": [
+        "B33",
+        "B34",
+        "B36"
+      ]
+    },
+    {
+      "title": "Batch 8. Advisers: legal, accounting and QBCC",
+      "what": "A first pass on a legal or tax question, with what to confirm with the real adviser marked.",
+      "needs": "Nothing new to connect. It needs a fixed structure so the answer is the same shape every time, and the documents readable from OneDrive.",
+      "ids": [
+        "B27",
+        "B28",
+        "B30"
+      ]
+    },
+    {
+      "title": "Batch 9. Think like Tariq: ideas, ventures and the protocol",
+      "what": "Throw it a half formed idea and get back a structured read on it, judged the way you judge things.",
+      "needs": "Your commercial principles written down so it can argue back. Web search already works.",
+      "ids": [
+        "B38",
+        "B39",
+        "B40",
+        "B42"
+      ]
+    },
+    {
+      "title": "Batch 10. Land and sites",
+      "what": "Watching for land and development sites that match what you are after.",
+      "needs": "A source. realestate.com.au has no public feed, so this is the browser lane on an allowed site, or a paid data source.",
+      "ids": [
+        "B31",
+        "B41"
+      ]
+    },
+    {
+      "title": "Batch 11. Launching a brand: websites, Shopify and registration",
+      "what": "Taking a brand from idea to a site, a store and a registered entity.",
+      "needs": "A Shopify store and key when there is something to sell. Site builds are a separate piece of work, not this agent.",
+      "ids": [
+        "B23",
+        "B25",
+        "B26"
+      ]
+    },
+    {
+      "title": "Batch 12. Personal: buying, accounts and health",
+      "what": "Your own side. Finding things, watching for deals, keeping logins somewhere proper, health in one place.",
+      "needs": "A password manager on the mini, not notes. Buying stays off until you set the approval limits. Health needs whichever app you already use.",
+      "ids": [
+        "B18",
+        "B21",
+        "B22",
+        "B24"
+      ]
+    },
+    {
+      "title": "Batch 13. The front door",
+      "what": "How you reach it and how the next agent gets decided.",
+      "needs": "Telegram is the front door today and it works. A separate mobile number is a second one if you want it.",
+      "ids": [
+        "B37"
+      ]
+    }
+  ],
+  "chatgpt": {
+    "label": "Section 3. His ChatGPT version",
+    "intro": [
+      "This is not Tariq's typing. It is the eight agent rewrite ChatGPT made of the same list, pasted into his email of 11 Sep 2026. It is here because it is a useful second view of the same 43 items, and because the system wide requirements at the end are things he asked for that are not items on the list.",
+      "Reproduced from docs/tariq-agent-roadmap-2026-09-11.md. The build status notes that sit alongside each agent in that file are left out here; read the file itself for where each one stands today."
+    ],
+    "objective": "Overall objective, his: an AI operating system around Tariq that reduces administration, prevents things being forgotten, gives visibility across TFA, responds to repetitive matters, assists decision-making and progressively takes actions on his behalf. Monday.com stays the primary operational task source; the AI sits above all systems.",
+    "agents": [
+      {
+        "title": "1. Executive Command Centre, \"Run My Day\"",
+        "body": "Captures email, calendar, Monday.com, Teams, messages, call notes and documents and works out what needs action. Files documents to the right project. Turns commitments into tasks and allocates them through Monday.com. Morning executive brief (meetings, staff meetings, overdue, outstanding responses, project issues, decisions needed) and an afternoon close-out. A separate AI to-do / time-blocking calendar that does not touch the real one. Time analysis with recommendations. A live dashboard on the TV in his office."
+      },
+      {
+        "title": "2. Communications Agent, \"Tariq Inbox\"",
+        "body": "One layer over email and, where possible, Teams, WhatsApp, SMS. Short versions, what needs action, related threads grouped, prior correspondence understood. One-touch replies in his voice, learning the register per audience (staff, consultants, lawyers, clients, mates, suppliers). Auto-forward rules (Accor Plus to Ziana) he can add to. Low-value mail into a daily quarantine report, with \"never show me this again\" rules he approves. Routine staff questions answered automatically from prior mail, records and policies; technical, contractual, unusual or commercially sensitive escalated. Call notes into a simple personal CRM so promises and follow-ups from calls are captured."
+      },
+      {
+        "title": "3. People and Performance, \"TFA People\"",
+        "body": "Every employee: role, start date, probation, salary review dates, birthdays, KPIs, performance discussions, development objectives. Reminders with a drafted note for birthdays, probation reviews, 6-month catch-ups, annual reviews. Morning overview of staff calendars where relevant. A KPI dashboard from agreed objective measures. A short working-style questionnaire per staff member so he gets management cues before a meeting (from what they provide plus legitimate observations, not invented profiles). Computer activity monitoring only as a separate, transparent, compliance-approved module."
+      },
+      {
+        "title": "4. Estimating, Leads and Business Development, \"Win Work\"",
+        "body": "Tender packages for estimators with links and documents; estimator blasts; response tracking; automatic follow-up of outstanding pricing. An estimating agent that reviews drawings and specs, builds scopes, identifies trade packages, finds missing information, compares subcontractor quotes, produces estimate summaries and flags commercial risk, with human approval before any tender goes out. Lead, referral and follow-up tracking."
+      },
+      {
+        "title": "5. Development and Venture Studio, \"Create\"",
+        "body": "Throw an idea at it with nothing prepared; it returns a structured concept, gaps, feasibility, research, capital, revenue, margin, competitors, next steps and a verdict. A repeatable protocol for assessing businesses, products and development concepts. Learns his commercial principles (speed, margin, risk, execution difficulty, competitive advantage, self-perform, scalability, wealth creation) and challenges weak ideas. Finds development sites matching criteria; finds gaps in construction, technology, ecommerce; a roadmap to a $200m+ group."
+      },
+      {
+        "title": "6. Digital Business Launch, \"Build and Launch\"",
+        "body": "From concept to execution: competitor and adjacent-industry research, brand and website structure, new websites built from those lessons, Shopify products and listings, launch materials, and the admin steps to set up a business with accountant, lawyer, ASIC and human approvals flagged."
+      },
+      {
+        "title": "7. Personal Life and Commerce, \"Tariq Personal\"",
+        "body": "Research and source purchases (Marketplace, retail, Amazon), compare, recommend, negotiate where appropriate. Monitor things he is interested in (cars, equipment, deals) and alert him. Eventually purchasing under approval limits (one-touch below a threshold, explicit confirmation above). Never store passwords in notes or memory; integrate a proper password manager and request credentials securely. A personal fitness and health dashboard kept separate from TFA staff systems."
+      },
+      {
+        "title": "8. Professional Advisory, \"Legal and Finance Copilots\"",
+        "body": "Legal: property due diligence, conveyancing, construction contracts, disputes; review documents, identify risks, say what his lawyer should be doing, prepare questions, compare advice against documents, draft commercially strong correspondence. Not a replacement for specialist advice. Finance: entity, trust and property structures, tax consequences, payroll tax, incentives and training arrangements, EOFY planning, scenario modelling, with what needs the accountant's confirmation clearly marked."
+      }
+    ],
+    "systemWideTitle": "System-wide requirements, his",
+    "systemWide": [
+      "One shared, authorised TFA knowledge base, tagged by project, company, person, client and subject.",
+      "Approval hierarchy: Level 1 observe (no approval), Level 2 prepare for one-touch approval, Level 3 pre-approved routine actions, Level 4 sensitive actions always need Tariq (payments, contracts, legal submissions, employee decisions, major purchases, registrations, external commitments).",
+      "Audit trail for every autonomous action: what, why, what it relied on.",
+      "Kill switch / pause.",
+      "A \"Tariq Rules / Decision Book\": every correction becomes a durable rule.",
+      "Stronger controls on staff monitoring, legal and tax decisions, credentials and autonomous purchases."
+    ]
+  },
+  "_statusNotesNote": "Marks on his list for items that are done, or that turned out not to need an agent at all. Rendered as a bold lead line and dot points under the item in section 1, and one grey line under it in section 2, on a rebuild. His words above the note are never touched. Written the way Tariq reads: short, bold, no fluff (Jaiah, 21 Sep 2026).",
+  "statusNotes": [
+    {
+      "id": "B05",
+      "title": "Not an agent. Just ask. Live 21 Sep 2026.",
+      "lines": [
+        "Message Telegram: what does the team's day look like, or where is everyone today.",
+        "It checks: every TFA calendar, yours first, then your mail if a meeting only lives in an email.",
+        "It reports back: who is where, client and site meetings, who is out. Personal entries show as out, never by title.",
+        "Closed off. Nothing to build."
+      ],
+      "short": "Live 21 Sep 2026. Not an agent, a question you ask. Note under B05 in section 1."
+    },
+    {
+      "id": "B12",
+      "title": "Not an agent. Just ask, and sending is your one tap. Live 21 Sep 2026.",
+      "lines": [
+        "Message Telegram: what is the most useless email in my inbox today, knock it back in one line in my words.",
+        "It checks: your inbox for the day, why the worst one is useless, then writes your line short, in your words, ending Kind Regards.",
+        "It reports back: sender, time and what the email wants, your one line, and the draft in your Outlook Drafts with nothing sent.",
+        "Ask what you can knock back in a line: it lists them, says what is FYI or wants more, and drafts only what you name.",
+        "Closed off, except automatic: off by design, your rule of 21 Sep, it never writes a reply unasked and sending is your one tap in Outlook."
+      ],
+      "short": "Live 21 Sep 2026. Not an agent, a question you ask, sending is your one tap. Note under B12 in section 1."
+    },
+    {
+      "id": "B13",
+      "title": "Not an agent. Just ask, and the filter runs on its own. Live 21 Sep 2026.",
+      "lines": [
+        "The filter: auction lists, tool sales, OneDrive alerts for the old Dan accounts, Outlook reaction digests. The rules sit in a file Jaiah keeps.",
+        "Nothing is deleted or moved. Filtered mail stays in your inbox and out of your morning note.",
+        "Message Telegram: what got filtered today. It checks your inbox against the rules and lists them by number so you can open one.",
+        "Say never show me that again about an email: it goes to Jaiah as a rule to add.",
+        "Closed off, except deleting: not built, needs your separate say-so."
+      ],
+      "short": "Live 21 Sep 2026. Not an agent, a question you ask; the filter runs on its own. Note under B13 in section 1."
+    },
+    {
+      "id": "B36",
+      "title": "Not an agent. Just ask. Live 21 Sep 2026.",
+      "lines": [
+        "Message Telegram: write me the TFA hold points for a tilt panel shed, or what needs signing off before I pour a slab.",
+        "It checks: what it has already written up for you, and says plainly when it is the standard QLD sequence and not a TFA one yet.",
+        "It reports back: every stage in order with its hold and who signs it, and keeps the full guide for your later questions.",
+        "You tweak it in the chat and the guide is updated in place, and saving it to OneDrive is your tap.",
+        "Closed off."
+      ],
+      "short": "Live 21 Sep 2026. Not an agent, a question you ask. Note under B36 in section 1."
+    },
+    {
+      "id": "B38",
+      "title": "Not an agent. Just ask, and it argues back. Live 21 Sep 2026.",
+      "lines": [
+        "Message Telegram: how do I get TFA to a 200m group in ten years, be honest.",
+        "It checks: your mail for what Stamford and Mortar have said on Dan Street funding and lending, and names each source.",
+        "It reports back: not by building, then one plan repeated, buy, build at cost, hold, refinance, with capital and you named as what stops it.",
+        "It argues rather than agrees, and writes nothing unless you ask.",
+        "Closed off."
+      ],
+      "short": "Live 21 Sep 2026. Not an agent, a question you ask. Note under B38 in section 1."
+    },
+    {
+      "id": "B39",
+      "title": "Not an agent. Just ask. Live 21 Sep 2026.",
+      "lines": [
+        "Message Telegram: idea, buy a 4000sqm block in Yatala for 12 tilt panel sheds, quick feaso, or run it through the protocol.",
+        "It checks: what it already holds on your projects, your rules and any search it ran for you before, and says which numbers are its own.",
+        "Quick feaso: yield, costs and profit on cost, the levers that move it, the flags and a verdict that pushes back, and it keeps the full sheet.",
+        "The protocol: nothing is saved by that name, so it runs your eight tests from the 11 Sep roadmap email, then a verdict and a better move.",
+        "Closed off. Nothing to build."
+      ],
+      "short": "Live 21 Sep 2026. Not an agent, a question you ask. Note under B39 in section 1."
+    },
+    {
+      "id": "B41",
+      "title": "Not an agent. Just ask. Live 21 Sep 2026.",
+      "lines": [
+        "Message Telegram: find me a development site, Logan corridor, 1 to 2 hectares, industrial or mixed use, or what the agents sent this month.",
+        "It checks: the listing sites, naming any that block it and moving to the next, then your mail and sent mail when you ask about the agents.",
+        "It reports back: sites in your band with address, size, zoning as listed, agent and firm, price or EOI status and any deadline.",
+        "On the agents: each direct approach by date and firm, split from the blast mail, which ones you left unanswered, and a draft on your say so.",
+        "Closed off, except a standing watch that alerts you: that is the B31 build, not built."
+      ],
+      "short": "Live 21 Sep 2026. Not an agent, a question you ask. Note under B41 in section 1."
+    }
+  ]
+}

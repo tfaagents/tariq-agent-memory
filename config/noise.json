@@ -1,0 +1,14 @@
+{
+  "_note": "Inbox rows that look like his problem and are not. `node tools/mail.mjs inbox` marks a row that matches a rule and prints it under its own Filtered heading at the end, so the brief and the close-out never turn one into a line for him. Every field given in a rule must match: `from` and `subject` are case-insensitive substrings of the sender address and the subject; `notTo` fires only when the To: line is known and does NOT include that address (a copy addressed to somebody else). Tariq's own rule of 11 Sep 2026: low-value mail goes to a quarantine list, not the bin, so filtered rows keep their number and `read <n>` still opens them. Why this is code and not memory: the OneDrive storage alert for the dormant daniel@ and dan@ accounts went out in the 06:30 brief as his own on 17 Sep and again on 20 Sep 2026, and the memory note written after the first time did not stop the second. Jaiah edits this file; the agent may not.",
+  "rules": [
+    { "from": "sharepointonline.com", "subject": "storage", "notTo": "tariq@tfaconstructions.com.au", "why": "OneDrive storage alert addressed to another account (the dormant daniel@ and dan@ drives; Tariq to Kendal, 24 Aug 2026). Never his." },
+    { "subject": "Reaction Daily Digest", "why": "Outlook's thumbs-up digest; a reaction is not a reply and not a promise answered" },
+    { "from": "lloydsauctions", "why": "auction list" },
+    { "from": "grays", "why": "auction list" },
+    { "from": "slattery", "why": "auction list" },
+    { "from": "totaltools", "why": "tool retailer sales mail" },
+    { "from": "sydneytools", "why": "tool retailer sales mail" },
+    { "from": "tradetools", "why": "tool retailer sales mail" },
+    { "from": "umart", "why": "tool retailer sales mail" }
+  ]
+}

@@ -57,8 +57,11 @@ if isinstance(d, dict):
     json.dump(d, open(p, 'w'))
 PY
 CMD='claude --channels plugin:telegram@claude-plugins-official --permission-mode auto'
-screen -dmS tariq zsh -lc "export PATH=\"$PATH\"; export CLAUDE_CODE_OAUTH_TOKEN=\"$CLAUDE_CODE_OAUTH_TOKEN\"; cd \"$HOME/tariq-agent\" && $CMD; sleep 20"
+# The OAuth token is exported above and screen hands its environment to every window, so it
+# is never written into the command string: a token in the command string is a token in
+# `ps` for any user on the machine (seen 21 Sep 2026, and the user split makes that two users).
+screen -dmS tariq zsh -lc "export PATH=\"$PATH\"; cd \"$HOME/tariq-agent\" && $CMD; sleep 20"
 # The scheduler for unattended runs (config/schedule.json): a second window of the same
 # screen, so one `screen -r tariq` shows both. No launchd for it, no admin rights.
-screen -S tariq -X screen -t scheduler zsh -lc "export PATH=\"$PATH\"; export CLAUDE_CODE_OAUTH_TOKEN=\"$CLAUDE_CODE_OAUTH_TOKEN\"; cd \"$HOME/tariq-agent\" && node tools/scheduler.mjs >> work/scheduler.log 2>&1"
+screen -S tariq -X screen -t scheduler zsh -lc "export PATH=\"$PATH\"; cd \"$HOME/tariq-agent\" && node tools/scheduler.mjs >> work/scheduler.log 2>&1"
 echo "$(date '+%Y-%m-%d %H:%M') started tariq session and scheduler ($(claude --version 2>/dev/null | head -1), plugin $(ls "$HOME/.claude/plugins/cache/claude-plugins-official/telegram" 2>/dev/null | sort -V | tail -1))" >> "$LOG"
