@@ -160,3 +160,29 @@ from `promises.mjs list` verbatim. If a duplicate does appear, **do not run
 whenever that email carries only one promise, so closing the duplicate closes the real one
 on the next scan, and the closure is logged `by: tariq` for something he never did.
 Edit `work/promises.json` by hand: `work/` is this lane's to write, `tools/` is Jaiah's.
+
+## 24 Sep: the duplicate is keyed on the message, not the wording, and yesterday's index lied
+
+`candidates 14` returned **295** emails, 9 Sep 21:47Z to 23 Sep 12:33Z, whole fortnight,
+third scan running. All six open promises were inside it, so the save was safe. Seven
+promises now: the six carried, plus one new (23 Sep, Cole at Chateau, Forvm @ Hillcrest
+D&C tender, "Will be in touch", no date).
+
+**r-20260923-01 fired again and the 23 Sep workaround did not cover it.** The wording was
+copied verbatim from `promises.mjs list` and Kendal's tender-format promise still came back
+twice. The key is the message: the promise is in the 17 Sep 11:05am email
+(`2026-09-17T01:05:45Z`), and I cited the 17 Sep 8:45am reply in the same thread
+(`2026-09-17T22:45:54Z`, body "modnya") because **yesterday's log said i:114 and the list
+had grown from 290 to 295, so every index had shifted.** Two ids, one promise, two rows;
+both rows share a `conversationId`.
+
+**How to apply:** never carry an index across scans. Match a promise already in
+`work/promises.json` by its `sentAt` and `subject`, find today's index from those, then
+read that email's preview and confirm the promise is actually in it before writing the
+index down. Fix a duplicate by hand in `work/promises.json` as before, never with
+`promises.mjs done`. r-20260923-01 now asks Jaiah to key the carry-forward on
+`conversationId` plus the promise, keeping the newest wording and the earliest `sentAt`.
+
+Also: the Stamford Capital promise (10 Sep 02:44Z, due 30 Sep) is about seven hours inside
+today's boundary and falls out of the fourteen day window tomorrow. From the next scan on it
+exists only because `mergeOpen` carries it. Worth watching that it actually does.
