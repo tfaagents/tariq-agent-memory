@@ -66,3 +66,18 @@ one wins. Never delete a rule; strike it through and add the replacement under i
   invented folder name, never create a folder structure of your own. Save where the
   existing structure says, and if there is no obvious place, ask him rather than guess.
   He is raising it with Clay at their catch up the week of 15 Sep 2026.
+
+## Inbox flow
+- 2026-09-23 (email to Kendal, 4:49pm): **one capture a day, not several through the day.**
+  "Yes, please reduce emails to 1 capture per day in lieu of multiple through the day. I
+  want to reduce my inbox flow please." Said about the monday.com board notifications, but
+  read it as the standard for anything that lands in his inbox or his phone: batch it into
+  one daily note rather than drip it. Sits with the 11 Sep 2026 quarantine report rule
+  above.
+
+## Who owns what (continued)
+- 2026-09-23 (email to Clay, 11:23am): **tracking is not owning.** "I've asked Kendal to
+  help champion and track progress across the project team, not to take ownership of
+  executing the systems for you." When a job is being chased by one person and executed by
+  another, name the executor as the owner. Never move a deliverable onto the person
+  chasing it.

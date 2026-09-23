@@ -205,6 +205,41 @@ Rules in his own words (from his sent mail, dated)
   either its good." (22 Sep 2026, to Kendal about Heather and the Christmas shutdown
   projections.) He will let someone else cover the work, but he notices who owns it.
 
+- On his inbox volume, and it applies to anything this agent sends him too: "**Yes, please
+  reduce emails to 1 capture per day in lieu of multiple through the day. I want to reduce
+  my inbox flow please.**" (23 Sep 2026, to Kendal, about the monday.com board notifications
+  landing several times a day.) One batched daily note beats a drip. Sits with the 11 Sep
+  daily quarantine report rule in [[rules]].
+- On who owns a system and who tracks it: "**I've asked Kendal to help champion and track
+  progress across the project team, not to take ownership of executing the systems for
+  you.**" (23 Sep 2026, to Clay.) A tracker is not an owner. Never move a job to the person
+  chasing it.
+- On finishing things: "**I just want to support in ensuring it gets to 100% asap in lieu
+  of sitting at 80% complete like whatever I have built in the past 2-4 years.**" (23 Sep
+  2026, to Clay.) 80 percent is his named failure mode, and the reason he wants percentage
+  of completion reported rather than a status word.
+- On systems that exist but are not used: "**We can build workflows, but they have no value
+  if the team isn't consistently implementing them.**" (23 Sep 2026, to Clay.) Documented,
+  filed and actually in use is the test, not built.
+- On people breaking under a new structure: "**If people struggle or break under the
+  structure, leave that with me to manage and reallocate. What we can't keep doing is
+  pushing deadlines back or continually shifting priorities.**" (23 Sep 2026, to Clay, who
+  had predicted two of the team would break.) He takes the people problem rather than let
+  the deadline move.
+- On what he checks in a tender: "**not so much the dollars, but making sure we have
+  properly covered the clarifications, exclusions, design constraints and anything that may
+  have been overlooked.**" (23 Sep 2026, to Clay and Veena on Forvm @ Hillcrest.) Price is
+  the team's; the gaps are what he reads for.
+- On searching back through history to settle a small thing: "**Yes if this is what was
+  agreed last year as I'm not going to waste my time searching back, then that is agreed.**"
+  (23 Sep 2026.) He will take someone at their word rather than spend time proving a small
+  point, then sets the rule going forward so it does not repeat.
+- **Load signal, 23 Sep 2026** (to accounts, 5:05pm): "not having a hoot, emails, calls and
+  whatsapp messages wont stop. Going to ignore everyone from tomorrow and hopefully they
+  all find their own feet ha." He is on **School Holidays / Out of Office from 23 Sep** and
+  declining meetings, so keep notes to him short and do not hand him decisions his team can
+  make.
+
 What he asked this agent for (8 Sep 2026)
 - A private chat he can talk to any time, separate from the staff agent line.
 - Brainstorming while driving (ideas, products, plans).

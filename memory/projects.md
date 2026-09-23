@@ -8,6 +8,26 @@ that was read in the body of his own sent mail. Confirm a number or a date from 
 thread before quoting it to him.
 
 ## 35 Hi-Tec Court, Eight Mile Plains (the "BTP" purchase, new TFA office)
+23 Sep 2026, the consultant program is issued and he asks for one date to move:
+- **Veena issued the program with dates for each consultant through to DA lodgement**
+  (4:05pm, to Murray Wright, Sebastian Torralba, Alex De Andrade, Nick and Thomas Stubbs,
+  cc Clay and Tariq), built off Murray's meeting notes from earlier that day. Her status
+  in the same email: **CCTV reports available Tuesday 29 Sep**; **DWG files requested from
+  Kevin Hault** (she asked whether design can start on the past survey while the new survey
+  is carried out); **traffic engineer fee proposal from Amber due Thursday 24 Sep**, the
+  **TIA takes 2 weeks**, and **Rico can comment in the meantime**; **landscape consultant
+  finalised by Friday 25 Sep**.
+- **Tariq, 5:32pm, asked for exactly one date movement: the concept slips from 29 Sep to
+  Friday 2 Oct for submission to Nick (NMDS).** His reason: the concept is incorporating
+  the TFA HQ and **the internal team is yet to give additional feedback**. His words: "only
+  one date movement which would not effect the others ... it would just be a slip and slide
+  as the same expectations for everything else would occur delivery wise." He asked Murray
+  and Veena to **advise if okay and circulate the updated line item date**. Open as at
+  23 Sep, nobody had come back.
+- He forwarded the same thread and program to **Kendal 5:32pm**: "Just an fyi, nice
+  attachement for the workflow."
+- He **declined the "35 Hitech Project discussion" invite at 6:04am** (to Veena). He is on
+  School Holidays / Out of Office from 23 Sep, so the meetings are going without him.
 18 Sep 2026, the town planner is chosen and the architect follows Dan St:
 - **HPC Planning wins the town planning job.** Veena put up two fee proposals 17 Sep
   4:23pm: **Mewing Planning Consultants $15,500 + GST** (pre-lodgement and post-lodgement
@@ -102,6 +122,22 @@ Earlier: purchase via MSP Law, NMDS involved, $10k/month deposit invoice raised 
 with the entity question open.
 
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
+23 Sep 2026, he pushed Annabelle twice and ruled out the cheaper agent:
+- **Two pushes to Annabelle Weir (cc Grant Turner and Kendal) on the outstanding handover
+  documentation.** 4:51pm: "we still have time so can you please forge ahead in lieu of
+  taking your foot off the pedal and get what we need before you departure please. **This
+  will effect my deal eith grant as the carry over was somewhat tied to you assisting on
+  the handover.** No use proceeding with a team thats tottaly let you down." Then 5:24pm:
+  "Before you leave, can you please stay right on top of them and push hard for everything
+  outstanding ... **don't let them breath or let it drift.**" So the Grant Turner carry
+  over deal is explicitly leveraged on Annabelle finishing the handover before she goes.
+- **He ruled out the 3% agent.** Kendal, 2:52pm: "What about that guy that was going to do
+  the 3% fee? Zeyed from memory?" **Tariq, 5:25pm: "Nah for this headache i would rather
+  just go to rwc Southwest lol."** So the Dan St management stays with RWC South West.
+- **Thynne and Macartney invoice approved.** Michael Mayes, 4:12pm, sent the tax invoice
+  for attendances to date on 7-9 Dan St Land Acquisition (TM-MATTER.FID1063023) and noted
+  they are **still waiting on the RWC SW file and correspondence** before the matter can
+  move. **Tariq forwarded to accounts 4:47pm: "Approved to pay when due."**
 22 Sep 2026, the handover documents chase now depends on someone who is leaving:
 - **Annabelle Weir is moving on from Ray White shortly, and Tariq has asked her to keep
   helping after she goes.** 4:33pm to Annabelle cc **Grant Turner** and Kendal: "I'm aware
@@ -381,6 +417,21 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   capability brochure and project videos attached.
 
 ## 29 Millers Rd / 3000132 Eight Mile Plains (Indara tower, renewal and easement)
+23 Sep 2026, the revised concept lands and Dean finds a $180k per house hole in it:
+- **Rezicad's revised concept arrived 10:07am** from **Elley King** (cc admin@rezicad.com,
+  Adrian, Andrew Milford, ellen@gsp-land.com.au, Veena). What it achieved: **increased rear
+  boundary setbacks, access to the Telstra tower, reconfigured carparking, 35m2 private
+  open space per dwelling, repositioned refuse collection**, landscaping kept throughout.
+  Her caveat: **privacy screens will be required between the dwellings**.
+- **Tariq sent it straight to Dean Parker at YSH for a read, 10:47am.** "the amended design
+  as per your previous mark ups and some additional changes made by the design team ...
+  review and provide some feedback on the current design."
+- **Dean's answer, 10:56am, is the number that matters: "House 1 and 2 are still all
+  bedsitters. You'll likely drop $50/room for each of those house which equates to around
+  $180k valuation reduction per house."**
+- **Tariq, 1:36pm: "Amazing catch man, thank you. What do I request them to modify or
+  update to create that 180k uplift again?"** Open as at 23 Sep. The answer from Dean is
+  the thing that drives the next instruction to Rezicad, so it is worth watching for.
 22 Sep 2026, a second agency's Form 6 is in for signature:
 - **Belle Property Rochedale** (Admin.Rochedale@belleproperty.com, cc RWC CSR) sent
   12:30pm the **Form 6 previously executed with Ray White plus their own draft Form 6**
@@ -477,6 +528,28 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   putting it in anything TFA-facing.
 
 ## Tenders and prospects (design and construct)
+23 Sep 2026, Chateau's clarifications register lands and he reorders the priorities:
+- **Forvm @ Hillcrest, 92-94 Johnson Road, is now the number one tender.** **Cole Erbacher**
+  (Development Manager, Chateau Developments, cole@chateauprojects.com.au, 0422 780 540,
+  cc Nik Manion, Jamie Gardner, Bayden Clarke) sent the **Clarifications Register 2:04pm**
+  and wants **responses by COB Friday 2 October 2026**.
+- **Tariq, 5:02pm to Clay and Veena (cc Kendal separately at 5:02pm), set the order and the
+  test.** "**this takes priority over the Fitness Cartel / Alan Robertson estimate.**" (So
+  the Collingwood Park gym job is the **Fitness Cartel** one.) His concern is stated
+  plainly: "**not so much the dollars, but making sure we have properly covered the
+  clarifications, exclusions, design constraints and anything that may have been
+  overlooked.**" He wants **one of Clay or Veena to physically review the build and identify
+  concerns before submission**, and picked this project to go first "given the relationship
+  with Chateau and the ability to work through anything that may arise".
+- **Who does what on it: "Kendal can assist with compiling the tender submission, but the
+  construction, plans, quantities and estimating review need to come from the project
+  team."** Same split as the tender template work.
+- **Alan Robertson / Fitness Cartel is not dropped**, only second: he asked for **high level
+  feedback on the draft pricing by the same date**, "as we have committed to submitting
+  pricing by the same date". That **confirms the Friday 2 October reading** of his 22 Sep
+  "next Friday" to Alan Robertson, so the earlier doubt in this file is resolved.
+- His closing line, worth keeping for tone: "We've built a strong team and now need to keep
+  getting good paying projects through the door."
 22 Sep 2026, four moves in one day (from his own sent mail):
 - **Collingwood Park gym and childcare: he has now put a date on it with the client.**
   Alan Robertson (alan@robprop.com.au, Robertson Property) asked 21 Sep 3:43pm when the
@@ -629,6 +702,9 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   we pursue".
 
 ## Handover documentation (a standard he wants TFA to lift to)
+- 23 Sep 2026, on the Dan St handover: his instruction to Annabelle Weir is the tone he
+  wants on any handover chase, "push hard for everything outstanding ... don't let them
+  breath or let it drift". See the Dan Street section above.
 - 10 Sep 2026: he came across another builder's handover document list (Armada Built, for
   the Narangba ELC client) covering Certification, O&M manuals and as-constructed. He
   asked **Clay** where his team is at, how it is being stored and presented and whether it
@@ -653,7 +729,60 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 - Sits next to [[projects]] handover documentation above: both are him trying to lift TFA's
   file and document discipline before headcount grows. See [[rules]] for the standing line.
 
+## Systems rollout and the project team (Clay's lane, Kendal tracking)
+23 Sep 2026, he corrected the same misunderstanding twice in fifteen minutes:
+- **Clay sent a Systems Rollout Review to Kendal first (4:16am) with three review tables**,
+  asking her to review before it went to Tariq, and listing **her** key responsibilities:
+  fold it into a master rollout plan, set a **recurring Thursday meeting for Tariq and
+  Clay with the first rollout review Thursday 1 October**, take minutes each week and
+  update the plan, and **issue the updated plan to all every Friday starting Friday 2
+  October**.
+- **Tariq, 11:23am, pushed the ownership straight back to Clay.** "I think the intent may
+  have been misunderstood ... this is about **the project team systems, your team, your
+  build and your implementation**. This is my weakness and your strength, I just want to
+  support in ensuring it gets to **100% asap in lieu of sitting at 80% complete like
+  whatever I have built in the past 2-4 years**." And the line that settles Kendal's role:
+  "**I've asked Kendal to help champion and track progress across the project team, not to
+  take ownership of executing the systems for you.** We need to stop deliverables,
+  deadlines and accountability continually being pushed back."
+- **His worked example: meeting minutes.** "we already use **Plaud**. If Plaud isn't
+  working, we can simply **record the meeting and generate the minutes through GPT**. But
+  we should have a **workflow and team members training folder or book** and they know to
+  do this, its easier for them." So a training folder for the project team is something he
+  has now asked for out loud.
+- **Earlier, 11:09am, on the Systems and Operations review**, cc Clay's TFA address and
+  Kendal: he wants Clay to **review everything and sit down with him when he returns to
+  confirm what is at what percentage of completion**, then adjust deadlines if need be.
+  "Most of what I've listed is work you and the team have already been developing over the
+  past few months. The purpose now is to make sure it is **properly captured, documented,
+  filed and actually being used** - not loosely built and then lost or inconsistently
+  followed. The same principle applies to things like the filing structure. **We can build
+  workflows, but they have no value if the team isn't consistently implementing them.**"
+- **His read of the team's capacity, in his own numbers: "You currently have yourself, four
+  internal team members and two VAs supporting roughly 1.5 active projects, so this is the
+  right time to lock in the foundations before workload increases."**
+- **On people breaking under it, he took that himself: "If people struggle or break under
+  the structure, leave that with me to manage and reallocate. What we can't keep doing is
+  pushing deadlines back or continually shifting priorities. The focus now needs to be
+  implementation, consistency and completion."** Context: Clay had written 22 Sep 5:15pm
+  that he would fully load Veena, Mo and Daniel with their R and R's, expected **Mo and
+  Daniel to break soon after**, and suspected **two pieces of the foundation would need
+  replacing in the coming weeks**. Tariq did not accept that as a reason to slow down.
+- Sits directly next to the folder structures fight below and the handover standard above.
+  All three are the same push. See [[rules]].
+
 ## Employment and legal matters
+23 Sep 2026, the Daniel Tu matter has sealed orders:
+- **Sealed orders in BRG917/2026 DANIEL TU & ANOR v TFA CONSTRUCTIONS PTY LTD.** Christian
+  Ditchburn, assistant to the Judicial Registrar, **Federal Circuit and Family Court of
+  Australia (Division 2)**, emailed both parties 4:48pm with the **orders made by Registrar
+  Pascoe at the first court date on Tuesday 22 September 2026**. The PDF is "Stamped Order
+  BRG917 2026 DANIEL TU & ANOR v TFA CONSTRUCTIONS PTY LTD.pdf" on that email. **The orders
+  themselves have not been read**, so do not state what they require.
+- **Tariq forwarded them to Desari Lynam (Master Builders QLD) 5:06pm, "FYI."**
+- On the related super claim, his own note back to Kendal (via the monday.com thread) was:
+  "**i have managed to get it listed and defence ready for today with MB**", and he asked
+  to chat in person rather than on the board.
 22 Sep 2026, the small claims hearing, the shutdown and a compliance question:
 - **Small Claims directions hearing, adjournment request: Desari Lynam has the draft
   ready.** Tariq, 8:02am: "That's fine looks great! What would I do without you mate!" On
@@ -803,6 +932,19 @@ Fettell):
   reattached the dates material.
 
 ## Money and compliance
+23 Sep 2026, the Rajput intercompany loan position is finally counted:
+- **Heather's figures, 9:37am, in answer to his WhatsApp query: Loans received from Rajput
+  $3,502,490.41; loans paid to Rajput $2,615,549.75; TFA owes Rajput $886,940.66.**
+- **She flagged a historic imbalance between the TFA and Rajput MYOB entries.** She had
+  asked **Sarah** to investigate and will revisit when Sarah returns, or **Barry** could
+  process the journal to rectify it.
+- **Tariq, 10:50am: "seems really confusing lol. I was more so referencing the previous 800
+  or 880k from previous financial year in regards to their loans. Might be best we sit down
+  and review together. but completing the EOFY will assist in this clarification also."**
+  So: a sit-down review with Heather is agreed but not booked, and **EOFY completion is the
+  gate**. The Thursday 1:30pm Weekly Finance Meeting is the natural slot.
+- **Wages for WE 20/09/2026 are paid.** He confirmed to accounts 5:05pm: "Paid fyi".
+
 - **Murray Bell / MB Planning refund of $8,525 (invoice HI1476) is still not back, 22 Sep
   2026.** Heather chased Archie 18 Sep 12:49pm and had no response; she asked Tariq 5:00pm
   on 22 Sep whether to chase again. **Tariq, 5:01pm: "Spoke to them today they said its no

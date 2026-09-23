@@ -52,7 +52,10 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   portfolio strategy). **Mason Fettell** (mfettell@piperalderman.com.au): employment and
   litigation, the Daniel Tu matter and the earlier ATO submission. Tariq writes to him as
   a mate ("my friend", "dude").
-- Thynne and Macartney: Michael Mayes (Dan St land acquisition, formal tone).
+- Thynne and Macartney: **Michael Mayes** (mmayes@thymac.com.au, Dan St land acquisition,
+  matter TM-MATTER.FID1063023, formal tone). Bills to accounts@ with Tariq cc'd. As at
+  23 Sep 2026 he is **waiting on the RWC South West file and correspondence** before the
+  matter can progress, which is the same blockage as the Dan St handover.
 - Mullins Lawyers (Level 21, 123 Eagle St, Brisbane): **Mitchell Osborne**, Partner
   (mosborne@mullinslawyers.com.au, 07 3224 0212) and **Gus Haseler**, Associate
   (ghaseler@mullinslawyers.com.au, 07 3224 0254), on the Bardon Road Berrinba
@@ -129,6 +132,21 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - Xact Accounting and Westnet: accountants and advisors on the MYOB file.
 
 ## Agents, clients, prospects
+- **Chateau Developments / Chateau Projects** (30712/9 Lawson Street Southport, QBCC
+  15514317, 07 5620 4662). The client on **Forvm @ Hillcrest, 92-94 Johnson Road** (D and C
+  tender). **Cole Erbacher**, Development Manager (cole@chateauprojects.com.au,
+  0422 780 540), is the one who issues the clarifications register and sets the dates.
+  Also **Nik Manion**, **Jamie Gardner** and **Bayden Clarke** on the thread. Tariq values
+  the relationship enough to have made Hillcrest the **first tender the team works
+  through** (23 Sep 2026). Note there is also a **Chateau Project No 6 Pty Ltd** in the
+  Rajput loan ledger, so check which Chateau entity is meant before repeating a number.
+- **YSH Property / Your Style Group: Dean Parker**, Managing Director (dean@ysh.com.au,
+  0438 255 739, 1300 368 658, Building B Level 1, 172 Evans Rd Salisbury;
+  ysh.com.au and roominghousemanager.com.au). Tariq's sounding board on **rooming house
+  and co-living valuation**, addressed as "my friend" and "man". He reviews the 29 Millers
+  Rd concepts and marks up what costs valuation: on 23 Sep 2026 he caught that houses 1 and
+  2 were still all bedsitters, worth about **$180k valuation reduction per house**. Send
+  him a design and he answers the same morning.
 - **Accord Property** (18 Sep 2026, new): **Harrison French** (hfrench@accord.property) and
   **Ned Murdoch** (nmurdoch@accord.property). Property group with a portfolio of assets;
   Tariq has asked to go on their **future projects tender list**. Cold as at 18 Sep, no
