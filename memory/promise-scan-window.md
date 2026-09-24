@@ -186,3 +186,23 @@ index down. Fix a duplicate by hand in `work/promises.json` as before, never wit
 Also: the Stamford Capital promise (10 Sep 02:44Z, due 30 Sep) is about seven hours inside
 today's boundary and falls out of the fourteen day window tomorrow. From the next scan on it
 exists only because `mergeOpen` carries it. Worth watching that it actually does.
+
+## 25 Sep: the Stamford promise fell out of the window and `mergeOpen` held it
+
+`candidates 14` returned **272** emails, oldest `2026-09-10T21:10:01Z`. The Stamford Capital
+promise (`2026-09-10T02:44:51Z`, due 30 Sep) was **outside** it, exactly as the 24 Sep note
+predicted. `save` carried it anyway (`carried: 1`). This is the first time the carry-forward
+has been load bearing since it was written, and it worked. Eleven open promises now, four new,
+seven carried.
+
+**The way to stop r-20260923-01 firing is to report only new promises.** Put nothing in
+`work/promise-findings.json` that is already in `work/promises.json`; let `mergeOpen` carry the
+rest untouched. No index to get wrong, no wording to re-fingerprint, so no duplicate row. The
+23 Sep advice (copy the wording verbatim) and the 24 Sep advice (match by `sentAt` and subject,
+never by index) are only needed for the case this avoids. The bug is still in the code.
+
+**One thing to tell Jaiah before r-20260923-01 is keyed on `conversationId`:** two legitimate
+promises can share one. The Forvm @ Hillcrest thread holds both "come back to Cole at Chateau"
+and "enter the price section into Kendal's tender format", two people, two deliverables, one
+conversation. `conversationId` plus the promise is safe; `conversationId` alone would collapse
+them.
