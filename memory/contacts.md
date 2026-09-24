@@ -168,8 +168,11 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 
 - Ray White Commercial: **Annabelle Weir**, Head of Commercial Property Management, RWC
   CSR, 0420 674 809, Shop 1/2 Centre Place Rochedale South. Current property manager for
-  7-9 Dan Street. Also Grant Turner, Mukhtaar H, pm.csr@raywhite.com (Dan St sales and
-  marketing, weekly Monday update).
+  7-9 Dan Street. Also Grant Turner, **Mukhtaar Hashim** (mukhtaar.h@raywhite.com),
+  pm.csr@raywhite.com (Dan St sales and marketing, weekly Monday update).
+  **24 Sep 2026: RWC CSR gave formal written notice terminating their management
+  appointment at 7-9 Dan Street, concluding 29 October 2026, and Tariq accepted that date.**
+  She is the manager until then and no successor agent is named. See [[projects]].
   **She is leaving Ray White shortly (told to Tariq by 22 Sep 2026).** He asked her on
   22 Sep 4:33pm to keep helping with the Dan Street handover after she exits, with
   **Grant Turner** as the fallback. She is the only responsive contact on that file, so
@@ -182,7 +185,9 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   Holligan**, Executive Director Property & Asset Management, 0414 384 842; **Lee
   Gilligan**, the day to day contact on the renewal and access remediation; Tri Nguyen.
 - **Spring Early Learning: Reece Goode** (reece@springearlylearning.com.au). Childcare
-  client: Narangba extension, Bokarina. **Jesse Govender** (Jesse.g@i-p.au) shares his
+  client: Narangba extension, Bokarina. Chases politely and takes an honest date: chased
+  the Narangba price 24 Sep 2026 and accepted "mid next week" the same afternoon. Tariq
+  writes to him as a mate ("my man", "bud"). **Jesse Govender** (Jesse.g@i-p.au) shares his
   lodgement documents. Inspire EYM: Cassie.
 - **Elevation Architecture (Queensland): Matt Tong** (matt@elevationarchitecture.com.au),
   architect on Bokarina ELC. Introduced 9 Sep 2026; Tariq pitched TFA to him 10 Sep for

@@ -240,6 +240,18 @@ Rules in his own words (from his sent mail, dated)
   declining meetings, so keep notes to him short and do not hand him decisions his team can
   make.
 
+- On an invoice that is missing an agreed credit: "**Please hold its supposed to habe the
+  deduction of 1500 from previous invoice. Ill speak to jiaha when I see him next.**"
+  (24 Sep 2026, to accounts on Autoflow AF-TFA-0004.) He holds the payment rather than
+  approve and chase the credit afterwards, and he takes the awkward part of it up in
+  person, not on email.
+- On a notice period he could shorten: "**the 29th October works well for us. It will allow
+  time for you to attain what is required from South West team and finalise everything for
+  us and attain our 75k outstanding from them.**" (24 Sep 2026, to Annabelle Weir on the
+  Dan Street management termination, where she offered an earlier handover.) He will not
+  speed up an exit while the person leaving is still useful to him. Read an offer to finish
+  early as leverage to be spent, not a convenience to be taken.
+
 What he asked this agent for (8 Sep 2026)
 - A private chat he can talk to any time, separate from the staff agent line.
 - Brainstorming while driving (ideas, products, plans).

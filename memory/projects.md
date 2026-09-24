@@ -122,6 +122,23 @@ Earlier: purchase via MSP Law, NMDS involved, $10k/month deposit invoice raised 
 with the entity question open.
 
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
+24 Sep 2026, Ray White CSR resigned the management and he set the end date around the money:
+- **Annabelle Weir, 4:51pm, formal Notice of Termination of Management Appointment**
+  (notice attached as a PDF), cc **Mukhtaar Hashim**, Kendal and pm.csr@raywhite.com. RWC
+  CSR have "made the decision to conclude our appointment as managing agent for the
+  property". The appointment **concludes 29 October 2026**. She offered an earlier handover
+  if that suited him, and said they will keep assisting through the notice period and work
+  with any incoming agent.
+- **He took the full notice period, 8:53pm: "the 29th October works well for us. It will
+  allow time for you to attain what is required from South West team and finalise everything
+  for us and attain our 75k outstanding from them."** So the handover date is set by what it
+  buys him, not by convenience: while Annabelle is still the agent she stays on the hook for
+  the RWC South West file and the money. **The figure he is now using for what is owed out
+  of South West is $75,000.** Not yet tied to the "close to $65,000" of tenant arrears
+  recorded 15 Sep below; treat them as two numbers until one email joins them.
+- Still open with it: **no incoming managing agent is named for 7-9 Dan Street**, Annabelle
+  is herself leaving Ray White (22 Sep), Grant Turner is the fallback and the 3% agent
+  (Zeyed) was ruled out 23 Sep. So the file now has a hard end date and no successor.
 23 Sep 2026, he pushed Annabelle twice and ruled out the cheaper agent:
 - **Two pushes to Annabelle Weir (cc Grant Turner and Kendal) on the outstanding handover
   documentation.** 4:51pm: "we still have time so can you please forge ahead in lieu of
@@ -355,6 +372,16 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   at Inspire EYM. Kendal's Claude project also tracks this one.
 
 ## Narangba childcare extension (Spring Early Learning)
+24 Sep 2026, Reece chased the price and Tariq bought a week:
+- **Reece Goode chased at 8:28am: "How are you progressing with pricing Narangba?"** on the
+  FINAL LODGEMENT thread, and the same chase sat on the older OneDrive_2025-11-26 thread.
+- **Tariq answered both at 3:04pm: "Progressing great and should have something for you mid
+  next week, if thats okay bud?"** Reece, 3:59pm: "Yes sounds mate, thank you". So the
+  client is comfortable and **the commitment is something to Reece mid week of 28 Sep 2026**
+  (read as Wed 30 Sep / Thu 1 Oct).
+- **He forwarded both threads to Kendal at 3:04pm with his signature and no instruction**,
+  the usual way he puts a chase in front of her. Alee's price is what the answer waits on
+  (see 21 Sep below); nothing in today's mail says it has landed.
 21 Sep 2026, Abi's price landed and he wants the two estimators marked against each other:
 - **Abhinav (Abi) Choudhary sent his Narangba pricing Sunday 20 Sep 2026, 10:57pm**, "See
   attached as requested". Tariq forwarded it to Kendal at 6:48am Monday.
@@ -932,6 +959,21 @@ Fettell):
   reattached the dates material.
 
 ## Money and compliance
+24 Sep 2026, he held the Autoflow invoice over a credit that was not on it:
+- **Autoflow invoice AF-TFA-0004, September care plan**, came from Jaiah 1:37pm to accounts
+  cc Tariq; Heather asked him at 2:46pm to approve it for payment next week. **Tariq, 3:01pm
+  to accounts: "Please hold its supposed to habe the deduction of 1500 from previous
+  invoice. Ill speak to jiaha when I see him next."** So: an invoice does not get approved
+  until an agreed credit is actually on the face of it, and he takes the conversation with
+  Jaiah in person rather than by email.
+- **Jaiah corrected it 4:06pm** (to accounts, cc Tariq): "September should be $4,000, not
+  $5,000", updated invoice attached, same number, swap it in. That is **$1,000 off, not the
+  $1,500 Tariq said he was expecting**, so the gap is still open and unresolved as at
+  tonight. Nothing has been re-approved.
+- **Two payment runs are sitting with him unread as at 9pm:** accounts sent ABA files for
+  today (Thu 24/09, three files, creditors, "a big one as it captures 30 day accounts
+  falling due 30/9/2026") at 4:57pm and a second lot for tomorrow (Fri 25/09) at 5:03pm.
+  Processing them is his, and he is on leave.
 23 Sep 2026, the Rajput intercompany loan position is finally counted:
 - **Heather's figures, 9:37am, in answer to his WhatsApp query: Loans received from Rajput
   $3,502,490.41; loans paid to Rajput $2,615,549.75; TFA owes Rajput $886,940.66.**

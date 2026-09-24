@@ -20,6 +20,11 @@ one wins. Never delete a rule; strike it through and add the replacement under i
 - 2026-09-14 (email to Heather, 4:21pm): **payments have a 3:30pm cut off.** "If we can do
   a cut off of say 3.30pm for any payments as it hinders my departure." An ABA file or a
   payment landing after 3:30pm waits for the next day unless he says otherwise.
+- 2026-09-24 (email to accounts, 3:01pm): **an invoice with a missing credit gets held,
+  not approved.** "Please hold its supposed to habe the deduction of 1500 from previous
+  invoice. Ill speak to jiaha when I see him next." Said about Autoflow AF-TFA-0004. So
+  never put an invoice up as ready to pay when an agreed deduction is not on the face of
+  it, and do not email the supplier about it: he handles that conversation himself.
 - 2026-09-14 (email to Shane and Heather, 3:33pm): **supplier accounts, not credit cards.**
   "We are going to use accounts now because the credit cards are too much of a headache
   now." The fallback he named is taking all cards back and issuing one card to track

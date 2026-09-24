@@ -11,8 +11,10 @@ description: Tariq's week as his calendar shows it (60 days back, 45 forward, re
   Board (One Life Club). Tuesday 1pm: TFA / DD catch-up (once seen).
 - Wednesday 9 to 11am: Weekly Projects Update, Slacks Creek and Jimboomba. Wednesday
   10am: Weekly Project Meeting. Wednesday 11am: Clay, Tariq and Randal catch-up and lunch.
-- Thursday 1:30pm (was 3pm): Weekly Finance Meeting with Heather (Teams). Last Thursday
-  of the month: work lunch.
+- Thursday 1:30pm (was 3pm): Weekly Finance Meeting with Heather (Teams).
+- **Work lunch is now the last Friday of the month, 9:00am, not the last Thursday.** Heather
+  moved and reissued it 24 Sep 2026 ("Work Lunch Today (last Friday of each month)") and
+  Tariq accepted it at 8:50pm the same day. First one on the new day is Fri 25 Sep 2026.
 - Friday 9am (once): catch-up with Carlo (One Life Club).
 - **Proposed from Thursday 1 October 2026: a recurring Thursday rollout review, Tariq and
   Clay, with Kendal taking minutes and issuing the updated plan to all every Friday from
