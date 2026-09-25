@@ -247,10 +247,12 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - **Audrey Marceau**, Tracks IS (audrey@tracksis.com.au). Blue and white collar.
 
 ## Suppliers and systems that email him
-- **Pickles (auctions): Daniel Deasy**, daniel.deasy@pickles.com.au. First contacted by
-  phone and email 17 Sep 2026. Tariq wants a standing route to make offers on assets
-  **passed in at auction repeatedly** (salvage machinery, prestige salvage vehicles) and a
-  separate **crane contact** (100-200 tonne, bought non-salvage and exported overseas).
+- **Pickles (auctions): Daniel Deasy**, daniel.deasy@pickles.com.au, and **Morgan Coleman**,
+  morgan.coleman@pickles.com.au. Daniel first contacted by phone and email 17 Sep 2026,
+  chased 25 Sep 2026 with no response; the same pitch went to Morgan the same afternoon.
+  Tariq wants a standing route to make offers on assets **passed in at auction repeatedly**
+  (salvage machinery, prestige salvage vehicles) and a separate **crane contact** (100-200
+  tonne, bought non-salvage and exported overseas). Neither has replied as at 25 Sep 2026.
   **Manheim is the equivalent relationship that already works.** See [[projects]].
 - **TAFE Queensland, Client Account Management: Megan Cahill**, Client Liaison Officer,
   megan.cahill@tafeqld.edu.au, 07 3259 3063, Bracken Ridge campus. She emails Tariq

@@ -156,6 +156,13 @@ Rules in his own words (from his sent mail, dated)
   "**don't rush needs to be done well my brother in our favour please**" (17 Sep 2026).
   Note he chased the same thread hard an hour earlier for two months of silence, then
   slowed it down the moment it moved. The complaint is about being ignored, not about pace.
+- **Silence gets one chase, then he goes over their head with the same words.** Pickles, 25
+  Sep 2026, eight days after the original: "Following up on the below mate, haven't received
+  a resposne. **If you are not the correct person please put me in contact with the right
+  person asap.**" An hour later the identical pitch went to Morgan Coleman, unedited, opening
+  "I spoke to Daniel last week on the phone, mate". So when a thread has gone quiet, the move
+  is not a softer rewrite: it is the same ask, to a second name, saying who he already spoke
+  to. Sits with the NAB line above, same complaint about being ignored.
 - **He invites people to ask big and filters afterwards.** To Heather on the new office
   wish list: "not everything will be accepted fyi it's a wish list so make sure you **keep
   wishing** hahah", then one flat no (no dogs in the office) with a counter-offer (an

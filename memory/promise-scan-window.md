@@ -1,6 +1,6 @@
 ---
 name: promise-scan-window
-description: The promise scan silently loses older open promises: sentMail caps at 100 emails, so "14 days" reaches back about six, and save rewrites the whole list
+description: Fixed 22 Sep 2026: the sentMail cap is lifted and mergeOpen carries every still-open promise a new scan did not return, so save is safe; the live rule is report only promises not already in work/promises.json
 metadata:
   type: project
 ---
@@ -206,3 +206,18 @@ promises can share one. The Forvm @ Hillcrest thread holds both "come back to Co
 and "enter the price section into Kendal's tender format", two people, two deliverables, one
 conversation. `conversationId` plus the promise is safe; `conversationId` alone would collapse
 them.
+
+
+## Fixed, 22 Sep 2026 (confirmed 25 Sep)
+
+The cap is lifted (`sentMail` pages, `max: 1000`) and **`mergeOpen` carries forward every
+still-open promise the new scan did not return**, so `save` no longer drops anything. The
+23 Sep scan returned 290 emails across the whole fortnight, 24 Sep 295, 25 Sep 272. On
+25 Sep the Stamford Capital promise (sent 10 Sep, due 30 Sep) fell outside the window and
+was carried anyway (`carried: 1`), the first time the carry-forward was load bearing.
+Eleven open promises that morning, four new, seven carried.
+
+**So "do not save" is no longer the standing instruction.** The live rule is: read the
+oldest candidate timestamp every scan, and report only promises **not already** in
+`work/promises.json`, which is what stops a duplicate row (r-20260923-01) firing. The
+history above stays because it is why the carry-forward exists.

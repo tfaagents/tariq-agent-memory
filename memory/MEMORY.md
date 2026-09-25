@@ -27,7 +27,7 @@ One line per memory file. Keep this under 200 lines. Facts live in the files, no
 - [Rules](rules.md) — the Decision Book: every correction he makes, dated, in his words; read before drafting or filing
 - [Brief LATE defect](brief-late-defect.md) — how LATE gets called wrong: the 15 Sep Alee defect, and the settled.mjs --who trap
 - [Recurring inbox noise](recurring-inbox-noise.md) — alerts addressed to someone else that must never be a brief line; read the To: line
-- [Promise scan window](promise-scan-window.md) — the scan only reaches back ~6 days and save rewrites the list, so older open promises drop off; when they would, do not save
+- [Promise scan window](promise-scan-window.md) — fixed 22 Sep 2026: cap lifted, mergeOpen carries open promises forward, save is safe; report only what is not already in work/promises.json
 
 ## Declined offers (skills or schedules he said no to)
 - [Declined](declined.md)

@@ -20,5 +20,8 @@ As at 21 Sep 2026 **`00 TFA CONSTRUCTIONS PTY LTD` is empty**, which is why comp
 for TFA itself has to be found in mail. `00 Business Management/KENDAL TO SORT` is plant and
 asset receipts, not company documents.
 
-Known wall (21 Sep 2026): mail.mjs cannot download an attachment, so an email can be found but
-the PDF cannot be handed to him. Filed as r-20260921-01. See [[tfa-people]], [[tfa-systems]].
+Handing him the PDF (built 21 Sep 2026, wall closed): find the email, `node tools/mail.mjs
+attachments <n>` lists what is on it, `node tools/mail.mjs attach <n> <name>` saves it under
+`work/inbox/`, then send that path to him with the Telegram reply tool's `files`. Proven on
+this exact email: `19.02.2026 TFA ASIC Extract.pdf`, 162 KB, Kendal's 19 Aug mail, read from
+her mailbox. See [[tfa-people]], [[tfa-systems]].

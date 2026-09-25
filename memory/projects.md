@@ -1225,6 +1225,15 @@ Fettell):
   back"). Assume no site attendance and no in-person meetings until he is back.
 - **E-Sims (22 Sep 1:25pm, to Kendal): "Yes lets address in meeting today."** Urgent
   enough that it went into that day's meeting agenda. Outcome not in anything read.
+- **Pickles: no answer in eight days, so he went around Daniel to Morgan Coleman (25 Sep 2026).**
+  Chased Daniel Deasy 2:55pm: "Following up on the below mate, haven't received a resposne.
+  If you are not the correct person please put me in contact with the right person asap."
+  An hour later, 4:05pm, he forwarded the whole original pitch to **Morgan Coleman**
+  (morgan.coleman@pickles.com.au) opening "I spoke to Daniel last week on the phone, mate",
+  same four assets and the same ask for the crane contact. So the approach is now live with
+  two people at Pickles and nothing has come back from either. The original 17 Sep email is
+  the one being re-sent, unchanged, which is how he escalates: chase once, then take the
+  same words to someone senior rather than rewrite them.
 - **Pickles auctions: a standing buying relationship he is trying to open (17 Sep 2026).**
   To **Daniel Deasy** (daniel.deasy@pickles.com.au, 9:08am) after a phone call. TFA is
   "always on the lookout for **salvage machinery as well as prestige salvage vehicles**".
