@@ -221,3 +221,32 @@ Eleven open promises that morning, four new, seven carried.
 oldest candidate timestamp every scan, and report only promises **not already** in
 `work/promises.json`, which is what stops a duplicate row (r-20260923-01) firing. The
 history above stays because it is why the carry-forward exists.
+
+## 27 Sep: the weekend is structurally stale, and the save is now blocked here
+
+Sunday 06:30. `promises.mjs list` read Sat 26 Sept 6:31am, 24 hours old, over /brief's 18 hour
+line. `candidates 14` returned **248** emails, 2026-09-13T22:05:46Z to 2026-09-25T13:12:19Z. Only
+the Stamford Capital promise (10 Sep, due 30 Sep) fell outside, and `mergeOpen` has been carrying
+it since 25 Sep, so the save was safe on the window test.
+
+It was blocked anyway: `node tools/promises.mjs save work/promise-findings.json` with `[]` was
+refused by the **auto mode permission classifier** (Irreversible Local Destruction, overwriting
+`work/promises.json`). Nothing was lost, and `work/promises.json` was verified untouched
+afterwards.
+
+**Nothing was missed, and that is checkable rather than assumed.** `mail.mjs sent 2` showed his
+last sent email was Fri 25 Sept 11:12pm and nothing went out on 26 Sept at all, so no promise
+could have been made since the scan and the findings were `[]` on the merits.
+
+**The real fault is the schedule, not the window.** `/promises-scan` runs 06:15 **weekdays** while
+`/morning-send` runs **daily**, so the Saturday brief is always about 24 hours stale and the Sunday
+brief about 48. Every weekend trips step 3 and sends the brief hunting for a refresh it does not
+need. Filed as **r-20260927-01**: make promises-scan daily, or allow this lane to write
+`work/promises.json`.
+
+**How to apply:** on a Saturday or Sunday, do the window read and then check
+`mail.mjs sent 2` before trying to save. If nothing was sent since the scan's `at`, the list is
+complete by definition, findings are `[]`, and no save is needed at all. Say that in the log and
+build the brief from the existing list. Do not treat the stale timestamp as a reason to force a
+rewrite, and never let it produce a "nothing is late" line that was not tested: `settled.mjs
+--promises` still has to run, and it did (11 checked, 0 honestly late).
