@@ -93,7 +93,8 @@ Rules in his own words (from his sent mail, dated)
 - He would rather wait a year and win than enter and lose. On the Urban Leaders Awards
   closing that week: "lets knock this out next year as **we will have a plethora of
   information to win** 😊" (14 Sep 2026, to Kendal). A deadline he cannot win by is not a
-  deadline he chases.
+  deadline he chases. He does still check the scoreboard afterwards: 25 Sep 2026, 11:12pm,
+  back to Kendal on the same thread, "**So we did apply or and we didnt make the cut**".
 - Titles are earned in front of the person, not handed over. On Daniel: "I don't want to
   change his title to CA yet maybe keep it for the next year as Project Coordinator in
   training for CA or CA Cadet? **So he is aware he has to work towards it?**" (14 Sep

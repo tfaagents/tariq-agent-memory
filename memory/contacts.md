@@ -77,7 +77,10 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   industrial complex).
 - **Stamford Capital: Grant Rex** (grant.rex@stamfordcapital.com.au) with **Dhru Lodhia**.
   Development finance structuring across the whole project pipeline; Dan Street first.
-- Mitchell Brandtman (QS): H Tayob (Logan Village progress claims), P Nguyen (Dan St fee
+- Mitchell Brandtman (QS): **Hishaam Tayob**, Senior Quantity Surveyor
+  (htayob@mitbrand.com, 07 3327 5000, 0424 414 748), the Logan Village progress claims and
+  the financier's certificate requirements; Tariq writes to him as "Salams Bro" and he
+  opens "Salaams" (26 Sep 2026). P Nguyen (Dan St fee
   proposal), **Cassandra Foreman** (cforeman@mitbrand.com) on invoicing (invoice 79157,
   Dan Street, 16 Sep 2026). **Krystal Stokman**, Relationship Manager (kstokman@mitbrand.com, 07 3327
   5000), fee proposals and the commercial relationship. **Melody Wong**

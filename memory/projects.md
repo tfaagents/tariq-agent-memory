@@ -122,6 +122,10 @@ Earlier: purchase via MSP Law, NMDS involved, $10k/month deposit invoice raised 
 with the entity question open.
 
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
+26 Sep 2026, 1:49pm: **Q Traffic Trust invoice INV-2939, $4,554.00, "Claim 1", for traffic
+advice, due 10 Oct 2026.** Came through Xero addressed to him, not to accounts@. Source: his
+inbox, read 26 Sep 2026.
+
 24 Sep 2026, Ray White CSR resigned the management and he set the end date around the money:
 - **Annabelle Weir, 4:51pm, formal Notice of Termination of Management Appointment**
   (notice attached as a PDF), cc **Mukhtaar Hashim**, Kendal and pm.csr@raywhite.com. RWC
@@ -351,6 +355,18 @@ Earlier: site works, NBN relocation, RFIs from Falcon Property; Clay on the day 
 Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 
 ## 1-9 Anzac Ave, Logan Village (construction contract, progress claims)
+- **25 Sep 2026, 7:26pm: Hishaam Tayob moved the goalposts on Progress Claim 16.** He did
+  the site visit Thursday 24 Sep: "**The works appear to be nearing completion. Minor
+  defects and final clean in progress. Energex was testing to allow live power connection
+  on Thursday.**" But the money now needs more than one certificate: "**Financier generally
+  requires Certificate of Practical Completion and Certificate of Classification for claims
+  above 97.5%.**" On 23 Sep he put the claimed value at **circa 98%**, so the threshold is
+  already crossed. What he has asked Tariq to send: **Form 12s, Form 43s, Form 71, QFES
+  sign-off** for all completed works, plus a **Stat Dec** and a **Tax Invoice** ("may need
+  to adjust it but send it for now"), and to say **which ones are outstanding** so he can
+  help. Tariq's own promise on this thread, 24 Sep 9:42pm: "**Aiming for CofC by next
+  Friday the 2nd of October Inshallah.**" So 2 Oct now carries two certificates, not one.
+  Source: his inbox, read 26 Sep 2026.
 - **22 Sep 2026, 5:01pm: Progress Claim 16 is away.** To **H Tayob**
   (htayob@mitbrand.com) cc **P Nguyen** at Mitchell Brandtman, subject "1-9 Anzac Ave,
   Logan Village - Progress Claim 16", attaching **"PC 16 - Logan Village - Trade Summary
@@ -555,6 +571,15 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   putting it in anything TFA-facing.
 
 ## Tenders and prospects (design and construct)
+**25 Sep 2026, 4:50pm: the Forvm @ Hillcrest review is done and the ball is with Veena.**
+Clay (from claywhart@gmail.com, cc clay@ and veena@): "**Veena, Randal and myself did a full
+review this afternoon. V will follow up Abi with a bunch of items and will also go to market
+for some RFQ's and get some D&C prices + firm other rates. We can report to you next
+available time.**" So the physical review Tariq asked for on 23 Sep has happened, **Randal
+was in it as well as Clay and Veena**, and the outstanding work is Veena's: items back from
+Abi, RFQs out to market, D&C prices and firmed rates. No report time set, and the Chateau
+clarifications are still due COB Friday 2 Oct 2026. Source: his inbox, read 26 Sep 2026.
+
 23 Sep 2026, Chateau's clarifications register lands and he reorders the priorities:
 - **Forvm @ Hillcrest, 92-94 Johnson Road, is now the number one tender.** **Cole Erbacher**
   (Development Manager, Chateau Developments, cole@chateauprojects.com.au, 0422 780 540,
@@ -696,7 +721,10 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   The award is for an individual 40 or under who owns or runs a property development
   company, judged on Leadership, Growth and Innovation at 20% each. Tariq, 14 Sep 3:56pm:
   "lets knock this out next year as we will have a plethora of information to win 😊."
-  Worth raising with him around **August 2027**.
+  Worth raising with him around **August 2027**. **25 Sep 2026, 11:12pm he reopened it with
+  Kendal**: "**So we did apply or and we didnt make the cut**". He is checking whether an
+  entry went in after all, so do not repeat the 2027 deferral to him as settled until Kendal
+  answers. Source: his sent mail, read 26 Sep 2026.
 
 - 15 Sep 2026: **Heritage Building Upgrade tender, due Friday 18 Sep 2026.** Monday.com
   reminded tariq@ at 9:00am 15 Sep, board "Estimating & Tenders / Active - Estimating",
