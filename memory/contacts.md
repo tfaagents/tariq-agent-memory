@@ -250,6 +250,11 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - **Audrey Marceau**, Tracks IS (audrey@tracksis.com.au). Blue and white collar.
 
 ## Suppliers and systems that email him
+- **Prestige Refrigeration & Air Conditioning** (Prestige RAC): mechanical subbie.
+  **Katrina Nicholson**, Operations Manager (admin@prestigerac.com), and **Carson Dehnert**
+  (carson@prestigerac.com). Sent their **September 2026 progress claim to accounts@ cc Clay on
+  25 Sep 2026**; as at 27 Sep it had not reached Riss to be merged and put into proscan, which
+  is what Clay was chasing. Source: his inbox, read 27 Sep 2026.
 - **Pickles (auctions): Daniel Deasy**, daniel.deasy@pickles.com.au, and **Morgan Coleman**,
   morgan.coleman@pickles.com.au. Daniel first contacted by phone and email 17 Sep 2026,
   chased 25 Sep 2026 with no response; the same pitch went to Morgan the same afternoon.

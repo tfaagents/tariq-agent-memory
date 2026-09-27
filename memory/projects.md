@@ -355,6 +355,14 @@ Earlier: site works, NBN relocation, RFIs from Falcon Property; Clay on the day 
 Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 
 ## 1-9 Anzac Ave, Logan Village (construction contract, progress claims)
+- **27 Sep 2026: a firm finish date is being asked for by Wed 30 Sept, and two Procore items
+  landed on a Sunday.** Clay's 3:13am plan for Randal (see Tenders below) puts "**confirm a firm
+  finish date by Wed 30 Sept**" on the site crew, so Tariq and Shane can move the boys onto other
+  misc jobs. Separately, on **CH-06 Logan Village Child Care**: **Riss Engalan opened RFI #69,
+  "PWD Compliant Entry Footpath - Rectification Proposal", 3:45pm** (notified to clay@, daniel@,
+  mauricio@, randal@ and veena@, not to Tariq), and **Randal has 3 overdue Observations** (6:06pm
+  Procore reminder to randal@). Both are project state, not Tariq's to action. Source: the TFA
+  mailboxes, read 27 Sep 2026.
 - **25 Sep 2026, 7:26pm: Hishaam Tayob moved the goalposts on Progress Claim 16.** He did
   the site visit Thursday 24 Sep: "**The works appear to be nearing completion. Minor
   defects and final clean in progress. Energex was testing to allow live power connection
@@ -571,6 +579,29 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   putting it in anything TFA-facing.
 
 ## Tenders and prospects (design and construct)
+**27 Sep 2026, 3:13am: Clay's plan for Randal, and the pricing model behind the whole D&C
+push.** From claywhart@gmail.com to clay@ and tariq@, subject "Randal", "plan for Randal - for
+discussion". The heading is **"TFA Immediate Plan: Win D&C Negotiated Contracts"** and the model
+is stated in one line: **D&C baseline price + qualifications/exclusions + 20% design contingency
++ BA/TFA fees.** "We win the job if we stay within our original proposal. The design contingency
+comes down as site testing is completed and quotes firm up scope and price." So the 20 percent is
+a starting number that is meant to shrink, not a margin.
+- **Randal's scope, in Clay's order:** finish Logan Village; get the site crew to a **firm finish
+  date by Wed 30 Sept** so Tariq and Shane can move the boys onto other misc jobs; design
+  development with **Veena, Mo and Dan** (default to the office, site visits per the calendar);
+  **Marina**, supervise and coordinate trades with Dan; and Hilcrest, Dan St and HiTech as
+  required for subbie site visits and testing. **"Marina" appears nowhere else in memory as at
+  27 Sep 2026** and has no section here yet.
+- **Common tasks across Hilcrest, Dan St and HiTech:** geotech and asbestos testing; construction
+  methodology for retaining walls and fencing so adjacent property structures are not undermined;
+  review access and draw the site plan; help build the CMP and the traffic control plan; assist
+  with tilt panel quotes; assist with design development.
+- **Site specific:** Hilcrest (design Veena) demo quotes, koala relocation, arborist tree removal;
+  Dan St (design Mo) nothing extra; HiTech (design Veena) demo quotes. So the design owner per
+  site is now on the record: **Veena on Hilcrest and HiTech, Mauricio on Dan St.**
+- What it asks of Tariq: it is "for discussion", and the Wednesday 30 Sept finish date is the part
+  that needs him and Shane. Source: his inbox, read 27 Sep 2026.
+
 **25 Sep 2026, 4:50pm: the Forvm @ Hillcrest review is done and the ball is with Veena.**
 Clay (from claywhart@gmail.com, cc clay@ and veena@): "**Veena, Randal and myself did a full
 review this afternoon. V will follow up Abi with a bunch of items and will also go to market

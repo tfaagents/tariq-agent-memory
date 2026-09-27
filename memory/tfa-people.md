@@ -37,6 +37,16 @@ description: The TFA team and who does what, as of 10 Sep 2026
   needs a PDF takeoff tool (the Bluebeam question). From 10 Sep 2026 also holds the
   consultant engagement for the 35 Hi-Tech Court (BTP) site: chasing fee proposals from
   Northrop and HPC Planning, and keeper of the project consultant list.
+- **Randal** (randal@tfaconstructions.com.au): site and project side, in the Wednesday 11am
+  catch-up with Clay and Tariq. **Clay wrote his scope on 27 Sep 2026** (see [[projects]]):
+  finish Logan Village, get a firm crew finish date by Wed 30 Sept, design development with
+  Veena, Mo and Dan, supervise trades at Marina with Dan, and subbie site visits and testing
+  at Hilcrest, Dan St and HiTech. Defaults to the office, sites per the calendar. He was in the
+  25 Sep Forvm @ Hillcrest review with Clay and Veena. Has Procore observations against his name.
+- **Riss Engalan** (riss@tfaconstructions.com.au): TFA admin on the document side. Combines
+  subbie progress claims that come in as Excel or multiple files into one PDF and puts them into
+  **proscan**, and opens RFIs in Procore (RFI #69 on CH-06 Logan Village, 27 Sep 2026). Clay
+  checks claims reached her; Heather's accounts lane is what sends them (his mail, 27 Sep 2026).
 - **Malik Awan**: raises and runs RFIs in Procore for TFA (Jimboomba RFI #10 on the East
   Street school signage, 7 Sep 2026). Added to the Scribe plan 10 Aug 2026.
 - **A new CA (contract administrator)** started the week of 7 Sep 2026 and is engaging
