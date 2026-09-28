@@ -113,6 +113,25 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   **All requests are to go to admin@rezicad.com**, which is also who answers when Elley is
   out (21 Sep 2026). Their hours are Mon-Thu 8am-4.30pm, Fri 8am-2.30pm. Works alongside **GSP Land**: **Adrian Webberley** (Adrian@gsp-land.com.au) and
   **Ellen McDonogh** (ellen@gsp-land.com.au). Tariq chases this group for design progress.
+  **Adrian Webberley is a Town Planner at Gateway Survey & Planning, 2221 Wynnum Road,
+  Wynnum QLD 4178, 07 3893 0557, now part of ESO Surveyors.** He is the one who calls the
+  code compliance numbers on 29 Millers (deep planting, site cover) and who frames the
+  lodgement options; he writes short and blunt and will say "Not sure what you're saying"
+  rather than guess (28 Sep 2026). Kendal refers to GSP as **"Gateway"**.
+- **Amber Organisation: Rico Kobelt** (rkobelt@amberorg.com.au, 0431 099 588), BE (Hons)
+  BSc, **Senior Traffic Engineer**. Signed up via Docusign 28 Sep 2026 as the traffic
+  engineer on **35 Hi Tech Court, Eight Mile Plains**; the **TIA takes 2 weeks**. Deals with
+  Veena. What he needs before he starts: their **onboarding form**
+  (amberorg.com.au/fee-proposal-acceptance-form), **architectural plans in .dwg and PDF**,
+  and car park layout and parking calculations from the planner or architect.
+- **Atlan (atlan.com.au): Evania Samuel** (Evania.Samuel@atlan.com.au), the coordinator on
+  **stormwater treatment (Stormsacks and AtlanFilter) at Logan Village Lot 2 childcare**,
+  deal ref 23-58449. Deals with Clay, accounts@ and Randal on site. Their accounts team
+  want the **payment remittance before dispatch** (28 Sep 2026), so a delivery date is only
+  as firm as the remittance. Also **Brendan Allen** (installation), **Dianne Claveria** and
+  **Janah Cawaon** (paperwork), **Roberts Polis-Politis, Jason Vaalele, Ray Maddison**
+  (dispatch), QLDProjects@atlan.com.au. Atlan tanks also appear as a priced item in TFA's
+  D&C tenders.
 - **MB Planning** (Level 10, 167 Eagle Street Brisbane; mail@mbplanning.com.au). Town
   planners, invoice HI1476 and the paused land deal. **Tamara Katai**, B.Planning M.Trans,
   0404 125 012 (tamara@mbplanning.com.au), the planner Tariq deals with; she chases the
@@ -201,7 +220,10 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   SharePoint links he sends (10 and 11 Sep 2026); he now tells them to download and
   save rather than work off the link.
 - HS Group: Yahya (outstanding claims, Freeman Rd Richlands, staff hours, cc on
-  Jimboomba). Formal signature used with him.
+  Jimboomba). Formal signature used with him. **Carly (carlyp@hsgroup.au)** handles the
+  **Logan Village childcare change events and variations**, dealing with Mauricio (28 Sep
+  2026). Their office at **Eight Mile Plains** is where Clay, Daniel and Mauricio meet on
+  the variations.
 - **Falcon Property: Damon Falcongreen** (damon@falconproperty.com.au, 0411 60 60 60),
   the developer side at Jimboomba. Writes long, formal, contract-flavoured pushback.
 - Commercial Ready (Sally): strata developments, split payment options.
@@ -234,7 +256,11 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - **Belle Property Rochedale** (Admin.Rochedale@belleproperty.com, cc rwc.csr.qld@raywhite.com).
   Prepared a draft **Form 6** for Tariq and Kendal 22 Sep 2026 alongside the one previously
   executed with Ray White. An agency appointment sitting beside the Ray White one, so check
-  which agency is appointed to which property before signing anything.
+  which agency is appointed to which property before signing anything. It is the **sales
+  appointment for 29 Millers Rd**, moving across from RWC because **RWC is closing**, and the
+  Belle contact Kendal writes to is **"Grant"** (28 Sep 2026). **Three different Grants are
+  live: Grant at Belle (29 Millers sale), Grant Turner at Ray White (Dan Street fallback
+  agent), Grant Rex at Stamford Capital (finance).** Never merge them.
 - **Ewan Kavanagh** (ewan.kavanagh@theurbandeveloper.com), **The Urban Developer**. TFA is a
   **TUD+ corporate member**. He offered the Member Spotlight package (feature article,
   80,000+ subscriber eDM, 83k+ social following) 22 Sep 2026; Tariq is weighing the $5k

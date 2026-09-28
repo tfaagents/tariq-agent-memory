@@ -4,6 +4,17 @@ description: What TFA runs on, what this agent can reach today, and what is not 
 ---
 
 Connected (through tools/)
+- **28 Sep 2026: the TFA Automation Flow Tracker is now live-linked to the Agents
+  dashboard.** SharePoint shared it with Kendal and Tariq at 7:17pm: it lives at
+  **agents@tfaconstructions.com.au > Documents > Agent Development > TFA Automation Flow
+  Tracker.xlsx**, "a change made here shows on the dashboard within a minute, and a change
+  made on the dashboard lands here". **Edit this copy, never the emailed V1.** It is
+  Kendal's tracker, so it is the live answer to what is being automated and where each flow
+  sits; read it before saying what is or is not built.
+- **28 Sep 2026, 2:46pm: Kendal sent Jaiah "Heather time eaters".** She had Heather track her
+  work in time blocks for a week to see where the time goes and what is worth automating.
+  That is the input feeding the next round of agent builds, and it sits in Jaiah's lane.
+  Source: the TFA mailboxes, read 28 Sep 2026.
 - **Microsoft 365 mail and calendar**: tariq@, kendal@, heather@, accounts@, agents@.
   Read, search, diary. Reply drafts into Tariq's Drafts folder. No sending, by design.
 - **The TFA Agents dashboard** (https://tfas-mac-mini.tail77353f.ts.net, runs on this

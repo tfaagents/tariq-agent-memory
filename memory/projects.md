@@ -8,6 +8,16 @@ that was read in the body of his own sent mail. Confirm a number or a date from 
 thread before quoting it to him.
 
 ## 35 Hi-Tec Court, Eight Mile Plains (the "BTP" purchase, new TFA office)
+28 Sep 2026, 1:48pm: **Amber Organisation is signed up as traffic engineer and is waiting on
+files.** Rico Kobelt (Senior Traffic Engineer, rkobelt@amberorg.com.au, 0431 099 588) to Veena,
+cc subcontracts@, after the Docusign came back at 10:18am that morning. He asked to **confirm
+they are signed up for 35 Hi Tech Court, Eight Mile Plains**, for their **onboarding form**
+(amberorg.com.au/fee-proposal-acceptance-form) to be filled in so the client is set up for
+invoicing, and then for the **latest architectural plans in CAD (.dwg) as well as PDF**. He also
+flagged he will need **further information from the planner or architect on the car park layout
+and the car parking calculations**. Veena's lane; the TIA takes 2 weeks from when he has the
+files, so the .dwg is the thing on the critical path. Source: the TFA mailboxes, read 28 Sep 2026.
+
 23 Sep 2026, the consultant program is issued and he asks for one date to move:
 - **Veena issued the program with dates for each consultant through to DA lodgement**
   (4:05pm, to Murray Wright, Sebastian Torralba, Alex De Andrade, Nick and Thomas Stubbs,
@@ -122,6 +132,25 @@ Earlier: purchase via MSP Law, NMDS involved, $10k/month deposit invoice raised 
 with the entity question open.
 
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
+28 Sep 2026, 4:02pm: **Kendal pressed Ray White again on the ~$75,000 and asked for escalation.**
+To Annabelle Weir, cc Mukhtaar Hashim and Tariq, on the termination thread.
+- **The missed date: Nichole indicated South West expected to account for the outstanding funds
+  and provide the ledgers on Friday 25 September.** Kendal asked whether they followed through
+  and for anything received to be forwarded.
+- Her line on it: "South West's repeated delays are unacceptable, particularly with
+  **approximately $75,000 still outstanding**. Their system migration issues do not explain why
+  we are still waiting for a clear reconciliation and payment date after so many assurances."
+  She also asked South West to explain **specifically how the delay in appointing Annabelle's
+  team affected their ability to account for and release the funds**, which is the excuse they
+  had offered.
+- **What she asked Annabelle to press for:** a **full reconciliation of the outstanding amount
+  and a confirmed payment date**; the **corrected ledgers and remaining handover records,
+  including anything Michael needs to finalise his advice on Unit 3**; and **confirmation of any
+  payments already made, with remittance details**. If Friday's timeframe was missed, she asked
+  for it to be **escalated to South West's principal and RWC corporate with a firm deadline**,
+  resolved **before the handover**. The handover is 29 October 2026, so the runway is about a
+  month. Source: his inbox, read 28 Sep 2026.
+
 26 Sep 2026, 1:49pm: **Q Traffic Trust invoice INV-2939, $4,554.00, "Claim 1", for traffic
 advice, due 10 Oct 2026.** Came through Xero addressed to him, not to accounts@. Source: his
 inbox, read 26 Sep 2026.
@@ -355,6 +384,26 @@ Earlier: site works, NBN relocation, RFIs from Falcon Property; Clay on the day 
 Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 
 ## 1-9 Anzac Ave, Logan Village (construction contract, progress claims)
+- **28 Sep 2026: Atlan's stormwater kit delivers Tuesday and installs Wednesday, and the
+  contract works insurance renewal declaration is now due.**
+  - **Evania Samuel (Atlan), 3:32pm** to Clay, accounts@ and Randal, cc Daniel: after one of
+    their install crew attended site that day they are **swapping one 600 x 600 Stormsack for a
+    600 x 900** to suit the site. Revised quantities: **8 x 600x600 Stormsacks, 1 x 600x900
+    Stormsack, 1 x 900x900 Stormsack (originally 600x900), 4 x AtlanFilter-3.0**. Still
+    **delivery to site Tuesday 29 Sep, installation Wednesday 30 Sep**. Site contact **Randal,
+    0456 832 832**. Their deal reference is 23-58449 Logan Village Lot 2 Childcare. **Atlan
+    asked accounts@ for the payment remittance before dispatch**, as discussed with Clay, so
+    that is the one thing that could hold the delivery.
+  - **Osman Insurance Brokers (Ritu, Broker's Assistant), 3:35pm** to accounts@ and Kendal, cc
+    Tariq and Mahmood: the **Contract Works insurance for 1-9 Anzac Avenue expires 30/10/2026**
+    and the insurer wants the attached **Renewal Declaration** (6906650SP Declaration Letter)
+    completed and returned. Accounts and Kendal hold it, but the expiry is a month out.
+  - **Carly at HS Group sent change events / variations for revision Group 2** to Mauricio
+    1:01pm; Clay forwarded it to Tariq 1:09pm with one word, "fyi". The Clay, Daniel and
+    Mauricio meeting at H&S Group Eight Mile Plains on Tuesday 29 Sep 1:00pm is on those
+    variations.
+  - **Mauricio sent Heather the Opulent Glass progress claim** 3:26pm to add to Proscan.
+  Source: the TFA mailboxes, read 28 Sep 2026.
 - **27 Sep 2026: a firm finish date is being asked for by Wed 30 Sept, and two Procore items
   landed on a Sunday.** Clay's 3:13am plan for Randal (see Tenders below) puts "**confirm a firm
   finish date by Wed 30 Sept**" on the site crew, so Tariq and Shane can move the boys onto other
@@ -468,6 +517,75 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   capability brochure and project videos attached.
 
 ## 29 Millers Rd / 3000132 Eight Mile Plains (Indara tower, renewal and easement)
+28 Sep 2026, deep planting is the thing holding up lodgement, Kendal's Rev C list lands, and
+the Belle Form 6 is sitting on him:
+- **Adrian Webberley (GSP Land), 2:01pm, named the blocker.** "The lack of deep planting shown
+  on the plan is a concern at the moment. We are required to have a minimum of 10% of the site
+  deep planting, and the current percentage is showing up as **62m2, when we require a minimum
+  of 219m2**." Deep planting has to be **separate from the private open space**, and he asked
+  for the **site cover calculation to be updated**.
+- **He also gave Tariq a fork on lodging, and it is Tariq's call:** lodge without the extra
+  engineering and take an Information Request from Council, or get **stormwater engineering,
+  swept paths for the refuse truck and a certified landscape plan** done upfront. His own view:
+  "it is likely that we will receive an information request regardless as we will have some
+  performance outcomes to argue." **No answer from Tariq as at 28 Sep.**
+- **The gap narrowed over the next 50 minutes.** Andrew Milford (Rezicad) 2:16pm: "Same amount
+  as previous DA", then 2:32pm: "Can the area under the tree be Deep Planting as per the
+  original DA". Adrian 2:23pm: "The last DA had **218m2 deep planting** on the approved plans."
+  Adrian 2:52pm: "**Yes the area under the tree is deep planting. It's the 49m2 POS area that
+  can't be calculated as deep planting.** I'm not sure if that can be moved, there may not be
+  enough room on the East side of that dwelling." So it reads as an allocation and drafting
+  problem, not lost design. The **49m2 POS area on the East side of that dwelling** is the
+  live question.
+- **Kendal's review landed 3:09pm**, answering his 24 Sep 10:04pm ask ("not sure if you build
+  much of an ai profile for 29 millers, but if you have can you dump this and ask for any
+  efficiencies?"). Her recommendation: **hold off finalising the DA drawings on Rev B. One more
+  ReziCAD round (Rev C) should fix the main issues without losing any of the 25 rooms.** Her
+  points, each one a job:
+  - **Deep planting: Rev B 62m2 against about 219m2, but Rev A had 339m2**, so it has been lost
+    or it is a drafting error. Either way it is fixed before lodgement.
+  - **The tower lease already gives the operator 24/7 access across the whole lot with no set
+    route, and it expired Sept 2025 with no options.** That is leverage to agree a defined
+    route. Rev B does not draw a usable access.
+  - **Refuse: the truck parks in the only driveway.** Bins were sized on 50 occupants; at 25
+    occupants it is **4 bins, not 6**.
+  - **Garages: each house has a double garage but only one bay is counted.** Counting both
+    could free about **70m2 of carports**.
+  - **Hoop Pine: House 1 sits inside the canopy of the tree being kept**, so it needs an
+    arborist check.
+  - **Building class: Houses 3 and 4 are joined, about 572m2 combined.** A certifier has to
+    confirm **Class 1b** can be kept.
+  - **Not worth pursuing now: a third storey, or car stackers.**
+  Her next steps: **Rev C from ReziCAD**; **a title search and confirm the tower lease status**;
+  **questions to Gateway, especially occupancy (25 or 50) and the current code version**; and
+  **a certifier's view on classification**. The attachment carries the full question list per
+  consultant.
+- **Kendal's Form 6 reply to Grant is written and waiting on him, 3:42pm:** "Pls check this &
+  then ill send (this is abit out of my usual expertise)". **She will not send it until he
+  checks it.** It asks Belle to carry the RWC deal across: **2% plus GST on the first $3m,
+  capped at $60,000 plus GST for that component, and a 10% share only on the portion above $3m,
+  with the 2% not also applying to that excess**; to state expressly **whether the 10% includes
+  GST or has GST added** (worked example: at a $3.3m sale the excess is $30,000); **no auction
+  and no Glen Hotel booking**; on marketing, the **RWC agreement recorded $10,896**, so what has
+  been paid and spent, what credit carries across, and any additional charges proposed;
+  **when RWC's appointment ends and Belle's begins**, with the prior appointment section
+  reflecting RWC; and whether the **seller disclosure documents carry across**, plus any
+  **AML/CTF or administration fees**. Belle sends the confirmations and the revised agreement
+  back for Tariq's review before signing.
+24 Sep 2026, 9:56pm, his own instruction on the Form 6 (missed by that night's learn, which ran
+at 9:03pm):
+- **29 Millers Rd is listed for sale, and the agency is moving from RWC to Belle because RWC is
+  closing.** Kendal's 23 Sep 2:59pm comparison of the two agreements: RWC was a **continuing
+  exclusive appointment from 20 January 2026**, with an **auction booked 25 March 2026, 6pm, at
+  the Glen Hotel**, reserve to be advised. Belle's draft has the **commencement date blank, sale
+  selected, auction details blank and price "to be advised in writing"**.
+- **Tariq to Kendal, 9:56pm: "please go back to Grant with the clarifications. In short this is
+  for 29 Millers Rd, so its okay, no auction, not going to the glen, the gst needs to be
+  addressed and the 3m at 2% cap is correct and need to carry over, but the amount above that
+  needs to be clear of only 10% share etc."** That is the whole brief Kendal wrote the 28 Sep
+  letter from. **Grant is the Belle Property contact on this appointment**, not Grant Rex at
+  Stamford and not Grant Turner at Ray White, so do not mix the three.
+Source for all of the above: his inbox and sent mail, read 28 Sep 2026.
 23 Sep 2026, the revised concept lands and Dean finds a $180k per house hole in it:
 - **Rezicad's revised concept arrived 10:07am** from **Elley King** (cc admin@rezicad.com,
   Adrian, Andrew Milford, ellen@gsp-land.com.au, Veena). What it achieved: **increased rear
@@ -579,6 +697,31 @@ Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
   putting it in anything TFA-facing.
 
 ## Tenders and prospects (design and construct)
+**28 Sep 2026, 1:09pm: Clay sent Abi a 16 point query list on the Collingwood Childcare & Gym
+D&C tender**, cc Veena and Tariq. His caveat is the first line and it matters: "**I haven't done
+a measure or checked rates. This is a high level check only.**" So this is a sanity pass on
+Abi's price, not a re-estimate. What he queried:
+- **Submittals 1/1B** (is this insurance? quote?).
+- **Prelims missing?** Crane for panels and steel, traffic control, survey (set-out, as-con),
+  CCTV, testing (Level 1, CBR, concrete), QLeave, ESC maintenance, "**$3k silt only?**".
+- **Rates that look light**: scaffolding, reo (supply only?), formwork, post tension. Each one
+  asked as "market rates?".
+- **Atlan tanks at $1,000 and $10,000/m3, quote?**
+- **Retaining wall rate in the car park sufficient for a vehicle crash barrier?**
+- **Measured or not**: concrete column verticals, screw piers under the gym.
+- **Civil remediation and Level 1 fill under the childcare, 150 kPa and H1 reactivity**; and
+  remove and replace uncontrolled fill.
+- **Lift, quote?**
+- **Temp battering for rig, truck and crane access to the lower area** to build the foundations
+  and lower structures.
+- **Childcare with an upper level: additional certification around safety screens, stair gates,
+  fire protection.**
+- **Linemarking, wheelstops, bollards.**
+The pattern across the list is the same three things every time: is it measured, is it market
+rate, and is there a quote behind it. Worth reusing as the checklist on the next estimator's
+price. Clay and Veena also held a 9:00am Teams "Review Collingwood Park and action Tariq's
+request" the same morning. Source: his inbox and the TFA calendars, read 28 Sep 2026.
+
 **27 Sep 2026, 3:13am: Clay's plan for Randal, and the pricing model behind the whole D&C
 push.** From claywhart@gmail.com to clay@ and tariq@, subject "Randal", "plan for Randal - for
 discussion". The heading is **"TFA Immediate Plan: Win D&C Negotiated Contracts"** and the model
@@ -1254,6 +1397,22 @@ Fettell):
   the sign off. Kendal is running it.
 
 ## Other threads
+- **28 Sep 2026, small things sitting on him personally, none of them project work.**
+  - **Kendal's Vehicle Logbook JotForm is built and waiting on his yes**, 2:37pm:
+    https://form.jotform.com/262659418299070, "Please review, let me know if you're happy &
+    I will notify staff & add to the app!". That is the **vehicle register want from 22 Sep
+    turning into something real**, so it connects to the item above.
+  - **Heather Ferrier's leave request for Monday 12/10/2026** came through Deputy via
+    accounts@ 5:04pm for him to approve or decline.
+  - **Heather, via Teams 12:48pm: "I've messaged Tariq to see if he can reach out to Leo's
+    uncle to check he's alright."** A personal check-in she has asked him to make.
+  - **Kendal, 4:11pm: she has Alee's document but not Abis's**, on the Reece Goode
+    OneDrive_2025-11-26 share, and is following Abi up herself. Nothing for him to do.
+  - **Kendal's Procore cost confirmation question is parked by her own instruction**, 3:19pm,
+    subject line "IGNORE TILL U BACK FROM HOLIDAYS". She needs the Procore contract to
+    confirm how projects being tendered but not won are counted. **She marked it ignore, so
+    it is not a chase on him**, but it comes back when he is off school holidays.
+  Source: his inbox and the TFA mailboxes, read 28 Sep 2026.
 - **Vehicle maintenance registers: he wants this solved and he is asking build or buy
   (22 Sep 1:35pm, to Kendal).** Triggered by David buying new wheels for **TFA 17** on the
   TFA NAB card through his Apple Pay. In his words: "**when can we get ontop of the
