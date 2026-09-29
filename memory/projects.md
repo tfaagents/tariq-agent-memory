@@ -697,6 +697,17 @@ Source for all of the above: his inbox and sent mail, read 28 Sep 2026.
   putting it in anything TFA-facing.
 
 ## Tenders and prospects (design and construct)
+**29 Sep 2026, 6:03am: he countered KD Special Projects' referral fee and put a sliding scale
+on the table.** Nick Koschel (Director, KD Special Projects, nick@kdsp.com.au, 0421 571 408)
+came back on 28 Sep 10:27am after overseas travel and asked for **1% + GST of contract value,
+payable on a build contract being signed**. He also has a live lead: "**a leasing job currently
+with a developer that is seeking a builder**", a **119 place dual level childcare centre in
+Brisbane**. Tariq's reply: "**I think 1% on our scale projects of 5-10m would be a little high,
+we're you open to negotiation?**" and his own structure, offered as a thought not an offer:
+"**Example under 2m is 0.8% over 2m to 6m is 0.5%?**" So: **the referral arrangement is open
+and unagreed, and the 119 place lead has not been taken up yet**. Waiting on Nick. Source: his
+sent mail 29 Sep 2026.
+
 **28 Sep 2026, 1:09pm: Clay sent Abi a 16 point query list on the Collingwood Childcare & Gym
 D&C tender**, cc Veena and Tariq. His caveat is the first line and it matters: "**I haven't done
 a measure or checked rates. This is a high level check only.**" So this is a sanity pass on
@@ -1161,6 +1172,22 @@ Fettell):
   reattached the dates material.
 
 ## Money and compliance
+**29 Sep 2026: he chased the land tax Extended Payment Option himself, and his QRO Online
+profile was the blocker.** The 18 Sep item below (Heather had until early October to apply for
+payment plans on 11 and 13 Inverness) did not get done by her, so at about **2:00pm he lodged a
+QRO Online enquiry himself** (reference **1108815457**) for the **T Ali & Sons Family Trust,
+client number 5059031**. In it: the EPO instructions say View Accounts > Payments > Request for
+Extended Payment Option, but his QRO Online account only shows **Identity verification, Submit
+enquiry, Update my personal details**, with no My Land or View Accounts. He flagged the
+deadline: the **EPO application must be submitted within 35 days of the assessment issue date**.
+QRO's auto-reply promises **10 working days**, which does not clear that window. He forwarded it
+to accounts 2:07pm with no words. **Heather, 2:23pm: "your profile hadn't been fully verified so
+I've just added your drivers licence and passport details. If you receive anything asking for
+confirmation please give it the green light, then the land you own should become visible. Not
+sure how long this will take though."** So the thing sitting on him is **a verification
+confirmation to approve when it arrives**, and the EPO itself is still not lodged as at 29 Sep.
+Source: his sent mail and the accounts thread, read 29 Sep 2026.
+
 24 Sep 2026, he held the Autoflow invoice over a credit that was not on it:
 - **Autoflow invoice AF-TFA-0004, September care plan**, came from Jaiah 1:37pm to accounts
   cc Tariq; Heather asked him at 2:46pm to approve it for payment next week. **Tariq, 3:01pm
@@ -1397,6 +1424,34 @@ Fettell):
   the sign off. Kendal is running it.
 
 ## Other threads
+- **29 Sep 2026, the Lipscombe inspection moved off 1 Oct to 9:30am Friday 2 Oct, and he
+  agreed to it.** Sequence on the "Urgent - Re: Retrospective Design Approval Unit 1 - 94
+  Lipscombe Road" thread: Andrew Bleakley (BRC Consult) said 24 Sep "lets book it in for 7am";
+  **Kendal asked to push it to 7:30am at 10:53am**; Andrew came back 11:46am "**9:30 Friday
+  would actually work better for me**"; **Tariq, 11:49am: "No problems lwts do that then."**
+  So the **1 Oct date he wanted on 22 Sep is superseded: it is Friday 2 Oct 2026, 9:30am**.
+  **Kendal has already moved the invite**: his calendar reads "**(7AM) Inspection with Certifier
+  - BRC Consultants**" at 9:30am Fri 2 Oct, at **Unit 1/94 Lipscombe Rd, Deception Bay QLD
+  4508**, so the site is Deception Bay and **the title still carries the stale "(7AM)"** and
+  should not be read as the time. This is the Andrea Cancelli site. Also note **Clay has JIM
+  variations 8am and QFD Logan Village 9:30am the day before**, so nothing clashes for Tariq.
+  Source: his sent mail and calendar.mjs everyone, read 29 Sep 2026.
+- **29 Sep 2026, 5:57am: Heather's 12 Oct leave is approved in principle but conditional on
+  BAS.** His words to her: "**I cant see any issues, can you confirm its not any disruption to
+  the bas submission timeline etc?**" So it is **not a yes yet**, it is a yes pending her
+  confirmation. Her reason was a belated weekend away for her mum's birthday, request through
+  Deputy. Waiting on Heather. Source: his sent mail 29 Sep 2026.
+- **29 Sep 2026, 5:58am: he wants Shane warned ahead of vehicle inspections, not after.** TMR
+  online services sent the requested documents to accounts 28 Sep 4:09pm. Tariq to Heather:
+  "**Have you set reminders to advise Shane for the inspections prior.**" So the standing
+  expectation is **a reminder set for each inspection that goes to Shane before the date**.
+  Unanswered as at 29 Sep. Source: his sent mail 29 Sep 2026.
+- **29 Sep 2026, 11:15am: a compliance letter on 46 Centenary Drive South, MIDDLEMOUNT QLD
+  4746** came from **CE Compliance at Isaac Regional Council** (CE.Compliance@isaac.qld.gov.au)
+  to info@. He forwarded it to accounts and Kendal at 11:20am with one word, "**Fyi**", so it is
+  handed off rather than sitting on him. **This address is new to memory and its tie to TFA is
+  not stated in anything read**: do not assume it is a TFA project until confirmed. Source: his
+  sent mail 29 Sep 2026.
 - **28 Sep 2026, small things sitting on him personally, none of them project work.**
   - **Kendal's Vehicle Logbook JotForm is built and waiting on his yes**, 2:37pm:
     https://form.jotform.com/262659418299070, "Please review, let me know if you're happy &
@@ -1432,7 +1487,8 @@ Fettell):
   awesome segement with all our content created to date in a small article they post?**"
   Open, Kendal to weigh in. He is judging it on followers gained per dollar, not on brand.
 - **94 Lipscombe Road Unit 1, retrospective design approval: he wants the inspection
-  booked for 1 Oct (22 Sep 1:15pm).** Kendal forwarded Andrew Bleakley's (BRC Consult)
+  booked for 1 Oct (22 Sep 1:15pm).** **Superseded 29 Sep 2026: the date is now 9:30am Friday
+  2 Oct, see the top of this section. The chase instruction below still stands.** Kendal forwarded Andrew Bleakley's (BRC Consult)
   automatic out-of-office reply at 11:51am. Tariq's instruction to Kendal: "**send email
   requesting inspection 1st of October and awaiting conformation.**" Then at 4:34pm, on
   the same thread: "fukcn spam him lol". So: email Andrew requesting a **1 Oct 2026**

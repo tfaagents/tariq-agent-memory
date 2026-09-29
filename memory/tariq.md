@@ -22,6 +22,22 @@ How he works
   read" or "no path for that", never a guess.
 
 Rules in his own words (from his sent mail, dated)
+- On a flat percentage fee against his contract values: "**I think 1% on our scale projects of
+  5-10m would be a little high, we're you open to negotiation?**" then his own counter,
+  "**Example under 2m is 0.8% over 2m to 6m is 0.5%?**" (29 Sep 2026, to Nick Koschel at KD
+  Special Projects on a referral fee.) **He does not argue the percentage down, he changes the
+  shape of the deal**: a flat rate that is fine on a small job is wrong on a $10m one, so he
+  offers a sliding scale that gets cheaper as the value climbs. He frames it as "just a thought
+  nothing set in stone" to keep it a conversation. Read any flat % fee proposal against his
+  5-10m project size before it goes anywhere near a yes.
+- On approving staff leave: "**I cant see any issues, can you confirm its not any disruption to
+  the bas submission timeline etc?**" (29 Sep 2026, to Heather on her 12 Oct leave request.)
+  **Leave is checked against the compliance calendar, not the roster.** He says yes on the
+  person and puts the deadline question back on them, so it is not approved until they confirm.
+- On inspections and the people who have to attend them: "**Have you set reminders to advise
+  Shane for the inspections prior.**" (29 Sep 2026, to Heather on the TMR documents.) A date
+  landing in someone's inbox is not a booking. He wants the reminder set, aimed at the person
+  who has to be there, ahead of the date.
 - On consultants he is paying for a finance submission: "**Please respond to me and I will
   be the conduit direct to the QS.**" (18 Sep 2026, to Veena and Clay on Mitchell
   Brandtman at Dan Street.) He splits the work but keeps one voice going out: the team

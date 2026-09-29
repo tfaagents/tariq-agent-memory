@@ -142,11 +142,26 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   - do not merge the two.
 - **Geotech (geotech.com.au): Ross Bennett** (ross@geotech.com.au), geotechnical works on
   7-9 Dan Street, run by Mauricio with Clay cc (Sep 2026).
-- **BRC Consult: Andrew** (andrew@brcconsult.com.au). On Logan Village; Tariq accepted
-  his "Logan Village CC Final" invite 10 Sep 2026. What BRC handle is not stated in
-  anything read yet. A different Andrew to the Rezicad one above.
+- **BRC Consult: Andrew Bleakley**, Director, Certifier, B Bld Surv & Cert(Hons)
+  (andrew@brcconsult.com.au, 0435 865 928, PO Box 77 Oxenford QLD 4210). **He is TFA's
+  building certifier**, confirmed by his own signature block 29 Sep 2026: on Logan Village
+  (Tariq accepted his "Logan Village CC Final" invite 10 Sep 2026) and on the **94 Lipscombe
+  Road Unit 1 retrospective design approval**, where he set the inspection for 9:30am Friday
+  2 Oct after two reschedules. Kendal books him; he answers her, cc Tariq. A different Andrew
+  to the Rezicad one above.
 - **HCE Engineers: Ryley Price** (rprice@hce-engineers.com.au), engineers acting for
   Falcon Property at Jimboomba, dealing with Logan City Council.
+- **KD Special Projects: Nick Koschel**, Director (nick@kdsp.com.au, 0421 571 408,
+  www.kdsp.com.au). Commercial leasing and special projects; a **referral source, not a
+  client**. Talks to Tariq as "Hi mate". Asked for **1% + GST of contract value on a signed
+  build contract** (28 Sep 2026); Tariq countered with a sliding scale 29 Sep 2026, **not
+  agreed**. Has a **119 place dual level childcare centre in Brisbane** with a developer
+  seeking a builder, offered as a referral. The thread started as a partner feature or event
+  sponsorship pitch, Aug 2026.
+- **Isaac Regional Council, CE Compliance** (CE.Compliance@isaac.qld.gov.au). Wrote to info@
+  on **46 Centenary Drive South, Middlemount QLD 4746** on 29 Sep 2026; Tariq passed it to
+  accounts and Kendal. Council compliance for the Middlemount address, nothing more
+  established.
 - Master Builders QLD: **Desari Lynam**, Senior Advisor Workplace Relations, (07) 3225
   6507, 0427 196 781. FWC cases, jurisdictional objections, apprenticeship contracts,
   wages queries. Tariq is very informal with her ("best friend lol", "Roger that boss"). **Jack Hart** (jack.hart@mbqld.com.au) is her colleague at MBQld, cc on
@@ -177,7 +192,9 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   who introduced Tariq to Accord on 16 Sep 2026, describing him as a builder she has
   worked with "on a number of New Centre Builds". A childcare-sector referrer worth
   keeping warm; she is the reason the Accord door opened.
-- **Andrea Cancelli** (andrea.cancelli90@gmail.com), **94 Lipscombe Road**. Comes to Tariq
+- **Andrea Cancelli** (andrea.cancelli90@gmail.com), **94 Lipscombe Road** (the site is
+  **Unit 1/94 Lipscombe Rd, Deception Bay QLD 4508**, per his 2 Oct 2026 calendar entry, which
+  settles which Lipscombe Rd this is). Comes to Tariq
   informally for pricing on structural works, a mezzanine and disability sanitary
   rectification. **Declined twice on 18 Sep 2026** for capacity, with the door left open
   "in a few weeks ... when my boys are free". Not a client, a favour he is currently short
