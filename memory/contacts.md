@@ -154,14 +154,16 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - **KD Special Projects: Nick Koschel**, Director (nick@kdsp.com.au, 0421 571 408,
   www.kdsp.com.au). Commercial leasing and special projects; a **referral source, not a
   client**. Talks to Tariq as "Hi mate". Asked for **1% + GST of contract value on a signed
-  build contract** (28 Sep 2026); Tariq countered with a sliding scale 29 Sep 2026, **not
-  agreed**. Has a **119 place dual level childcare centre in Brisbane** with a developer
+  build contract** (28 Sep 2026); Tariq countered with a sliding scale 29 Sep 2026. Nick
+  came back **0.7% + GST capped at $50k + GST on execution** (29 Sep); Tariq agreed 30 Sep
+  2026 subject to payment **post commencement onsite**, not on signing. Waiting on Nick. Has a **119 place dual level childcare centre in Brisbane** with a developer
   seeking a builder, offered as a referral. The thread started as a partner feature or event
   sponsorship pitch, Aug 2026.
 - **Isaac Regional Council, CE Compliance** (CE.Compliance@isaac.qld.gov.au). Wrote to info@
   on **46 Centenary Drive South, Middlemount QLD 4746** on 29 Sep 2026; Tariq passed it to
   accounts and Kendal. Council compliance for the Middlemount address, nothing more
-  established.
+  established. Officer is **Hannah Booth**; the complaint is rubbish affecting wildlife.
+  Tariq asked her 30 Sep 2026 for images or local contractors to clean up.
 - Master Builders QLD: **Desari Lynam**, Senior Advisor Workplace Relations, (07) 3225
   6507, 0427 196 781. FWC cases, jurisdictional objections, apprenticeship contracts,
   wages queries. Tariq is very informal with her ("best friend lol", "Roger that boss"). **Jack Hart** (jack.hart@mbqld.com.au) is her colleague at MBQld, cc on
@@ -183,7 +185,15 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   and co-living valuation**, addressed as "my friend" and "man". He reviews the 29 Millers
   Rd concepts and marks up what costs valuation: on 23 Sep 2026 he caught that houses 1 and
   2 were still all bedsitters, worth about **$180k valuation reduction per house**. Send
-  him a design and he answers the same morning.
+  him a design and he answers the same morning. YSH manage **1200 rooms** (30 Sep 2026);
+  Stephanie Wynne is Operations Manager (stephanie@ysh.com.au). Tariq pitched him for build
+  work on 30 Sep 2026 ("would love to throw a our hat in the ring").
+- **Bromley RE: Mumtaz Saleem**, Director, Special Projects Advisory
+  (Mumtaz.Saleem@bromleyre.au). Sent his details 29 Sep 2026 ("Salaams"); Tariq sent him a
+  concept 30 Sep 2026. What the concept is for is not stated in the mail.
+- **Austraffic: Martin Jordan-Williams** (martin.jordan-williams@austraffic.com.au) and
+  **Trefor Mathew** (trefor.mathew@austraffic.com.au). Traffic counts; used for Bardon Rd
+  (May 2026), asked for a quote on 1661 Old Cleveland Rd Chandler 30 Sep 2026.
 - **Accord Property** (18 Sep 2026, new): **Harrison French** (hfrench@accord.property) and
   **Ned Murdoch** (nmurdoch@accord.property). Property group with a portfolio of assets;
   Tariq has asked to go on their **future projects tender list**. Cold as at 18 Sep, no

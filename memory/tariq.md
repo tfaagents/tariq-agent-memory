@@ -143,6 +143,14 @@ Rules in his own words (from his sent mail, dated)
   quote: "just confirm with clay potential start dates so we **insure from right date in
   lieu of loosing time with insurance when the site sits dormant**" (16 Sep 2026, to
   Kendal). Before accepting a dated cost, ask what the site is actually doing.
+  Same instinct on fees, 30 Sep 2026 to Nick Koschel: the referral fee is paid "**post
+  commencement onsite** ... As some of these projects are D&C and then never actually go
+  ahead 12 months down the track."
+- **He keeps the price.** 30 Sep 2026 to Kendal on Narangba: "this will be with me ... Presnt
+  to me price and then I'll adjust", with the two estimators cross-checking each other first.
+- **He wants invoices forecast before they land.** 30 Sep 2026 to Clay and accounts: large
+  invoices came in "we have not really flagged ... as to be received"; commitments against
+  outstanding should feed his and Heather's cashflow forecast.
 - **In a stalled negotiation he buys with certainty, not with price.** His 66 Learoyd
   offer (16 Sep 2026, to the agent): unconditional, no finance clause, no due diligence,
   deposit released immediately and non-refundable, and a **7 day window for written
