@@ -9,6 +9,13 @@ his own name and not on TFA letterhead, which tells you how he wants it handled.
 
 Seen 10 Sep 2026, 8:12pm, from his own sent mail.
 
+## 1 Oct 2026: what he wants raised at the 12 Oct pre-lodgement
+8:21am to Murray Wright and Thomas Stubbs (HPC Planning): ask Council whether the **trunk road /
+resumption requirement** can be removed given it has dropped in priority; if kept, confirm land
+value and trunk-road construction costs are both offsetable, keep the road credit **separate from
+the caravan park infrastructure credits**, and ask whether unused offset carries forward.
+Source: his sent mail.
+
 ## 22 Sep 2026: the Council pre-lodgement is locked in for 12 October
 From his own sent mail. **Murray Wright** (HPC Planning, cc Thomas Stubbs) confirmed
 21 Sep 1:34pm: the **66 Learoyd pre-lodgement meeting is 1-2pm, Monday 12 October 2026**,

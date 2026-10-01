@@ -37,6 +37,9 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - "Muzzy": confirms whether supplier invoices are already paid before Heather pays them.
 
 ## Lawyers, finance, consultants
+- **Kathleen Klug**, Reviewing Officer, OIR (Kathleen.Klug@oir.qld.gov.au, 07 3842 2833), on
+  Review Application 77969 (Pi-Hao Cheng). Submission sent 1 Oct 2026.
+- **Thomas Stubbs** (thomas.s@hpcplanning.com.au), HPC Planning with Murray Wright, on 66 Learoyd.
 - **Osman Insurance Brokers** (admin@osmaninsurance.com.au, PO Box 17 Sunnybank,
   07 3344 7477): TFA's insurance brokers, and connected to Tariq personally. **Ritu**,
   Broker's Assistant, does the quotes and the cover notes. **Mahmood Osman**
@@ -171,6 +174,12 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
 - Xact Accounting and Westnet: accountants and advisors on the MYOB file.
 
 ## Agents, clients, prospects
+- **Rauhena Chase**, Founder, Commercial Property Advisor (contact@rauhenachasecommercialrealestate.com,
+  +61 408 800 835). Introduced 24 Sep 2026 via Grant Turner (Ray White) on site constraints;
+  video call Fri 2 Oct 2026 11am. Source: sent mail 1 Oct 2026.
+- **OOM Energy: Chris Fort** (chrisfortoom@gmail.com, 0412 750 764). Fuel retailer; would lease a
+  service station at Middlemount at $180-200k p/a rent; also Bridgeman Downs QSR add-on. Seen
+  1 Oct 2026.
 - **Chateau Developments / Chateau Projects** (30712/9 Lawson Street Southport, QBCC
   15514317, 07 5620 4662). The client on **Forvm @ Hillcrest, 92-94 Johnson Road** (D and C
   tender). **Cole Erbacher**, Development Manager (cole@chateauprojects.com.au,
@@ -299,6 +308,7 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   16 Sep 2026 he gave her the band for a stand out candidate: **120-160k**.
   21 Sep 2026 he sent her **the full CA brief and screening requirements** and she
   confirmed receipt the same morning: "I will work on finding you stand out candidates."
+  1 Oct 2026: her Senior CA wants $50m+; he said TFA is doing $200m projects. CV sent, open.
   Signs as Senior Recruitment Consultant. See [[projects]], Hiring, for the benchmark.
 - **Audrey Marceau**, Tracks IS (audrey@tracksis.com.au). Blue and white collar.
 
@@ -308,6 +318,8 @@ description: Who Tariq deals with and what they handle. Base layer from 120 days
   (carson@prestigerac.com). Sent their **September 2026 progress claim to accounts@ cc Clay on
   25 Sep 2026**; as at 27 Sep it had not reached Riss to be merged and put into proscan, which
   is what Clay was chasing. Source: his inbox, read 27 Sep 2026.
+- Pickles, 1 Oct 2026: **Koby Lloyd** (heavy motor salvage), **Shane Rubinic**, National Valuer
+  Salvage (0437 171 630), **Darren Gatt**. Koby has a Liebherr LTM1060-3.1 crane due in.
 - **Pickles (auctions): Daniel Deasy**, daniel.deasy@pickles.com.au, and **Morgan Coleman**,
   morgan.coleman@pickles.com.au. Daniel first contacted by phone and email 17 Sep 2026,
   chased 25 Sep 2026 with no response; the same pitch went to Morgan the same afternoon.

@@ -22,6 +22,14 @@ How he works
   read" or "no path for that", never a guess.
 
 Rules in his own words (from his sent mail, dated)
+- On closing out a job: "**moving forward I like clean neat links when closing out projects
+  and how they file.**" (1 Oct 2026, to Kendal on Logan Village.) Handover is a shared link in
+  a set structure (the Armada Built format), not a pile of attachments.
+- On consultant pushback: "**in future, best to run consultant push back through Murray, he is
+  like myself and will push the envelope**" (1 Oct 2026, to Veena on the BTP RFI.)
+- On site managers and subbies: "**Not sure why Maurico is agreeing with the subbie in lieu of
+  investigating himself and pushing back with evidence?**" (1 Oct 2026, to Clay.) He expects
+  claims tested against evidence before they are agreed.
 - On a flat percentage fee against his contract values: "**I think 1% on our scale projects of
   5-10m would be a little high, we're you open to negotiation?**" then his own counter,
   "**Example under 2m is 0.8% over 2m to 6m is 0.5%?**" (29 Sep 2026, to Nick Koschel at KD

@@ -8,6 +8,14 @@ that was read in the body of his own sent mail. Confirm a number or a date from 
 thread before quoting it to him.
 
 ## 35 Hi-Tec Court, Eight Mile Plains (the "BTP" purchase, new TFA office)
+1 Oct 2026, RFI001 (stormwater and sewer easement, build-over of Council assets):
+- **1:32pm to Veena:** check the previous office building approval to see if the stormwater
+  diversion was what was proposed, "if not, then we need to test the consultants". Veena found
+  the previous DA had **neighbours' approval to reroute the stormwater drain**. **2:23pm:**
+  "Okay that answers it lol So consultant was right. Also in future, **best to run consultant
+  push back through Murray**, he is like myself and will push the envelope". Veena 4:21pm
+  asked if the neighbours' approval letter should go to Murray for quick processing; Tariq
+  8:00pm "Yes great idea Veena". Source: his sent mail, 1 Oct 2026.
 30 Sep 2026, he is behind on the site plan changes and pushed back on Northrop's easements:
 - **6:44am to Veena cc Clay: "Yes there is changes I have to amend apologies I'm behind on
   delivering these changes".** Clay (6:41am) asked that all RFIs go through Procore via the VAs
@@ -145,6 +153,12 @@ Earlier: purchase via MSP Law, NMDS involved, $10k/month deposit invoice raised 
 with the entity question open.
 
 ## 7-9 Dan Street, Slacks Creek (Tariq's own development, industrial units)
+- **1 Oct 2026, 2:43pm: Rauhena Chase (commercial property advisor) brought in on the site
+  constraints**, video call **Fri 2 Oct 11am**. He cc'd **Grant Turner** (Ray White, spoke to
+  him today) and said they are waiting on **Nicole, who took the handover from Annabelle**,
+  "aiming for them to get majority of this completed prior to their departure on the 29th of
+  this month". Ray White owner reports for 7 and 9 Dan Street forwarded to Kendal 7:40am.
+  (Which site Rauhena is on is inferred from the Ray White cc; confirm.) Source: sent mail.
 30 Sep 2026, he wants TFA's own figure for what South West owes:
 - **3:36pm to Kendal: "can you please work out from previous payments what is owed to us for
   the past 3-4 months so we have a figure on our end."** Then **4:26pm to Annabelle Weir cc
@@ -349,6 +363,9 @@ and Marketing Update" Mon 10am; Commercial Ready (Sally) on split payment option
 - Open promise: land owners consent to be executed in person (was due 31 Aug 2026).
 
 ## 95-103 East St, Jimboomba (SD-03 Jimboomba Sub-Division)
+- **1 Oct 2026, 7:30am:** Ground Technologies INV-51 (GTB414-L2, Stage 1 External Civil
+  Works) queried by Heather ("What is East Street?"); Tariq: "95-103 East St, Jimboomba. This
+  is the Jimboomba projects specific site address." Source: sent mail.
 18 Sep 2026, insurance placed:
 - Kendal chased at 2:40pm ("As we sorted on the insurance front?"). **Tariq, 2:40pm:
   "lock it in for 30-45 days start date from now please."** So the cover starts inside
@@ -403,6 +420,23 @@ Earlier: site works, NBN relocation, RFIs from Falcon Property; Clay on the day 
 Weekly projects update Wed 9 to 11am covers Slacks Creek and Jimboomba.
 
 ## 1-9 Anzac Ave, Logan Village (construction contract, progress claims)
+- **1 Oct 2026: closing out for the final claim.** 7:49am to Hishaam Tayob: will follow up
+  with PM "to ensure we have everything required and attain a PC Cert from Client also".
+  7:52am to Clay: compile the Form 12s, 43s, 71, QFES sign-off, CofC, Stat Dec and tax invoice
+  "in a link to the QS asap", and the O&M handover in the **Armada Built** format. Clay 8:10am:
+  up to **$400k in HCVs**, final variations meeting with **Carly on 15 Oct**, **CofC next Tue or
+  Wed**, plumbing approval next Monday, certs in Procore Drive handover folder; Daniel to
+  finalise in the Armada format. To Kendal 8:18am: "moving forward I like clean neat links when
+  closing out projects and how they file."
+- **1 Oct 2026, subbie accounts:** ELC trench final account agreed by Clay and Daniel; Tariq
+  "I still feel they pulled the rug over us once again". Toilet partitions subbie (Hayley)
+  missed the 25/8 cutoff, payment date 7/10/26; Tariq asked why Mauricio "is agreeing with the
+  subbie in lieu of investigating himself and pushing back with evidence". House Surveys
+  invoice 7239 **$7,183 due 7 Oct**: "check their total invoices against the contract/quoted
+  amount", and asked whether the as-constructed was already in the plumber's scope. Atlan
+  credit memo CM11497 to Clay: "Why are we not fighting them against their fixed price for
+  variations in lieu of just paying them? They decided to upgrade and install end caps?"
+  Shade Sails 4 U final invoice (job completed 8/9/26) in today's pay run. Source: sent mail.
 - **30 Sep 2026: contract works insurance is being dropped, once the client has their own.**
   3:11pm to Kendal on the Osman renewal declaration (expiry 30/10/2026): "I have notified the
   client ot get their own insurance, **lets make sure they do before we cancel ours next week**."
@@ -546,6 +580,17 @@ to him for the price, not to Clay and Veena. Reece was promised "mid next week" 
   capability brochure and project videos attached.
 
 ## 29 Millers Rd / 3000132 Eight Mile Plains (Indara tower, renewal and easement)
+1 Oct 2026, the rooming layout and the operable wall:
+- Dean Parker (30 Sep) on why not bedsitters: they manage 1200 rooms and get better rent for a
+  layout that works like a 1 bedroom. **2:54pm to Dean:** "I'll amend asap", asked about the
+  toilet/basin moves and an **operable wall** so tenants get both options. **2:52pm and 3:14pm
+  to Andrew Milford (ReziCAD), cc Veena:** "Just leave it then, I can add a wall later if it
+  really effects dollars that bad ... **I prefer flow over $50buks?** In my opinion you can
+  charge more for better flow". Not settled.
+- ReziCAD invoice 1681911 is a **separate invoice for the changes** (design already paid in
+  full, Andrew 9:40am); Tariq asked accounts to pay it today/tomorrow.
+- Perry Chang (Central Industries) chasing to quote shade sails on the 65-place childcare at
+  this address; forwarded to Clay "for future possibly". Source: sent mail, 1 Oct 2026.
 30 Sep 2026, he chose to lodge now and fix at Information Request, and chased the bedsitters:
 - **11:36am to Elley King**: House 1 and 2 are still all bedsitters, "we most likely will lose
   **$50/room** for each of those house which equates to around **$180k valuation reduction per
@@ -698,6 +743,8 @@ Source for all of the above: his inbox and sent mail, read 28 Sep 2026.
 - Also on this address: Rezicad (Andrew) introductions and drawings.
 
 ## 85-97 Bardon Road, Berrinba (acquisition)
+- **1 Oct 2026, 7:43am to Kendal:** "entire lot was resumed" (answering her 29 Sep list of
+  documents she needs for the Claude working project). Source: sent mail.
 30 Sep 2026, still waiting on the Department, and the rates refund is stuck on it:
 - **7:41pm to Gus Haseler and Mitchell Osborne (Mullins): "Following up on the response from
   department, please advise?"** Gus had said on 18 Sep a response was due early the next week.
@@ -738,6 +785,13 @@ Source for all of the above: his inbox and sent mail, read 28 Sep 2026.
   comparison for Bardon Rd is on his agent wish list.
 
 ## 33 Commerce Circuit, Yatala (SRA application 2602-50502)
+- **1 Oct 2026, 8:06am to Murray Wright:** after Council's comments to Ken, his concern is the
+  consultant reports' wording "creating unnecessary triggers for Council and SARA" (the SMP
+  talks of channel widening/deepening, flood gates and fill; if done already, describe as
+  existing conditions). Asked why it is **Fisheries Act waterway barrier works**, whether it is
+  a major issue or workable with SARA, and whether the southern neighbours' existing crossings
+  set a precedent. "Keen to understand your view before we go too far down the wrong path."
+  Waiting on Murray. Source: sent mail.
 - **22 Sep 2026: another state body clearance is required, and nobody has explained what
   that means yet.** Murray Wright (HPC Planning) sent the SRA application correspondence
   21 Sep 1:40pm; Tariq forwarded it 22 Sep 7:52am to **Imran Ali** (ISA Collective) and
@@ -749,6 +803,21 @@ Source for all of the above: his inbox and sent mail, read 28 Sep 2026.
   putting it in anything TFA-facing.
 
 ## Tenders and prospects (design and construct)
+**1 Oct 2026:**
+- **Forvm @ Hillcrest:** 7:53am to Clay, Veena, Kendal: present the review "to me today",
+  leaving Kendal time to compile the submission. Clay's 27 Sep plan for **Randal** (D&C
+  baseline + quals/exclusions + 20% design contingency + fees); Tariq "Sounds like a good plan
+  mate. Lets win some work".
+- **Middlemount (46 Centenary Dr South) and OOM Energy:** Chris Fort (22 Sep) would lease a
+  service station if rent is about **$180-200k p/a** (250m2 shop, canopy with 4 islands incl
+  high clearance, 68,000 L diesel above ground, 60,000 L split ULP/PULP underground); 28 Sep
+  said a QSR add-on at **Bridgeman Downs** may go first. Tariq 3:16pm: "Will aim to come back
+  to you **early next week** in response to both your emails." To Kendal 3:17pm: add to the
+  estimating list with Bridgeman Downs, "I'll drive it just flagging."
+- **1661 Old Cleveland Rd Chandler:** 7:29am to Austraffic, wants the traffic count to
+  "present it to potential fuel retailers for lease negotiations given VPD".
+- **Mumtaz Saleem (Bromley RE)** asked for a price schedule; Tariq 7:40am "Aiming for
+  $8,000/m2". Source: sent mail.
 **30 Sep 2026, 3:13pm: KD Special Projects referral fee close to agreed, with one change.**
 Nick Koschel (29 Sep 8:47am) offered **0.7% + GST of contract value, capped at $50k + GST,
 payable on execution of the build contract**, and will introduce the developer on the
@@ -1034,6 +1103,11 @@ clarifications are still due COB Friday 2 Oct 2026. Source: his inbox, read 26 S
   file and document discipline before headcount grows. See [[rules]] for the standing line.
 
 ## Systems rollout and the project team (Clay's lane, Kendal tracking)
+- **1 Oct 2026:** Kendal (11:06am) is relabelling job and property codes in Procore and MYOB
+  ("just changes the labels"); Tariq asked how the MYOB meeting went and sent back her 3 Sep
+  cost code paper "to review whilst you process post your meeting". Forwarded Clay Access Hire
+  scissor lift rates and the Komatsu rental fleet list (grader for road works). Accepted a
+  **HubSpot exploratory call** (Luke Elliott). Source: sent mail.
 30 Sep 2026, catching up on mail after the school holidays:
 - **Cost reporting, 4:21pm to Clay and accounts@:** large invoices are arriving that were never
   flagged to accounts as coming, "example **50k in contract floors, 30k joinery, 55k
@@ -1093,6 +1167,10 @@ clarifications are still due COB Friday 2 Oct 2026. Source: his inbox, read 26 S
   All three are the same push. See [[rules]].
 
 ## Employment and legal matters
+1 Oct 2026, 7:38am: **Review Application 77969 (Pi-Hao Cheng) submission sent** to Kathleen
+Klug (OIR reviewing officer, 07 3842 2833), "We await your decision"; told Desari Lynam (MBQ)
+"Email sent". Nelson Frost: "waiting to see if he will reconsider post Shanes discussion with
+him"; Clay says he is leaving and asked Heather whether TAFE must be notified. Source: sent mail.
 30 Sep 2026, 4:05pm: **Review Application 77969, go ahead.** Desari Lynam (MBQ) sent a short
 draft submission on 28 Sep supporting the WorkCover decision, to go on TFA letterhead. Tariq:
 "Yes please **proceed asap** ... I would like to add 100 other things, but if you think its
@@ -1257,6 +1335,13 @@ Fettell):
   reattached the dates material.
 
 ## Money and compliance
+**1 Oct 2026: creditors run paid.** Heather and Clay ran the bills; Tariq queried four (Jaiah
+invoice $5k vs revised $4k, ABP timing, Onelock, Shade Sails deposit), Heather answered, and at
+8:07pm he processed the ABA files: "FYI all paid. **We need income now too much expense lol.**"
+From today suppliers cannot add a card surcharge, so more will go by ABA. Pleasure craft policy
+PRI-1268641 cancelled (Osman: both jet ski policies now cancelled). Bunnings PowerPass
+NQ 278708 (Mustafa Dean): "approve this one time only". RAM authorisation requests forwarded to
+Sarah "for any future ref". Source: sent mail.
 **30 Sep 2026: land tax EPO and insurance.** QRO replied to enquiry 1108815457 that he needs
 a full access account linked to the entity, and the EPO must be registered **within 35 days of
 the assessment notice issue date**; he forwarded it to accounts, "not sure what site or entity
@@ -1472,6 +1557,10 @@ Source: his sent mail and the accounts thread, read 29 Sep 2026.
   accountants (Xact Accounting, Westnet advisors on the MYOB file).
 
 ## Hiring (live as at 10 Sep 2026)
+- **1 Oct 2026:** Alicia's Senior Contract Administrator wants $50m+ projects; Tariq: "we
+  are doing 200m projects ... I presume they are not suitable hence hiding behind the figure.
+  Don't tell them. Show them". She sent the CV and offered a meeting (3:26pm); he replied "no
+  attachment". Open. Source: sent mail.
 - Looking for a **Contract Administrator**. Alicia McGregor (Frontline Construction
   Recruitment) approached him; he asked what candidates she actually has.
   16 Sep 2026 11:37am, she asked the salary range for a stand out candidate and he
@@ -1518,6 +1607,13 @@ Source: his sent mail and the accounts thread, read 29 Sep 2026.
   the sign off. Kendal is running it.
 
 ## Other threads
+- **1 Oct 2026: Middlemount site (46 Centenary Dr South), Isaac council.** Hannah Booth: report
+  of corrugated iron and litter; land is used by the community as a walking area. Tariq: "only
+  2 sheets of tin ... any reason it can't just stay on the 4 hectare site untouched?", then asked
+  her to tell the public it is "Privately owned property" and "Our team will address
+  accordingly." Indara/Telstra access issue: chased Michelle Gerbeau (Telstra) 2:38pm on site
+  options (last chase 9 Jul). Pickles: Shane Rubinic (National Valuer, Salvage) had texted and
+  called; Tariq "Will give you a bell later today or tomorrow". Source: sent mail.
 - **30 Sep 2026: 94 Lipscombe Rd (Andrea Cancelli).** 8:01am he asked Andrea for the lock box
   code and location and told him it is "delayed till Friday now"; Andrea wants "the fastest way
   home" for approval of the mezzanine (storage or deposit). Inspection 9:30am Fri 2 Oct.
