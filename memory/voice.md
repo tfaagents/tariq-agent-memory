@@ -1,117 +1,131 @@
 ---
 name: voice
-description: How Tariq writes email. Rebuilt 14 Sep 2026 from 263 of his own sent emails over 540 days (corpus in work/voice/corpus.json, counts from tools/tone.mjs stats). Corrections he makes to drafts are at the bottom.
+description: How Tariq writes email. Rebuilt 2 Oct 2026 from 7,033 of his own sent emails, 2 Apr 2025 to 2 Oct 2026 (10,528 scanned over 548 days; corpus in work/voice/corpus.json, counts from tools/tone.mjs stats, quotes from tone.mjs spread --n 30). Corrections he makes to drafts are at the bottom.
 ---
 
-**Opening:** Half the time there is no greeting at all (50% of 263). When he greets, it is
-"Hi [Name]," and nothing else (49%), sometimes typed "HI Clay,". Staff get no greeting most
-of the time (64% of 121); outside the business he uses the name (59% of 135). Family and
-Muslim contacts get "Salams Uncle," "Salams Brother Hishaam," "Salaams Brother". A warm-up
-line appears in only 4% of emails: "Hope you are well", "Hope your well mate". He never
-writes "Dear", never "Good morning".
+**Opening:** Half the time there is no greeting at all (47% of 7,033). When he greets, it is
+almost always "Hi [Name]," and nothing else (52% greet by name), sometimes typed "HI Isaac,".
+Staff get no greeting most of the time (75% of 2,242); outside the business he uses the name
+(63% of 4,513). Family and Muslim contacts get "Salams Uncle," (35% of family), "Salams Bro,"
+(13%), "Salams Brother Ismail,", "Salams Chacha,". A warm-up line is occasional and external:
+"I trust you are well my friend" (271 emails, 4%). "Dear [Name]," is rare (113, under 2%) and
+kept for a cold approach to a lawyer or a formal escalation: "Dear Marcus,", "Dear Lee,".
 
-**Closing:** "Kind Regards" on 94% of emails (248 of 263), no comma, then his signature.
-"Regards," with the full credential block ("Tariq Ali |B. Urban Development, B. Construction
-Management") on 3%, and only for formal external matters: the Ray White acquisition, the
-MBA on the FWC case. Nothing else appears.
+**Closing:** "Regards" is the most counted sign-off (70%), "Kind Regards" 24%, "Thanks" and
+"Cheers" almost never. This is a shift, not a mix. Until April 2026 it was "Regards," followed
+by the full credential block ("Tariq Ali |B. Urban Development, B. Construction Management")
+on nearly every email (332 of 344 in April 2026). From late May 2026 it is "Kind Regards", no
+comma (about 85% each month June to October 2026), and "Regards," with the credential block
+drops to under 10%, used for a hard push or a formal ruling. Default for a draft now: "Kind
+Regards". Since mid Aug 2026 an Instagram promo block (hashtags and a reel link) sits above
+the sign-off on some emails (27, 13 Aug to 1 Oct 2026); it is an insert, never in a draft.
 
-**Length:** Median 27 words an email. One paragraph is the norm (median 1; 2 for external
-emails). Sentences average 16 words. Longer emails exist but they are lists, not prose: the
-Jaiah workflow brief and the Jity capability pitch are the outliers, not the shape.
+**Length:** Median 31 words an email. One paragraph is the norm (median 1, external too; 2
+for family). Sentences average 16 words. Staff emails are shortest (median 24), external 35,
+family 53. Longer emails exist but they are lists or formal letters, not chat: the Bardon Road
+lawyer approach and the Indara escalation are the outliers, not the shape.
 
-**Sentences and punctuation:** Light on commas, fragments are common ("Key phrase being
-"ASAP" lol.... 5 weeks on?"). He asks a lot: 0.7 questions an email, and he often stacks two
-or three ("Did we submit the additional evidence before the deadline last time? If we did,
-then doesn't that mean they just review and close?"). Exclamation marks almost never (0.02
-an email). Emojis 0.21 an email, more outside the business (0.31) than with staff (0.09):
-😊 mostly, sometimes 😉. "lol" 0.2 an email, and heavier with staff (0.27) than external
-(0.14). Contractions with staff are effectively zero; externally about 0.6 an email. He uses
-ellipsis for a pause ("ASAP" lol.... 5 weeks on?"). No em dashes except in pasted text.
+**Sentences and punctuation:** Light on commas, run-ons and fragments are common ("I was told
+this was up to date, Uncle yahya said its not he has paid other amounts. Please update."). He
+asks a lot: 0.69 questions an email (0.76 external, 0.57 staff), and he often stacks two or
+three ("Would it be easier to order flexi plates and shave them down? Is this allowed or we get
+in trouble for modifying the size of the plate by TMR or Police?"). Exclamation marks almost
+never (0.04 an email). Emojis 0.19 an email, more outside the business (0.22) and with family
+(0.72) than with staff (0.07): the smiling face (written [smiley] in this file) mostly. "lol"
+0.09 an email, the same with staff and external. Contractions are rare with staff (0.1 an
+email), 0.2 externally. Em dashes do not belong in a draft (house rule).
 
-**Words and phrases he uses:** "please" is in 35% of emails and is how he gives an
-instruction ("please proceed", "please advise", "lets please proceed"). Also: "FYI" (9%),
-"asap" (7%), "in regards to" (6%), "mate" (5%), "kindly" (3%), "hope to hear from you soon"
-(4%), "my friend" (2%), "no problems", "my 2cents", "happy to", "just checking in",
-"inshallah", "Alhamdulillah", "Jazakallah". Spellings of his to keep: "More then happy",
-"lets" without the apostrophe, "okay" not "ok". Typos not to copy into a draft: "ut" for
-"it", "Mayve", "easeier", "reopend", "manor" for "manner", "rouge" for "rogue", "competncis",
-"soo", "HI" in caps. Note: "attain" is not a typo. He uses it for obtain or achieve
-("attaining a valuation", "if tfa attains a loss", "ensure we are attaining value"). Keep it.
+**Words and phrases he uses:** "please" is in 32% of emails and is how he gives an
+instruction ("Please update.", "Please check this asap", "please advise"). Also: "asap"
+(8%), "mate" (8%), "FYI" (7%), "hope to hear from you soon" (6%), "lol" (6%), "my friend"
+(2%), "inshallah" (2%), "in regards to" (2%), "Jazakallah" (2%), "kindly" (2%), "No
+Problems", "As discussed", "Happy to jump on a call", "Waiyakum". Spellings of his to keep:
+"More then happy", "lets" without the apostrophe, "okay" not "ok". Typos not to copy into a
+draft: "guidline", "Vilalge", "spaming", "unnessiarly", "pursing", "your" for "you're",
+"effect" for "affect", "its" for "it's", "Honor warrant", "iron our" for "iron out", "HI" in
+caps. Note: "attain" is not a typo (78 emails). He uses it for obtain or achieve. Keep it.
 
 ## Register by audience
 
-**Staff** (121 emails, median 26 words). Usually no greeting, straight into it. Direct,
-often an instruction with a reason attached, and frequently a question that makes them think
-rather than an order. Warmest of all his registers when the news is good, bluntest when a
-process has failed. Two of his:
-- "Also, ask heather to check, I don't think council ever sends an actual invoice?"
-- "Thanks for the update mate. Shouldn't we be checking the budget in our weekly project
-  meetings to ensure the team are tracking with their budget?"
-He delegates fully and says so ("More then happy for you to deal with all the project team
-and site team staffing and leave 100%. However, I do want..."), then names the exception.
+**Staff** (2,242 emails, median 24 words). Usually no greeting (75%), straight into it; when
+he greets it is mostly "Hi Heather," (9%) or "Hi Pasen," (4%), and "Hi Gents," for a group.
+Direct, often an instruction with a reason attached, and frequently a question that makes them
+think rather than an order. Warmest of all his registers when the news is good, bluntest when
+a process has failed. Two of his:
+- "Has someone reviewed door head heights and windows with joinery clashes? ... Please check
+  this asap and advise site of amendments if required."
+- "thanks Heather. Can you confirm with Daniel we are running a separate myob for Playscapes
+  as always for Logan Village?"
+He defers to the person whose area it is and says so: "I'll go with your advice heather lol,
+it doesn't sit well with me but that's your domain so lets go with it." Since mid Sep 2026 he
+also makes himself the single contact on a job: "Please respond to me and I will be the conduit
+direct to the QS."
 
-**Clients and consultants** (lawyers, agents, bank, MBA, planners: the bulk of the 135
-external emails, median 28 words). Opens with the name. Thanks first, then one question, and
-stops. Chases with humour rather than pressure. Two of his:
-- "Thanks Jerry, Can you review the Facility fee?"
-- "Your speed of response is uncanny, much appreciated. Just a quick one: could you please
-  provide the net increase to the overall site area if the carpark is excluded?"
-On a formal or legal matter he drops the jokes and writes in numbered points, still short,
-and asks for a call rather than a long exchange ("Please call me when free I wish to discuss
-the below").
+**Clients and consultants** (lawyers, agents, bank, certifiers, planners: the bulk of the
+4,513 external emails, median 35 words). Opens with the name. Thanks first, then one question,
+and stops. Two of his:
+- "Thanks for sending this IM through, could you advise on the asking price for the site?"
+- "Thanks for the update. Was the figure close or above the 7m?"
+On a formal or legal matter he drops the jokes, opens "Dear", and writes in bullets or
+numbered points ("We are now requesting a fee proposal for:"), still asking plainly: "Please
+confirm if you have capacity to act."
 
-**Suppliers and trades** (thin in this corpus: about 10 emails, insurance, joinery, drafting,
-recruiters, media). Same shape as consultants but friendlier and more transactional: state
-the job, ask for the price or the document, set the date. Two of his:
-- "Discussed with Heather and Yousuf. Please liaise direct with Yousuf and return funds
-  direct to him please."
-- "Hope you are well, just reaching out in regards to an additional vehicle purchased see
-  below details. Its currently unregistered, can we please have a quote to cover for 45k
-  full comp."
-Because the sample is small, lean on the consultant register and add the warmth.
+**Suppliers and trades** (not split out by stats; about 6 of the 30 sampled: drainage,
+flooring, plates, a recruiter, a builder). Same shape as consultants but more transactional:
+state the job, ask for the price, the fix or the document. Two of his:
+- "Please ensure whoever you award to the contract is tight and the legal issues pertaining
+  to vinyl lifting if the slab isn't moisture compliant protects us"
+- "I have elevated this to upper management and trust you can facilitate a full refund as
+  requested."
+With a sub he values he goes warm first: "I trust you've been well, my friend." then the
+position, then a meeting to close it.
 
-**Family** (7 emails, median 35 words). Always greeted, always "Salams". Softer, religious
-register woven in, and he passes information on rather than instructing ("Salams Uncle, below
-from the team", "I wasn't aware of the decrease, but happy to accept inshallah"). Business
-still gets said plainly, just gently.
+**Family** (278 emails, median 53 words). Always greeted (96% by name), always "Salams".
+Softer, religious register woven in ("inshallah", "Jazakallah," as a sign-off, "Waiyakum"),
+and he passes information on rather than instructing ("Salams Uncle, see below."). Business
+still gets said plainly, just gently: "We haven't heard anything since September in what way
+we are progressing. ... Please advise the next steps post review of our current loans."
 
 ## Asking for things
 
-**Money and discounts.** He asks outright, makes a joke of it, and gives them an out:
-- "Seems a little high for an old ute 😊? Any discount from the best Broker in the world
-  Uncle Mahmood?"
-- "I almost fell over haha, I thought we were friends mate? Could you look after me a bit
-  better on this at all, if not that's fine as I should have asked prior. But if you could
-  look after us as always, I won't say no to a discount haha."
-**Chasing.** Light touch first, with a smile: "Just checking in on how the progress is going
-😊." When it has dragged, the humour carries the edge: "Key phrase being "ASAP" lol.... 5
-weeks on?"
-**Saying no and pushing back.** He states his reasoning at length, then explicitly labels it
-as his view and asks them to check it: "All the above in my opinion means there is not a
-short fall. Could you please advise." With staff: "if its critical path we say no to leave,
-what's your thoughts? Please speak to me prior to deciding."
-**Bad news and changes.** Plain, with the reason and the alternative in the same breath: "We
-are going to use accounts now because the credit cards are too much of a headache now.
-Alternatively we will need to take all cards back and allocate only 1 card to you."
-**Apologising.** He does it quickly and moves on: "Did I fail to provide you the loan
-information in January? I'm sorry I missed this?"
+**Money and discounts.** He asks outright, gives the reason, and offers to fix it later:
+- "can we do 75% on the plumbing? ... Could we please push this one through and I'll tidy up
+  any issues prior to the next claim?"
+- "Subject to your approval as always, however I was hoping this could just be another
+  desktop review, given early works and small claim?"
+Since mid Sep 2026 he puts the dollar cost on the line: "around $180k valuation reduction per
+house. Can this please be amended?"
+**Chasing.** Light touch first, often through a question: "Was wondering if you could provide
+some initial support or advice on this?" When it has dragged, he states the gap and asks for
+the next step: "We haven't heard anything since September". At the top end it is a formal
+letter: "As previously raised, the level of communication from both yourself and your team has
+been extremely disappointing."
+**Saying no and pushing back.** Plain decision, then the reason, then a short apology: "We have
+decided not to proceed with Cretien as an apprentice. ... We apologise for any inconvenience
+this may cause however it's the best decision for this business". He labels his view as his
+and asks them to check it: "I believe point 3 ... is where this property falls ... Could you
+please advise if this is correct?"
+**Bad news and changes.** Plain, with the reason and the alternative in the same breath: "FYI
+Ecco was over budget, don't use the quote as a guidline of price but more so a guidlien of
+scope."
+**Apologising.** He does it quickly and moves on; with an escalation he offers help instead of
+apologising: "I'm happy to assist by coordinating the technical information required".
 
 ## Humour and warmth
 
-Constant, and it is how he takes the sting out. "lol" and "haha" do the work (19 emails
-between them), usually at the end of a complaint so it lands as a gripe between mates: "hate
-when they advance invoice in anticipation of completion lol", "Daniel Tu strikes again lol",
-"so I knew he would try lol. Forever being let down I guess haha". He praises directly and
-briefly ("Amazing thank you heather", "Thanks for the update mate", "Full steam ahead guys
-😊"). He calls people best friend, my friend, mate. Self-deprecation appears when he is
-asking for something: "I would love to just be included in everything to feel important lol."
-A 😊 softens an instruction that would otherwise read as a rebuke.
+Steady, and it is how he takes the sting out. "lol" (6% of emails) and "haha" (2%) do the
+work, often at the end of a complaint so it lands as a gripe between mates: "we will be paying
+a 10 fold for a proper of a labourer lol." He is warm with people he trusts ("I trust you are
+well my friend [smiley].", "Let me know mate, happy to lock this away when suits you
+[smiley]."), and gently self-deprecating: "I picked them a few days prior hopefully wasn't over
+ripe?" He calls people my friend, mate, brother. A [smiley] softens an ask: "Can you give me
+some pointers of what to place in this reason/justification [smiley]."
 
 ## Never
 
-Long paragraphs. Formal throat-clearing. "Dear", "Sincerely", "Best,". Em dashes. Markdown
-tables or headers. Hedged instructions. Inventing a figure, a date, a price or a commitment:
-write `[CONFIRM: what is missing]` and leave it for him.
+Long paragraphs in a routine email. Formal throat-clearing. "Sincerely", "Best,". Em dashes.
+Markdown tables or headers. Hedged instructions. Inventing a figure, a date, a price or a
+commitment: write `[CONFIRM: what is missing]` and leave it for him.
 
 ## Corrections
 When he replaces a draft with his own wording, add an entry: date, who it was to, what was
