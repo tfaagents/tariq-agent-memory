@@ -86,3 +86,11 @@ one wins. Never delete a rule; strike it through and add the replacement under i
   executing the systems for you." When a job is being chased by one person and executed by
   another, name the executor as the owner. Never move a deliverable onto the person
   chasing it.
+
+## Promises and the morning note
+- 2026-10-03 (Telegram, 6:51am): **"You missed the clarification response for cole cheatau
+  development."** The Hillcrest clarifications to Cole Erbacher were due COB Fri 2 Oct and
+  the promise list carried "come back to Cole" with no date, so neither the close-out nor the
+  morning note raised it. When a promise has no date but memory holds one for the same job
+  (a client deadline, a register due date), the note shows the date from memory and treats it
+  as due. Client tender deadlines are never dropped because the promise line is undated.
