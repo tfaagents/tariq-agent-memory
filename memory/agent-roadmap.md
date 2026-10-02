@@ -1,16 +1,19 @@
 ---
 name: agent-roadmap
-description: Tariq's own brief for the AI system he wants built around him and TFA, in his words, sent to Jaiah 11 Sep 2026
+description: "Tariq's own brief for the AI system he wants built around him and TFA, in his words, sent to Jaiah 11 Sep 2026: 7-8 coordinated agents on one \"Executive Operating System\"; agents 1 to 4 read, 5 onwards never read"
+metadata:
+  node_type: memory
+  originSessionId: 92012670-eaa2-4ca6-a160-cb53ca56a9be
+  modified: 2026-10-02T06:03:49.926Z
 ---
 
-Source: his email to Jaiah (Autoflow), "Tariq Bot Query", 11 Sep 2026 5:28pm. He is
-keeping a **running Word document of ideas and updating it continuously through the week**
-as things come to his head, plus a GPT-written version of agent ideas, and sending both to
-Jaiah. Expect this to be re-sent and to grow. The mail tool truncates the email at 6,000
-of 13,436 characters, so agents 5 onwards are not yet read. Read the full thread in
-Outlook before quoting it back to him as complete.
+Source: his email to Jaiah (Autoflow), "Tariq Bot Query", 11 Sep 2026 5:28pm. The mail tool
+truncates it at 6,000 of 13,436 characters, so **agents 5 onwards have never been read**
+(still so, seen 15 Sep 2026). Read the full thread in Outlook before quoting it back to him as
+complete. His running Word document of ideas behind it is [[bot-builds-doc]], which since
+16 Sep also carries his ChatGPT eight agent version as its section 3 (seen 16 Sep 2026).
 
-## The shape he wants
+## The shape he wants (11 Sep 2026)
 He rejected Jaiah's list as a build brief: "as a build brief it is too mixed together.
 You are combining desired outcomes, integrations, individual examples, autonomous actions
 and completely different risk levels in one sequence. An AI builder could easily create
@@ -26,7 +29,7 @@ across TFA, respond to repetitive matters, assist decision-making and progressiv
 actions on Tariq's behalf." **Monday.com stays the primary operational task source**, with
 the AI sitting above all systems and connecting them.
 
-## 1. Executive Command Centre, "Run My Day"
+## 1. Executive Command Centre, "Run My Day" (11 Sep 2026)
 - The central brain, "rather than another app I have to constantly maintain".
 - Captures from email, calendar, Monday.com, Teams, messages, call notes and documents,
   and decides what needs action.
@@ -35,21 +38,22 @@ the AI sitting above all systems and connecting them.
   allocates them to him or to staff through Monday.com.
 - **Morning executive brief**: meetings, important staff meetings, overdue items,
   outstanding responses, critical project issues, decisions required from him.
-- **Afternoon close-out report**: what is still outstanding, what carries forward. (This
-  does not exist yet. The morning brief does.)
+- **Afternoon close-out report**: what is still outstanding, what carries forward. (Both
+  ends of the day now exist in this agent: morning brief and 16:30 close-out live 21 Sep
+  2026, per capabilities.md, seen 2 Oct 2026.)
 - A **separate AI to-do / time-blocking calendar** built around his real meetings without
   touching the real meeting calendar, plus analysis of how he spends his time and
   recommendations to improve the day and week.
 - Eventually a **live dashboard on the TV in his office**: projects, tasks, deadlines,
   staff matters, meetings, opportunities, anything needing him.
 
-## 2. Communications Agent, "Tariq Inbox"
+## 2. Communications Agent, "Tariq Inbox" (11 Sep 2026)
 - One AI layer across email and, where possible, Teams, WhatsApp, SMS.
 - Give him the short version, say what actually needs action, group related threads, read
   the previous correspondence before recommending a response.
 - One-touch responses in his normal language, learning the difference between how he
-  speaks to **staff, consultants, lawyers, clients, mates and suppliers**. (This is the
-  same instinct as [[voice]], but split by audience, which voice.md does not yet do.)
+  speaks to **staff, consultants, lawyers, clients, mates and suppliers**. (Same instinct as
+  [[voice]], which has had a register-by-audience section since the 14 Sep 2026 tone profile.)
 - Auto-forward rules he can add to, e.g. certain Accor Plus correspondence to Ziana.
 - Low-value email into a **daily quarantine/report, not deleted**, and an approvable rule
   "never show me this type again".
@@ -59,7 +63,7 @@ the AI sitting above all systems and connecting them.
 - Phone conversations and call notes into a **simple personal CRM** so promises,
   follow-ups and tasks from calls are captured.
 
-## 3. People & Performance Agent, "TFA People"
+## 3. People & Performance Agent, "TFA People" (11 Sep 2026)
 - A record per employee: role, start date, probation, salary-review dates, birthdays,
   KPIs, performance discussions, development objectives.
 - Reminders with a drafted personal message for birthdays; probation reviews; 6-month
@@ -78,15 +82,14 @@ the AI sitting above all systems and connecting them.
   monitoring people for the sake of monitoring them." **Worth holding him to this if a
   staff-monitoring job ever comes up.**
 
-## 4. Estimating, Leads & Business Development, "Win Work"
+## 4. Estimating, Leads & Business Development, "Win Work" (11 Sep 2026)
 - Build project/tender packages for estimators: links, documentation, project info.
 - Issue estimator/tender blasts, track who has responded, **automatically follow up
   outstanding pricing**. (Directly answers the Abi and Alee link problem, see
   [[projects]].)
 - An estimating register/age tracking of some kind; the text is cut off from here on.
 
-## Open question he asked and nobody answered
-11 Sep 2026: "my ai number isn't responding to me on telegram, do they respond to voice
-messages?" Two things in one: he thinks the Telegram line went quiet on him, and he wants
-to send **voice messages**. Worth raising with him and, if it needs building, it is a
-request to Jaiah.
+## His 11 Sep question about Telegram and voice, answered since
+"my ai number isn't responding to me on telegram, do they respond to voice messages?"
+Telegram was never blocked (a Node connect timeout, fixed in notify.mjs, 11 Sep 2026), and
+voice notes have worked since 14 Sep 2026 (local Whisper, capabilities.md).
