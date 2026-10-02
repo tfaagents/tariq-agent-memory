@@ -22,7 +22,7 @@ argument-hint: [none]
    Count for the summary: drafts sent as drafted, edited, dropped this week (from
    `work/drafts/log.jsonl`).
 5. **First Friday of the month only: the consolidation pass.** Start with
-   `node tools/tone.mjs harvest` and then run `/tone-profile`, so the profile is rebuilt
+   `node tools/tone.mjs harvest --days 548 --max 15000` (the default stops at 400 emails, about 18 days) and then run `/tone-profile`, so the profile is rebuilt
    from the last eighteen months of his sent mail with the Corrections kept verbatim. Memory grows by appending,
    so once a month it is rewritten to what is still true.
    - For each `memory/*.md` except `rules.md`, `capabilities.md` and `MEMORY.md`: rewrite

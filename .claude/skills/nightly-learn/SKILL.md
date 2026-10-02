@@ -34,11 +34,16 @@ Runs without Tariq present. Read only, memory writes only.
 4. From those, update `memory/`:
    - `projects.md`: any project, site, tender, claim or development mentioned (name,
      address, stage, who is on it, what is outstanding, the date you saw it). One
-     section per project, newest fact on top, dates absolute.
+     section per project, newest fact on top, dates absolute. Since 2 Oct 2026
+     `projects.md` is an index: write into the `projects-*.md` part it names (a new
+     project gets its own part and an index line), else `projects-other.md`.
    - `contacts.md`: any person or company he dealt with today (who they are to him,
      company, what they handle). Update an existing line rather than adding a second.
+     `contacts.md` is an index: write into the `contacts-*.md` part for their kind.
    - `tariq.md` "How he works": only if you saw a new preference or rule in his own
      words. Quote it. A preference he stated on Telegram is as good as one in an email.
+     The newest rules sit in `tariq.md`; older ones are in `tariq-how-he-works.md` and
+     `tariq-how-he-deals.md`, so check those before adding a twin.
    - `voice.md`: only through step 3b and the draft skill; the profile above the Corrections
      heading is rebuilt by `/tone-profile`, never edited by hand here.
 5. Add one pointer per new file to `memory/MEMORY.md`. Never delete a memory; mark it

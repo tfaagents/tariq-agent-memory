@@ -5,7 +5,7 @@ argument-hint: [none]
 ---
 
 1. `node tools/tone.mjs stats`. If it says there is no corpus, run
-   `node tools/tone.mjs harvest` first (reads his Sent Items for the last eighteen months
+   `node tools/tone.mjs harvest --days 548 --max 15000` first (the default --max of 400 only reaches about 18 days back; reads his Sent Items for the last eighteen months
    into work/voice/corpus.json, which never leaves this machine), then stats again.
 2. `node tools/tone.mjs spread --n 30`: thirty of his emails spread across time and
    audience, his side only, quoted replies and signatures already cut off.
