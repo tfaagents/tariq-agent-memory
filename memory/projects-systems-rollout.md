@@ -14,6 +14,14 @@ Consolidated 2 Oct 2026 from projects.md. Sits with [[projects-standards]] and [
 three are the same push.
 
 ## Who owns it (settled by Tariq, 23 Sep 2026)
+- **M.D. Reporting, Clay and Tariq, Thu 8 Oct 2026 9 to 11am (Teams)**, accepted 2 Oct. He
+  asked Clay when they do the catch-up on "Clay Agenda - Kendal Amendments" (the Systems and
+  Operations review) and whether it is meant to be the same meeting. Unanswered as read. Clay's
+  Springwood Project Reporting moved from Wed 7 Oct (cancelled) to Wed 14 Oct 7:30am. (seen 2 Oct 2026)
+- **Time tracking for automation (2 Oct, to Kendal and Jaiah on "Heather time eaters"):** "Have we
+  created the same visual tracker for agent building for projects team", and "Can we do this with
+  an agent on the laptop or hubstaff to get true data in lieu of the staff member writing tasks
+  themselves?" (seen 2 Oct 2026)
 - Clay sent a Systems Rollout Review to Kendal first (23 Sep 4:16am) with three review tables and
   a list of **her** responsibilities: fold it into a master rollout plan, set a **recurring
   Thursday meeting for Tariq and Clay (first rollout review Thu 1 Oct)**, minute it weekly and

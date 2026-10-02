@@ -24,6 +24,9 @@ before quoting it.
   this address; forwarded to Clay "for future possibly". (seen 1 Oct 2026)
 
 ## Decision: lodge now, fix at Information Request
+- **2 Oct:** Elley sent amended plans 8:32am, site cover updated for Adrian. Tariq 12:05pm:
+  "Can we map a way forward for DA submission please Ellen/Adrian?" Same day he sent the plans to
+  Dean Parker: "Hows this look, in line with your non 1970s style lol?" Awaiting both. (seen 2 Oct 2026)
 - Adrian 28 Sep gave him the fork: lodge without extra engineering and take an IR, or do
   stormwater engineering, swept paths for the refuse truck and a certified landscape plan upfront
   ("it is likely that we will receive an information request regardless"). 30 Sep Adrian

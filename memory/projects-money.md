@@ -33,6 +33,18 @@ Consolidated 2 Oct 2026 from projects.md. Tax, land tax, loans, banking and insu
   authorisation requests forwarded to Sarah "for any future ref". (seen 1 Oct 2026)
 
 ## Invoices and refunds still open
+- **HPC Planning INV-3338, $3,750, due 14 Oct 2026:** Tariq to accounts 2 Oct: "please pay,
+  this is for a future project not yet owned by us still in due dillagnce period." Site not
+  named; HPC advised on 1661 Old Cleveland Rd (see [[projects-prospects]]), so likely that one.
+  Confirm before tying them. (seen 2 Oct 2026)
+- **Europcar / Linkt, VISA 7895:** Heather 2 Oct: $145.84 prepayment charged, a -$145.84 credit
+  issued, refund not yet on the card; Europcar will only speak to the renter, and Linkt says
+  rental tolls are charged to the rental card, so a post-bill could be a scam. Tariq: "please flag
+  and address when you can ... no rush", "happy to be added to the call when you need me". (seen
+  2 Oct 2026)
+- **BCC rates, 2 Hewson St, Tingalpa** (account 5000 0000 0140 855), due 5 Nov 2026 for the early
+  discount: Tariq to accounts and Ziana 2 Oct: "seems we paid rates twice last time?" Unanswered as
+  read. (seen 2 Oct 2026)
 - **MB Planning invoice HI1476 (Murray Bell, 1661 Old Cleveland Rd), refund $8,525.** Raised
   24 Jul while the deal was in progress; he told accounts to hold it until a contract was over the
   site. He ticked it (and HPC) for payment by mistake on 16 Sep; the fix: "refund for Murray bell

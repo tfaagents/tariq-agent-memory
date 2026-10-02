@@ -13,6 +13,11 @@ metadata:
 Consolidated 2 Oct 2026 from projects.md. Live priced tenders are in [[projects-tenders]].
 
 ## The pitch
+- **Leiba Commercial, Jonathan Rosenthal** (jr@leibacommercial.com.au) is selling a portfolio of
+  childcare centres ($5m to $20m each, 20-year leases to Affinity, Nido, Busy Bees and others,
+  completed or pre-construction). Tariq 2 Oct 7:25am: are any leaseholds "we could possible take
+  over and operate", and any pre-construction sites "we could possibly build for your clients",
+  with the Instagram reel. Awaiting reply. (seen 2 Oct 2026)
 - Childcare and education is the sector he is courting; he pitches architects directly and says
   TFA is "becoming increasingly selective with the projects we pursue". (seen 18 Sep 2026)
 - The education pitch he wrote himself (to Steve Blades, 22 Sep), worth reusing: education a
@@ -40,6 +45,12 @@ Consolidated 2 Oct 2026 from projects.md. Live priced tenders are in [[projects-
   childcare centre in Brisbane**; Nick will introduce once the referral is agreed. (seen 30 Sep 2026)
 
 ## Service station and fuel sites
+- **Middlemount trip (2 Oct):** "I need to go inspect this site as I haven't since I purchased it
+  5 years ago. Also given the new mine extension this might turn into a possible future
+  development for us sooner or offset sale for cashflow given it could be worth 10 times
+  acquisition price now." Kendal offered to schedule it; Tariq: "we need to work out flights,
+  cars and timing for when I would like to go". No date yet. Chris Fort (2 Oct 6:33am) expects
+  something from him next week. (seen 2 Oct 2026)
 - **Middlemount, 46 Centenary Drive South (Isaac Regional Council) and OOM Energy:** Chris Fort
   (22 Sep) would lease a service station if rent is about **$180-200k p/a** (250m2 shop, canopy
   with 4 islands incl high clearance, 68,000 L diesel above ground, 60,000 L split ULP/PULP
@@ -53,6 +64,13 @@ Consolidated 2 Oct 2026 from projects.md. Live priced tenders are in [[projects-
   tin ... any reason it can't just stay on the 4 hectare site untouched?", and asked her to tell
   the public it is "Privately owned property" and "Our team will address accordingly." (seen
   1 Oct 2026)
+- **Chandler traffic count, Austraffic quote (2 Oct):** 7-day classified (lights/heavies) count
+  at the frontage of 1661 Old Cleveland Rd, 4 lanes: **$2,800 + GST ($3,080)**. He queried "the
+  double up in price against our previous site in Berrinba VPD request 3 months ago"; Martin:
+  4 lanes means 4 loggers plus night works and traffic management; tube counts are 3-4 weeks out
+  (schools back, backlog); a video count needs 2-3 days notice, usually 50% dearer, offered at
+  the same price. Tariq's open question: do the readings come out in the same, accepted format
+  for VPD? Not booked. (seen 2 Oct 2026)
 - **1661 Old Cleveland Rd, Chandler:** traffic count quote asked of **Austraffic** (Martin
   Jordan-Williams cc Trefor Mathew) 30 Sep; 1 Oct he wants the count to "present it to potential
   fuel retailers for lease negotiations given VPD". HPC Planning has given planning advice.

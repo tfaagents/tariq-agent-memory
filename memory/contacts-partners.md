@@ -17,6 +17,9 @@ Part of [[contacts]]. New estimators, subcontract partners and marketing contact
   Formal signature used with him. **Carly (carlyp@hsgroup.au)** handles the **Logan Village
   childcare change events and variations**, dealing with Mauricio. Their office at **Eight Mile
   Plains** is where Clay, Daniel and Mauricio meet on the variations. (seen 28 Sep 2026)
+  **Hassan** (mh@hsgroup.au, 0404 584 414, "Salaams Mr. Tariq") ran the pool renovation favour
+  with **Abdul "Uncle Dado" Sacur** (dado@birite.com.au); personal side, see [[projects-other]].
+  (seen 2 Oct 2026)
 - ISA Collective (admin@): supervisors, estimators, drafters, admin available; "Plans 9 Vaughan
   Drive". Saiyad Pasha and Saheed Ali on the same threads. **Imran Ali**
   (imran@isacollective.com.au) is the founder and director and the person behind admin@
@@ -28,7 +31,8 @@ Part of [[contacts]]. New estimators, subcontract partners and marketing contact
   objection with, see [[learoyd-algester]] and contacts-personal.md. (seen 22 Sep 2026)
 - **Austraffic: Martin Jordan-Williams** (martin.jordan-williams@austraffic.com.au) and **Trefor
   Mathew** (trefor.mathew@austraffic.com.au). Traffic counts; used for Bardon Rd (May 2026),
-  asked for a quote on 1661 Old Cleveland Rd Chandler 30 Sep 2026. (seen 30 Sep 2026)
+  asked for a quote on 1661 Old Cleveland Rd Chandler 30 Sep 2026; quoted $2,800 + GST 2 Oct
+  (Martin is Principal, Qld, M 0419 682 296, P 07 3423 8277). (seen 2 Oct 2026)
 - **Ewan Kavanagh** (ewan.kavanagh@theurbandeveloper.com), **The Urban Developer**. TFA is a
   **TUD+ corporate member**. He offered the Member Spotlight package (feature article, 80,000+
   subscriber eDM, 83k+ social following) 22 Sep 2026; Tariq is weighing the $5k against Facebook

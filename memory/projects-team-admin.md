@@ -15,6 +15,8 @@ here, by rule. People and roles are in [[tfa-people]]; legal matters in
 [[projects-employment-legal]].
 
 ## Apprentices and TAFE
+- TAFE Queensland training notice for Seth Tebb (Rick Huang, 2 Oct) forwarded to Clay and
+  accounts. (seen 2 Oct 2026)
 - **Four apprentices: Nelson, Jordan, Alex and Seth.** Clay (14 Sep): each needs a qualified
   tradesperson; Nelson is under Shane (mechanic), the three carpentry apprentices have nobody
   assigned, Jordan (4th year) is teaching the first years, and with more trade packages

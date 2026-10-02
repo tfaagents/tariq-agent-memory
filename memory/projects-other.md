@@ -14,6 +14,17 @@ Consolidated 2 Oct 2026 from projects.md. **New facts that fit no other projects
 newest on top of the right section**; move them to a proper file at the next consolidation.
 
 ## 94 Lipscombe Road, Unit 1, Deception Bay (Andrea Cancelli)
+- **Inspection done Fri 2 Oct 2026 morning** ("Great catching up this morning mate", to Andrew
+  2:34pm). Andrew's report from site did not reach him; he asked Andrew to resend it. Andrea
+  (2 Oct) wants the stamped plans lodged with Moreton Bay council now, as not yet approved, so
+  her certifier sees the mezzanine is being assessed: the warehouse is "burning 3k a week between
+  interest and outgoings" and she will cover submission fees. Tariq first: "I would just wait the
+  2 weeks and submit approved ... whats another 2 weeks?", then agreed to ask ("no promises given
+  it's a 3 day weekend") and put the question to Andrew 2:34pm. Awaiting Andrew. (seen 2 Oct 2026)
+- His advice to Andrea on the toilets (2 Oct): ask her council certifier whether deleting the one
+  toilet resolves it, and if the shower is queried, say it is there to comply with PWD for the
+  site. On Andrew issuing the CofC before the fire hose reel and stair works: "no they require
+  images or reinspection prior to issuing a certificate." (seen 2 Oct 2026)
 - Retrospective design approval for Unit 1/94 Lipscombe Rd, Deception Bay QLD 4508; certifier
   **Andrew Bleakley, BRC Consult**. Andrea wants "the fastest way home" for approval of the
   mezzanine (storage or deposit). **Inspection 9:30am Fri 2 Oct 2026** (Andrew asked for 9:30;
@@ -32,6 +43,10 @@ newest on top of the right section**; move them to a proper file at the next con
   chase was 9 Jul. See the Indara section of [[projects]]. (seen 1 Oct 2026)
 
 ## Vehicles, plant and the Pickles relationship
+- **New ute, a silver Wildtrak:** invoice and rego sent to Heather 2 Oct 4:11pm, with a **Simla
+  Haulage authority form valid 12 months** so he can rego assets in Simla Haulage's name. Dealer
+  plate DJ467 was used on 2 Oct; a calendar check Fri 9 Oct asks whether the Linkt toll bill has
+  come in (up to 14 days). (seen 2 Oct 2026)
 - **Pickles auctions, a buying relationship he is opening.** Pitch first sent 17 Sep to **Daniel
   Deasy** (daniel.deasy@pickles.com.au): TFA is "always on the lookout for salvage machinery as
   well as prestige salvage vehicles"; he wants a named contact for assets passed in repeatedly so
@@ -75,8 +90,16 @@ newest on top of the right section**; move them to a proper file at the next con
   it; Tariq: "I'll leave it to you to come see me". Which project is not stated. (seen 14 Sep 2026)
 - **"Mariners":** one of TFA's four live jobs in Jaiah's FLOW 09 questions (Logan Village,
   Jimboomba, Mariners, Slacks Creek). Not matched to an address. (seen 10 Sep 2026)
+  Likely match: "Mariners Reach - New Works Walk Through" at **49a Newstead Tce, Newstead**,
+  Wed 7 Oct 2026 2pm, Daniel's invite, accepted 2 Oct. Confirm before treating as the same job.
 
 ## Personal and favours (not TFA business)
+- **Pool renovation at a client's house (Eight Mile Plains), through HS Group:** Hassan (HS
+  Group, mh@hsgroup.au, cc Abdul "Uncle Dado" Sacur, dado@birite.com.au) asked 2 Oct for the
+  **$1,200 deposit** on quote QU-1163 (work half done; a revised quote is coming, so not final).
+  Tariq to Hassan: "Please ask Uncle Dado to call me." To accounts: "Please hold this invoice till
+  I approve once speaking to the client only required to pay partial of this invoice of 1200."
+  (seen 2 Oct 2026)
 - **15/20-22 Ellerslie Road lease, a favour for Marib Rafiq** (maribrafiq_96@hotmail.com): Kendal
   reviewed the Final CTA and the review went back 17 Sep. Terms: 1 year + 1 year option, 1 Nov 2026
   to 30 Oct 2027, option by 30 May 2027, rent $35,000 pa + GST + outgoings, upfront $9,625 incl

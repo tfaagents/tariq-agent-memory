@@ -62,3 +62,6 @@ How he works
 What he wants built
 - His 8 Sep 2026 brief for this agent and his guardrails: [[tariq-wants-built]]. The full
   record of every request is work/build-list.md; add one dated line here per new one.
+- 2 Oct 2026 (email to Kendal and Jaiah, not the build list): real time data for automation
+  planning, "an agent on the laptop or hubstaff to get true data in lieu of the staff member
+  writing tasks themselves", and the same visual tracker for the projects team as Heather's.

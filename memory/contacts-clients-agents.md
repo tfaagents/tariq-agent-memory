@@ -35,7 +35,17 @@ Part of [[contacts]]. New clients, prospects, agents, referrers and developers g
 - **Rauhena Chase**, Founder, Commercial Property Advisor
   (contact@rauhenachasecommercialrealestate.com, +61 408 800 835). Introduced 24 Sep 2026 via
   Grant Turner (Ray White) on site constraints; video call Fri 2 Oct 2026 11am. Source: sent
-  mail 1 Oct 2026. (seen 1 Oct 2026)
+  mail 1 Oct 2026. (seen 1 Oct 2026) After the call she asked for the Dan Street material; Grant
+  Turner asked Mukhtaar and pm.csr (Gordon) at Ray White to send it, and Tariq said to cc Nicole
+  too, "as she has been working on it". (seen 2 Oct 2026)
+- **Grant Turner has moved to Belle:** on 2 Oct he wrote as **Head of Commercial, Belle Property
+  Commercial Rochedale** (grant.turner@belleproperty.com, 0457 766 812); Rauhena Chase had his old
+  raywhite.com address and called the Belle one "the correct email". So the Dan Street fallback
+  Grant Turner and the Belle "Grant" on 29 Millers are very likely the same person; Grant Rex
+  (Stamford Capital) is still separate. Confirm before merging. (seen 2 Oct 2026)
+- **Leiba Commercial: Jonathan Rosenthal** (jr@leibacommercial.com.au), selling agent for a
+  childcare investment portfolio; Tariq asked about leaseholds and pre-construction builds. See
+  [[projects-prospects]]. (seen 2 Oct 2026)
 - **KD Special Projects: Nick Koschel**, Director (nick@kdsp.com.au, 0421 571 408,
   www.kdsp.com.au). Commercial leasing and special projects; a **referral source, not a
   client**. Talks to Tariq as "Hi mate". Fee history: asked **1% + GST of contract value on a

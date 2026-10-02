@@ -42,10 +42,17 @@ Consolidated 2 Oct 2026 from projects.md. Interns and apprentices are in [[proje
 - **1 Oct:** Alicia's Senior Contract Administrator candidate wants $50m+ projects. Tariq: "we
   are doing 200m projects ... I presume they are not suitable hence hiding behind the figure.
   Don't tell them. Show them". She sent the CV and offered a meeting (3:26pm); he replied "no
-  attachment". **Open.** (seen 1 Oct 2026)
+  attachment". (seen 1 Oct 2026)
+- **2 Oct 7:36am he declined that candidate:** "Done some background research no good sorry, wants
+  an entire team under them and doesn't last long in businesses. Happy to revisit any other
+  candidates." Search still open. (seen 2 Oct 2026)
 - For any draft on this thread: the TFA website (tfaconstructions.com.au) is still "currently
   under construction" in his own words. (seen 21 Sep 2026)
 
 ## Other roles
+- **Project Manager:** when Clay (2 Oct) doubted an internal CA was suited to a PM role, Tariq:
+  "I wouldn't put them up to a PM role, we would seek for someone that has done it and eager to
+  learn from you and the VA/AI style." PMs are hired in with experience, not promoted from CA.
+  (seen 2 Oct 2026)
 - **Operator for Jimboomba:** he passed Daniel's number (0455 832 832) to Audrey Marceau at
   Tracks IS (blue and white collar). (seen 10 Sep 2026)
