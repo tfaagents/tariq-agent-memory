@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 92012670-eaa2-4ca6-a160-cb53ca56a9be
-  modified: 2026-10-02T06:06:35.989Z
+  modified: 2026-10-03T11:00:40.344Z
 ---
 
 # Live D&C tenders
@@ -57,6 +57,11 @@ Consolidated 2 Oct 2026 from projects.md. Pipeline, EOIs and referral deals are 
   pack came in through **Alee Fateh** (15 Sep, late at night). Tariq sends tender packs to
   Clay's TFA address and his personal gmail (claywhart@gmail.com), which is how he reaches Clay
   outside the office. (seen 23 Sep 2026)
+- **3 Oct, 6:51am on Telegram, Tariq: "You missed the clarification response for cole cheatau
+  development."** The COB Fri 2 Oct responses to Cole were not raised by the close-out or the
+  morning note (undated promise line; rule in rules.md 3 Oct). No reply to Cole found in his sent
+  mail for 2 or 3 Oct; Clay's last on the thread is 2 Oct 8:23am to Veena re Abi's pricing.
+  Treat the clarification response as outstanding and overdue to the client. (seen 3 Oct 2026)
 - **Clarifications Register** sent 23 Sep 2:04pm; **responses due COB Friday 2 Oct 2026.**
   (seen 23 Sep 2026)
 - Tariq, 23 Sep: "this takes priority over the Fitness Cartel / Alan Robertson estimate." His
