@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 92012670-eaa2-4ca6-a160-cb53ca56a9be
-  modified: 2026-10-02T06:05:33.523Z
+  modified: 2026-10-04T11:00:14.639Z
 ---
 
 # Compliance, tax, banking, loans and insurance
@@ -48,6 +48,9 @@ Federal Safety Accreditation is in [[federal-safety-accreditation]].
   asked to confirm the login cannot make payments, "Its only needed for statement downloads
   nothing more." Unanswered as read. Heather prefers post; mail delivery is a setting in her own
   NAB profile. (seen 18 Sep 2026)
+- **Jerry chase booked:** his own diary entry Mon 5 Oct 2026 9:00am, "Forward all Jerry emails
+  from past 3 months to prompt him again". Still no answer from Jerry on the interest reviews.
+  (seen in his calendar 4 Oct 2026)
 - **Interest reviews with Jerry (Kyung) Park not done:** "There has been a few emails over the
   past 2 months that have not been responded to", then "don't rush needs to be done well my
   brother in our favour please". The outcome matters, not speed. (seen 17 Sep 2026)
