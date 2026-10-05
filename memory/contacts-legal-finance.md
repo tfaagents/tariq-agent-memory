@@ -11,6 +11,9 @@ metadata:
 Part of [[contacts]]. New lawyers, finance, insurance and accounting contacts go here.
 
 ## Lawyers and tribunals
+- **Ismail**, IE Lawyers (ismail@ielawyers.com.au), immigration lawyer on Billy-Joe Younie's
+  482 visa (YOUNBI.25.0073), granted 2 Oct 2026.
+  (seen 5 Oct 2026)
 - **Kathleen Klug**, Reviewing Officer, OIR (Kathleen.Klug@oir.qld.gov.au, 07 3842 2833), on
   Review Application 77969 (Pi-Hao Cheng). Submission sent 1 Oct 2026. (seen 1 Oct 2026)
 - MSP Law: **Geoff Chen** (listed in Outlook as Zhi Chen, geoff@msplaw.com.au, 0468 987 263),

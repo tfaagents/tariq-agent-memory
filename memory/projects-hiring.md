@@ -49,6 +49,15 @@ Consolidated 2 Oct 2026 from projects.md. Interns and apprentices are in [[proje
 - For any draft on this thread: the TFA website (tfaconstructions.com.au) is still "currently
   under construction" in his own words. (seen 21 Sep 2026)
 
+## Billy-Joe Younie, sponsored 482 hire from South Africa
+- **Visa granted 2 Oct 2026** (Subclass 482, him and family), through Ismail at IE Lawyers (ref
+  YOUNBI.25.0073); Ismail says nothing further is needed on the immigration side. (seen 5 Oct 2026)
+- **4 Oct 11:00pm he emailed Tariq** (cc Sarah's TFA mailbox and his wife Rene,
+  reneyounie@gmail.com): contract start is "On Visa Approval"; condition 8607 means he can only
+  work for TFA in the sponsored role and must start within 90 days of arriving. Leaning towards
+  arriving late November. He asks: does late Nov suit, what start date, where to report, anything
+  needed before arrival. No reply from Tariq seen as at 5 Oct 21:00. (seen 5 Oct 2026)
+
 ## Other roles
 - **Project Manager:** when Clay (2 Oct) doubted an internal CA was suited to a PM role, Tariq:
   "I wouldn't put them up to a PM role, we would seek for someone that has done it and eager to
