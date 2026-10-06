@@ -14,6 +14,9 @@ address are in projects-29-millers-sale-indara.md. Confirm a number or date from
 before quoting it.
 
 ## What it is and who is on it
+- **YSH sales appraisal:** Noah Campbell (YSH Property, sales1@ysh.com.au) offered a per-lot
+  appraisal 13 Aug (commission 2.42%, REA Premiere+ $2,989, disclosure statement $799); Tariq sent
+  plans 13 Aug and chased 6 Oct 9:04am. No reply read. (seen 6 Oct 2026)
 - A student / rooming accommodation development (25 rooms per Kendal's 28 Sep review), not only the Indara matter. The site
   already had a childcare approval and some of those DA reports may be reusable. The design sits in
   the "Rooming Accommodation Design" folder inside that DA; documents in the SharePoint "Tariq

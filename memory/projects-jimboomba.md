@@ -10,6 +10,10 @@ metadata:
 Part of projects.md. Confirm a number or a date from the thread before quoting it to him.
 
 ## The site
+- **Dedicated phone for David (6 Oct):** David does not want his personal number on the
+  one-way detour notice going to about 250 households (fine on plans and docs to LCC and
+  consultants). Veena backed it; Tariq to Kendal: "Please share an esim for davids phone."
+  Clay (6 Oct): David can use apprentice Alex at Jimboomba. (seen 6 Oct 2026)
 - "95-103 East St, Jimboomba. This is the Jimboomba projects specific site address." (to Heather,
   on Ground Technologies INV-51, GTB414-L2, Stage 1 External Civil Works) (seen 1 Oct 2026)
 - Client side Falcon Property (Damon Falcongreen); HCE Engineers (Ryley Price) for Falcon; Yahya

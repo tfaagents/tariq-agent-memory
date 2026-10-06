@@ -11,6 +11,16 @@ metadata:
 # 85-97 Bardon Road, Berrinba (acquisition)
 Part of projects.md. Confirm a number or a date from the thread before quoting it to him.
 
+- **6 Oct 8:34am to Gus and Mitchell:** he has "a settlement for another site coming up shortly"
+  and had budgeted on these funds being settled by now; does not want the Land Court
+  prematurely, but "cashflow is always key ... even allowing a quarter of the year for settlement
+  post advance isn't adequate for Department." Asked them to "put a hurry under them". Gus
+  (2 Oct 5:23pm): called Jacob, no answer, following up Tue 6 Oct; best option is to keep
+  waiting, Land Court not recommended yet. (seen 6 Oct 2026)
+- **Mullins tax invoice 322933 (Sept 2026)** forwarded to Heather cc Sarah 6 Oct: "50/50 split.
+  Have the others past been paid by Lalpur to date?" So the Mullins fees are split 50/50 with
+  Lalpur. (seen 6 Oct 2026)
+
 - The entire lot was resumed (his words to Kendal, answering her list of documents for the Claude
   working project). (seen 1 Oct 2026)
 - Mullins Lawyers act: Gus Haseler (Associate, ghaseler@mullinslawyers.com.au) and Mitchell

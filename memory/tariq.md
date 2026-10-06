@@ -27,6 +27,13 @@ How he works
   owner; tracking is not owning; status per area with a blocker and an owner; 80 percent
   is his failure mode. Detail and the older rules in [[tariq-how-he-works]] and
   [[tariq-how-he-deals]]. His school holidays out of office from 23 Sep 2026: see [[routine]].
+- On a tender going out: "**Our team would or should review prior to submission at least as a
+  look over ... Something to flag in future pretty please mate.**" (6 Oct 2026, to Clay on
+  Hillcrest.) "Reviewed" means the team has looked over the final document, and if it has not,
+  he wants to be told before he forwards it to a client.
+- On a request that went unanswered: "**Could you also please see why this slipped through the
+  cracks last month so it doesn't occur again when I query requirements.**" (6 Oct 2026, to Clay
+  and Veena on the Mitchell Brandtman RFI.) He asks for the cause, not only the catch-up.
 - On closing out a job: "**moving forward I like clean neat links when closing out projects
   and how they file.**" (1 Oct 2026, to Kendal on Logan Village.) Handover is a shared link in
   a set structure (the Armada Built format), not a pile of attachments.

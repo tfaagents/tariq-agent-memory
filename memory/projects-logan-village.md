@@ -66,6 +66,11 @@ from the thread before quoting it to him.
 - Mauricio sent Heather the Opulent Glass progress claim to add to Proscan. (seen 28 Sep 2026)
 
 ## Contract works insurance
+- **6 Oct 11:43am, Kendal chased; Tariq: "just notify them to cancel in 2 weeks if we can
+  stretch it?"** So the instruction is notice to cancel in about two weeks (around 20 Oct),
+  ahead of the 30 Oct expiry. Whether the client's own cover is confirmed is not read. (seen 6 Oct 2026)
+- **Client handover Thu 8 Oct** (Clay 6 Oct 6:38am): Sean and the 3 apprentices largely finished
+  at Logan Village from then; Randal wants Sean occasionally for misc things there. (seen 6 Oct 2026)
 - Osman Insurance Brokers (Ritu): Contract Works for 1-9 Anzac Avenue expires 30/10/2026; renewal
   declaration (6906650SP) sent to accounts@ and Kendal. Tariq 30 Sep: "I have notified the client
   ot get their own insurance, lets make sure they do before we cancel ours next week." So TFA's

@@ -43,6 +43,11 @@ projects-dan-street-management.md. Confirm a number or a date from the thread be
   Pty Ltd ATF" trust; Sheriff Enterprises (Tony); Commercial Ready (Sally) on split payment options.
 
 ## QS: Mitchell Brandtman
+- **6 Oct 9:18am to Melody (cc Cassandra's thread): invoice 79157 "has been paid FYI".** Same
+  morning 9:20am he chased Clay (gmail) cc Veena on MB's 18 Sep RFI list: "lodged copy link is
+  sufficient for now" for the unapproved DA, review and provide everything else asap, and "see
+  why this slipped through the cracks last month so it doesn't occur again when I query
+  requirements." Team items still outstanding to him. (seen 6 Oct 2026)
 - Fee proposal X45717, "24 Industrial Units, Slacks Creek". QS is Melody Wong (mwong@mitbrand.com),
   introduced by Krystal Stokman 3 Sep with documents to go to Melody direct. The QS report is what
   Stamford wants, so it sits on the finance critical path. (seen 15 Sep 2026)
@@ -77,6 +82,10 @@ projects-dan-street-management.md. Confirm a number or a date from the thread be
   Dan St figure ever looks off. (seen 14 Sep 2026)
 
 ## Sales, marketing and advisors
+- **6 Oct 9:26am, "Any update guys?"** to Grant Turner (Belle), Mukhtaar Hashim and pm.csr
+  (Ray White) cc Rauhena Chase, Annabelle Weir and rwc.csr.qld, on "TFA Construction Project"
+  (Grant had asked Muki and Gordon 2 Oct to send Rauhena whatever they have). Grant Turner now
+  signs as Head of Commercial, Belle Property Commercial Rochedale. No reply read. (seen 6 Oct 2026)
 - Ray White Commercial (Grant Turner, Annabelle Weir, Mukhtaar Hashim): strata marketing, warm vs
   cold shell, Form 6a. Weekly "Dan Street Sales and Marketing Update" Mon 10am, reissued by Grant
   Turner as in person at RWC CSR, Shop 1/2 Centre Place, Rochedale South. (seen 13 Sep 2026)

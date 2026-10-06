@@ -45,6 +45,11 @@ Consolidated 2 Oct 2026 from projects.md. Live priced tenders are in [[projects-
   childcare centre in Brisbane**; Nick will introduce once the referral is agreed. (seen 30 Sep 2026)
 
 ## Service station and fuel sites
+- **6 Oct 8:50am to Chris Fort:** is Bridgeman Downs no longer the priority while he awaits
+  advice, or is it the priority and needs a price asap? Awaiting Chris. (seen 6 Oct 2026)
+- **Chandler count booked in principle, 6 Oct 7:12am** to Martin (Austraffic): "If this is the
+  faster option and is at the same price then lets opt for this please." So the video count at
+  the $2,800 + GST quote. (seen 6 Oct 2026)
 - **Middlemount trip (2 Oct):** "I need to go inspect this site as I haven't since I purchased it
   5 years ago. Also given the new mine extension this might turn into a possible future
   development for us sooner or offset sale for cashflow given it could be worth 10 times

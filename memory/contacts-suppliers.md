@@ -11,6 +11,8 @@ metadata:
 Part of [[contacts]]. New suppliers, recruiters and system senders go here.
 
 ## Recruiters (he takes their calls, he does not trust their shortlists)
+- **Stand Up Recruitment** (NZ, standuprecruitment.co.nz): tradies moving from NZ; sent 3 CVs
+  for an excavator operator 6 Oct 2026 via Kendal, who answers them for Tariq. (seen 6 Oct 2026)
 - **Alicia McGregor**, Frontline Construction Recruitment, 0406 199 062, Senior Recruitment
   Consultant. Approached him 10 Sep 2026 about a Contract Administrator; colleague Desiree passed
   his details. 16 Sep 2026 he gave her the band for a stand out candidate: **120-160k**. 21 Sep
@@ -58,6 +60,9 @@ Part of [[contacts]]. New suppliers, recruiters and system senders go here.
   Karen finished there. (seen Sep 2026)
 
 ## Training and schools
+- **East Coast Apprenticeships: Tim Hawker** (timh@ecapprenticeships.com.au). Not-for-profit
+  GTO that employs apprentices and hosts them out; sent the Host Employer Agreement, charge-out
+  rates and the 20% buy-out term 6 Oct 2026. Not signed. (seen 6 Oct 2026)
 - **TAFE Queensland, Client Account Management: Megan Cahill**, Client Liaison Officer,
   megan.cahill@tafeqld.edu.au, 07 3259 3063, Bracken Ridge campus. Emails Tariq directly when an
   apprentice is marked absent (Alex Peter, 14 Sep 2026). TFA apprentices attend the **Acacia
@@ -69,6 +74,9 @@ Part of [[contacts]]. New suppliers, recruiters and system senders go here.
   (seen 10 Sep 2026)
 
 ## Systems and notices that email him
+- **Personalised Plates Queensland (PPQ): Mat Scarborough**, B2B Specialist
+  (mathew.scarborough@ppq.com.au, 07 3333 3906). Handles his business plates; sent an EOI to
+  the owner of TFA88 for him 6 Oct 2026. (seen 6 Oct 2026)
 - **Urban Utilities** (notices@notices.urbanutilities.com.au): water and sewerage bills land
   straight to Tariq and get forwarded to accounts@. (seen 10 Sep 2026)
 - Xero invoices (SEQ Landscape Supplies, Saunders Waste), Approved Joinery, Sniip payments,

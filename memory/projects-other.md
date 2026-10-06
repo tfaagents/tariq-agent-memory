@@ -43,6 +43,9 @@ newest on top of the right section**; move them to a proper file at the next con
   chase was 9 Jul. See the Indara section of [[projects]]. (seen 1 Oct 2026)
 
 ## Vehicles, plant and the Pickles relationship
+- **Prestige plate TFA88:** 6 Oct he asked Mat Scarborough (PPQ, B2B Specialist) to reach the
+  owner, "I would really want them part of my business plates"; Mat issued an expression of
+  interest to the owner with his details. Waiting on the owner. (seen 6 Oct 2026)
 - **New ute, a silver Wildtrak:** invoice and rego sent to Heather 2 Oct 4:11pm, with a **Simla
   Haulage authority form valid 12 months** so he can rego assets in Simla Haulage's name. Dealer
   plate DJ467 was used on 2 Oct; a calendar check Fri 9 Oct asks whether the Linkt toll bill has

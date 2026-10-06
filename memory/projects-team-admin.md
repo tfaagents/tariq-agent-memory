@@ -15,6 +15,17 @@ here, by rule. People and roles are in [[tfa-people]]; legal matters in
 [[projects-employment-legal]].
 
 ## Apprentices and TAFE
+- **TAFE blocks (Clay 6 Oct, Tariq accepted all invites 7:16am):** Jordan 12-23 Oct and
+  19-23 Oct (as Clay listed them), Alex 26-30 Oct, Jordan 2-6 Nov, Seth 16-20 Nov. After Logan
+  Village handover Thu 8 Oct: Sean to a small Deception Bay job for a day or two (Tariq), Alex to
+  David at Jimboomba (Clay). (seen 6 Oct 2026)
+- **East Coast Apprenticeships (Tim Hawker, timh@ecapprenticeships.com.au), 6 Oct:** a GTO.
+  Civil and carpentry apprentices both fall under the Building and Construction General On-Site
+  Award 2020; 1st year carpentry candidates available; Host Employer Agreement to sign, no charge
+  until hosting starts. Charge-out is hourly ex GST by year. Buy-out: if the apprentice leaves
+  ECA to work for TFA directly, 20% of the annual charge-out rate; nil after completion. Tariq
+  wants a civil and possibly a carpentry apprentice "shortly"; forwarded to Kendal "for future
+  reference if needed". Not signed. (seen 6 Oct 2026)
 - TAFE Queensland training notice for Seth Tebb (Rick Huang, 2 Oct) forwarded to Clay and
   accounts. (seen 2 Oct 2026)
 - **Four apprentices: Nelson, Jordan, Alex and Seth.** Clay (14 Sep): each needs a qualified

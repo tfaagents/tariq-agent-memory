@@ -11,6 +11,11 @@ metadata:
 # 33 Commerce Circuit, Yatala (SRA application 2602-50502)
 Part of projects.md. Confirm a number or a date from the thread before quoting it to him.
 
+- **6 Oct, Murray:** SARA say it does not trigger referral; Council still pushing for referral.
+  HPC started referral so the app does not lapse on a technicality and will proceed past
+  referral to public notification so no timeframe is missed; both Council supervisors on leave.
+  Tariq: "Amazing, let me know if you need me for anything. Lets keep forging ahead mate". (seen 6 Oct 2026)
+
 - Planner is Murray Wright (HPC Planning). Imran Ali (ISA Collective) and Saheed Ali are on the
   site; check with Tariq which entity it sits under before putting it in anything TFA-facing. (seen 22 Sep 2026)
 - Another state body clearance is required. Murray sent the SRA application correspondence 21 Sep;

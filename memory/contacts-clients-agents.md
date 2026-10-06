@@ -60,7 +60,8 @@ Part of [[contacts]]. New clients, prospects, agents, referrers and developers g
 - **Chateau Developments / Chateau Projects** (30712/9 Lawson Street Southport, QBCC 15514317,
   07 5620 4662). Client on **Forvm @ Hillcrest, 92-94 Johnson Road** (D and C tender). **Cole
   Erbacher**, Development Manager (cole@chateauprojects.com.au, 0422 780 540), issues the
-  clarifications register and sets the dates. Also **Nik Manion**, **Jamie Gardner** and
+  clarifications register and sets the dates. Tariq sent the TFA tender to Cole 6 Oct 2026
+  ($21.786m excl GST). Also **Nik Manion**, **Jamie Gardner** and
   **Bayden Clarke**. Tariq made Hillcrest the **first tender the team works through** (23 Sep
   2026). There is also a **Chateau Project No 6 Pty Ltd** in the Rajput loan ledger, so check
   which Chateau entity is meant before repeating a number. (seen 23 Sep 2026)
@@ -91,6 +92,8 @@ Part of [[contacts]]. New clients, prospects, agents, referrers and developers g
   manage **1200 rooms**; Stephanie Wynne is Operations Manager (stephanie@ysh.com.au). Tariq
   pitched him for build work on 30 Sep 2026 ("would love to throw a our hat in the ring").
   (seen 30 Sep 2026)
+  Also at YSH: **Noah Campbell**, Sales Associate (sales1@ysh.com.au), asked for a per-lot sales
+  appraisal on 29 Millers Rd (13 Aug); Tariq chased 6 Oct 2026. (seen 6 Oct 2026)
 - **OOM Energy: Chris Fort** (chrisfortoom@gmail.com, 0412 750 764). Fuel retailer; would lease a
   service station at Middlemount at $180-200k p/a rent; also Bridgeman Downs QSR add-on.
   (seen 1 Oct 2026)

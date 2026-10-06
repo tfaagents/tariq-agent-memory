@@ -50,6 +50,12 @@ Consolidated 2 Oct 2026 from projects.md. Interns and apprentices are in [[proje
   under construction" in his own words. (seen 21 Sep 2026)
 
 ## Billy-Joe Younie, sponsored 482 hire from South Africa
+- **6 Oct 8:31am Tariq asked Ismail** whether Billy is "aiming to move the goal posts and what
+  options should I provide them that are correct?" Ismail 9:40am: nothing in the email is
+  problematic, offered a call before 11:30 or 2-6pm. Tariq 11:47am: missed the 11:30, "If you
+  don't see any issues from the email that's fine." Also forwarded the 482 lodged email to Kendal
+  and saheedali@hotmail.com "FYI". **Start date, arrival and reporting place still not answered
+  to Billy** as read. (seen 6 Oct 2026)
 - **Visa granted 2 Oct 2026** (Subclass 482, him and family), through Ismail at IE Lawyers (ref
   YOUNBI.25.0073); Ismail says nothing further is needed on the immigration side. (seen 5 Oct 2026)
 - **4 Oct 11:00pm he emailed Tariq** (cc Sarah's TFA mailbox and his wife Rene,
@@ -59,6 +65,10 @@ Consolidated 2 Oct 2026 from projects.md. Interns and apprentices are in [[proje
   needed before arrival. No reply from Tariq seen as at 5 Oct 21:00. (seen 5 Oct 2026)
 
 ## Other roles
+- **Excavator operator via Stand Up Recruitment (NZ), 6 Oct:** 3 CVs through Kendal. Tariq's
+  spec (to Kendal, 3:58pm): skillset "final trim ability", start 14 days from today (about
+  20 Oct), "Trial interview will be required prior"; he also asked "when will they get here?".
+  Kendal is answering the recruiter for him. (seen 6 Oct 2026)
 - **Project Manager:** when Clay (2 Oct) doubted an internal CA was suited to a PM role, Tariq:
   "I wouldn't put them up to a PM role, we would seek for someone that has done it and eager to
   learn from you and the VA/AI style." PMs are hired in with experience, not promoted from CA.

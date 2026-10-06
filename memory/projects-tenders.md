@@ -52,6 +52,17 @@ Consolidated 2 Oct 2026 from projects.md. Pipeline, EOIs and referral deals are 
   27 Sep 2026)
 
 ## Forvm @ Hillcrest, 92-94 Johnson Road (Chateau Developments): the number one tender
+- **Submitted 6 Oct 2026, 5:50pm, Tariq to Cole Erbacher cc Nik, Jamie, Bayden: construction
+  cost $21,786,000.00 excl GST**, with full trade breakdown, project specific qualifications,
+  clarifications and exclusions; clarifications attached and incorporated into the tender. He
+  offered a call to run through it. Now waiting on Chateau. (seen 6 Oct 2026)
+- **How it got there (6 Oct):** Clay told him that morning it had been reviewed, but it had not
+  passed the team's review; Abi's (abhinav_choudhary1712@outlook.com) 1 Oct 5:13pm clarifications
+  were the doc, and questions such as program time and EOT nomination for wet weather were left
+  with Clay. Tariq updated it himself "as a matter of urgency" (2:58pm) and sent Kendal "my
+  updated version" (3:00pm). To Clay 3:40pm: "Our team would or should review prior to
+  submission at least as a look over ... Something to flag in future pretty please mate."
+  (seen 6 Oct 2026)
 - Client: **Cole Erbacher** (Development Manager, Chateau Developments,
   cole@chateauprojects.com.au, 0422 780 540; cc Nik Manion, Jamie Gardner, Bayden Clarke). The
   pack came in through **Alee Fateh** (15 Sep, late at night). Tariq sends tender packs to
@@ -61,7 +72,7 @@ Consolidated 2 Oct 2026 from projects.md. Pipeline, EOIs and referral deals are 
   development."** The COB Fri 2 Oct responses to Cole were not raised by the close-out or the
   morning note (undated promise line; rule in rules.md 3 Oct). No reply to Cole found in his sent
   mail for 2 or 3 Oct; Clay's last on the thread is 2 Oct 8:23am to Veena re Abi's pricing.
-  Treat the clarification response as outstanding and overdue to the client. (seen 3 Oct 2026)
+  Treat the clarification response as outstanding and overdue to the client. (seen 3 Oct 2026) Superseded 6 Oct 2026: clarifications went with the tender submission.
 - **Clarifications Register** sent 23 Sep 2:04pm; **responses due COB Friday 2 Oct 2026.**
   (seen 23 Sep 2026)
 - Tariq, 23 Sep: "this takes priority over the Fitness Cartel / Alan Robertson estimate." His

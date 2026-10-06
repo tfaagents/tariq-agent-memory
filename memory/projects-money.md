@@ -33,6 +33,16 @@ Consolidated 2 Oct 2026 from projects.md. Tax, land tax, loans, banking and insu
   authorisation requests forwarded to Sarah "for any future ref". (seen 1 Oct 2026)
 
 ## Invoices and refunds still open
+- **Debt collection, block layer (Extreme Masonry), and recruiter placement fees for a CA:**
+  6 Oct he asked Heather how both have progressed. Her 27 Jan options: Professional Collection
+  Services or Slater Byrne (both no win no fee, 15%); Marshall Freeman's advice was a QCAT claim
+  first. Debt about $8,250 per her LCollect note. Awaiting Heather. (seen 6 Oct 2026)
+- **Brisbane City Council rates, 2 Hewson St, Tingalpa ("I Ali" account) paid twice:** Heather
+  6 Oct: entered while she was away and again on return, MYOB missed it. Tariq forwarded to
+  Kendal and Jaiah: "FYI something to build a net for maybe?" Next rates due 5 Nov 2026 for the
+  early discount. (seen 6 Oct 2026)
+- **MarketBook NZ invoice 13166285:** still advertising the tree harvester (TFA126); "yes maam"
+  to Heather 6 Oct. (seen 6 Oct 2026)
 - **HPC Planning INV-3338, $3,750, due 14 Oct 2026:** Tariq to accounts 2 Oct: "please pay,
   this is for a future project not yet owned by us still in due dillagnce period." Site not
   named; HPC advised on 1661 Old Cleveland Rd (see [[projects-prospects]]), so likely that one.
@@ -67,6 +77,15 @@ Consolidated 2 Oct 2026 from projects.md. Tax, land tax, loans, banking and insu
   a few weeks back ... when they did the DA lodgement". (seen 22 Sep 2026)
 
 ## Cards, fuel and fleet
+- **On cards, 6 Oct (to Kendal, on NAB's pay.com.au offer):** "cashflow is key and using cards
+  and having 55 days interest free is a huge plus for small businesses." Kendal had suggested
+  pay.com.au when she started. Sits beside the 14 Sep wind-back: suppliers on accounts, but
+  card float he values. (seen 6 Oct 2026)
+- **Anthropic subscription card:** Heather asked to move it from VISA 4665 to MCARD 1215; Kendal
+  bounced it to him ("I don't have access to ur account"); Tariq 5:53pm: "I don't understand
+  sorry?" Unresolved. (seen 6 Oct 2026)
+- **New Wildtrak rego (Simla Haulage) paid on the TFA head account card** ("almost like a debit
+  card, I never use it"); he suggested Heather tie it to the head account as EFT. (seen 6 Oct 2026)
 - **Credit cards are being wound back for supplier accounts** (14 Sep): "We are going to use
   accounts now because the credit cards are too much of a headache now. Alternatively we will need
   to take all cards back and allocate only 1 card to you to track purchases as receipts are always
