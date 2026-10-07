@@ -60,7 +60,7 @@ newest on top of the right section**; move them to a proper file at the next con
 - 25 Sep: no answer in eight days, so he chased Daniel and an hour later sent the same pitch
   unchanged to **Morgan Coleman** (morgan.coleman@pickles.com.au). How he escalates: chase once,
   then take the same words to someone senior. 1 Oct: **Shane Rubinic** (National Valuer, Salvage)
-  texted and called; Tariq "Will give you a bell later today or tomorrow". (seen 1 Oct 2026)
+  texted and called; Tariq "Will give you a bell later today or tomorrow". (seen 1 Oct 2026) 7 Oct: Tariq says he called Shane the week before ("I already called Shane last week"); promise closed. Outcome of the call not recorded.
 - **Vehicle maintenance registers, build or buy** (22 Sep, to Kendal, after David bought tyres
   for TFA 17 on the NAB card): "when can we get ontop of the vehicles maitnnece registers etc. Is
   this something we build ourselves and then get jaiah to automate or do we do a asset tiger

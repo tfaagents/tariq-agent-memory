@@ -94,3 +94,4 @@ one wins. Never delete a rule; strike it through and add the replacement under i
   morning note raised it. When a promise has no date but memory holds one for the same job
   (a client deadline, a register due date), the note shows the date from memory and treats it
   as due. Client tender deadlines are never dropped because the promise line is undated.
+- 7 Oct 2026: "I already called Shane last week." Phone calls never show in his sent mail, so a call promise can read LATE when he has done it. When he says he has made a call, close it with promises.mjs done straight away, every duplicate of it.
