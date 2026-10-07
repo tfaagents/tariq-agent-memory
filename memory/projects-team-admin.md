@@ -15,6 +15,15 @@ here, by rule. People and roles are in [[tfa-people]]; legal matters in
 [[projects-employment-legal]].
 
 ## Apprentices and TAFE
+- **Jordan TAFE (Clay 7 Oct):** Jordan is at TAFE 6-9 Oct, a booking Clay had not received
+  (TAFE Queensland, Sonya Vigar, Acacia Ridge, CPC30220). Clay's updated list: Jordan 6-9 Oct,
+  12-23 Oct, 19-23 Oct; Alex 26-30 Oct; Seth 16-20 Nov. Tariq accepted the 6-9 Oct invite and asked
+  "is that why he was away yesterday?" (seen 7 Oct 2026)
+- **Annual leave policy (Clay to Kendal 7 Oct):** construction team leave not approved within two
+  months before completion of a current project or two months after commencement of a new one.
+  Tariq to Kendal: "is it still dancing around the direct constraint? Critical path for the
+  business operations will be rejected lol." Kendal finds getting every staff member to
+  acknowledge the new doc hard. (seen 7 Oct 2026)
 - **TAFE blocks (Clay 6 Oct, Tariq accepted all invites 7:16am):** Jordan 12-23 Oct and
   19-23 Oct (as Clay listed them), Alex 26-30 Oct, Jordan 2-6 Nov, Seth 16-20 Nov. After Logan
   Village handover Thu 8 Oct: Sean to a small Deception Bay job for a day or two (Tariq), Alex to

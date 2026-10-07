@@ -13,6 +13,10 @@ Part of [[contacts]]. New suppliers, recruiters and system senders go here.
 ## Recruiters (he takes their calls, he does not trust their shortlists)
 - **Stand Up Recruitment** (NZ, standuprecruitment.co.nz): tradies moving from NZ; sent 3 CVs
   for an excavator operator 6 Oct 2026 via Kendal, who answers them for Tariq. (seen 6 Oct 2026)
+- **Arnica Kovacs**, HIR Talent (arnica@hirtalent.com.au, 0435 872 303), Executive Consultant,
+  Client Partnerships. Approached him 7 Oct 2026; he sent her the full CA brief and asked her to
+  "Give me a bell tomorrow". Second agency on the CA role beside Frontline. See [[projects-hiring]].
+  (seen 7 Oct 2026)
 - **Alicia McGregor**, Frontline Construction Recruitment, 0406 199 062, Senior Recruitment
   Consultant. Approached him 10 Sep 2026 about a Contract Administrator; colleague Desiree passed
   his details. 16 Sep 2026 he gave her the band for a stand out candidate: **120-160k**. 21 Sep

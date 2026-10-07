@@ -10,6 +10,15 @@ metadata:
 
 # Hiring
 
+## Contract Administrator via HIR Talent (Arnica Kovacs), from 7 Oct 2026
+- Arnica approached him 7 Oct. He asked "construction blue or white collar?", then "Looking for a
+  CA?", then 11:29am sent the same CA brief, position description, interview questions,
+  capability statement, team video and Newsletter No.3 ("No time to chat, please see attached").
+  New in this version: "Our projects range from 5-15m we require our CA's to manage 2-3 Projects
+  with a total no more then 15m accumulatively." Band unchanged, 120k to 160k. She wants a call,
+  to know which other agencies he uses, and to send terms of business. 3:50pm: "Give me a bell
+  tomorrow." Frontline (Alicia) is still the other agency on it. (seen 7 Oct 2026)
+
 Consolidated 2 Oct 2026 from projects.md. Interns and apprentices are in [[projects-team-admin]].
 
 ## Contract Administrator (via Alicia McGregor, Frontline Construction Recruitment)

@@ -14,6 +14,11 @@ Consolidated 2 Oct 2026 from projects.md. **New facts that fit no other projects
 newest on top of the right section**; move them to a proper file at the next consolidation.
 
 ## 94 Lipscombe Road, Unit 1, Deception Bay (Andrea Cancelli)
+- **7 Oct:** to Andrea 10:04am: rectification (fire hose reel install not yet quoted, plus
+  nosing and handrail works) "approximately 9-11k yet to be confirmed"; "I think we can aim for
+  the 18th" (Oct) depending on subbies and TFA's boys. He chased Andrew 11:23am; Andrew 2:49pm:
+  "I'll have to issue a revised BA mate. Please give me a day or so to resolve." Tariq: "No
+  problems my friend". Revised BA from BRC awaited. (seen 7 Oct 2026)
 - **Inspection done Fri 2 Oct 2026 morning** ("Great catching up this morning mate", to Andrew
   2:34pm). Andrew's report from site did not reach him; he asked Andrew to resend it. Andrea
   (2 Oct) wants the stamped plans lodged with Moreton Bay council now, as not yet approved, so
@@ -89,6 +94,14 @@ newest on top of the right section**; move them to a proper file at the next con
   22 Sep 2026)
 
 ## Loose job names (ask before assuming)
+- **"Ecco" final invoice and variations (7 Oct 4:57pm, to Daniel cc Clay's gmail):** client
+  side is "Uncle Yahya", who rang 7 Oct saying on his books TFA has been overpaid; Tariq agrees
+  the variations have not yet been shared with him. Final invoice outstanding "almost 10 months".
+  His sum: "HCV 6m plus playscape 500k plus variations = $XX?", cross-checked against paid and
+  invoiced to date, and against Daniel and Clay's Variation Register (he thinks ~350k). He wants
+  it finalised 8 Oct so Yahya "doesn't feel we have reverse engineered it". HCV, playscape and
+  Yahya point to a childcare job for HS Group, likely Logan Village; not confirmed.
+  (seen 7 Oct 2026)
 - **"Ecco", cross over change:** Clay found the document in "Pasen's email" and wants to discuss
   it; Tariq: "I'll leave it to you to come see me". Which project is not stated. (seen 14 Sep 2026)
 - **"Mariners":** one of TFA's four live jobs in Jaiah's FLOW 09 questions (Logan Village,

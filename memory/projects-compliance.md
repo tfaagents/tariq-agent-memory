@@ -40,6 +40,11 @@ Federal Safety Accreditation is in [[federal-safety-accreditation]].
   is compiling last year's notes before they review the management financials. QBCC sends these to
   **tfa.constructions@hotmail.com**, not the main mailbox. (seen 15 Sep 2026)
 
+- **ATO paper BAS (Heather 7 Oct):** December 2026 quarter forms missing for **Rajput** and
+  **TDY Childcare**; those two are posted to the accountant (Barry) while the rest go to Tremain
+  St. Heather asked to change their registered mailing address to Tremain Street for
+  consistency. Tariq 3:51pm: "No problems, I will request now." (seen 7 Oct 2026)
+
 ## NAB
 - Main business account ID 20889113 (TFA Constructions Pty Ltd, BSB 084-468, account
   127902001). Statements now download in

@@ -91,6 +91,16 @@ Consolidated 2 Oct 2026 from projects.md. Pipeline, EOIs and referral deals are 
   Kendal time to compile the submission. (seen 1 Oct 2026)
 
 ## Collingwood Park gym and childcare (Fitness Cartel, Alan Robertson)
+- **Priced and sent 7 Oct 10:19am to Alan** (cc Kendal, Clay, Nick Whyte, Scott Macgregor, Kyle
+  Robertson): **QU-1028 REV 02, $14,500,000 ex GST**, 180 Eagle Street, Collingwood Park, valid 30
+  days (so to about 6 Nov 2026). (seen 7 Oct 2026)
+- **His calls on Kendal's REV 01 ($13.95M, Abi's estimate), 7 Oct 7:30am:** "Please increase
+  price to 14.5m"; cladding "Leave it as is, I'm sure its covered"; gym stairs covered in Abi's
+  $330k vertical services; craneage confirmed in tilt panel and steel; design fees ($219k)
+  excluded "and add the 219k back into our price i.e 14.5m doesn't change but exclude design";
+  car park "its both. price reflects it." And: "would like to get this out today and close this
+  project out as we don't feel we want to proceed." He priced high and is not chasing it.
+  (seen 7 Oct 2026)
 - Client **Alan Robertson** (alan@robprop.com.au, Robertson Property), with Nick Whyte and Scott
   Macgregor (Development Directive) and Kyle Robertson. Came from Alee Fateh 16 Sep as "URGENT
   - Revised Civil Concept - Cost Plans Required ASAP". (seen 22 Sep 2026)

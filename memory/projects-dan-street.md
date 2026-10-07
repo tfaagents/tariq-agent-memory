@@ -43,6 +43,27 @@ projects-dan-street-management.md. Confirm a number or a date from the thread be
   Pty Ltd ATF" trust; Sheriff Enterprises (Tony); Commercial Ready (Sally) on split payment options.
 
 ## QS: Mitchell Brandtman
+- **7 Oct 3:59pm to Melody, cc Paul Nguyen (MB):** sent the RFI pack: construction price
+  "$2,900 (Build Rate as third party) x 3,820m2 (Net Sellable Area) = $11,078,000"; Total
+  Development Cost **$22,196,783**; programme 12 months from start; D&C; developer ALIS Property
+  Group, head contractor TFA; "Aiming to work with NAB for funding. We acquired the site through
+  them also." Attached Veena's construction programme and RFI comments with DA, survey and
+  council as-built folder links. He asked Melody to speak to Paul Nguyen and the estimating team
+  on the funding estimate and give feedback before generating the report. Unit count in this
+  email: 23. (seen 7 Oct 2026)
+- **Geotech not done (7 Oct):** he asked Veena why soil testing was not complete; Veena: fee
+  proposals are on file but testing is not required at DA stage, to be done once DA is in, rest to
+  check with Mo "once he is back tomorrow". (seen 7 Oct 2026)
+- **Building contract TFA to ALIS (Kendal drafted 7 Oct, his answers 3:35pm):** Master Builders
+  Commercial, **$11,078,000 + GST ($12,185,800 incl.)**. He signs for both TFA and ALIS and is
+  both Contractor's Representative and Principal's Agent ("Will submit like this for now. If they
+  ask to change we will address then", knowing it is related-party). Deposit: "Leave it out".
+  Margin on variations, PC and provisional sums 10% "Confirmed" (as Jimboomba). Finance item: NA.
+  Delay costs and LDs **$2,000/day**, no LD cap, "its fine". Site access **2 Feb 2027**, PC
+  **16 Dec 2027** ("Yes sorry for incorrect year lol"). PC items, provisional sums, LD limit,
+  interest rate all NA. Special conditions: retention capped 5%; scope per TFA Letter of Offer and
+  Trade Budget Dissection (**not yet prepared for Dan St**); DA/OPW/BA/authority changes are
+  variations. Kendal to update and send back for signing. (seen 7 Oct 2026)
 - **6 Oct 9:18am to Melody (cc Cassandra's thread): invoice 79157 "has been paid FYI".** Same
   morning 9:20am he chased Clay (gmail) cc Veena on MB's 18 Sep RFI list: "lodged copy link is
   sufficient for now" for the unapproved DA, review and provide everything else asap, and "see

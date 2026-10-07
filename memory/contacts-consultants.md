@@ -16,7 +16,8 @@ Part of [[contacts]]. New consultants, councils and industry bodies go here.
   certificate requirements; Tariq writes "Salams Bro" and he opens "Salaams" (26 Sep 2026).
   **Melody Wong** (mwong@mitbrand.com), the QS on the **Dan St / 24 Industrial Units Slacks Creek
   initial report** (proposal X45717); from 3 Sep 2026 she is the point of contact and documents
-  go to her direct, not to Krystal. **Krystal Stokman**, Relationship Manager
+  go to her direct, not to Krystal. **Paul Nguyen** (pnguyen@mitbrand.com), MB, cc on the 7 Oct
+  Dan St pack; Tariq asked Melody to speak to him on the construction funding estimate. (seen 7 Oct 2026) **Krystal Stokman**, Relationship Manager
   (kstokman@mitbrand.com), fee proposals and the commercial relationship. **Cassandra Foreman**
   (cforeman@mitbrand.com) on invoicing (invoice 79157, Dan Street, 16 Sep 2026). P Nguyen (Dan
   St fee proposal). (seen 26 Sep 2026)

@@ -14,6 +14,8 @@ Part of [[contacts]]. New estimators, subcontract partners and marketing contact
   links he sends (10 and 11 Sep 2026); he now tells them to download and save rather than work
   off the link. (seen 11 Sep 2026)
 - HS Group: **Yahya** (outstanding claims, Freeman Rd Richlands, staff hours, cc on Jimboomba).
+  Tariq calls him "Uncle Yahya". 7 Oct 2026 he rang Tariq saying TFA is overpaid on "Ecco"; the
+  variations are being finalised by Daniel and Clay (see [[projects-other]], Loose job names).
   Formal signature used with him. **Carly (carlyp@hsgroup.au)** handles the **Logan Village
   childcare change events and variations**, dealing with Mauricio. Their office at **Eight Mile
   Plains** is where Clay, Daniel and Mauricio meet on the variations. (seen 28 Sep 2026)
