@@ -11,6 +11,10 @@ metadata:
 Part of [[contacts]]. New suppliers, recruiters and system senders go here.
 
 ## Recruiters (he takes their calls, he does not trust their shortlists)
+- **Morson Edge** (ACRWORLD Pty Ltd, Southport): **Jack Sims**, Recruitment Consultant, Labour Hire
+  (jack.sims@morson-edge.com.au, 0451 208 553). Carpenters, TAs and labourers on immediate start;
+  Tariq passed it to Clay, Veena, Daniel and Mauricio 8 Oct: "If you guys need any labor. Hire".
+  (seen 8 Oct 2026)
 - **Stand Up Recruitment** (NZ, standuprecruitment.co.nz): tradies moving from NZ; sent 3 CVs
   for an excavator operator 6 Oct 2026 via Kendal, who answers them for Tariq. (seen 6 Oct 2026)
 - **Arnica Kovacs**, HIR Talent (arnica@hirtalent.com.au, 0435 872 303), Executive Consultant,

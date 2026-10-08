@@ -78,6 +78,8 @@ As listed 14 Sep 2026; `node tools/tfa.mjs status` says which are switched on to
   and dan@ accounts. Detail and the rule in [[recurring-inbox-noise]] (seen 19 Sep 2026).
 
 ## Other tools they pay for
+- **His mail on his devices, 8 Oct 2026:** asked Kendal to add the invoice mailbox to "my emal on
+  laptop" and to note "I need to add all these emaisl on my laptop to my phone". Kendal's job. (seen 8 Oct 2026)
 V1CE ("Client Capture OS", the digital business card, sends him a weekly tap summary; 1 tap
 in the week to 13 Sep 2026), Procore, Bluebeam (two dead perpetual licences; new seats are
 about $450 to $980 a year each), Cubit Estimating trial, Jotform, Blaze (video), Figma (TFA

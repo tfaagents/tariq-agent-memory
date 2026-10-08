@@ -59,6 +59,10 @@ Consolidated 2 Oct 2026 from projects.md. Interns and apprentices are in [[proje
   under construction" in his own words. (seen 21 Sep 2026)
 
 ## Billy-Joe Younie, sponsored 482 hire from South Africa
+- **8 Oct 2:24pm Tariq answered Billy** (cc Sarah, Rene): "Great to finally have this all locked
+  away. We would ideally prefer if you could commence **1st week of November 2026** please."
+  Forwarded to Kendal "fyi" and to Sarah. Where to report and pre-arrival needs still not
+  answered as read. (seen 8 Oct 2026)
 - **6 Oct 8:31am Tariq asked Ismail** whether Billy is "aiming to move the goal posts and what
   options should I provide them that are correct?" Ismail 9:40am: nothing in the email is
   problematic, offered a call before 11:30 or 2-6pm. Tariq 11:47am: missed the 11:30, "If you

@@ -91,6 +91,9 @@ Consolidated 2 Oct 2026 from projects.md. Pipeline, EOIs and referral deals are 
   Kendal time to compile the submission. (seen 1 Oct 2026)
 
 ## Collingwood Park gym and childcare (Fitness Cartel, Alan Robertson)
+- **Closed out 8 Oct 2026.** Alan 7 Oct: "well in excess of our budget". Tariq 8:56am: thanks,
+  "wish you all the best progressing the development", reach out if scope or pricing can be
+  revisited. Not chasing. (seen 8 Oct 2026)
 - **Priced and sent 7 Oct 10:19am to Alan** (cc Kendal, Clay, Nick Whyte, Scott Macgregor, Kyle
   Robertson): **QU-1028 REV 02, $14,500,000 ex GST**, 180 Eagle Street, Collingwood Park, valid 30
   days (so to about 6 Nov 2026). (seen 7 Oct 2026)

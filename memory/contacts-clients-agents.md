@@ -93,7 +93,8 @@ Part of [[contacts]]. New clients, prospects, agents, referrers and developers g
   pitched him for build work on 30 Sep 2026 ("would love to throw a our hat in the ring").
   (seen 30 Sep 2026)
   Also at YSH: **Noah Campbell**, Sales Associate (sales1@ysh.com.au), asked for a per-lot sales
-  appraisal on 29 Millers Rd (13 Aug); Tariq chased 6 Oct 2026. (seen 6 Oct 2026)
+  appraisal on 29 Millers Rd (13 Aug); Tariq chased 6 Oct 2026. 8 Oct he valued the five
+  buildings at $7.8M to $8.2M on a 7.0 to 7.5% yield; detail in projects-29-millers.md. (seen 8 Oct 2026)
 - **OOM Energy: Chris Fort** (chrisfortoom@gmail.com, 0412 750 764). Fuel retailer; would lease a
   service station at Middlemount at $180-200k p/a rent; also Bridgeman Downs QSR add-on.
   (seen 1 Oct 2026)

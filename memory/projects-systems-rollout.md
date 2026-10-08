@@ -14,6 +14,9 @@ Consolidated 2 Oct 2026 from projects.md. Sits with [[projects-standards]] and [
 three are the same push.
 
 ## Who owns it (settled by Tariq, 23 Sep 2026)
+- **8 Oct 11:53am to Kendal:** forwarded Clay's "Systems and Operations - Review Before Our Catch
+  Up" with his amendments, "so we can review together before our meeting with him tomorrow if you
+  like", so a meeting with Clay on **Fri 9 Oct 2026**. (seen 8 Oct 2026)
 - **M.D. Reporting, Clay and Tariq, Thu 8 Oct 2026 9 to 11am (Teams)**, accepted 2 Oct. He
   asked Clay when they do the catch-up on "Clay Agenda - Kendal Amendments" (the Systems and
   Operations review) and whether it is meant to be the same meeting. Unanswered as read. Clay's

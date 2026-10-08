@@ -21,6 +21,13 @@ projects-dan-street-management.md. Confirm a number or a date from the thread be
 - Open promise from earlier: land owners consent to be executed in person (was due 31 Aug 2026).
 
 ## Finance
+- **8 Oct, Mortar plan B (Scott McGregor).** Scott offered a private loan through his private
+  lenders, outside NAB's Islamic Finance option. Tariq 12:08pm: "lets look at the private lender
+  option now so we have that as plan B with rates and expectations ready to go. Once we have DA
+  in hand we are able to proceed." Agreed position: **NAB if pre-sales are achieved; private
+  lending if he proceeds before pre-sales**. Scott: private lending keeps 100% ownership and
+  control, private equity means giving up ownership. Tariq 2:28pm: "lets get this plan b underway
+  boss". **Waiting on Scott for private lender terms.** (seen 8 Oct 2026)
 - Stamford Capital (Grant Rex, Dhru Lodhia) is structuring finance; Dan Street is "the key
   priority". Development funding ~$18m, GRV ~$30m. (seen 10 Sep 2026)
 - 30 Sep 11:51am to Dhru cc Grant Rex: "nothing from DA or QS as yet, lets aim to touch base again
@@ -43,6 +50,12 @@ projects-dan-street-management.md. Confirm a number or a date from the thread be
   Pty Ltd ATF" trust; Sheriff Enterprises (Tony); Commercial Ready (Sally) on split payment options.
 
 ## QS: Mitchell Brandtman
+- **8 Oct, Melody Wong:** Tariq 12:12pm asked her to review everything now and finalise the full
+  report once the DA is stamped, so it goes to NAB or the financier "full complete with no
+  issues"; she had caught a **soil report** gap. He said "**I will have the clarifications letter
+  shared shortly**" (open on him). Melody 1:28pm: MB will progress the report while waiting for
+  DA approval and the soil test report. Tariq 2:23pm: "Good to hear the price lines up with your
+  team as that was a big part". (seen 8 Oct 2026)
 - **7 Oct 3:59pm to Melody, cc Paul Nguyen (MB):** sent the RFI pack: construction price
   "$2,900 (Build Rate as third party) x 3,820m2 (Net Sellable Area) = $11,078,000"; Total
   Development Cost **$22,196,783**; programme 12 months from start; D&C; developer ALIS Property
@@ -83,6 +96,14 @@ projects-dan-street-management.md. Confirm a number or a date from the thread be
   Foreman, cforeman@mitbrand.com) forwarded to accounts@ "FYI". The QS work is being billed. (seen 16 Sep 2026)
 
 ## DA, planning, geotech, traffic
+- **8 Oct 12:14pm, geotech:** to Mauricio and Veena (cc Clay's gmail): "could we please attain a
+  Geotech report this week or early next week please? The financier's QS has flagged this."
+  (seen 8 Oct 2026)
+- **8 Oct, council discussion (Nick at NMDS, Thomas Stubbs and Murray Wright at HPC):** on hours
+  of operation, "we wish to apply the **maximum possible option** to allow versatility to our
+  future tenants and buyers" (7:56am). To Murray 7:54am on point 1, the internal carpark not
+  being accepted: he saw it as the workaround to increase mezzanine, "Is this something you are
+  confident on pushing back or has the legislation since changed?" No answer read. (seen 8 Oct 2026)
 - Acid sulfate soils: probably no ASSMP. Thomas Stubbs (HPC Planning) to Mauricio: take direction
   from the geotech despite the wording in his own planning report; council commonly conditions it
   if required; mostly fill means an ASSMP is unlikely. (seen 15 Sep 2026)

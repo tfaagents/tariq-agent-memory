@@ -11,6 +11,8 @@ metadata:
 # 85-97 Bardon Road, Berrinba (acquisition)
 Part of projects.md. Confirm a number or a date from the thread before quoting it to him.
 
+- **8 Oct 3:15pm** he chased Gus Haseler and M Osborne (Mullins Lawyers, MLAW-MATTERS.FID581646):
+  "Hi Gents, Following up on the below please." on his 6 Oct email. No reply read. (seen 8 Oct 2026)
 - **6 Oct 8:34am to Gus and Mitchell:** he has "a settlement for another site coming up shortly"
   and had budgeted on these funds being settled by now; does not want the Land Court
   prematurely, but "cashflow is always key ... even allowing a quarter of the year for settlement

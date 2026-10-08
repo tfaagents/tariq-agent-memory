@@ -73,6 +73,8 @@ here, by rule. People and roles are in [[tfa-people]]; legal matters in
   also." (seen 14 Sep 2026)
 
 ## Process points he has set
+- **Annual leave policy for the construction team:** Kendal drafted options; 8 Oct 8:04am he
+  asked Desari Lynam (Master Builders) "which option would be best?" No answer read. (seen 8 Oct 2026)
 - **Leave and early departures go in Deputy**, or are cleared with the manager first: "its
   placing leave or early departure on deputy? Or did he tell clay prior, which is fine then as
   long as his manager was aware." (seen 18 Sep 2026)

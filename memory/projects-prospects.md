@@ -90,6 +90,8 @@ Consolidated 2 Oct 2026 from projects.md. Live priced tenders are in [[projects-
   treating them as one. (seen 22 Sep 2026)
 
 ## New relationships
+- **Ripley Corridor infill parcel (RWC Queensland marketing campaign), 8 Oct 8:03am:** "do you
+  have an price point expectation for this site?" No answer read. (seen 8 Oct 2026)
 - **Bromley RE, Mumtaz Saleem** (Director, Special Projects Advisory,
   Mumtaz.Saleem@bromleyre.au): 30 Sep "Jazakallah. Concept attached"; asked for a price
   schedule, Tariq 1 Oct: "Aiming for $8,000/m2". (seen 1 Oct 2026)

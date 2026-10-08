@@ -27,6 +27,11 @@ How he works
   owner; tracking is not owning; status per area with a blocker and an owner; 80 percent
   is his failure mode. Detail and the older rules in [[tariq-how-he-works]] and
   [[tariq-how-he-deals]]. His school holidays out of office from 23 Sep 2026: see [[routine]].
+- On cash: "**I don't like shaking the money tree. Lets aim to get a few invoices out next
+  week.**" (8 Oct 2026, to accounts after paying the creditors run.) Same as 1 Oct ("We need
+  income now"): when bills go out he wants claims raised, not reserves drawn.
+- On a DA he will sell from: "we wish to apply the **maximum possible option** to allow
+  versatility to our future tenants and buyers." (8 Oct 2026, Dan Street hours of operation.)
 - On a tender going out: "**Our team would or should review prior to submission at least as a
   look over ... Something to flag in future pretty please mate.**" (6 Oct 2026, to Clay on
   Hillcrest.) "Reviewed" means the team has looked over the final document, and if it has not,

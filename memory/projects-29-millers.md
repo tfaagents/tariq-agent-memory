@@ -14,6 +14,15 @@ address are in projects-29-millers-sale-indara.md. Confirm a number or date from
 before quoting it.
 
 ## What it is and who is on it
+- **8 Oct, YSH valuation exchange with Noah Campbell.** Noah first valued it at about $1.5m,
+  then 9:48am said that was per building: **$7.8M to $8.2M all up**, assuming separate lots.
+  Tariq 12:02pm: vacant land nearby sells at about "$2,000/m2 x 2,100m2 - is approximately 4m
+  alone", so is it 4m plus the 8m, "total value of 12m?" Noah 4:56pm: rooming houses sell like
+  commercial assets on yield, currently **7.0% to 7.5%**, bought for cash flow not development
+  upside; asked body corporate or separate titles. Tariq 5:28pm: "**They will be strat
+  titles.**" (seen 8 Oct 2026)
+- **8 Oct 5:29pm** he chased Elley King (ReziCAD) and Adrian (GSP Land), cc Ellen and Veena:
+  "Following up on the below Ellen and Adrian?" on his 2 Oct 12:06pm email. (seen 8 Oct 2026)
 - **YSH sales appraisal:** Noah Campbell (YSH Property, sales1@ysh.com.au) offered a per-lot
   appraisal 13 Aug (commission 2.42%, REA Premiere+ $2,989, disclosure statement $799); Tariq sent
   plans 13 Aug and chased 6 Oct 9:04am. No reply read. (seen 6 Oct 2026)

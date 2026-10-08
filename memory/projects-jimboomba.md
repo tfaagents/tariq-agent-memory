@@ -10,6 +10,10 @@ metadata:
 Part of projects.md. Confirm a number or a date from the thread before quoting it to him.
 
 ## The site
+- **8 Oct 8:06am**, on 1300temp fence's updated invoice and credit note, to Daniel cc Clay: "Just
+  confirming this is in line with our pricing? Given we usually go longer period for a
+  discounted rate?" Same morning he approved HCE Engineers invoice HCE18681 to Clay: "No
+  Problems, please proceed." (seen 8 Oct 2026)
 - **Dedicated phone for David (6 Oct):** David does not want his personal number on the
   one-way detour notice going to about 250 households (fine on plans and docs to LCC and
   consultants). Veena backed it; Tariq to Kendal: "Please share an esim for davids phone."

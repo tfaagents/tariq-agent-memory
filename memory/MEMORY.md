@@ -53,7 +53,7 @@ Superseded lines are in archive/ by month (archive/2026-10.md is the 2 Oct conso
 
 ## Projects and ideas (confidential)
 - [Roller door retrofit](roller-door.md): his own product idea, confidential, patent first
-- [66 Learoyd Rd Algester](learoyd-algester.md): his own $9.2m unconditional offer (16 Sep, no reply recorded past 23 Sep), Council pre-lodgement Mon 12 Oct, the AFIC objection; asbestos and PFAS site, confidential
+- [66 Learoyd Rd Algester](learoyd-algester.md): his own $9.2m unconditional offer (16 Sep, no reply recorded past 23 Sep; a second letter to Andre drafted 8 Oct, diaried to send Fri 9 Oct 5:10am), Council pre-lodgement Mon 12 Oct, the AFIC objection; asbestos and PFAS site, confidential
 
 ## How he wants things done
 - [Rules](rules.md): the Decision Book, every correction he makes, dated, in his words; read before drafting or filing

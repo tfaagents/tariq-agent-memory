@@ -14,6 +14,12 @@ Consolidated 2 Oct 2026 from projects.md. Tax, land tax, loans, banking and insu
 [[projects-compliance]]. This agent never pays; processing a run is his.
 
 ## How payment runs work
+- **8 Oct:** approved the payment run at 2:54pm ("all good to proceed") and paid the ABA
+  creditors batch Heather sent at 4:34pm, 6:59pm: "FYI Paid. **I don't like shaking the money
+  tree.** Lets aim to get a few invoices out next week. I'll follow up project tema and submit to
+  bank and client. Just need you to create the invoice for me asap when I send you numbers
+  hopefully tomorrow and early next week". He owes accounts the claim numbers (9 Oct to early
+  next week). Diary: "Pay amex 190k" Fri 9 Oct 8am. (seen 8 Oct 2026)
 - Heather and Clay run the bills; accounts sends ABA files and **Tariq processes them**. 1 Oct
   creditors run: he queried four (Jaiah invoice $5k vs revised $4k, ABP timing, Onelock, Shade
   Sails deposit), Heather answered, and at 8:07pm "FYI all paid. We need income now too much

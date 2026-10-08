@@ -48,6 +48,9 @@ newest on top of the right section**; move them to a proper file at the next con
   chase was 9 Jul. See the Indara section of [[projects]]. (seen 1 Oct 2026)
 
 ## Vehicles, plant and the Pickles relationship
+- **VMS boards and lights at Pickles, 8 Oct 8:47am** to Veena cc Clay's gmail: "Please remind me
+  to buy these at auction prior to sale" (Pickles signs search). He accepted Veena's "VMS Auction
+  close date & time - 19/10/2026 4:30pm Brisbane time". (seen 8 Oct 2026)
 - **Prestige plate TFA88:** 6 Oct he asked Mat Scarborough (PPQ, B2B Specialist) to reach the
   owner, "I would really want them part of my business plates"; Mat issued an expression of
   interest to the owner with his details. Waiting on the owner. (seen 6 Oct 2026)
@@ -94,6 +97,12 @@ newest on top of the right section**; move them to a proper file at the next con
   22 Sep 2026)
 
 ## Loose job names (ask before assuming)
+- **"Ecco" is Ecco Ripley, an HS Group job (Yahya), not Logan Village** (resolved 8 Oct 2026 from
+  his 31 Aug email listing "Ecco Ripley PC20 - $234,175.94 - Paid $19,945.85 - Remaining
+  $214,230.09" beside Logan Village PC15). **8 Oct 12:07pm to Yahya** (cc accounts@hsgroup.au):
+  "Salams Uncle, As discussed yesterday", sent the variation clarifications with notes, images
+  and consultant instructions, and "**if you pay the final invoice PC20 - 214k, my books and
+  yours are the same.**" Calendar: "Remind yahya tuesday payment" Fri 9 Oct 7am. (seen 8 Oct 2026)
 - **"Ecco" final invoice and variations (7 Oct 4:57pm, to Daniel cc Clay's gmail):** client
   side is "Uncle Yahya", who rang 7 Oct saying on his books TFA has been overpaid; Tariq agrees
   the variations have not yet been shared with him. Final invoice outstanding "almost 10 months".

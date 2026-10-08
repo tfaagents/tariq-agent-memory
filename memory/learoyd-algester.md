@@ -28,6 +28,24 @@ confidential. Do not assume which entity buys; ask him before putting it in anyt
   offset carries forward. (seen 1 Oct 2026, his sent mail)
 
 ## His offer to buy the site (16 Sep 2026, chased 17 Sep)
+- **8 Oct 5:27pm and 5:46pm, a second "No More Dutch Auction" letter, emailed to himself only**
+  (subject "No More Dutch Auction - 66 Learoyd Rd, Algester - TFA Acquisition", Without
+  Prejudice, attachment "(TFA) Financial Capacity & Track Record.pdf"). His diary has **"Send
+  email andre" Fri 9 Oct 5:10am**, so as at 8 Oct it had **not gone to Andre**. It follows a call
+  with Andre on 7 Oct ("thanks for the call yesterday and being frank with me"). It asks Andre to
+  circulate it to Andrew, the other owners and the Board ahead of **next week's meeting**, and
+  puts six questions on the rival proposal: written approval (he was told all seven states
+  rejected it about a month ago), previous failed attempts, evidence of funding, conditions and
+  deposit at risk, who has authority given a possible leadership change, and any governance
+  issue. Terms unchanged: **$9,200,000, $500,000 deposit released and non-refundable,
+  unconditional, settlement 12 months from execution, personal guarantee documented by his
+  solicitors**. New points: the 12 months is for staged approvals, remediation, drainage and
+  funding; the existing DA cannot be assumed to suit staging; TFA has "approximately $150
+  million in combined own and client projects"; the local mosque's preferred-builder
+  endorsement can be supplied. His line: "A buyer prepared to put real money down should carry
+  more weight than another promise to return to the saleyard". Asks for a meeting with the
+  owners and for the solicitors to be instructed. (seen 8 Oct 2026, his sent mail; the last
+  8,800 characters were not read)
 - To **Andre Duvenage** (andre@cooperpg.com.au, Cooper Property Group), cc **Andrew**, 16 Sep
   1:39pm, subject "66 Learoyd Rd, Algester - TFA Offer - No More Dutch Auction". It revises
   his 4 Sep 6:04am offer of the same name ("Dutch Auction"). The objection is to stop AFIC
