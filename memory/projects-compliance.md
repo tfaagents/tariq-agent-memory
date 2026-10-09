@@ -14,6 +14,8 @@ Consolidated 2 Oct 2026 from projects.md. Day-to-day payments are in [[projects-
 Federal Safety Accreditation is in [[federal-safety-accreditation]].
 
 ## Land tax on 11 and 13 Inverness (QRO Extended Payment Option)
+- **Dan Street 2026-27 land tax (9 Oct):** Heather checked the calculation (averaged values 9 Dan
+  $1,366,666, 7 Dan $1,550,000); Tariq: "Can we do payment plan on this too?" (seen 9 Oct 2026)
 - TZA and HSA land tax bills carry a note to apply for payment plans on both 11 and 13
   Inverness. Heather had it to early October (18 Sep); Tariq: "I do like to get things done when
   we have money just in case we are tight in November lol." (seen 18 Sep 2026)
@@ -79,6 +81,9 @@ Federal Safety Accreditation is in [[federal-safety-accreditation]].
   Shafia's address. (seen 14 Sep 2026)
 
 ## Insurance (Osman Insurance Brokers)
+- **2 Hewson St, Tingalpa home insurance** renewal due **23 Oct 2026** (Osman, invoice 68929).
+  9 Oct to Kendal: "Can we see if we can get a cheaper price but still covered for flood etc?"
+  (seen 9 Oct 2026)
 - **His standing position on construction cover:** "confirm with clay potential start dates so we
   insure from right date in lieu of loosing time with insurance when the site sits dormant." Policy
   **AUSSP-900032-Q** (Mahmood): quote accepted in principle 16 Sep, start date open with Clay. The

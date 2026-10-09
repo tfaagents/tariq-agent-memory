@@ -27,6 +27,9 @@ Part of projects.md. The development, finance and QS side is in projects-dan-str
   what was paid and the increases rather than wait on "their possibly incorrect ledgers". (seen 17 Sep 2026)
 
 ## The money
+- **9 Oct:** Mukhtaar (Ray White) has about **$39,000** in trust, awaiting South West tenant
+  ledgers to reconcile; Tariq: "follow up aggressively, this amount is substantially short."
+  Belle (Grant Turner) is exploring holding the funds in Belle Commercial Trust. (seen 9 Oct 2026)
 - Two numbers, not yet joined by any email: arrears "close to $65,000" (he put it on the record
   15 Sep) and $75,000 outstanding from South West (his figure from 24 Sep, Kendal's 28 Sep). (seen 28 Sep 2026)
 - Kendal's escalation 28 Sep 4:02pm to Annabelle cc Mukhtaar Hashim and Tariq: Nichole said South
@@ -67,6 +70,11 @@ Part of projects.md. The development, finance and QS side is in projects-dan-str
   handover from Annabelle (see projects-dan-street.md, Rauhena Chase). (seen 1 Oct 2026)
 
 ## Unit 3 and 4 tenant, and the lawyers
+- **9 Oct:** Ray White CSR (Nicole) sent the 30-day entry notice for site investigations and
+  testing, **12 Oct to 11 Nov 2026**. Tenant **Marc Flanagan** accepted the termination notice,
+  asked for 6 months rent free and his bond back; Tariq: "Hard no on rent free, please advise him
+  he will be in breach under the agreement if he doesn't pay." Units 3 and 4 are one name,
+  possibly sub-leased twice; he asked CSR to liaise with Thymac Law on vacating. (seen 9 Oct 2026)
 - Breach and immediate termination strategy on the Unit 3 and 4 tenant. TFA staff onsite with a
   demolition contractor saw Logan City Council towing vehicles the tenant had left on the road for
   6-9 months; council had also rung Tariq 4-6 weeks before about the same tenant. He put it to

@@ -28,6 +28,15 @@ confidential. Do not assume which entity buys; ask him before putting it in anyt
   offset carries forward. (seen 1 Oct 2026, his sent mail)
 
 ## His offer to buy the site (16 Sep 2026, chased 17 Sep)
+- **9 Oct 5:15am, the second letter went** to Andre (cooperpg), "No More Dutch Auction", Without
+  Prejudice, asking him to circulate to Andrew, the other owners and the Board. Six questions on
+  the competing party (written approval, past failed attempts, funding evidence, conditions and
+  deposit, who has authority with a leadership change, governance). Terms unchanged: **$9.2m,
+  $500k released and non-refundable, unconditional, 12 months settlement, personal guarantee
+  documented by his solicitors**. Says TFA has ~$150m own and client projects; offers the
+  mosque's preferred-builder endorsement. Attached "(TFA) Financial Capacity & Track Record.pdf".
+  **Andre 4:00pm:** "I will be discussing with Andrew next week and will provide you with
+  feedback." So feedback from Andre is due the week of 12 Oct. (seen 9 Oct 2026)
 - **8 Oct 5:27pm and 5:46pm, a second "No More Dutch Auction" letter, emailed to himself only**
   (subject "No More Dutch Auction - 66 Learoyd Rd, Algester - TFA Acquisition", Without
   Prejudice, attachment "(TFA) Financial Capacity & Track Record.pdf"). His diary has **"Send

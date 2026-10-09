@@ -9,6 +9,10 @@ metadata:
 ---
 
 # 85-97 Bardon Road, Berrinba (acquisition)
+- **9 Oct, Mitchell Osborne:** the Department has not responded all week; if nothing by **Wed 14
+  Oct**, Mullins will send a breakdown of fees and stages for Land Court plus fee estimates from Mr
+  Purcell and Mr Brett. Tariq 3:27pm: "keep the pressure on them for now so we can avoid land
+  court ... I always win and we will get the full amount or very close to it." (seen 9 Oct 2026)
 Part of projects.md. Confirm a number or a date from the thread before quoting it to him.
 
 - **8 Oct 3:15pm** he chased Gus Haseler and M Osborne (Mullins Lawyers, MLAW-MATTERS.FID581646):

@@ -31,6 +31,9 @@ Part of [[contacts]]. New suppliers, recruiters and system senders go here.
 - **Audrey Marceau**, Tracks IS (audrey@tracksis.com.au). Blue and white collar. (seen 10 Sep 2026)
 
 ## Subbies and suppliers
+- **MVP Pools, Nicholas Bollen** (mvp.pools@yahoo.com.au, 0401 161 486): pool resurfacing at 11
+  Kakira Place, Eight Mile Plains, finished 8 Oct 2026. **Sayka**: traffic equipment quote for
+  Jimboomba (Veena, 8 Oct 2026). **Metalflex, Matthew Doyle**: quote 271351731 (9 Oct 2026).
 - **Prestige Refrigeration & Air Conditioning** (Prestige RAC): mechanical subbie. **Katrina
   Nicholson**, Operations Manager (admin@prestigerac.com), and **Carson Dehnert**
   (carson@prestigerac.com). Sent their **September 2026 progress claim to accounts@ cc Clay on 25

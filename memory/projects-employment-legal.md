@@ -45,6 +45,12 @@ Deputy) is in [[projects-team-admin]]. Never state what a court order says unles
   (seen 1 Oct 2026)
 
 ## Daniel Tu (and DT Buildev)
+- **9 Oct, to Mason Fettell:** Desari attended the online hearing for him; mediation rejected.
+  He wanted to counter-claim ~150k for breach of the Deed. Mason: no grounds for a counter claim
+  he can see; the Deed may be relied on to stop this application, but suing would first need a
+  Federal Circuit Court determination that the Deed precludes the claim, plus proof of actual
+  loss. Offered a costs estimate in an engagement letter. Tariq: "Roger that, will see how we go."
+  Not engaged as at 9 Oct. (seen 9 Oct 2026)
 - **BRG917/2026, Daniel Tu & DT Buildev v TFA Constructions Pty Ltd, Federal Circuit and Family
   Court of Australia (Division 2), Judicial Registrar Pascoe.** First court date (directions
   hearing, Webex, 10:00am Tue 22 Sep 2026) held, with Desari granted leave to represent TFA.

@@ -10,6 +10,9 @@ metadata:
 Part of projects.md. Confirm a number or a date from the thread before quoting it to him.
 
 ## The site
+- **Traffic equipment (8-9 Oct):** Veena sought card approval for Sayka (cheapest, upfront,
+  50/50 over two weeks) for work starting Mon 19 Oct; Tariq 9 Oct: "I Believe this is now on
+  hold?" as they had an issue setting out signage. (seen 9 Oct 2026)
 - **8 Oct 8:06am**, on 1300temp fence's updated invoice and credit note, to Daniel cc Clay: "Just
   confirming this is in line with our pricing? Given we usually go longer period for a
   discounted rate?" Same morning he approved HCE Engineers invoice HCE18681 to Clay: "No

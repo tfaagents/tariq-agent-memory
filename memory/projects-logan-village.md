@@ -20,6 +20,13 @@ from the thread before quoting it to him.
 - Progress claims 13, 14, 15 and 16 through Mitchell Brandtman. (seen 22 Sep 2026)
 
 ## Progress Claim 16 and the certificates
+- **9 Oct:** Hishaam (9:01am) asked for the Stat Dec, offering to report at 97.5% if certs are
+  not in. Tariq 4:24pm sent the **amended PC16 (adjusted with some variations)**, tax invoice,
+  Stat Dec, link to BRC certs, **CofC (issued, plumbing final still awaited)** and the PC
+  certificate; the **Variations Summary Sheet he promised "early next week"**. Clay was asked at
+  8:53am for the summary sheet that day and detailed variations next week. Cassie (Inspire EYM)
+  returned the Stat Dec. To Yahya 4:02pm: PC16 $595,632.43 inc GST, nothing paid, "Bank is yet
+  to approve the claim". (seen 9 Oct 2026)
 - PC16 sent 22 Sep to H Tayob cc P Nguyen ("PC 16 - Logan Village - Trade Summary Progress
   Claims.pdf"), "subject to your approval as always". (seen 22 Sep 2026)
 - Hishaam Tayob's site visit Thu 24 Sep: "The works appear to be nearing completion. Minor defects

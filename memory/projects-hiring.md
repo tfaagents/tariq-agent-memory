@@ -11,6 +11,9 @@ metadata:
 # Hiring
 
 ## Contract Administrator via HIR Talent (Arnica Kovacs), from 7 Oct 2026
+- **9 Oct:** he told Desari (MBQ) the current CA, in probation (about month four), is not
+  performing and he means to end it after meeting her next week; Clay had sent Mo a CA action
+  list that morning. Job-needed only; do not raise unless he does. (seen 9 Oct 2026)
 - Arnica approached him 7 Oct. He asked "construction blue or white collar?", then "Looking for a
   CA?", then 11:29am sent the same CA brief, position description, interview questions,
   capability statement, team video and Newsletter No.3 ("No time to chat, please see attached").

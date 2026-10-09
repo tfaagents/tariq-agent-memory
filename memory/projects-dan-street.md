@@ -96,6 +96,11 @@ projects-dan-street-management.md. Confirm a number or a date from the thread be
   Foreman, cforeman@mitbrand.com) forwarded to accounts@ "FYI". The QS work is being billed. (seen 16 Sep 2026)
 
 ## DA, planning, geotech, traffic
+- **9 Oct, Murray Wright (HPC):** mez levels fine as they are; the play is saving infrastructure
+  charges whether car parks or loading bays are accepted. Tariq: "More so want to increase mez on
+  plan, if I reduce at build phase that's fine but at lease we have more GFA for Sellable Area."
+  MB testers (fee X45717): approval 7 Sep, Mauricio to seek a 30-day extension; Tariq wants a TFA
+  person on site for the prestart and the testers briefed on concrete finishes. (seen 9 Oct 2026)
 - **8 Oct 12:14pm, geotech:** to Mauricio and Veena (cc Clay's gmail): "could we please attain a
   Geotech report this week or early next week please? The financier's QS has flagged this."
   (seen 8 Oct 2026)

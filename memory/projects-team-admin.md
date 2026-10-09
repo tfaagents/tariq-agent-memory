@@ -15,6 +15,11 @@ here, by rule. People and roles are in [[tfa-people]]; legal matters in
 [[projects-employment-legal]].
 
 ## Apprentices and TAFE
+- **Christmas shutdown decided (9 Oct, to Desari, MBQ):** last day **Fri 18 Dec 2026**, back
+  **Mon 11 Jan 2027**. Heather's projection: six staff short of the 12 leave days. He wants a full
+  shutdown ("its the industry standard shut down period"), he will be overseas, and asked Desari
+  whether he can let short leave go negative and pay; may let some come back a few days early.
+  Awaiting Desari. (seen 9 Oct 2026)
 - **Jordan TAFE (Clay 7 Oct):** Jordan is at TAFE 6-9 Oct, a booking Clay had not received
   (TAFE Queensland, Sonya Vigar, Acacia Ridge, CPC30220). Clay's updated list: Jordan 6-9 Oct,
   12-23 Oct, 19-23 Oct; Alex 26-30 Oct; Seth 16-20 Nov. Tariq accepted the 6-9 Oct invite and asked

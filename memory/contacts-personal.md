@@ -11,6 +11,8 @@ metadata:
 Part of [[contacts]]. New family, friends and personal-side contacts go here.
 
 ## Personal (do not mix with TFA business)
+- **Abdul, Bi-Rite** (dado@birite.com.au, Eight Mile Plains): "Uncle", decides on the 11 Kakira
+  Place pool invoice with Hassan (HS Group). (seen 9 Oct 2026)
 - **Saheed Ali** (saheedali@hotmail.com) is **Tariq's father, and he is the "Shane" the rest of
   TFA talks about** (14 Sep 2026: Heather opens an email to saheedali@hotmail.com with "Hey
   Shane," and Tariq replies on the same thread "Salams Dad"). The Shane who approves the Hastings

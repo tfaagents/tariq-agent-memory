@@ -9,6 +9,14 @@ metadata:
 ---
 
 # Narangba childcare extension and Bokarina Childcare (Spring Early Learning)
+
+## Both tenders submitted 9 Oct 2026
+- **Narangba: $2,578,600.00 ex GST**, sent 4:32pm to Reece cc Christian
+  (christian@springearlylearning.com.au), valid 30 days (to about 8 Nov). Kendal compiled the
+  Word submission; he edited the numbers himself: "happy with the new figure 2.578m." (seen 9 Oct 2026)
+- **Bokarina, 27 Tailslide Crescent, Bokarina QLD 4575, double storey childcare: $5,199,500.00
+  ex**, sent 6:07pm to Christian and Reece, valid 30 days. He chose Alee's estimate over Abi's:
+  "lets go with Alees figure on this one just because of the pure distance." (seen 9 Oct 2026)
 Part of projects.md. Both are priced by the same two estimators, Abi (Abhinav Choudhary) and Alee
 (Ali Fateh, aleefateh@gmail.com), for client Reece Goode at Spring Early Learning.
 

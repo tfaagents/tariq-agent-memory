@@ -65,7 +65,7 @@ Part of [[contacts]]. New clients, prospects, agents, referrers and developers g
   **Bayden Clarke**. Tariq made Hillcrest the **first tender the team works through** (23 Sep
   2026). There is also a **Chateau Project No 6 Pty Ltd** in the Rajput loan ledger, so check
   which Chateau entity is meant before repeating a number. (seen 23 Sep 2026)
-- **Spring Early Learning: Reece Goode** (reece@springearlylearning.com.au). Childcare client:
+- **Spring Early Learning: Reece Goode** (reece@springearlylearning.com.au). **Christian** (christian@springearlylearning.com.au) is the other addressee on both 9 Oct 2026 tenders. Childcare client:
   Narangba extension, Bokarina. Chases politely and takes an honest date: chased the Narangba
   price 24 Sep 2026 and accepted "mid next week" the same afternoon. Tariq writes to him as a
   mate ("my man", "bud"). **Jesse Govender** (Jesse.g@i-p.au) shares his lodgement documents.
@@ -124,3 +124,5 @@ contacts-partners.md.
 
 Andre Duvenage (Cooper Property Group, 66 Learoyd) is confidential and not a TFA relationship:
 he lives in contacts-personal.md.
+- **Bickerton Masters** (tenders@bickertonmasters.com.au): Plainland school EOI sent 9 Oct 2026.
+- **Marc Flanagan**: Dan Street tenant who accepted termination 9 Oct 2026; asked rent free, refused.

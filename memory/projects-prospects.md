@@ -104,6 +104,8 @@ Consolidated 2 Oct 2026 from projects.md. Live priced tenders are in [[projects-
   Constructions". No reply as at 22 Sep. (seen 22 Sep 2026)
 
 ## Public tenders and EOIs
+- **Plainland school project, Bickerton Masters** (tenders@bickertonmasters.com.au): EOI sent
+  9 Oct 8:39am with the standard education pitch, brochure and videos. (seen 9 Oct 2026)
 - **Birkdale Community Precinct**, D&C enabling infrastructure and lagoon sub-precinct, Redland
   City Council via VendorPanel, **closes 7 Oct 2026 5:00pm.** Tariq to Kendal 17 Sep: "lets aim
   for this one". (Dhuny Yumba (Powrunna) accommodation, same digest, closes 16 Oct, not chosen.)

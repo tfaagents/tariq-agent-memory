@@ -14,6 +14,14 @@ Consolidated 2 Oct 2026 from projects.md. **New facts that fit no other projects
 newest on top of the right section**; move them to a proper file at the next consolidation.
 
 ## 94 Lipscombe Road, Unit 1, Deception Bay (Andrea Cancelli)
+- **9 Oct:** to Andrea 4:39pm: quote "around the 12-14k mark", to come **early next week**;
+  he offered to send his team **Monday 12 Oct** to start rectifications and formalise the quote
+  Monday. Biggest cost is the fire hose reel install and overhead plumbing reconfiguration.
+  Andrea 4:58pm: "I'll keep the works with you but please try to keep it as cost effective as
+  possible." He told Kendal (cc Daniel, dmitc16@hotmail.com) to get Sean the address for Monday
+  and have Sean call him for the lock code. Owner corrections for the revised BA passed to
+  Andrew Bleakley: owner "PROPERTY SCOUT INT NO. 2 PTY LTD", Unit 301/105 Wellington Street,
+  Bondi Beach NSW 2026. (seen 9 Oct 2026)
 - **7 Oct:** to Andrea 10:04am: rectification (fire hose reel install not yet quoted, plus
   nosing and handrail works) "approximately 9-11k yet to be confirmed"; "I think we can aim for
   the 18th" (Oct) depending on subbies and TFA's boys. He chased Andrew 11:23am; Andrew 2:49pm:
@@ -97,6 +105,11 @@ newest on top of the right section**; move them to a proper file at the next con
   22 Sep 2026)
 
 ## Loose job names (ask before assuming)
+- **Ecco Ripley PC20 and HS Group (9 Oct):** to Yahya 4:02pm: PC20 $234,175.94, paid
+  $19,945.85, remaining $214,230.09; "settle 10 month old Ecco Invoice", and finalise Jimboomba
+  so TFA can invoice. Yahya 3:05pm: "Most of it doesn't make sense ... too much for project
+  management, site supervisors, delays". Tariq: most is extra works, 150k already paid, "just the
+  remaining 200k left". (seen 9 Oct 2026)
 - **"Ecco" is Ecco Ripley, an HS Group job (Yahya), not Logan Village** (resolved 8 Oct 2026 from
   his 31 Aug email listing "Ecco Ripley PC20 - $234,175.94 - Paid $19,945.85 - Remaining
   $214,230.09" beside Logan Village PC15). **8 Oct 12:07pm to Yahya** (cc accounts@hsgroup.au):
@@ -119,6 +132,12 @@ newest on top of the right section**; move them to a proper file at the next con
   Wed 7 Oct 2026 2pm, Daniel's invite, accepted 2 Oct. Confirm before treating as the same job.
 
 ## Personal and favours (not TFA business)
+- **Pool resurfacing, 11 Kakira Place, Eight Mile Plains (9 Oct):** MVP Pools (Nicholas Bollen)
+  final invoice; Abdul at Bi-Rite (dado@birite.com.au, "Uncle", cc Hassan HS Group) said pay the
+  full amount; Tariq: accounts have scheduled it for next week. Balance noted by Heather $6,060;
+  he sent the $1,200 earlier. (seen 9 Oct 2026)
+- **ISA Collective / Metalflex quote 271351731 (9 Oct):** Imran Ali says too much; Tariq: "Try
+  temperzone direct? Or AK?" (seen 9 Oct 2026)
 - **Pool renovation at a client's house (Eight Mile Plains), through HS Group:** Hassan (HS
   Group, mh@hsgroup.au, cc Abdul "Uncle Dado" Sacur, dado@birite.com.au) asked 2 Oct for the
   **$1,200 deposit** on quote QU-1163 (work half done; a revised quote is coming, so not final).
