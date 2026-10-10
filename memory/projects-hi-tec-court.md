@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 92012670-eaa2-4ca6-a160-cb53ca56a9be
-  modified: 2026-10-02T06:03:34.173Z
+  modified: 2026-10-10T11:00:29.924Z
 ---
 
 # 35 Hi-Tec Court, Eight Mile Plains (the "BTP" purchase, new TFA office)
@@ -37,6 +37,9 @@ thread before quoting it to him.
   until there is one. (seen 10 Sep 2026)
 
 ## Design: NMDS, ISA and the concept
+- Diary: Sun 11 Oct 2026 7:30pm "Hitech - brothers catch up to finalise design", put in by Veena.
+  Likely the ISA mark-up being settled before it goes back to Nick; outcome not yet seen. (seen in
+  his calendar 10 Oct 2026)
 - NMDS Architecture (Nick) does the concept and the DA, same architect as Dan St (to Clay 18 Sep:
   "FYI, going to engage the same architect"). Nick sent the DWG/CAD of the current scheme 10 Sep. (seen 18 Sep 2026)
 - ISA (his brother Imran Ali) marks up design ideas. ISA may take over at BA phase and the current
