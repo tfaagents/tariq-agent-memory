@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 92012670-eaa2-4ca6-a160-cb53ca56a9be
-  modified: 2026-10-04T11:00:14.639Z
+  modified: 2026-10-11T11:00:22.231Z
 ---
 
 # Compliance, tax, banking, loans and insurance
@@ -65,13 +65,16 @@ Federal Safety Accreditation is in [[federal-safety-accreditation]].
   (seen 10 Sep 2026)
 
 ## Loans
+- **Intercompany loans meeting booked (diary, seen 11 Oct 2026):** Mon 12 Oct 2026 11:00am Teams,
+  "Revisit cleaning up all intercompany loans", put in by Heather. This looks like the sit-down
+  agreed 23 Sep. Note the 9 Oct accounts email said Heather is away Monday; may move.
 - **Rajput intercompany position (Heather, 23 Sep):** loans received from Rajput
   $3,502,490.41; paid to Rajput $2,615,549.75; **TFA owes Rajput $886,940.66.** She flagged a
   historic imbalance between the TFA and Rajput MYOB entries (Sarah to investigate, or Barry to
   journal it). Tariq: "seems really confusing lol. I was more so referencing the previous 800 or
   880k from previous financial year ... Might be best we sit down and review together. but
   completing the EOFY will assist in this clarification also." A sit-down with Heather is agreed,
-  not booked; EOFY completion is the gate. (seen 23 Sep 2026)
+  not booked (superseded 11 Oct 2026: booked Mon 12 Oct, see above); EOFY completion is the gate. (seen 23 Sep 2026)
 - **Rajput loan to Chateau Project No 6 Pty Ltd, $500k:** due 9 Sep, extended to 20 Sep at the
   borrower's request (an option in the agreement), **repaid 21 Sep** to the Rajput account ending
   6686. Still unanswered: whether a written agreement papered the extension. (seen 21 Sep 2026)
