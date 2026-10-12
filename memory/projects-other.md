@@ -14,6 +14,10 @@ Consolidated 2 Oct 2026 from projects.md. **New facts that fit no other projects
 newest on top of the right section**; move them to a proper file at the next consolidation.
 
 ## 94 Lipscombe Road, Unit 1, Deception Bay (Andrea Cancelli)
+- **12 Oct:** 7:03am BRC's invoice for the revised BA to accounts, "pleaes pay when due"; 7:05am
+  revised BA package (scope shifted, new fire hose reel) sent to Andrea; 8:32am asked Kendal for a
+  plumber's quote to install the fire hose reel upstairs. The formal quote to Andrea ("early next
+  week") is not yet seen sent. (seen 12 Oct 2026)
 - **9 Oct:** to Andrea 4:39pm: quote "around the 12-14k mark", to come **early next week**;
   he offered to send his team **Monday 12 Oct** to start rectifications and formalise the quote
   Monday. Biggest cost is the fire hose reel install and overhead plumbing reconfiguration.
@@ -132,6 +136,9 @@ newest on top of the right section**; move them to a proper file at the next con
   Wed 7 Oct 2026 2pm, Daniel's invite, accepted 2 Oct. Confirm before treating as the same job.
 
 ## Personal and favours (not TFA business)
+- **Pool resurfacing closed 12 Oct:** Hassan (HS Group) confirmed the right total is **$9,152**
+  (extra tasks beyond the first quote); Tariq paid the difference that morning and told Hassan
+  "this is finalised our end now", and told accounts. (seen 12 Oct 2026)
 - **Pool resurfacing, 11 Kakira Place, Eight Mile Plains (9 Oct):** MVP Pools (Nicholas Bollen)
   final invoice; Abdul at Bi-Rite (dado@birite.com.au, "Uncle", cc Hassan HS Group) said pay the
   full amount; Tariq: accounts have scheduled it for next week. Balance noted by Heather $6,060;

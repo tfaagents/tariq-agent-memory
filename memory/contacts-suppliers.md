@@ -11,6 +11,9 @@ metadata:
 Part of [[contacts]]. New suppliers, recruiters and system senders go here.
 
 ## Recruiters (he takes their calls, he does not trust their shortlists)
+- **W3Global** (w3global.com.au): Richard Bachman (BDM) has left; **Andy Madison**
+  (andy.madison@w3global.com.au) now. Offered $250 + GST goodwill 12 Aug 2026 for their CA
+  search time; 12 Oct 2026 Tariq invited CA candidates.
 - **Morson Edge** (ACRWORLD Pty Ltd, Southport): **Jack Sims**, Recruitment Consultant, Labour Hire
   (jack.sims@morson-edge.com.au, 0451 208 553). Carpenters, TAs and labourers on immediate start;
   Tariq passed it to Clay, Veena, Daniel and Mauricio 8 Oct: "If you guys need any labor. Hire".
@@ -31,6 +34,10 @@ Part of [[contacts]]. New suppliers, recruiters and system senders go here.
 - **Audrey Marceau**, Tracks IS (audrey@tracksis.com.au). Blue and white collar. (seen 10 Sep 2026)
 
 ## Subbies and suppliers
+- **Superior Traffic Management (STM)**, Underwood: Permits and Plans (Donna,
+  permitsandplans@superiortrafficmanagement.com.au, 1300 995 921), Douglas; bookings 0407 514 912,
+  bookings@, by 2pm the day before. Jimboomba East Street permits and traffic control; Veena
+  handles. (seen 12 Oct 2026)
 - **MVP Pools, Nicholas Bollen** (mvp.pools@yahoo.com.au, 0401 161 486): pool resurfacing at 11
   Kakira Place, Eight Mile Plains, finished 8 Oct 2026. **Sayka**: traffic equipment quote for
   Jimboomba (Veena, 8 Oct 2026). **Metalflex, Matthew Doyle**: quote 271351731 (9 Oct 2026).

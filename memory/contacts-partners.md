@@ -28,7 +28,10 @@ Part of [[contacts]]. New estimators, subcontract partners and marketing contact
   (Registered Architect, B.Arch. Hons, M.Arch, **BOAQ #6428**, A+ RAIA, (07) 3096 0472, 0412 239
   710, isacollective.com.au). On the **33 Commerce Circuit, Yatala** SRA application with Saheed
   Ali (22 Sep 2026). He asks plain questions when planning jargon lands ("What does that
-  mean?"), so answers to him need the practical consequence, not the term. Imran is also on the
+  mean?"), so answers to him need the practical consequence, not the term.
+  **Hazem Aziz** (hazem@isacollective.com.au), Draftsperson and Executive Assistant at ISA, with
+  **Vickey Huo** (vickey@) cc'd: draws up Tariq's Hi-Tec Court mark-ups ("TFA Units Project");
+  Tariq pointed him to Veena for DA coordination, 12 Oct 2026. Imran is also on the
   personal side, not TFA work: one of the two Tariq is running the 66 Learoyd Rd Algester
   objection with, see [[learoyd-algester]] and contacts-personal.md. (seen 22 Sep 2026)
 - **Austraffic: Martin Jordan-Williams** (martin.jordan-williams@austraffic.com.au) and **Trefor

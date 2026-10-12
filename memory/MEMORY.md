@@ -13,7 +13,7 @@ Superseded lines are in archive/ by month (archive/2026-10.md is the 2 Oct conso
 
 ## TFA Constructions
 - [People](tfa-people.md): Kendal, Heather, Clay, Shane, Veena, Jaiah, Randal, Riss and the rest, who does what
-- [Contacts](contacts.md): index to six parts; three different Grants are live, do not merge them
+- [Contacts](contacts.md): index to six parts; two Grants are live (Turner at Belle, Rex at Stamford), do not merge them
 - [Contacts: legal and finance](contacts-legal-finance.md): lawyers, banks, brokers, financiers, insurers, accountants, OIR
 - [Contacts: consultants](contacts-consultants.md): QS, architects, planners, engineers, certifier, councils, industry bodies
 - [Contacts: clients and agents](contacts-clients-agents.md): clients, prospects, referrers, real estate agents, developers

@@ -96,6 +96,10 @@ projects-dan-street-management.md. Confirm a number or a date from the thread be
   Foreman, cforeman@mitbrand.com) forwarded to accounts@ "FYI". The QS work is being billed. (seen 16 Sep 2026)
 
 ## DA, planning, geotech, traffic
+- **12 Oct:** Nick (NMDS) asked Thomas Stubbs (HPC Planning), cc Richard Quinn (traffic), DRW,
+  Nick Iocco (surveys), Clay and Mauricio, for two answers before he updates the architectural DA
+  set: car bays inside the warehouse tenancies, and any easement or retaining wall change on the
+  SE boundary (both move the GFA). Tariq forwarded it to Veena and Clay 8:44am. (seen 12 Oct 2026)
 - **9 Oct, Murray Wright (HPC):** mez levels fine as they are; the play is saving infrastructure
   charges whether car parks or loading bays are accepted. Tariq: "More so want to increase mez on
   plan, if I reduce at build phase that's fine but at lease we have more GFA for Sellable Area."

@@ -42,6 +42,15 @@ Federal Safety Accreditation is in [[federal-safety-accreditation]].
   is compiling last year's notes before they review the management financials. QBCC sends these to
   **tfa.constructions@hotmail.com**, not the main mailbox. (seen 15 Sep 2026)
 
+- **12 Oct 7:53am to Heather (back from leave):** chased the QBCC P&L and Balance Sheet print of the
+  management financials she was going to do so they could review together and set up a
+  workflow, plus two points from August: "This is now becoming urgent as its delaying my
+  submission to the bank for funding assessment for current and future acquisitions." (seen 12 Oct 2026)
+- **QBCC complaint, case 9340785:** he lodged a complaint about defective or incomplete building
+  work (QBCC acknowledged 12 Oct 1:06pm, addressed "TARIQ FARAZ"); an assessment officer is
+  assigned in about four weeks (around 9 Nov). Forwarded to Kendal. Which job or builder it is
+  about is not in the acknowledgement; ask before assuming. (seen 12 Oct 2026)
+
 - **ATO paper BAS (Heather 7 Oct):** December 2026 quarter forms missing for **Rajput** and
   **TDY Childcare**; those two are posted to the accountant (Barry) while the rest go to Tremain
   St. Heather asked to change their registered mailing address to Tremain Street for

@@ -11,6 +11,10 @@ metadata:
 # Narangba childcare extension and Bokarina Childcare (Spring Early Learning)
 
 ## Both tenders submitted 9 Oct 2026
+- **Third Spring job, Kenmore: $526,786.00 ex**, "Kenmore Childcare Renovation/ Make Good", 82
+  Brookfield Rd, Kenmore Hills QLD 4069, sent 12 Oct 2:19pm to Reece and Christian, valid 30 days
+  (to about 11 Nov). File "(TFA) Estimate - Kenmore Early Learning Centre.pdf". He ran a Kenmore
+  estimating meeting with Kendal that morning. (seen 12 Oct 2026)
 - **Narangba: $2,578,600.00 ex GST**, sent 4:32pm to Reece cc Christian
   (christian@springearlylearning.com.au), valid 30 days (to about 8 Nov). Kendal compiled the
   Word submission; he edited the numbers himself: "happy with the new figure 2.578m." (seen 9 Oct 2026)

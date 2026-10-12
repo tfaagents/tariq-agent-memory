@@ -51,6 +51,18 @@ Part of projects.md. The development, finance and QS side is in projects-dan-str
   needs an answer before the handover file closes. (seen 22 Sep 2026)
 
 ## Ray White CSR termination and who manages next
+- **12 Oct, Rauhena Chase and the fee proposal.** Her 9 Oct proposal: an initial review of the
+  seven tenancies as a separate, fee-agreed engagement, then a written engagement and retainer for
+  ongoing coordination; she wants a named primary contact, who may instruct for him, the tenancy
+  schedule, leases, the target vacant possession date and any handover arrangements. He 2:26pm:
+  wants to see "what's needed or missing" so she can give a fee proposal. She 3:23pm: needs the
+  outstanding tenancy schedule and lease documentation first. **He 5:19pm (cc Ray White, Grant
+  Turner, Kendal): assumed Gordon, Grant, Nicole or Mukhtaar sent it two weeks ago; "If not, I will
+  have to correlate myself and share everything as it seems to be dragging on unnecessarily."**
+  Grant Turner (Belle) is waiting on his direction on engaging her, and on her guidance on whether
+  the rent needs a separate commercial trust account at Belle. On the rent funds he told Grant
+  10:08am they were "already transferred to RWC partially" and Grant was cc'd last week; 8:07am:
+  "The world only remembers action, emails aren't action fyi." (seen 12 Oct 2026)
 - Annabelle served a formal Notice of Termination of Management Appointment 24 Sep (cc Mukhtaar
   Hashim, Kendal, pm.csr@raywhite.com): the appointment concludes 29 October 2026. He took the full
   notice: "the 29th October works well for us. It will allow time for you to attain what is

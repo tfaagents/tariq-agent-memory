@@ -11,6 +11,10 @@ metadata:
 # Hiring
 
 ## Contract Administrator via HIR Talent (Arnica Kovacs), from 7 Oct 2026
+- **12 Oct, W3Global:** Richard Bachman has left; Andy Madison (andy.madison@w3global.com.au)
+  answered his 12 Aug goodwill email ($250 + GST, no admission of a placement fee). Tariq: "We
+  are still looking for a CA to grow our ever expanding business. If yiu have any suitable
+  candidates feel free to share." (seen 12 Oct 2026)
 - **9 Oct:** he told Desari (MBQ) the current CA, in probation (about month four), is not
   performing and he means to end it after meeting her next week; Clay had sent Mo a CA action
   list that morning. Job-needed only; do not raise unless he does. (seen 9 Oct 2026)
@@ -62,6 +66,9 @@ Consolidated 2 Oct 2026 from projects.md. Interns and apprentices are in [[proje
   under construction" in his own words. (seen 21 Sep 2026)
 
 ## Billy-Joe Younie, sponsored 482 hire from South Africa
+- **Start date agreed 12 Oct:** Billy (9 Oct) and his wife both owe four weeks' notice in South
+  Africa; they fly in **6 Nov 2026** and he starts **Mon 9 Nov 2026**. Tariq 7:48am: "no problems.
+  lates aim for this." Forwarded to Sarah. Where to report is still not answered as read. (seen 12 Oct 2026)
 - **8 Oct 2:24pm Tariq answered Billy** (cc Sarah, Rene): "Great to finally have this all locked
   away. We would ideally prefer if you could commence **1st week of November 2026** please."
   Forwarded to Kendal "fyi" and to Sarah. Where to report and pre-arrival needs still not

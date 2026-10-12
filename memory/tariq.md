@@ -27,6 +27,12 @@ How he works
   owner; tracking is not owning; status per area with a blocker and an owner; 80 percent
   is his failure mode. Detail and the older rules in [[tariq-how-he-works]] and
   [[tariq-how-he-deals]]. His school holidays out of office from 23 Sep 2026: see [[routine]].
+- On a supplier or agent who reports instead of doing: "**The world only remembers action, emails
+  aren't action fyi.**" (12 Oct 2026, to Grant Turner at Belle on the Form 6s and the rent funds,
+  after "No use chatting if the work hasn't been done your end.") He judges by what is done.
+- On price-checking against the program: "**please proceed as I don't want to hold up the
+  project. If I find someone cheaper I will advise at that point.**" (12 Oct 2026, to Veena on
+  Jimboomba traffic management.) A cheaper quote is never a reason to stop work already lined up.
 - On cash: "**I don't like shaking the money tree. Lets aim to get a few invoices out next
   week.**" (8 Oct 2026, to accounts after paying the creditors run.) Same as 1 Oct ("We need
   income now"): when bills go out he wants claims raised, not reserves drawn.

@@ -33,7 +33,8 @@ Part of [[contacts]]. New clients, prospects, agents, referrers and developers g
 - **Modus Property Group: Freddie** (freddie@moduspg.au), the line back to the previous owners
   of Dan Street. (seen 10 Sep 2026)
 - **Rauhena Chase**, Founder, Commercial Property Advisor
-  (contact@rauhenachasecommercialrealestate.com, +61 408 800 835). Introduced 24 Sep 2026 via
+  (contact@rauhenachasecommercialrealestate.com, +61 408 800 835). Pitching a fee-agreed initial review of the seven Dan Street
+  tenancies, waiting on the tenancy schedule and leases (12 Oct 2026). Introduced 24 Sep 2026 via
   Grant Turner (Ray White) on site constraints; video call Fri 2 Oct 2026 11am. Source: sent
   mail 1 Oct 2026. (seen 1 Oct 2026) After the call she asked for the Dan Street material; Grant
   Turner asked Mukhtaar and pm.csr (Gordon) at Ray White to send it, and Tariq said to cc Nicole
@@ -43,6 +44,9 @@ Part of [[contacts]]. New clients, prospects, agents, referrers and developers g
   raywhite.com address and called the Belle one "the correct email". So the Dan Street fallback
   Grant Turner and the Belle "Grant" on 29 Millers are very likely the same person; Grant Rex
   (Stamford Capital) is still separate. Confirm before merging. (seen 2 Oct 2026)
+  **Confirmed 12 Oct 2026:** Grant Turner at Belle sent the 29 Millers Form 6A updates and is on the
+  Dan Street rent funds in the same emails, so the Belle Grant and the Dan Street Grant are one
+  person. Grant Rex (Stamford) stays separate.
 - **Leiba Commercial: Jonathan Rosenthal** (jr@leibacommercial.com.au), selling agent for a
   childcare investment portfolio; Tariq asked about leaseholds and pre-construction builds. See
   [[projects-prospects]]. (seen 2 Oct 2026)

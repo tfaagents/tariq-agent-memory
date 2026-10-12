@@ -10,6 +10,14 @@ metadata:
 Part of projects.md. Confirm a number or a date from the thread before quoting it to him.
 
 ## The site
+- **Traffic management, 12 Oct:** Superior Traffic Management (STM, Donna, Permits and Plans)
+  renewed the East Street permit for **12 Oct to 12 Nov 2026**; the quote is being raised because
+  the job now runs months, not weeks: about 30 long-term signs on poles and an extra setup day.
+  Bookings by 2pm the day before (0407 514 912, bookings@superiortrafficmanagement.com.au). STM's
+  Douglas to talk to Christian (on leave 12 Oct) about the permit audit conditions. Veena asked him
+  to check rates with other traffic firms he knows; **he 2:25pm: "Thanks Veena will do, but from
+  your end please proceed as I don't want to hold up the project. If I find someone cheaper I will
+  advise at that point."** (seen 12 Oct 2026)
 - **Traffic equipment (8-9 Oct):** Veena sought card approval for Sayka (cheapest, upfront,
   50/50 over two weeks) for work starting Mon 19 Oct; Tariq 9 Oct: "I Believe this is now on
   hold?" as they had an issue setting out signage. (seen 9 Oct 2026)

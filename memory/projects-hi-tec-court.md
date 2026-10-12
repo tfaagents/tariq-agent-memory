@@ -37,6 +37,15 @@ thread before quoting it to him.
   until there is one. (seen 10 Sep 2026)
 
 ## Design: NMDS, ISA and the concept
+- **12 Oct: the brothers' dinner happened (Sun 11 Oct) and two mark-ups came out of it.** 8:46am
+  to Veena cc Clay: "Option 1 - Mixed Industry Project_markup- Tariq.pdf" and "Option 2". He wants
+  them talked through before they go to Nick, and drawn cleaner by ISA only so Nick doesn't "think
+  we used someone else to do his work". Veena booked **"BTP Markup" Tue 13 Oct 10am** with him and
+  Clay. ISA runs it under the subject "TFA Units Project": **Hazem Aziz** (ISA draftsperson) to turn
+  both options into neat floor plans plus an exterior perspective **by about midday Tue 13 Oct**.
+  5:20pm he put Veena on to Hazem: "She is driving the DA coordination with consultants on our
+  team." Veena had said she would formally issue a NOD to "Alis" if the design wasn't in by Mon 12
+  Oct; it was. (seen 12 Oct 2026)
 - Diary: Sun 11 Oct 2026 7:30pm "Hitech - brothers catch up to finalise design", put in by Veena.
   Likely the ISA mark-up being settled before it goes back to Nick; outcome not yet seen. (seen in
   his calendar 10 Oct 2026)

@@ -15,6 +15,9 @@ here, by rule. People and roles are in [[tfa-people]]; legal matters in
 [[projects-employment-legal]].
 
 ## Apprentices and TAFE
+- **12 Oct, Christmas shutdown compromise (to Desari):** he floated letting the office staff work
+  to Christmas Eve, "so its only a 2.5 week break or 9 working days so it's a compromise".
+  Not confirmed as final. (seen 12 Oct 2026)
 - **Christmas shutdown decided (9 Oct, to Desari, MBQ):** last day **Fri 18 Dec 2026**, back
   **Mon 11 Jan 2027**. Heather's projection: six staff short of the 12 leave days. He wants a full
   shutdown ("its the industry standard shut down period"), he will be overseas, and asked Desari

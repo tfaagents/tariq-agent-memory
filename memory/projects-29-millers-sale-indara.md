@@ -12,6 +12,11 @@ metadata:
 Part of projects.md. The rooming accommodation DA is in projects-29-millers.md.
 
 ## Sale agency: RWC to Belle Property (Form 6)
+- **12 Oct:** Grant Turner (Belle) says the Form 6A updates are done (attached, 9:02am). He had
+  asked 8:07am whether the amendments "requested of you 3 weeks ago" were done: "No use chatting
+  if the work hasn't been done your end." Kendal asked if he'd sign "the old school way"; he 2:25pm:
+  "we should catch up with him at his new office and establish some expectations then sign on the
+  spot?" So the Belle Grant on 29 Millers is Grant Turner. (seen 12 Oct 2026)
 - 29 Millers Rd is listed for sale and the agency is moving from RWC to Belle Property Rochedale
   (Admin.Rochedale@belleproperty.com) because RWC is closing. RWC was a continuing exclusive
   appointment from 20 January 2026 with an auction booked 25 March 2026, 6pm, at the Glen Hotel.

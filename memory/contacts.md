@@ -18,8 +18,10 @@ Contacts are split by kind. Read the part that fits; `node tools/recall.mjs` sea
 - [Personal](contacts-personal.md): family, friends, the confidential 66 Learoyd people. Do not mix with TFA business.
 - The TFA team itself (Kendal, Heather, Clay, Daniel, Mauricio, Veena, Randal, Riss, Shane, apprentices) is in [[tfa-people]].
 
-**Three different Grants are live: Grant at Belle (29 Millers sale), Grant Turner at Ray White
-(Dan Street fallback agent), Grant Rex at Stamford Capital (finance).** Never merge them. Likewise
+**Two different Grants are live: Grant Turner, now Head of Commercial at Belle (29 Millers sale
+and the Dan Street rent funds; the "Grant at Belle" and the ex-Ray White Grant Turner are one
+person, confirmed 12 Oct 2026), and Grant Rex at Stamford Capital (finance).** Never merge those
+two. (Superseded 12 Oct 2026: "three different Grants".) Likewise
 two Murrays (Murray Wright at HPC, an unnamed Murray at MB Planning), and Scott McGregor (Mortar
 Finance) versus Scott Macgregor (Development Directive), two firms, not established to be one person.
 
